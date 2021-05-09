@@ -1,0 +1,55 @@
+:root {
+  --section-side-padding: 16px;
+}
+
+.navigation {
+  background: #F2E7AA url('/img/vynil.svg') right bottom no-repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navigation > nav {
+  display: none;
+}
+
+.navigation-toggle {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: #fff;
+  border: none;
+  padding: 12px var(--section-side-padding);
+  font-family: var(--font-family-header);
+  font-size: 0.875rem;
+  line-height: 143%;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.navigation-toggle__open-icon {
+  margin-right: 12px;
+}
+
+.navigation-toggle__close-icon {
+    visibility: hidden;
+    margin-left: auto;
+}
+
+.navigation_visible > nav {
+  display: block;
+}
+
+.navigation_visible .navigation-toggle {
+  color: #F2E7AA;  
+  background-color: #F2E7AA;
+}
+
+.navigation_visible .navigation-toggle__open-icon {
+  visibility: hidden;
+}
+
+.navigation_visible .navigation-toggle__close-icon {
+  visibility: visible;
+}

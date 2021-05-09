@@ -16,26 +16,22 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/fonts.css">
-  <link rel="stylesheet" href="css/mobile.css">
-
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
-<section class="navigation">
-    <header>
-        <button class="navigation-toggle" type="button">
-            <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="4" y="5" width="16" height="2" rx="1" fill="#000"/>
-                <rect x="4" y="11" width="16" height="2" rx="1" fill="#000"/>
-                <rect x="4" y="17" width="16" height="2" rx="1" fill="#000"/>
-            </svg>
-        </button>
-        <h2>Меню</h2>
-    </header>
+<section class="navigation">    
+    <button class="navigation-toggle" type="button">
+        <svg class="navigation-toggle__open-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="4" y="5" width="16" height="2" rx="1" fill="#000"/>
+            <rect x="4" y="11" width="16" height="2" rx="1" fill="#000"/>
+            <rect x="4" y="17" width="16" height="2" rx="1" fill="#000"/>
+        </svg>
+        Меню
+        <svg class="navigation-toggle__close-icon" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1l14 14m0-14L1 15" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+    </button>    
     <nav>
         <ul class="main-navigation">
             <li><a href="/catologue">Каталог</a></li>
@@ -205,6 +201,7 @@
         <li><a href=""></a></li>
     </ul>
 </section>    
+<script type="module" src="/js/main.js"></script>
 </body>
 
 </html>

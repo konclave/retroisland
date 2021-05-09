@@ -1,8 +1,13 @@
+:root {
+  --font-family-text: Merriweather, 'Times New Roman', serif;
+  --font-family-header: 'Tenor Sans', Arial, Helvetica, sans-serif;
+}
+
 html {
   color: #000;
   font-size: 1em;
   line-height: 1.4;
-  font-family: Merriweather, "Times New Roman", serif;
+  font-family: var(--font-family-text);
 }
 
 ::-moz-selection {
@@ -51,7 +56,7 @@ button {
    Author's custom styles
    ========================================================================== */
 h1,h2,h3,h4,h5,h6 {
-  font-family: "Tenor Sans", Arial, Helvetica, sans-serif;
+  font-family: var(--font-family-header);
 }
 
 
