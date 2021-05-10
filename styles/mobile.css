@@ -4,7 +4,7 @@
 
 .navigation {
   background: #F2E7AA url('/img/vynil.svg') right bottom no-repeat;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -13,7 +13,7 @@
 }
 
 .navigation > nav {
-  display: none;
+  display: none;  
 }
 
 .navigation-toggle {
@@ -27,7 +27,7 @@
   font-size: 0.875rem;
   line-height: 143%;
   text-transform: uppercase;
-  color: #000;
+  color: var(--color-main);
 }
 
 .navigation-toggle__open-icon {
@@ -44,7 +44,7 @@
 }
 
 .navigation_visible > nav {
-  display: block;
+  display: flex;
 }
 
 .navigation_visible .navigation-toggle {
@@ -58,4 +58,33 @@
 
 .navigation_visible .navigation-toggle__close-icon {
   visibility: visible;
+}
+
+
+
+.main-navigation {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  font-family: var(--font-family-header);
+  line-height: 1.333;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--color-main);
+  margin: 16px;
+  padding: 0;
+  list-style: none;
+}
+
+.main-navigation > li {
+  margin: 0 0 1em;
+  padding: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.main-navigation a {
+  text-decoration: none;
+  color: var(--color-main);
+  display: block;
+  padding: 8px 0;
 }
