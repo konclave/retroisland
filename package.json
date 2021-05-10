@@ -4,9 +4,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "update:browsertslist": "npx browserslist@latest --update-db"
   },
   "devDependencies": {
+    "postcss-100vh-fix": "^1.0.2",
     "vite": "^2.2.3"
   }
 }
