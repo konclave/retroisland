@@ -8,6 +8,8 @@
   top: 0;
   left: 0;
   width: 100%;
+  height: 48px;
+  transition: height .125s ease-out;
 }
 
 .navigation > nav {
@@ -35,6 +37,10 @@
 .navigation-toggle__close-icon {
     visibility: hidden;
     margin-left: auto;
+}
+
+.navigation_visible {
+  height: 100vh;
 }
 
 .navigation_visible > nav {

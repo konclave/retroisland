@@ -16,5 +16,6 @@ function initMobileNavigation() {
   }
   button.addEventListener('click', function() {
     document.querySelector('.navigation').classList.toggle('navigation_visible');
+    document.querySelector('body').classList.toggle('no-scroll');
   });
 }
