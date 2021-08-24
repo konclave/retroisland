@@ -201,3 +201,44 @@
 
 
 
+.tracks-on-request {
+
+}
+
+.requested-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.requested-list > li:nth-child(6n-5) h1 {
+  background-color: var(--color-requested-header-bg-1);
+}
+
+
+.requested-item {
+  margin: 0;
+  padding: 0;
+}
+
+.requested-item h1 {
+  position: relative;
+  color: white;
+  margin: 0 0 90px;
+  padding: 10px var(--section-side-padding);
+  text-align: center;
+  font: normal 14px/1.2 "Tenor Sans";
+  text-transform: uppercase;
+}
+
+.requested-item h1::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  height: 90px;
+  width: 100%;
+  background: url(/img/vynil-light.svg) top center no-repeat;
+  background-size: 180px 90px;
+}
+

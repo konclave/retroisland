@@ -2,6 +2,7 @@ import '/styles/normalize.css';
 import '/styles/main.css';
 import '/styles/fonts.css';
 import '/styles/mobile.css';
+import '/styles/colors.css';
 
 init();
 
