@@ -211,27 +211,86 @@
   padding: 0;
 }
 
-.requested-list > li:nth-child(6n-5) h1 {
+.requested-list > li:nth-child(6n-5) .requested-item__toggle-visibility {
   background-color: var(--color-requested-header-bg-1);
 }
-
+.requested-list > li:nth-child(6n-4) .requested-item__toggle-visibility {
+  background-color: var(--color-requested-header-bg-2);
+}
+.requested-list > li:nth-child(6n-3) .requested-item__toggle-visibility {
+  background-color: var(--color-requested-header-bg-3);
+}
+.requested-list > li:nth-child(6n-2) .requested-item__toggle-visibility {
+  background-color: var(--color-requested-header-bg-4);
+}
+.requested-list > li:nth-child(6n-1) .requested-item__toggle-visibility {
+  background-color: var(--color-requested-header-bg-5);
+}
+.requested-list > li:nth-child(6n) .requested-item__toggle-visibility {
+  background-color: var(--color-requested-header-bg-6);
+}
 
 .requested-item {
+  display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
 }
 
-.requested-item h1 {
+.requested-item__toggle-visibility {
   position: relative;
   color: white;
-  margin: 0 0 90px;
+  margin: 0;
   padding: 10px var(--section-side-padding);
   text-align: center;
   font: normal 14px/1.2 "Tenor Sans";
   text-transform: uppercase;
+  border: none;
 }
 
-.requested-item h1::after {
+.requested-item h2 {
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--color-text);
+  margin: 24px 0 12px;
+  padding: 0 var(--section-side-padding);
+}
+
+.requested-item h3,
+.requested-item h4 {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: var(--color-text);
+  margin: 0;
+  padding: 0 var(--section-side-padding);
+}
+
+.requested-item h3 {
+  margin-top: 12px;
+}
+.requested-item h4 {
+  margin-bottom: 36px;
+}
+
+.requested-item-tracks {
+  display: none;
+  flex-direction: column;
+}
+
+.requested-item_active h1 {
+  margin-bottom: 90px;
+}
+
+.requested-item_active h1::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -240,5 +299,24 @@
   width: 100%;
   background: url(/img/vynil-light.svg) top center no-repeat;
   background-size: 180px 90px;
+}
+
+.requested-item_active .requested-item-tracks {
+  display: flex;
+}
+
+.requested-item-toggle {
+  display: block;
+  padding: 12px;
+  color: #949494;
+  font: normal 12px/1.2 "Tenor Sans";
+  text-align: center;
+  background: none;
+  border: none;
+}
+
+.requested-item-toggle:focus,
+.requested-item-toggle:hover {
+  color: #636363;
 }
 
