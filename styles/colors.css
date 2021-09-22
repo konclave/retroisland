@@ -1,9 +1,14 @@
 :root {
   --color-text: #000000;
+  --color-text-footer: #ADADAD;
+  --color-text-dark-gray: #313131;
+
   --color-requested-header-bg-1: #3E81C5;
   --color-requested-header-bg-2: #9DBBC5;
   --color-requested-header-bg-3: #D7672D;
   --color-requested-header-bg-4: #9E4F39;
   --color-requested-header-bg-5: #67774E;
   --color-requested-header-bg-6: #A5A14C;
+  
+  --color-bg-about: #FAF8ED;
 }
