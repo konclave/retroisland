@@ -18,6 +18,7 @@
   height: 48px;
   overflow: hidden;
   /*transition: height .125s ease-out;*/
+  z-index: 2;
 }
 
 .navigation-toggle {
@@ -249,7 +250,7 @@
   border: none;
 }
 
-.requested-item h2 {
+.requested-item-tracks__title {
   font-family: "Tenor Sans";
   font-style: normal;
   font-weight: normal;
@@ -262,8 +263,8 @@
   padding: 0 var(--section-side-padding);
 }
 
-.requested-item h3,
-.requested-item h4 {
+.requested-item-tracks__author,
+.requested-item-tracks__album {
   font-family: Merriweather;
   font-style: normal;
   font-weight: normal;
@@ -274,11 +275,10 @@
   margin: 0;
   padding: 0 var(--section-side-padding);
 }
-
-.requested-item h3 {
+.requested-item-tracks__author {
   margin-top: var(--section-top-padding-base);
 }
-.requested-item h4 {
+.requested-item-tracks__album {
   margin-bottom: calc(3 * var(--section-top-padding-base));
 }
 
@@ -289,17 +289,11 @@
   background: url(/img/vynil-light.svg) top center no-repeat;
   background-size: 180px 90px;
 }
-
-.requested-item-tracks__list {
-  margin: calc(3 * var(--section-top-padding-base)) 0 calc(2 * var(--section-top-padding-base));
-  padding: 0 var(--section-side-padding);
-}
-
 .requested-item_active .requested-item-tracks {
   display: block;
 }
 
-.requested-item-tracks__toggle {
+.requested-item-tracks__button {
   width: 100%;
   display: block;
   padding: var(--section-top-padding-base);
@@ -310,11 +304,113 @@
   border: none;
 }
 
-.requested-item-tracks__toggle:focus,
-.requested-item-tracks__toggle:hover {
+.requested-item-tracks__button:focus,
+.requested-item-tracks__button:hover {
   color: #636363;
 }
 
+.requested-item-tracks__list-container {
+  position: relative;
+  margin: calc(3 * var(--section-top-padding-base)) 0 calc(2 * var(--section-top-padding-base));
+  padding: 0 var(--section-side-padding);
+  overflow: hidden;
+  transition: height 0.3s ease-out;
+}
+
+.requested-item-tracks__list-container[data-collapsed="true"] {
+  height: 125px;
+}
+
+.requested-item-tracks__list-container[data-collapsed="false"]+.requested-item-tracks__buttons>.requested-item-tracks__button_expand {
+  display: none;
+}
+
+.requested-item-tracks__list-container[data-collapsed="false"]+.requested-item-tracks__buttons>.requested-item-tracks__button_collapse {
+  display: block;
+}
+
+.requested-item-tracks__list-container[data-collapsed="true"]+.requested-item-tracks__buttons>.requested-item-tracks__button_expand {
+  display: block;
+}
+
+.requested-item-tracks__list-container[data-collapsed="true"]+.requested-item-tracks__buttons>.requested-item-tracks__button_collapse {
+  display: none;
+}
+
+.requested-item-tracks__list-container::after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 50px;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 0) 100%);
+  transition: height 0.3s ease-out;
+}
+
+.requested-item-tracks__list-container[data-collapsed="false"]::after {
+  height: 0;
+}
+
+.requested-item-tracks-list {
+  list-style: none;
+  font: normal var(--font-size-base)/167% Merriweather;
+  color: var(--color-text-footer);
+  counter-reset: track-counter;
+  margin: 0;
+  padding: 0;
+}
+
+.requested-item-tracks-list__item {
+  display: flex;
+  padding: .5em 0 .5em;
+  counter-increment: track-counter;
+  gap: 10px;
+  align-items: center;
+}
+
+.requested-item-tracks-list__item::before {
+  content: counter(track-counter);
+  text-align: right;
+}
+
+.jouele {
+  color: var(--color-text);
+}
+
+.jouele-info-control {
+  display: flex;
+  align-items: center;
+}
+
+.jouele-info-control-button {
+  margin-right: 10px;
+}
+
+.jouele-info-control-link {
+  border: 1px solid #DFDFDF !important;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
+
+.jouele-svg {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  left: 1px;
+}
+
+.jouele-info {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+
+}
+
+.jouele-info-time {
+  order: 1;
+  align-self: center;
+}
 
 .about {
   padding: calc(3 * var(--section-top-padding-base)) var(--section-side-padding) calc(6 * var(--section-top-padding-base));

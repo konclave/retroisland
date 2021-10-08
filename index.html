@@ -84,16 +84,48 @@
             <article class="requested-item requested-item_active">
                 <button class="requested-item__toggle-visibility" type="button">«Headbangers Symphony» Вольфа Хоффмана</button>
                 <div class="requested-item-tracks">
-                    <h2>Концерт по заявкам</h2>
-                    <h3>Вольф Хоффман</h3>
-                    <h4>«Headbangers Symphony»</h4>
-                    <ol class="requested-item-tracks__list requested-item-tracks-list">
-                        <li><a class="jouele" id="jesus-christ-pose" href="/music/Soundgarden - Jesus Christ Pose.mp3">Jesus Christ Pose</a></li>
-                        <li><a class="jouele" id="Speedometer" href="/music/Speedometer feat. Ria Currie - Am I your Woman [pleer.net].mp3">Am I your Woman</a></li>
-                        <li><a class="jouele" id="para-pust" href="/music/Нежное это - Пара пустяков.mp3">Пара пустяков</a></li>
-                        <li><a class="jouele" id="hil" href="/music/Я очень рад, ведь я, наконец, возвращаюсь домой (Вокализ).mp3">Вокализ</a></li>
-                    </ol>
-                    <button class="requested-item-tracks__toggle" type="button">Свернуть</button>
+                    <h2 class="requested-item-tracks__title">Концерт по заявкам</h2>
+                    <h3 class="requested-item-tracks__author">Вольф Хоффман</h3>
+                    <h4 class="requested-item-tracks__album">«Headbangers Symphony»</h4>
+                    <div class="requested-item-tracks__list-container" data-collapsed="true">
+                        <ol class="requested-item-tracks-list jouele-playlist">
+                            <li class="requested-item-tracks-list__item">
+                                <a
+                                    class="jouele"
+                                    data-hide-timeline-on-pause="true"
+                                    id="jesus-christ-pose"
+                                    href="/music/Soundgarden - Jesus Christ Pose.mp3"
+                                    data-length="5:51"
+                                >Jesus Christ Pose</a>
+                            </li>
+                            <li class="requested-item-tracks-list__item">
+                                <a class="jouele" data-hide-timeline-on-pause="true" id="Speedometer" href="/music/Speedometer feat. Ria Currie - Am I your Woman [pleer.net].mp3">Am I your Woman</a></li>
+                            <li class="requested-item-tracks-list__item">
+                                <a class="jouele" data-hide-timeline-on-pause="true" id="para-pust" href="/music/Нежное это - Пара пустяков.mp3">Пара пустяков</a></li>
+                            <li class="requested-item-tracks-list__item">
+                                <a class="jouele" data-hide-timeline-on-pause="true" id="hil" href="/music/Я очень рад, ведь я, наконец, возвращаюсь домой (Вокализ).mp3">Вокализ</a></li>
+                            <li class="requested-item-tracks-list__item">
+                                <a class="jouele" data-hide-timeline-on-pause="true" id="jesus-christ-pose" href="/music/Soundgarden - Jesus Christ Pose.mp3">Jesus Christ Pose</a></li>
+                            <li class="requested-item-tracks-list__item">
+                                <a class="jouele" data-hide-timeline-on-pause="true" id="Speedometer" href="/music/Speedometer feat. Ria Currie - Am I your Woman [pleer.net].mp3">Am I your Woman</a></li>
+                            <li class="requested-item-tracks-list__item">
+                                <a class="jouele" data-hide-timeline-on-pause="true" id="para-pust" href="/music/Нежное это - Пара пустяков.mp3">Пара пустяков</a></li>
+                            <li class="requested-item-tracks-list__item">
+                                <a class="jouele" data-hide-timeline-on-pause="true" id="hil" href="/music/Я очень рад, ведь я, наконец, возвращаюсь домой (Вокализ).mp3">Вокализ</a></li>
+                            <li class="requested-item-tracks-list__item">
+                                <a class="jouele" data-hide-timeline-on-pause="true" id="jesus-christ-pose" href="/music/Soundgarden - Jesus Christ Pose.mp3">Jesus Christ Pose</a></li>
+                            <li class="requested-item-tracks-list__item">
+                                <a class="jouele" data-hide-timeline-on-pause="true" id="Speedometer" href="/music/Speedometer feat. Ria Currie - Am I your Woman [pleer.net].mp3">Am I your Woman</a></li>
+                            <li class="requested-item-tracks-list__item">
+                                <a class="jouele" data-hide-timeline-on-pause="true" id="para-pust" href="/music/Нежное это - Пара пустяков.mp3">Пара пустяков</a></li>
+                            <li class="requested-item-tracks-list__item">
+                                <a class="jouele" data-hide-timeline-on-pause="true" id="hil" href="/music/Я очень рад, ведь я, наконец, возвращаюсь домой (Вокализ).mp3">Вокализ</a></li>
+                        </ol>
+                    </div>
+                    <div class="requested-item-tracks__buttons">
+                        <button class="requested-item-tracks__button requested-item-tracks__button_expand" type="button">Показать весь плейлист</button>
+                        <button class="requested-item-tracks__button requested-item-tracks__button_collapse" type="button">Свернуть</button>
+                    </div>
                 </div>
             </article>
         </li>
@@ -103,14 +135,16 @@
                 <div class="requested-item-tracks">
                     <h2>Концерт по заявкам</h2>
                     <h3>«Headbangers Symphony» Вольфа Хоффмана</h3>
-                    <ol class="requested-item-tracks__list requested-item-tracks-list">
-                        <li>Юрий Антонов</li>
-                        <li>Юрий Антонов</li>
-                        <li>Юрий Антонов</li>
-                        <li>Юрий Антонов</li>
-                        <li>Юрий Антонов</li>
-                        <li>Юрий Антонов</li>
-                    </ol>
+                    <div class="requested-item-tracks__list">
+                        <ol class="requested-item-tracks-list">
+                            <li>Юрий Антонов</li>
+                            <li>Юрий Антонов</li>
+                            <li>Юрий Антонов</li>
+                            <li>Юрий Антонов</li>
+                            <li>Юрий Антонов</li>
+                            <li>Юрий Антонов</li>
+                        </ol>
+                    </div>
                     <button class="requested-item-tracks__toggle" type="button">Свернуть</button>
                 </div>
             </article>
