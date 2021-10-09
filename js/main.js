@@ -1,3 +1,5 @@
+import { collapseSection, expandSection } from './animation';
+
 Promise.all([import('howler'), import('jquery')])
 .then(([{ Howl }, { default: jQuery }]) => {
   window.Howl = Howl;
@@ -33,42 +35,26 @@ function initMobileNavigation() {
   });
 }
 
-
-const TRACKS_SECTION_COLLAPSE_HEIGHT = 125;
 function initTrackListToggle() {
-  const buttonExpand = document.querySelector('.requested-item-tracks__button_expand');
-  const buttonCollapse = document.querySelector('.requested-item-tracks__button_collapse');
-  const listContainer = document.querySelector('.requested-item-tracks__list-container');
-
-  buttonExpand.addEventListener('click', function() {
-    expandSection(listContainer);
-  });
-  buttonCollapse.addEventListener('click', function() {
-    collapseSection(listContainer);
-  });
-}
-
-function collapseSection(element) {
-  var sectionHeight = element.scrollHeight;
-  var elementTransition = element.style.transition;
-  element.style.transition = '';
-  requestAnimationFrame(function() {
-    element.style.height = sectionHeight + 'px';
-    element.style.transition = elementTransition;
-    requestAnimationFrame(function() {
-      element.style.height = TRACKS_SECTION_COLLAPSE_HEIGHT + 'px';
-    });
-  });
-  element.setAttribute('data-collapsed', 'true');
-}
-
-function expandSection(element) {
-  var sectionHeight = element.scrollHeight;
-  element.style.height = sectionHeight + 'px';
-  function handleTransitioned() {
-    element.style.height = null;
-    element.removeEventListener('transitionend', handleTransitioned);
+  const trackSection = document.querySelector('.tracks-on-request');
+  if (!trackSection) {
+    return;
   }
-  element.addEventListener('transitionend', handleTransitioned);
-  element.setAttribute('data-collapsed', 'false');
+
+  trackSection.addEventListener('click', function(event) {
+    if (!event.target.classList.contains('requested-item__toggle-visibility')) {
+      return;
+    }
+
+    const current = event.target.parentElement.querySelector('.requested-item-tracks');
+    if (current.hasAttribute('data-collapsed')) {
+      const expanded = trackSection.querySelector('.requested-item-tracks:not([data-collapsed])');
+      if (expanded) {
+        collapseSection(expanded);
+      }
+      expandSection(current);
+    } else {
+      collapseSection(current);
+    }
+  });
 }
