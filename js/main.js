@@ -16,7 +16,6 @@ import '/styles/fonts.css';
 import '/styles/mobile.css';
 import '/styles/colors.css';
 
-
 init();
 
 function init() {
@@ -25,12 +24,17 @@ function init() {
 }
 
 function initMobileNavigation() {
-  const button = document.querySelector('.navigation-toggle');
-  if (!button) {
+  const navigationContainer = document.querySelector('.navigation');
+  if (!navigationContainer) {
     return;
   }
-  button.addEventListener('click', function() {
-    document.querySelector('.navigation').classList.toggle('navigation_visible');
+  navigationContainer.addEventListener('click', function(event) {
+    if (!event.target.classList.contains('navigation-button') &&
+      !event.target.closest('.navigation-button')
+    ) {
+      return;
+    }
+    navigationContainer.classList.toggle('navigation_visible');
     document.querySelector('body').classList.toggle('no-scroll');
   });
 }
