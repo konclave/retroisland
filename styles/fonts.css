@@ -34,4 +34,24 @@
   --font-size-subheader: 1rem;
   --font-size-header: 1.5rem;
   /* 24px */
+--font-family-text: Merriweather,
+'Times New Roman',
+serif;
+--font-family-header: 'Tenor Sans',
+Arial,
+Helvetica,
+sans-serif;
+
+}
+
+@media screen and (min-width: 321px) {
+  :root {
+    --font-size-base: 0.75rem;
+    /* 12px */
+    --font-size-intense: 0.875rem;
+    /* 14px */
+    --font-size-subheader: 1rem;
+    --font-size-header: 2rem;
+    /* 32px */
+  }
 }
