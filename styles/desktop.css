@@ -4,6 +4,12 @@
     --section-top-padding-base: 56px;
   }
 
+  h2 {
+    font: normal var(--font-size-header)/125% var(--font-family-header);
+    letter-spacing: -0.005em;
+    text-transform: uppercase;
+  }
+
   .navigation-button {
     display: none;
   }
@@ -137,4 +143,107 @@
     color: var(--color-text);
     border-color: rgba(0, 0, 0, 1);
   }
+.news {
+  padding: var(--section-top-padding-base) var(--section-side-padding) var(--section-side-padding);
+  display: grid;
+  grid-template-areas:
+    "header nav"
+    "news news"
+}
+
+.news h2 {
+  grid-area: header;
+  margin-bottom: calc(var(--section-top-padding-base) * 1.5);
+  color: var(--color-light);
+}
+
+.news-footer {
+  grid-area: nav;
+  justify-self: end;
+  display: block;
+}
+
+.news-archive-link {
+  color: var(--color-light);
+  font: normal var(--font-size-base)/150% var(--font-family-header);
+  text-decoration: none;
+  text-transform: uppercase;
+  align-items: initial;
+  gap: 20px;
+}
+
+.news-archive-link:link,
+.news-archive-link:visited {
+  color: rgb(var(--color-light-rgb));
+}
+
+.news-archive-link:hover,
+.news-archive-link:active {
+  color: rgba(var(--color-light-rgb), .8);
+}
+
+.news-list {
+  grid-area: news;
+  display: grid;
+  grid-template-columns: 0.65fr 0.35fr;
+  grid-template-rows: repeat(100, auto);
+  gap: 0 48px;
+}
+
+.news-list__item {
+  grid-column: 2;
+}
+
+.news-list__item:first-child {
+  grid-column: 1;
+  grid-row: 1 / -1;
+}
+
+.news-item {
+  border-top: 1px solid rgba(var(--color-light-rgb), .2);
+  font: normal var(--font-size-base)/150% var(--font-family-text);
+  padding: 12px 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: inherit;
+}
+
+.news-item time {
+  font-size: var(--font-size-intense);
+  color: inherit;
+  opacity: 1;
+}
+
+.news-item p {
+  margin: 0;
+}
+
+.news-item-link {
+  text-decoration: none;
+  color: var(--color-light);
+}
+
+.news-item-link:link,
+.news-item-link:visited {
+  text-decoration: none;
+  color: var(--color-light);
+}
+
+.news-item-link:hover,
+.news-item-link:active {
+  text-decoration: none;
+  color: rgba(var(--color-light-rgb), .8);
+}
+
+.news-list__item:first-child .news-item {
+  font-size: 2.125rem;
+  line-height: 141%;
+  gap: 24px;
+}
+
+.news-list__item:first-child .news-item time {
+  font-size: 1rem;
+  line-height: 162%;
+}
 }
