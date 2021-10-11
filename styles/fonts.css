@@ -50,7 +50,8 @@ sans-serif;
     /* 16px */
     --font-size-intense: 0.875rem;
     /* 14px */
-    /* --font-size-subheader: 1rem; */
+    --font-size-subheader: 1.5rem;
+    /* 24px */
     --font-size-header: 2rem;
     /* 32px */
   }

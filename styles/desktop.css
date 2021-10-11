@@ -246,4 +246,106 @@
   font-size: 1rem;
   line-height: 162%;
 }
+.tracks-on-request {
+  height: 100vh;
+}
+
+.requested-list {
+  display: flex;
+}
+
+.requested-list__item {
+  width: 80px;
+  height: 100vh;
+  position: relative;
+}
+
+.requested-list__item_opened {
+  width: 100%;
+}
+
+.requested-item {
+  display: contents;
+}
+
+.requested-item__toggle-visibility {
+  position: absolute;
+  transform: rotate(-90deg) translate(calc(-100vh + 40px), 40px);
+  width: 100vh;
+  height: 80px;
+  padding: 0;
+  transform-origin: left;
+}
+
+.requested-item-tracks::before {
+  content: '';
+  background-image: url(/img/vynil-right-half.svg);
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  left: 80px;
+  top: 50%;
+  height: 60vh;
+  transform: translateY(-50%);
+  aspect-ratio: 2;
+}
+
+.requested-item-tracks__title {
+  padding: 0;
+  background: none;
+}
+
+.requested-item-tracks {
+  box-sizing: border-box;
+  padding: calc(var(--section-top-padding-base) * 2) var(--section-side-padding) var(--section-top-padding-base) calc(var(--section-side-padding) * 5);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.requested-item-tracks__title {
+  padding: 0;
+  text-align: left;
+  text-transform: uppercase;
+  color: var(--color-text);
+  font: normal var(--font-size-base)/150% var(--font-family-header);
+  margin: 0 0 1em;
+}
+
+.requested-item-tracks__author {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  color: var(--color-text);
+  font: normal var(--font-size-subheader)/133% var(--font-family-text);
+}
+
+.requested-item-tracks__album {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font: normal var(--font-size-subheader)/133% var(--font-family-text);
+  margin: 0 0 1em;
+}
+
+.requested-item-tracks__list-container {
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+  height: 100%;
+}
+
+.requested-item-tracks-list__item {
+  font: normal var(--font-size-intense)/171% var(--font-family-text);
+  letter-spacing: 0.01em;
+  gap: 18px;
+  padding: .5em 0;
+  align-items: flex-start;
+}
+
+.jouele-info-time {
+  font-size: 1em;
+  color: var(--color-text);
+  padding-right: 1em;
+}
 }
