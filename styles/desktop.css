@@ -248,6 +248,7 @@
 }
 .tracks-on-request {
   height: 100vh;
+  overflow: hidden;
 }
 
 .requested-list {
@@ -255,13 +256,15 @@
 }
 
 .requested-list__item {
-  width: 80px;
   height: 100vh;
   position: relative;
+  flex: 0 0 80px;
+  transition: all 0.25s ease-out;
+  overflow: hidden;
 }
 
-.requested-list__item_opened {
-  width: 100%;
+.requested-list__item[data-collapsed="false"] {
+  flex: 1;
 }
 
 .requested-item {
@@ -277,6 +280,10 @@
   transform-origin: left;
 }
 
+[data-collapsed="false"] .requested-item__toggle-visibility {
+  pointer-events: none;
+}
+
 .requested-item-tracks::before {
   content: '';
   background-image: url(/img/vynil-right-half.svg);
@@ -289,22 +296,25 @@
   transform: translateY(-50%);
   aspect-ratio: 2;
 }
+.requested-item-tracks {
+  box-sizing: border-box;
+  padding: calc(var(--section-top-padding-base) * 2) var(--section-side-padding) var(--section-top-padding-base) calc(var(--section-side-padding) * 5);
+  flex-direction: column;
+  height: 100%;
+  display: none;
+  }
+
+  .requested-item-tracks[data-collapsed] {
+    height: auto;
+  }
+
+  [data-collapsed="false"] .requested-item-tracks {
+    display: flex;
+}
 
 .requested-item-tracks__title {
   padding: 0;
   background: none;
-}
-
-.requested-item-tracks {
-  box-sizing: border-box;
-  padding: calc(var(--section-top-padding-base) * 2) var(--section-side-padding) var(--section-top-padding-base) calc(var(--section-side-padding) * 5);
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.requested-item-tracks__title {
-  padding: 0;
   text-align: left;
   text-transform: uppercase;
   color: var(--color-text);
@@ -325,12 +335,11 @@
   padding: 0;
   text-align: left;
   font: normal var(--font-size-subheader)/133% var(--font-family-text);
-  margin: 0 0 1em;
 }
 
 .requested-item-tracks__list-container {
   padding: 0;
-  margin: 0;
+  margin: 1em 0 0 0;
   overflow: auto;
   height: 100%;
 }
@@ -347,5 +356,8 @@
   font-size: 1em;
   color: var(--color-text);
   padding-right: 1em;
+}
+.requested-item-tracks__buttons {
+  display: none;
 }
 }

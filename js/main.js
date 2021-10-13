@@ -1,4 +1,4 @@
-import { collapseSection, expandSection } from './animation';
+import { collapseSection, expandSection, collapseH, expandH } from './animation';
 
 Promise.all([import('howler'), import('jquery')])
 .then(([{ Howl }, { default: jQuery }]) => {
@@ -46,20 +46,57 @@ function initTrackListToggle() {
     return;
   }
 
+  if (window.innerWidth > 320) {
+    trackSection.querySelector('.requested-list__item').setAttribute('data-collapsed', 'false');
+    window.addEventListener('resize', throttle(setTrackContainerWidth, 250))
+  }
+
+  function setTrackContainerWidth() {
+    setTimeout(() => {
+      const { width } = trackSection.querySelector('[data-collapsed="false"]').getBoundingClientRect()
+      trackSection.querySelectorAll('.requested-item-tracks').forEach((element) => {
+        element.style.width = width + 'px';
+      });
+    }, 300);
+  }
+
   trackSection.addEventListener('click', function(event) {
     if (!event.target.classList.contains('requested-item__toggle-visibility')) {
       return;
     }
 
-    const current = event.target.parentElement.querySelector('.requested-item-tracks');
-    if (current.hasAttribute('data-collapsed')) {
-      const expanded = trackSection.querySelector('.requested-item-tracks:not([data-collapsed])');
-      if (expanded) {
-        collapseSection(expanded);
+    if (window.innerWidth > 320) {
+      const opened = trackSection.querySelector('[data-collapsed="false"]');
+      const next = event.target.closest('.requested-list__item');
+      if (opened) {
+        collapseH(opened, { threshold: 80 });
       }
-      expandSection(current);
+      if (next) {
+        expandH(next, { threshold: 80 })
+      }
     } else {
-      collapseSection(current);
+      const current = event.target.parentElement.querySelector('.requested-item-tracks');
+      if (current.hasAttribute('data-collapsed')) {
+        const expanded = trackSection.querySelector('.requested-item-tracks:not([data-collapsed])');
+        if (expanded) {
+          collapseSection(expanded);
+        }
+        expandSection(current);
+      } else {
+        collapseSection(current);
+      }
     }
   });
+}
+
+function throttle(fn, delay) {
+  let lastCalled = 0;
+  return (...args) => {
+    let now = new Date().getTime();
+    if(now - lastCalled < delay) {
+      return;
+    }
+    lastCalled = now;
+    return fn(...args);
+  }
 }
