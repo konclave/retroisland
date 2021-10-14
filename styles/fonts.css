@@ -54,5 +54,7 @@ sans-serif;
     /* 24px */
     --font-size-header: 2rem;
     /* 32px */
+    --font-size-small: 0.75rem;
+    /* 12px */
   }
 }

@@ -436,27 +436,27 @@
   margin: 0;
 }
 
-.about header {
+.about__header {
   padding: 0 0 calc(3 * var(--section-top-padding-base));
   border-bottom: 1px solid #DFDFDF;
 }
 
-.about p {
+.about__disclaimer {
   margin: 1.33em 0;
-}
-
-.about h3 {
-  font: normal var(--font-size-base)/167% Merriweather;
-  color: var(--color-text-footer);
-  margin: 0 0 0.666em;
-  padding: 0;
 }
 
 .about__author {
   margin-top: 40px;
 }
 
-.about__author em {
+.author__header {
+  font: normal var(--font-size-base)/167% Merriweather;
+  color: var(--color-text-footer);
+  margin: 0 0 0.666em;
+  padding: 0;
+}
+
+.author__name {
   font: normal var(--font-size-subheader)/162% Merriweather;
   color: var(--color-text-dark-gray);
   display: block;
@@ -549,4 +549,9 @@
   border-radius: 16px;
   width: 56px;
   height: 56px;
+}
+
+.community__link svg {
+  width: 14px;
+  height: 12px;
 }

@@ -360,4 +360,121 @@
 .requested-item-tracks__buttons {
   display: none;
 }
+.communities__title {
+  padding: var(--section-top-padding-base) var(--section-side-padding);
+  margin: 0;
+}
+
+.communities-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: var(--section-top-padding-base) var(--section-side-padding);
+  border-bottom: 1px solid #c4c4c4;
+  gap: calc(var(--section-top-padding-base) / 2);
+}
+
+.communities-list__item {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.community {
+  border: none;
+  border-radius: 0;
+  border-left: 1px solid #c4c4c4;
+  padding: 76px 0 0 calc(var(--section-top-padding-base) / 2);
+  align-items: flex-start;
+  background-position: calc(var(--section-top-padding-base) / 2) 0;
+}
+
+.community__title {
+  color: var(--color-text);
+  font: normal var(--font-size-subheader)/133% var(--font-family-header);
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  padding: 0.33em 0 0;
+  margin: 0 0 1.33em;
+  border-top: 1px solid #c4c4c4;
+  min-width: 315px;
+}
+
+.community__text {
+  margin-bottom: var(--section-top-padding-base);
+}
+
+.community__link {
+  width: 88px;
+  height: 88px;
+  border-radius: 16px;
+}
+
+.community__link:link,
+.community__link:visited {
+  background-color: #f7f7f7;
+}
+
+.community__link:hover,
+.community__link:active {
+  background-color: #dfdfdf;
+}
+
+.community__link svg {
+  width: 24px;
+  height: 22px;
+}
+
+.about {
+  padding: calc(2 * var(--section-top-padding-base)) var(--section-side-padding);
+  display: grid;
+  grid-template-columns: 50% auto max-content;
+}
+
+.about__header {
+  grid-column: 1 / 2;
+  margin: 0 0 var(--section-top-padding-base);
+  padding: 0;
+  border: none;
+}
+
+.about__header h1 {
+  margin: 0 0 0.187em;
+}
+
+.about__header h2 {
+  text-transform: none;
+  font-size: var(--font-size-intense);
+  line-height: 171%;
+}
+
+.about__disclaimer {
+  grid-column: 1;
+  font: normal var(--font-size-small)/167% var(--font-family-text);
+  margin: 0;
+}
+
+.about__author {
+  grid-column: 3;
+  grid-row: 1 / 3;
+  margin: 0;
+  align-self: end;
+}
+
+.author__header {
+  font: normal var(--font-size-intense)/171% var(--font-family-text);
+  letter-spacing: 0.01em;
+  margin: 0 0 .5em;
+  padding: 0;
+}
+
+.author__name {
+  font: normal var(--font-size-base)/162% var(--font-family-text);
+  margin: 0 0 calc(var(--section-top-padding-base) / 2);
+  padding: 0;
+}
+
+.social-links {
+  gap: unset;
+  justify-content: space-between;
+}
 }
