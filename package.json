@@ -1,13 +1,20 @@
 {
   "name": "retroisland",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview",
+    "dev": "concurrently npm:dev:*",
+    "dev:eleventy": "eleventy --serve",
+    "dev:vite": "vite",
+    "build": "npm run build:vite && npm run build:eleventy",
+    "build:eleventy": "NODE_ENV=production eleventy",
+    "build:vite": "NODE_ENV=production vite build",
+    "prod": "NODE_ENV=production npm run build",
     "update:browsertslist": "npx browserslist@latest --update-db"
   },
   "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "@vitejs/plugin-legacy": "^1.6.3",
+    "concurrently": "^6.4.0",
     "postcss-100vh-fix": "^1.0.2",
     "vite": "^2.2.3"
   },
