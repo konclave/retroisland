@@ -1,25 +1,6 @@
-<!doctype html>
-<html class="no-js" lang="ru">
-
-<head>
-  <meta charset="utf-8">
-  <title>Retroisland</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
-  <meta name="theme-color" content="#fafafa">
-</head>
-
-<body>
+---
+layout: layouts/base.njk
+---
 <section class="navigation">
     <button class="navigation-button navigation-open" type="button">
         <svg class="navigation-open__icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -48,8 +29,8 @@
         <h2>Авторский сайт о вокально-инструментальных ансамблях и музыке советской эпохи</h2>
         <nav class="community-navigation-wrap">
             <ul class="community-navigation">
-                <li class="community-navigation__item"><a href="/guestbook">Гостевая книга</a></li>
-                <li class="community-navigation__item"><a href="/forum">Форум «Ностальгия»</a></li>
+                <li class="community-navigation__item"><a href="/guestbook/">Гостевая книга</a></li>
+                <li class="community-navigation__item"><a taget="_blank" rel="nofollow, noindex, noreferrer" href="http://nostalgie30-80.com/forum/login.php?0">Форум «Ностальгия»</a></li>
             </ul>
         </nav>
     </div>
@@ -57,88 +38,54 @@
 <section class="news">
     <h2>Новости</h2>
     <ul class="news-list">
-        <li class="news-list__item">
-            <a class="news-item-link" href="#">
+        {%- for item in collections.news | reverse | slice(5) -%}
+            <li class="news-list__item">
+            {% if item.data.link %}<a class="news-item-link" href="{{ item.data.link }}">{% endif %}
             <article class="news-item">
-                <time>28 октября 2020</time>
-                <p>На страничке Валентина Дьяконова добавились две песни с концерта Самоцветов в Воронеже 1973 года: «Добрые приметы» и «Школьный бал».</p>
+                <time>{{ item.data.date | ruDate }}</time>
+                {{ item.templateContent | safe }}
             </article>
-            </a>
-        </li>
-        <li class="news-list__item">
-            <a class="news-item-link" href="#">
-                <article class="news-item">
-
-                    <time>28 октября 2020</time>
-                    <p>На страничке Валентина Дьяконова добавились две песни с концерта Самоцветов в Воронеже 1973 года: «Добрые приметы» и «Школьный бал».</p>
-
-                </article>
-            </a>
-        </li>
-        <li class="news-list__item">
-            <article class="news-item">
-                <time>28 октября 2020</time>
-                <p>На страничке Валентина Дьяконова добавились две песни с концерта Самоцветов в Воронеже 1973 года: «Добрые приметы» и «Школьный бал».</p>
-            </article>
-        </li>
-        <li class="news-list__item">
-            <article class="news-item">
-                <time>28 октября 2020</time>
-                <p>На страничке Валентина Дьяконова добавились две песни с концерта Самоцветов в Воронеже 1973 года: «Добрые приметы» и «Школьный бал».</p>
-            </article>
-        </li>
-        <li class="news-list__item">
-            <article class="news-item">
-                <time>28 октября 2020</time>
-                <p>На страничке Валентина Дьяконова добавились две песни с концерта Самоцветов в Воронеже 1973 года: «Добрые приметы» и «Школьный бал».</p>
-            </article>
-        </li>
+            {% if item.data.link %}</a>{% endif %}
+            </li>
+        {%- endfor -%}
     </ul>
 
     <div class="news-footer">
-        <a class="news-archive-link" href="#">Архив новостей</a>
+        <a class="news-archive-link" href="/archive">Архив новостей</a>
     </div>
 </section>
 <section class="tracks-on-request">
     <ul class="requested-list">
-        <li class="requested-list__item" data-collapsed="false">
+        {%- for entry in collections.ondemand -%}
+        <li class="requested-list__item" data-collapsed="true">
             <article class="requested-item">
-                <button class="requested-item__toggle-visibility" type="button">«Headbangers Symphony» Вольфа Хоффмана</button>
+                <button class="requested-item__toggle-visibility" type="button">{% if entry.data.title %}{{ entry.data.title }}{% else %}{{ entry.data.artist }}{% if entry.data.album %}, {{ entry.data.album }}{% endif %}{% endif %}</button>
                 <div class="requested-item-tracks">
                     <h2 class="requested-item-tracks__title">Концерт по заявкам</h2>
-                    <h3 class="requested-item-tracks__author">Вольф Хоффман</h3>
-                    <h4 class="requested-item-tracks__album">«Headbangers Symphony»</h4>
+                    <h3 class="requested-item-tracks__author">{{ entry.data.artist }}</h3>
+                    {% if entry.data.album %}<h4 class="requested-item-tracks__album">{{ entry.data.album }}</h4>{% endif %}
                     <div class="requested-item-tracks__list-container">
                         <ol class="requested-item-tracks-list jouele-playlist">
+                            {%- for track in entry.data.tracks -%}
                             <li class="requested-item-tracks-list__item">
+                                {%- if track.link -%}
                                 <a
                                     class="jouele"
                                     data-hide-timeline-on-pause="true"
                                     id="jesus-christ-pose"
-                                    href="/music/Soundgarden - Jesus Christ Pose.mp3"
-                                    data-length="5:51"
-                                >Jesus Christ Pose</a>
+                                    href="{{ track.link }}"
+                                    {% if track.length %}data-length="{{ track.length }}"{% endif %}
+                                >{{ track.title }}</a>
+                                {%- endif -%}
+                                {%- if track.youtube -%}
+                                    {# <iframe width="560" height="315" src="https://www.youtube.com/embed/J20sHoi_5ws?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> #}
+                                    <img class="requested-item-tracks-list__icon" src="/img/youtube.svg" height="20px" /><a href="{{ track.youtube }}" target="_blank" rel="noopener noreferrer nofollow">{{ track.title }}</a>
+                                {%- endif -%}
+                                {%- if track.ok -%}
+                                    <img class="requested-item-tracks-list__icon" src="/img/ok.svg" height="20px" /><a href="{{ track.ok }}" target="_blank" rel="noopener noreferrer nofollow">{{ track.title }}</a>
+                                {%- endif -%}
                             </li>
-                            <li class="requested-item-tracks-list__item">
-                                <a class="jouele" data-hide-timeline-on-pause="true" id="Speedometer" href="/music/Speedometer feat. Ria Currie - Am I your Woman [pleer.net].mp3">Am I your Woman</a></li>
-                            <li class="requested-item-tracks-list__item">
-                                <a class="jouele" data-hide-timeline-on-pause="true" id="para-pust" href="/music/Нежное это - Пара пустяков.mp3">Пара пустяков</a></li>
-                            <li class="requested-item-tracks-list__item">
-                                <a class="jouele" data-hide-timeline-on-pause="true" id="hil" href="/music/Я очень рад, ведь я, наконец, возвращаюсь домой (Вокализ).mp3">Вокализ</a></li>
-                            <li class="requested-item-tracks-list__item">
-                                <a class="jouele" data-hide-timeline-on-pause="true" id="jesus-christ-pose" href="/music/Soundgarden - Jesus Christ Pose.mp3">Jesus Christ Pose</a></li>
-                            <li class="requested-item-tracks-list__item">
-                                <a class="jouele" data-hide-timeline-on-pause="true" id="Speedometer" href="/music/Speedometer feat. Ria Currie - Am I your Woman [pleer.net].mp3">Am I your Woman</a></li>
-                            <li class="requested-item-tracks-list__item">
-                                <a class="jouele" data-hide-timeline-on-pause="true" id="para-pust" href="/music/Нежное это - Пара пустяков.mp3">Пара пустяков</a></li>
-                            <li class="requested-item-tracks-list__item">
-                                <a class="jouele" data-hide-timeline-on-pause="true" id="hil" href="/music/Я очень рад, ведь я, наконец, возвращаюсь домой (Вокализ).mp3">Вокализ</a></li>
-                            <li class="requested-item-tracks-list__item">
-                                <a class="jouele" data-hide-timeline-on-pause="true" id="jesus-christ-pose" href="/music/Soundgarden - Jesus Christ Pose.mp3">Jesus Christ Pose</a></li>
-                            <li class="requested-item-tracks-list__item">
-                                <a class="jouele" data-hide-timeline-on-pause="true" id="Speedometer" href="/music/Speedometer feat. Ria Currie - Am I your Woman [pleer.net].mp3">Am I your Woman</a></li>
-                            <li class="requested-item-tracks-list__item">
-                                <a class="jouele" data-hide-timeline-on-pause="true" id="para-pust" href="/music/Нежное это - Пара пустяков.mp3">Пара пустяков</a></li>
+                            {%- endfor -%}
                         </ol>
                     </div>
                     <!-- <div class="requested-item-tracks__buttons">
@@ -148,7 +95,8 @@
                 </div>
             </article>
         </li>
-        <li class="requested-list__item">
+        {%- endfor -%}
+        {# <li class="requested-list__item">
             <article class="requested-item">
                 <button class="requested-item__toggle-visibility" type="button">«Тринадцатое Созвездие»</button>
                 <div class="requested-item-tracks" data-collapsed>
@@ -308,7 +256,7 @@
                     </div>
                 </div>
             </article>
-        </li>
+        </li> #}
     </ul>
 </section>
 <section class="communities">
@@ -316,9 +264,9 @@
     <ul class="communities-list">
         <li class="communities-list__item">
             <article class="community">
-                <h2 class="community__title">Форум «Ностальгия»</h2>
+                <h3 class="community__title">Форум «Ностальгия»</h3>
                 <p class="community__text">Форум для любителей ретро-музыки. Можно найти новых друзей, старую музыку и многое другое.</p>
-                <a class="community__link" href="">
+                <a class="community__link" taget="_blank" rel="nofollow, noindex, noreferrer" href="http://nostalgie30-80.com/forum/login.php?0">
                     <svg viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7.79998 0.146446C7.58557 -0.0488153 7.23795 -0.0488153 7.02355 0.146446C6.80914 0.341709 6.80914 0.65829 7.02355 0.853553L12.1255 5.5H0.54902C0.245805 5.5 0 5.72386 0 6C0 6.27614 0.245805 6.5 0.54902 6.5H12.1255L7.02355 11.1464C6.80914 11.3417 6.80914 11.6583 7.02355 11.8536C7.23795 12.0488 7.58557 12.0488 7.79998 11.8536L13.8392 6.35355C14.0536 6.15829 14.0536 5.84171 13.8392 5.64645L7.79998 0.146446Z" fill="black"/>
                     </svg>
@@ -327,7 +275,7 @@
         </li>
         <li class="communities-list__item">
             <article class="community">
-                <h2 class="community__title">Гостевая книга</h2>
+                <h3 class="community__title">Гостевая книга</h3>
                 <p class="community__text">Здесь говорят на разные темы, помогают в поиске старых записей для сайта, а так же можно поблагодарить автора.</p>
                 <a class="community__link" href="">
                     <svg viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -370,16 +318,3 @@
         </ul>
     </address>
 </section>
-<!-- script type="module" src="/js/main.js"></script -->
-{% if build.env == "production" %}
-    {# We must read the production scripts from the Vite manifest. We defer that logic to a custom shortcode #}
-    {% viteScriptTag "src/js/main.js" %}
-    {% viteLegacyScriptTag "vite/legacy-polyfills" %}
-    {% viteLegacyScriptTag "src/js/main-legacy.js" %}
-{% else %}
-    <script type="module" src="http://localhost:3000/@vite/client"></script>
-    <script type="module" src="http://localhost:3000/src/js/main.js"></script>
-{% endif %}
-</body>
-
-</html>

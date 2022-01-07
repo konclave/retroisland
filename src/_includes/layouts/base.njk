@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Retroisland</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+{{ content | safe }}
+<!-- script type="module" src="/js/main.js"></script -->
+{% if build.env == "production" %}
+    {# We must read the production scripts from the Vite manifest. We defer that logic to a custom shortcode #}
+    {% viteScriptTag "src/static/js/main.js" %}
+    {% viteLegacyScriptTag "vite/legacy-polyfills" %}
+    {% viteLegacyScriptTag "src/static/js/main-legacy.js" %}
+{% else %}
+    <script type="module" src="http://localhost:3000/@vite/client"></script>
+    <script type="module" src="http://localhost:3000/src/static/js/main.js"></script>
+{% endif %}
+</body>
+
+</html>
