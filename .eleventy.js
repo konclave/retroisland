@@ -113,6 +113,16 @@ module.exports = function (eleventyConfig) {
     return entryChunk;
   }
 
+  eleventyConfig.addNunjucksFilter("slice", (arr, num) => Array.isArray(arr) ? arr.slice(0, num) : arr);
+  eleventyConfig.addNunjucksFilter("ruDate", (date) => {
+    if (!(date instanceof Date)) {
+      return date;
+    }
+    const options = { day: 'numeric', month: 'long', year: 'numeric'};
+    return Intl.DateTimeFormat('ru', options).format(date);
+  });
+
+
   return {
     templateFormats: ["md", "njk", "html"],
     pathPrefix: PATH_PREFIX,
