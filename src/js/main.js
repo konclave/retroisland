@@ -1,5 +1,12 @@
 import "vite/dynamic-import-polyfill";
 import { collapseSection, expandSection, collapseH, expandH } from './animation';
+import 'ilyabirman-jouele/dist/jouele.css';
+import '../styles/normalize.css';
+import '../styles/main.css';
+import '../styles/fonts.css';
+import '../styles/colors.css';
+import '../styles/mobile.css';
+import '../styles/desktop.css';
 
 Promise.all([import('howler'), import('jquery')])
 .then(([{ Howl }, { default: jQuery }]) => {
@@ -7,16 +14,6 @@ Promise.all([import('howler'), import('jquery')])
   window.jQuery = window.$ = jQuery;
   import('ilyabirman-jouele');
 });
-
-
-import 'ilyabirman-jouele/dist/jouele.css';
-
-import '../styles/normalize.css';
-import '../styles/main.css';
-import '../styles/fonts.css';
-import '../styles/colors.css';
-import '../styles/mobile.css';
-import '../styles/desktop.css';
 
 init();
 

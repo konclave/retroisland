@@ -2,7 +2,6 @@
 <html class="no-js" lang="ru">
 <head>
   <meta charset="utf-8">
-  <title>Retroisland</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,6 +14,12 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
   <meta name="theme-color" content="#fafafa">
+  <title>{{title or metadata.title}}</title>
+  {% if build.env == "production" %}
+  {# Add any CSS from the main script #}
+  {% viteLinkStylesheetTags "src/js/main.js" %}
+  {% viteLinkModulePreloadTags "src/js/main.js" %}
+  {% endif %}
 </head>
 
 <body>
