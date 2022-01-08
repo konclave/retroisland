@@ -14,22 +14,20 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
 {{ content | safe }}
-<!-- script type="module" src="/js/main.js"></script -->
-{% if build.env == "production" %}
+{%- if build.env == "production" -%}
     {# We must read the production scripts from the Vite manifest. We defer that logic to a custom shortcode #}
-    {% viteScriptTag "src/static/js/main.js" %}
+    {% viteScriptTag "src/js/main.js" %}
     {% viteLegacyScriptTag "vite/legacy-polyfills" %}
-    {% viteLegacyScriptTag "src/static/js/main-legacy.js" %}
-{% else %}
+    {% viteLegacyScriptTag "src/js/main-legacy.js" %}
+{%- else -%}
     <script type="module" src="http://localhost:3000/@vite/client"></script>
     <script type="module" src="http://localhost:3000/src/static/js/main.js"></script>
-{% endif %}
+{%- endif -%}
 </body>
 
 </html>

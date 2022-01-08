@@ -3,9 +3,6 @@ import legacy from "@vitejs/plugin-legacy";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  // This is not critical, but I include it because there are more HTML transforms via plugins, that templates must handle
-  // TODO: For legacy() to work without a hitch, we set a known @babel/standalone version in package.json
-  // Remove that once https://github.com/vitejs/vite/issues/2442 is fixed
   plugins: [legacy()],
   publicDir: "src/static/",
   build: {
@@ -23,7 +20,7 @@ export default defineConfig({
     manifest: true,
     rollupOptions: {
       // This is critical: overwrite default .html entry
-      input: "/src/static/js/main.js",
+      input: "/src/js/main.js",
     },
   },
 });
