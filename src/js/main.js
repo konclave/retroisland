@@ -8,6 +8,8 @@ import '../styles/colors.css';
 import '../styles/mobile.css';
 import '../styles/desktop.css';
 
+const MOBILE_BREAKPOINT = 810;
+
 Promise.all([import('howler'), import('jquery')])
 .then(([{ Howl }, { default: jQuery }]) => {
   window.Howl = Howl;
@@ -44,14 +46,14 @@ function initTrackListToggle() {
     return;
   }
 
-  if (window.innerWidth > 320) {
+  if (window.innerWidth > MOBILE_BREAKPOINT) {
     trackSection.querySelector('.requested-list__item').setAttribute('data-collapsed', 'false');
     window.addEventListener('resize', throttle(setTrackContainerWidth, 250))
   }
 
   function setTrackContainerWidth() {
     setTimeout(() => {
-      const { width } = trackSection.querySelector('[data-collapsed="false"]').getBoundingClientRect()
+      const { width } = trackSection.querySelector('[data-collapsed="false"]').getBoundingClientRect();
       trackSection.querySelectorAll('.requested-item-tracks').forEach((element) => {
         element.style.width = width + 'px';
       });
@@ -63,7 +65,7 @@ function initTrackListToggle() {
       return;
     }
 
-    if (window.innerWidth > 320) {
+    if (window.innerWidth > MOBILE_BREAKPOINT) {
       const toggleButtonElement = trackSection.querySelector('.requested-item__toggle-visibility');
       const toggleButtonHeight = window.getComputedStyle(toggleButtonElement).getPropertyValue('height');
       const threshold = parseInt(toggleButtonHeight);
@@ -76,15 +78,17 @@ function initTrackListToggle() {
         expandH(next, { threshold })
       }
     } else {
-      const current = event.target.parentElement.querySelector('.requested-item-tracks');
-      if (current.hasAttribute('data-collapsed')) {
-        const expanded = trackSection.querySelector('.requested-item-tracks:not([data-collapsed])');
+      const currentContainer = event.target.closest('.requested-list__item');
+      const currentTracksList = event.target.parentElement.querySelector('.requested-item-tracks');
+      if (currentContainer.getAttribute('data-collapsed') === 'true') {
+        const expanded = trackSection.querySelector('[data-collapsed="false"] .requested-item-tracks');
         if (expanded) {
-          collapseSection(expanded);
+          const expandedContainer = expanded.closest('.requested-list__item');
+          collapseSection(expanded, { attributeRecipient: expandedContainer });
         }
-        expandSection(current);
+        expandSection(currentTracksList, { attributeRecipient: currentContainer });
       } else {
-        collapseSection(current);
+        collapseSection(currentTracksList, { attributeRecipient: currentContainer });
       }
     }
   });

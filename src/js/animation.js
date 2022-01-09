@@ -1,4 +1,4 @@
-export function collapseSection(element, options = { threshold: 0 }) {
+export function collapseSection(element, options = {}) {
   const prop = options.horizontal ? 'width' : 'height';
   const dimension = options.horizontal ?
     element.getBoundingClientRect().width :
@@ -9,10 +9,10 @@ export function collapseSection(element, options = { threshold: 0 }) {
     element.style[prop] = dimension + 'px';
     element.style.transition = elementTransition;
     requestAnimationFrame(function() {
-      element.style[prop] = options.threshold + 'px';
+      element.style[prop] = options.threshold || 0 + 'px';
     });
   });
-  (options.attributeRecipient || element).setAttribute('data-collapsed', '');
+  (options.attributeRecipient || element).setAttribute('data-collapsed', 'true');
 }
 
 export function expandSection(element, options = {}) {
@@ -20,14 +20,14 @@ export function expandSection(element, options = {}) {
   const dimension = options.horizontal ?
     element.getBoundingClientRect().width :
     element.scrollHeight;
-    element.style[prop] = dimension + 'px';
+  element.style[prop] = dimension + 'px';
 
   function handleTransitioned() {
     element.style[prop] = null;
     element.removeEventListener('transitionend', handleTransitioned);
   }
   element.addEventListener('transitionend', handleTransitioned);
-  (options.attributeRecipient || element).removeAttribute('data-collapsed');
+  (options.attributeRecipient || element).setAttribute('data-collapsed', 'false');
 }
 
 export function collapseH(element, options) {
