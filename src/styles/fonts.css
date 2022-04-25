@@ -34,14 +34,8 @@
   --font-size-subheader: 1rem;
   --font-size-header: 1.5rem;
   /* 24px */
---font-family-text: Merriweather,
-'Times New Roman',
-serif;
---font-family-header: 'Tenor Sans',
-Arial,
-Helvetica,
-sans-serif;
-
+  --font-family-text: Merriweather, 'Times New Roman', serif;
+  --font-family-header: "Tenor Sans", Arial, Helvetica, sans-serif;
 }
 
 @media screen and (min-width: 321px) {
