@@ -23,7 +23,11 @@
 </head>
 
 <body>
+
+{% include 'navigation.njk' %}
 {{ content | safe }}
+{% include 'footer.njk' %}
+
 {%- if build.env == "production" -%}
     {# We must read the production scripts from the Vite manifest. We defer that logic to a custom shortcode #}
     {% viteScriptTag "src/js/main.js" %}
