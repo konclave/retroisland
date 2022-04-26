@@ -122,6 +122,10 @@ module.exports = function (eleventyConfig) {
     return Intl.DateTimeFormat('ru', options).format(date);
   });
 
+  eleventyConfig.addPassthroughCopy({"src/static/img": "img"});
+  eleventyConfig.addPassthroughCopy({"src/static/fonts": "fonts"});
+  eleventyConfig.addPassthroughCopy({"src/static/music": "music"});
+
 
   return {
     templateFormats: ["md", "njk", "html"],

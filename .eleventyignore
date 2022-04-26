@@ -1,2 +1,3 @@
 # Ignore the client scripts and CSS; Vite is serving or building them
-srs/static/*
+src/js/*
+src/styles/*
