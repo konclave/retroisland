@@ -1,4 +1,3 @@
-import "vite/dynamic-import-polyfill";
 import { collapseSection, expandSection, collapseH, expandH } from './animation';
 import 'ilyabirman-jouele/dist/jouele.css';
 import '../styles/normalize.css';

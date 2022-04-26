@@ -12,11 +12,11 @@
     "update:browsertslist": "npx browserslist@latest --update-db"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy": "~1.0.1",
     "@vitejs/plugin-legacy": "~1.5.3",
     "concurrently": "^6.4.0",
     "postcss-100vh-fix": "^1.0.2",
-    "vite": "^2.2.3"
+    "vite": "~2.9.6"
   },
   "dependencies": {
     "howler": "^2.2.3",
