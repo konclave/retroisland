@@ -1,0 +1,26 @@
+<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 174">
+    <g clip-path="url(#a)">
+        <ellipse cx="170" cy="174.5" rx="170" ry="169.5" fill="#000" />
+        <ellipse cx="170" cy="174.5" rx="60.208" ry="60.031" fill="#F5F1DB" />
+        <path d="M281.948 174.5c0 61.643-50.12 111.617-111.948 111.617-61.829 0-111.948-49.974-111.948-111.617 0-61.643 50.119-111.617 111.948-111.617 61.828 0 111.948 49.974 111.948 111.617Z" stroke="#fff" stroke-opacity=".5" />
+        <path d="M293.459 174.5c0 67.981-55.273 123.094-123.459 123.094-68.185 0-123.458-55.113-123.458-123.094S101.815 51.406 170 51.406c68.186 0 123.459 55.113 123.459 123.094Z" stroke="#fff" stroke-opacity=".5" />
+        <g filter="url(#b)">
+            <ellipse rx="9.734" ry="9.717" transform="rotate(26.198 -289.57 451.914) skewX(-.134)" fill="#fff" />
+        </g>
+    </g>
+    <defs>
+        <clipPath id="a">
+            <path fill="#fff" d="M0 0h340v174H0z" />
+        </clipPath>
+        <filter id="b" x="160.021" y="164.551" width="19.483" height="21.426" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+            <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+            <feOffset dy="2" />
+            <feGaussianBlur stdDeviation="1.5" />
+            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0" />
+            <feBlend in2="shape" result="effect1_innerShadow_651_203" />
+        </filter>
+    </defs>
+</svg>

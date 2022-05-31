@@ -588,9 +588,8 @@ h1 {
 }
 
 .catalogue-entry {
-  padding-top: 160px;
-  background: url('/static/img/catalogue-bg-01.svg') no-repeat;
-  border-radius: 16px;
+  background-image: url('/img/catalogue-bg-01.svg');
+  border-radius: 22px;
   overflow: hidden;
 }
 
@@ -598,6 +597,9 @@ h1 {
   display: flex;
   flex: 1;
   text-decoration: none;
+  padding-top: 160px;
+  background-repeat: no-repeat;
+
 }
 
 .catalogue-entry a:link,
@@ -606,13 +608,15 @@ h1 {
 .catalogue-entry__title {
   padding: calc(2 * var(--section-top-padding-base));
   padding-top: calc(4 * var(--section-top-padding-base));
-  background: #67774E;
+  background-color: var(--color-requested-header-bg-5);
   color: var(--color-light);
-  font-family: Tenor Sans;
+  font-family: var(--font-family-header);
   font-size: 1rem;
+  font-weight: normal;
   line-height: 150%;
   letter-spacing: 0em;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .catalogue-form__search-input {

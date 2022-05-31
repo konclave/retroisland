@@ -23,30 +23,30 @@ layout: layouts/base.njk
         <li class="catalogue__item">
             <div class="catalogue-entry">
                 <a href="#">
-                    <span class="catalogue-entry__title">Финал конкурса молодежных ансамблей 1974г.</span>
+                    <h2 class="catalogue-entry__title">Финал конкурса молодежных ансамблей 1974г.</h2>
                 </a>
-            <div/>
+            </div>
         </li>
         <li class="catalogue__item">
             <div class="catalogue-entry">
                 <a href="#">
                     <span class="catalogue-entry__title">Финал конкурса молодежных ансамблей 1974г.</span>
                 </a>
-            <div/>
+            </div>
         </li>
         <li class="catalogue__item">
             <div class="catalogue-entry">
                 <a href="#">
                     <span class="catalogue-entry__title">Финал конкурса молодежных ансамблей 1974г.</span>
                 </a>
-            <div/>
+            </div>
         </li>
         <li class="catalogue__item">
             <div class="catalogue-entry">
                 <a href="#">
                     <span class="catalogue-entry__title">Финал конкурса молодежных ансамблей 1974г.</span>
                 </a>
-            <div/>
+            </div>
         </li>
     </ul>
 </section>
