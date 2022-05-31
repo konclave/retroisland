@@ -1,4 +1,5 @@
 import { collapseSection, expandSection, collapseH, expandH } from './animation';
+import { init as initSearch } from './search';
 import 'ilyabirman-jouele/dist/jouele.css';
 import '../styles/normalize.css';
 import '../styles/main.css';
@@ -19,8 +20,9 @@ Promise.all([import('howler'), import('jquery')])
 init();
 
 function init() {
-  initMobileNavigation()
-  initTrackListToggle()
+  initMobileNavigation();
+  initTrackListToggle();
+  initSearch();
 }
 
 function initMobileNavigation() {

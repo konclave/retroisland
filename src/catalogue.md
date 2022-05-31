@@ -5,19 +5,19 @@ layout: layouts/base.njk
     <h1>Медиатека</h1>
     <form class="catalogue-form">
         <div class="catalogue-form__group">
-            <input type="text" placeholder="Поиск исполнителя inputmode="search"/>
+            <input class="catalogue-form__search-input" type="text" placeholder="Поиск исполнителя" inputmode="search"/>
         </div>
-        <div class="catalogue-form__group">
-            <select placeholder="Тип">
+        <!-- <div class="catalogue-form__group">
+            <select placeholder="Тип" class="catalogue-form__sort-input" id="catalogue-sort-type">
                 <option>Плейлисты</option>
                 <option>Исполнители</option>
             </select>
-            <select placeholder="Сортировать">
+            <select placeholder="Сортировать" class="catalogue-form__sort-input" id="catalogue-order">
                 <option>По дате добавления</option>
                 <option>А→Я</option>
                 <option>Я→А</option>
             </select>
-        </div>
+        </div> -->
     </form>
     <ul class="catalogue">
         <li class="catalogue__item">

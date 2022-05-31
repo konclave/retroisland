@@ -569,7 +569,10 @@ h1 {
 
 .catalogue-form__group {
   display: flex;
+  justify-content: stretch;
+  margin-bottom: calc(3 * var(--section-top-padding-base))
 }
+
 .catalogue {
   display: grid;
   grid-template-columns: 1fr;
@@ -609,5 +612,45 @@ h1 {
   font-size: 1rem;
   line-height: 150%;
   letter-spacing: 0em;
+  text-transform: uppercase;
+}
+
+.catalogue-form__search-input {
+  flex: 1;
+  padding-bottom: 0.714em;
+  font-family: var(--font-family-header);
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--font-size-intense);
+  line-height: 143%;
+
+  text-transform: uppercase;
+  color: var(--color-text-dark-gray);
+  border: none;
+  border-bottom: 2px solid var(--color-text-dark-gray);
+  background: url("data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M9.063 15.625a6.562 6.562 0 1 0 0-13.125 6.562 6.562 0 0 0 0 13.125ZM13.703 13.703 17.5 17.5' stroke='%23313131' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A") right top no-repeat;
+  background-size: 20px 20px;
+}
+
+.catalogue-form__search-input::placeholder {
+  color: var(--color-text-dark-gray);
+}
+
+.catalogue-form__search-input:focus::placeholder {
+  opacity: 0.5;
+  color: var(--color-text-footer);
+}
+.catalogue-form__search-input:focus {
+  outline: none;
+}
+
+.catalogue-form__sort-input {
+  background: none;
+  border: none;
+  font-family: var(--font-family-header);
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--font-size-intense);
+  line-height: 143%;
   text-transform: uppercase;
 }
