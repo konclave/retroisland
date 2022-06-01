@@ -455,6 +455,7 @@
 
   .about__header h1 {
     margin: 0 0 0.187em;
+    padding: 0;
   }
 
   .about__header h2 {
@@ -514,28 +515,29 @@
   .catalogue__item {
   }
 
+
+
   .catalogue-entry {
     position: relative;
     display: flex;
     padding: 0;
-    height: 378px;
+    aspect-ratio: 1.068;
   }
 
   .catalogue-entry a::after {
     content: '';
-    width: 340px;
-    height: 174px;
+    width: 84%;
+    aspect-ratio: 0.512;
     background: url("/img/vynil-catalogue.svg") no-repeat;
-    background-size: 340px 174px;
     position: absolute;
     left: 50%;
-    top: 32px;
+    top: 7.9%;
     transform: translateX(-50%) translateY(100%);
     transition: all linear 0.25s;
   }
 
   .catalogue-entry a {
-    padding-top: 206px;
+    padding-top: 50%;
   }
 
   .catalogue-entry a:link,
@@ -554,8 +556,8 @@
   .catalogue-entry__title {
     position: relative;
     z-index: 1;
-    padding: 2rem;
-    font-size: 1.25rem;
+    padding: 7.9%;
+    font-size: clamp(0.75rem, -0.25rem + 2vw, 1.25rem);
     line-height: 140%;
     display: flex;
     align-items: flex-end;
@@ -575,4 +577,14 @@
   .catalogue-form__sort-input {
   }
 
+}
+
+
+
+@media screen and (min-width: 480px) and (max-width: 799px) {
+  .catalogue {
+    grid-template-columns: 1fr 1fr;
+    margin: var(--section-side-padding) 0 0;
+    gap: 1.5rem;
+  }
 }
