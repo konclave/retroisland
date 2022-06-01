@@ -619,6 +619,7 @@ h1 {
   letter-spacing: 0em;
   text-transform: uppercase;
   margin: 0;
+  flex: 1;
 }
 
 .catalogue-form__search-input {
