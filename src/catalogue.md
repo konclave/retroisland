@@ -1,8 +1,11 @@
 ---
 layout: layouts/base.njk
 ---
+<header class="padded-wrap">
+    <h1 class="main-title"><span class="main-title__website">Васильевский остров</span><span class="main-title__section">Медиатека</span></h1>
+    <p class="main-subtitle">Авторский сайт о вокально-инструментальных ансамблях и музыке советской эпохи</p>
+</header>
 <section class="padded-wrap">
-    <h1>Медиатека</h1>
     <form class="catalogue-form">
         <div class="catalogue-form__group">
             <input class="catalogue-form__search-input" type="text" placeholder="Поиск исполнителя" inputmode="search"/>
