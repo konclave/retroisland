@@ -2,10 +2,13 @@
   --color-text: #000000;
   --color-text-footer: #ADADAD;
   --color-text-dark-gray: #313131;
+
   --color-light: #FFFFFF;
   --color-light-rgb: 255,
   255,
   255;
+
+  --color-subtitle-catalogue: #949494;
 
   --color-requested-header-bg-1: #3E81C5;
   --color-requested-header-bg-2: #9DBBC5;
@@ -14,4 +17,6 @@
   --color-requested-header-bg-5: #67774E;
   --color-requested-header-bg-6: #A5A14C;
   --color-bg-about: #FAF8ED;
+  --color-bg-catalogue-item: #F5F1DB;
+
 }

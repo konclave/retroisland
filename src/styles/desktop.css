@@ -63,7 +63,7 @@
   }
 
   .main-title__section {display: none;}
-  .main-title__website { }
+  .main-title__website { display: block; }
 
 
   .main-subtitle {
