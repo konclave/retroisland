@@ -582,6 +582,105 @@
   .catalogue-form__sort-input {
   }
 
+
+  .catalogue-item-about {
+    display: grid;
+    grid-template-columns: 453px 1fr;
+    grid-template-rows: repeat(100, min-content);
+    column-gap: calc(var(--section-side-padding) / 2);
+  }
+
+  .catalogue-item-about__image {
+    box-sizing: border-box;
+    grid-column: 1;
+    grid-row: 1 / -1;
+  }
+
+  .catalogue-item-about__person-desc {
+    font-size: 1rem;
+    margin: 0 0 1em;
+  }
+
+  .catalogue-item-about__name {
+    font-size: 4.5rem;
+    line-height: 111%;
+    margin: 0 0 0.333em;
+    letter-spacing: -0.005em;
+    text-transform: uppercase;
+    color: #192C31;
+  }
+
+  .catalogue-item-about__text {
+    font-size: 1rem;
+    line-height: 162%;
+    color: #4B4B4B;
+    margin: 0 0 calc(var(--section-side-padding) / 4);
+  }
+
+  .catalogue-item-about__play-btn {
+    justify-self: start;
+  }
+
+  .content-section {
+    padding: 1.5rem;
+  }
+
+  .section-title {
+    font-size: var(--font-size-header);
+  }
+
+  .catalogue-tracks-container {
+    display: grid;
+    grid-template-columns: 1fr 336px;
+    grid-template-rows: min-content min-content;
+    gap: var(--section-side-padding);
+  }
+
+  .catalogue-tracks {
+    grid-row: 1 / -1;
+    grid-column: 1 / span 1;
+    padding: 0;
+  }
+
+  .catalogue-tracks__title {
+    font-size: var(--font-size-subheader);
+  }
+
+
+
+
+  .catalogue-item-acknowledgements {
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 1;
+    border-radius: 1rem;
+  }
+  .catalogue-item-videos {
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+    border-radius: 1rem;
+  }
+
+  .catalogue-item-acknowledgements__title {
+    font-size: var(--font-size-subheader);
+  }
+
+  .catalogue-item-acknowledgements__text {
+    line-height: 157%;
+  }
+
+  .catalogue-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+
+  .videos-list {
+    gap: 1rem;
+  }
+
+  .catalogue-item-videos__title {
+    font-size: var(--font-size-subheader);
+  }
 }
 
 @media screen and (min-width: 480px) and (max-width: 799px) {
@@ -589,5 +688,10 @@
     grid-template-columns: 1fr 1fr;
     margin: var(--section-side-padding) 0 0;
     gap: 1.5rem;
+  }
+
+  .catalogue-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }

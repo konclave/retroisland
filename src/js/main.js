@@ -1,6 +1,9 @@
+import '@justinribeiro/lite-youtube';
 import { collapseSection, expandSection, collapseH, expandH } from './animation';
 import { init as initSearch } from './search';
+import './catalogue';
 import 'ilyabirman-jouele/dist/jouele.css';
+import './fotorama/fotorama.css';
 import '../styles/normalize.css';
 import '../styles/main.css';
 import '../styles/fonts.css';
@@ -15,6 +18,7 @@ Promise.all([import('howler'), import('jquery')])
   window.Howl = Howl;
   window.jQuery = window.$ = jQuery;
   import('ilyabirman-jouele');
+  import('./fotorama/fotorama');
 });
 
 init();
