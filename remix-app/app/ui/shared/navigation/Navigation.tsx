@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { BREAKPOINT_DESKTOP } from '~/config';
 import cx from 'classnames';
 
@@ -14,17 +14,24 @@ export const links = () => [
   },
 ];
 
-//   document.querySelector('body').classList.toggle('no-scroll');
-
 export const Navigation = () => {
-  const [visible, setVisible] = useState<Boolean>(false);
+  const [isVisible, setIsVisible] = useState<Boolean>(false);
 
   const toggleNavigation = () => {
-    setVisible(!visible);
+    setIsVisible(!isVisible);
   };
 
+  useEffect(() => {
+    if (isVisible) {
+      document.body.classList.add('no-scroll')
+    } else {
+      document.body.classList.remove('no-scroll')
+    }
+    return () => document.body.classList.remove('no-scroll')
+  }, [isVisible])
+
   return (
-    <section className="navigation">
+    <section className={cx({ navigation: true, navigation_visible: isVisible })}>
       <button
         className="navigation-button navigation-open"
         type="button"
@@ -44,7 +51,7 @@ export const Navigation = () => {
         Меню
       </button>
       <nav className="main-navigation-wrap">
-        <button className="navigation-button navigation-close" type="button">
+        <button className="navigation-button navigation-close" type="button" onClick={toggleNavigation}>
           <svg
             className="navigation-close__icon"
             width="16"
