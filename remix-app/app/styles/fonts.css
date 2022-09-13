@@ -1,0 +1,61 @@
+/* merriweather-regular - latin_cyrillic-ext_cyrillic */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('/fonts/merriweather-v22-latin_cyrillic-ext_cyrillic-regular.woff2')
+      format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/fonts/merriweather-v22-latin_cyrillic-ext_cyrillic-regular.woff')
+      format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* merriweather-700 - latin_cyrillic-ext_cyrillic */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+    url('/fonts/merriweather-v22-latin_cyrillic-ext_cyrillic-700.woff2')
+      format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/fonts/merriweather-v22-latin_cyrillic-ext_cyrillic-700.woff')
+      format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* tenor-sans-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Tenor Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('/fonts/tenor-sans-v12-latin_cyrillic-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/fonts/tenor-sans-v12-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+:root {
+  --font-size-base: 0.75rem;
+  /* 12px */
+  --font-size-intense: 0.875rem;
+  /* 14px */
+  --font-size-subheader: 1rem;
+  --font-size-header: 1.5rem;
+  /* 24px */
+  --font-family-text: Merriweather, 'Times New Roman', serif;
+  --font-family-header: 'Tenor Sans', Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 321px) {
+  :root {
+    --font-size-base: 1rem;
+    /* 16px */
+    --font-size-intense: 0.875rem;
+    /* 14px */
+    --font-size-subheader: 1.5rem;
+    /* 24px */
+    --font-size-header: 2rem;
+    /* 32px */
+    --font-size-small: 0.75rem;
+    /* 12px */
+  }
+}

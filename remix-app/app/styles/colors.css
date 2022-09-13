@@ -1,0 +1,21 @@
+:root {
+  --color-text: #000000;
+  --color-text-footer: #adadad;
+  --color-text-dark-gray: #313131;
+
+  --color-light: #ffffff;
+  --color-light-rgb: 255, 255, 255;
+
+  --color-subtitle-catalogue: #949494;
+
+  --color-requested-header-bg-1: #3e81c5;
+  --color-requested-header-bg-2: #9dbbc5;
+  --color-requested-header-bg-3: #d7672d;
+  --color-requested-header-bg-4: #9e4f39;
+  --color-requested-header-bg-5: #67774e;
+  --color-requested-header-bg-6: #a5a14c;
+  --color-bg-about: #faf8ed;
+  --color-bg-catalogue-item: #f5f1db;
+
+  --color-bg-catalogue-gray: #f7f7f7;
+}
