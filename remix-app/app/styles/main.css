@@ -150,6 +150,20 @@ h6 {
   overflow: hidden;
 }
 
+:root {
+  --section-side-padding: 1rem;
+  --section-top-padding-base: 0.75rem;
+}
+
+h1 {
+  font: normal var(--font-size-header) / 133% 'Tenor Sans';
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--color-text);
+  padding: calc(2 * var(--section-top-padding-base)) 0;
+  margin: 0 0 calc(2 * var(--section-top-padding-base));
+}
+
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.

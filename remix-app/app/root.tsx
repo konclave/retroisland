@@ -22,7 +22,11 @@ export const links = () => [
   { rel: 'stylesheet', href: colorsStyles },
   { rel: 'stylesheet', href: fontsStyles },
   { rel: 'stylesheet', href: mainStyles },
-  { rel: 'stylesheet', href: desktopStyles, media: `(min-width: ${BREAKPOINT_DESKTOP})`},
+  {
+    rel: 'stylesheet',
+    href: desktopStyles,
+    media: `(min-width: ${BREAKPOINT_DESKTOP})`,
+  },
   ...navitationLinks(),
 ];
 
