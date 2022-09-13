@@ -1,0 +1,86 @@
+navigation {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 48px;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.navigation_visible {
+  height: 100vh;
+}
+
+.navigation-close,
+.navigation-open {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: #fff;
+  border: none;
+  padding: 12px var(--section-side-padding);
+  font-family: var(--font-family-header);
+  font-size: 0.875rem;
+  line-height: 143%;
+  text-transform: uppercase;
+  color: var(--color-main);
+}
+
+.navigation-open__icon {
+  margin-right: 12px;
+}
+
+.navigation-close__icon {
+  margin-left: auto;
+}
+
+.navigation-close {
+  color: #f2e7aa;
+  background-color: #f2e7aa;
+}
+.main-navigation-wrap {
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: transform 0.25s ease-out;
+  background: #f2e7aa url('/img/vynil.svg') right bottom no-repeat;
+  transform: translate(-100%);
+}
+
+.navigation_visible .main-navigation-wrap {
+  transform: translate(0);
+  display: flex;
+}
+
+.main-navigation {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  font-family: var(--font-family-header);
+  line-height: 1.333;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--color-main);
+  margin: 16px;
+  padding: 0;
+  list-style: none;
+}
+
+.main-navigation__item {
+  margin: 0 0 1em;
+  padding: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.main-navigation a {
+  text-decoration: none;
+  color: var(--color-main);
+  display: block;
+  padding: 8px 0;
+}

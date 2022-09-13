@@ -1,0 +1,14 @@
+:root {
+  --section-side-padding: 80px;
+  --section-top-padding-base: 56px;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  font: normal var(--font-size-header)/125% var(--font-family-header);
+  letter-spacing: -0.005em;
+  text-transform: uppercase;
+}

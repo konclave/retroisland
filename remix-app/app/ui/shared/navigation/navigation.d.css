@@ -1,0 +1,8 @@
+.navigation-button {
+  display: none;
+}
+
+.navigation {
+  position: static;
+  height: auto;
+}
