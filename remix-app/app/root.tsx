@@ -8,13 +8,13 @@ import {
   ScrollRestoration,
 } from '@remix-run/react';
 
-import { Navigation } from '~/ui/shared/navigation';
 import normalizeStyles from '~/styles/normalize.css';
 import colorsStyles from '~/styles/colors.css';
 import fontsStyles from '~/styles/fonts.css';
 import mainStyles from '~/styles/main.css';
 import desktopStyles from '~/styles/desktop.css';
-import { links as navitationLinks } from '~/ui/shared/navigation';
+import { Navigation, links as navitationLinks } from '~/ui/shared/navigation';
+import { About, links as aboutLinks } from '~/ui/shared/about';
 import { BREAKPOINT_DESKTOP } from '~/config';
 
 export const links = () => [
@@ -28,6 +28,7 @@ export const links = () => [
     media: `(min-width: ${BREAKPOINT_DESKTOP})`,
   },
   ...navitationLinks(),
+  ...aboutLinks(),
 ];
 
 export const meta: MetaFunction = () => ({
@@ -46,6 +47,7 @@ export default function App() {
       <body>
         <Navigation />
         <Outlet />
+        <About />
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
