@@ -14,7 +14,13 @@ export const links = () => [
 ];
 
 export const News = () => {
-  const news: any[] = [];
+  const news: any[] = [
+    {
+      id: 1,
+      date: '2021-11-24',
+      text: 'Как-то накопилось песен Игоря Иванова. Еще две, из стареньких: «Мы идем в огонь» и «Хорошо». Спасибо Александру Леонову и Сереже Амброзику.',
+    },
+  ];
   return (
     <section className="news">
       <h2>Новости</h2>
