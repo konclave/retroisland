@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from '@remix-run/react';
 import { BREAKPOINT_DESKTOP } from '~/config';
 import cx from 'classnames';
 
@@ -54,13 +55,13 @@ export const Navigation = () => {
         </button>
         <ul className="main-navigation">
           <li className="main-navigation__item">
-            <a href="/catalogue">Каталог</a>
+            <Link to="/catalogue">Каталог</Link>
           </li>
           <li className="main-navigation__item">
-            <a href="/about-project">О проекте</a>
+            <Link to="/about-project">О проекте</Link>
           </li>
           <li className="main-navigation__item">
-            <a href="/about-author">Об авторе</a>
+            <Link to="/about-author">Об авторе</Link>
           </li>
         </ul>
       </nav>
