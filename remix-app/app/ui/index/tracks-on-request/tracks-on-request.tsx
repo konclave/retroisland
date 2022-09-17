@@ -3,6 +3,21 @@ import { RequestedItem } from './components/requested-item/requested-item';
 import styles from './tracks-on-request.css';
 import desktopStyles from './tracks-on-request.d.css';
 
+if (typeof document !== 'undefined') {
+  Promise.all([import('howler'), import('jquery')]).then(
+    ([
+      {
+        default: { Howl },
+      },
+      { default: jQuery },
+    ]) => {
+      (window as any).Howl = Howl;
+      (window as any).jQuery = (window as any).$ = jQuery;
+      import('ilyabirman-jouele');
+    }
+  );
+}
+
 export const links = () => [
   { rel: 'stylesheet', href: styles },
   {

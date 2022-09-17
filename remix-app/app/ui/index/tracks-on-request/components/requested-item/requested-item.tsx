@@ -29,7 +29,7 @@ export const RequestedItem = ({ item }: RequestedItemProps) => {
           <ol className="requested-item-tracks-list jouele-playlist">
             {item.tracks.map((track) => (
               <li className="requested-item-tracks-list__item" key={track.link}>
-                <Track item={track}/>
+                <Track item={track} />
               </li>
             ))}
           </ol>
