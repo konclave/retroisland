@@ -1,7 +1,7 @@
 import { Link, useLoaderData } from '@remix-run/react';
 import { BREAKPOINT_DESKTOP } from '~/config';
 import { NewsItem } from './news-item';
-import type { NewsItemDto } from '~/loaders';
+import type { NewsItemDto } from '~/data-fetch';
 import styles from './news.css';
 import desktopStyles from './news.d.css';
 
@@ -15,13 +15,13 @@ export const links = () => [
 ];
 
 export const News = () => {
-  const news: NewsItemDto[] = useLoaderData();
+  const { news } = useLoaderData();
 
   return (
     <section className="news">
       <h2>Новости</h2>
       <ul className="news-list">
-        {news?.map((entry) => (
+        {news?.map((entry: NewsItemDto) => (
           <li className="news-list__item" key={entry.id}>
             <NewsItem item={entry} />
           </li>

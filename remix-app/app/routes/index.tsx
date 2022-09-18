@@ -6,7 +6,7 @@ import {
   links as TracksOnRequestLinks,
 } from '~/ui/index/tracks-on-request';
 import { Communities, links as communitiesLinks } from '~/ui/index/communities';
-import { getNewsLoader } from '~/loaders';
+import { indexLoader } from '~/loaders';
 
 export const links = () => [
   ...facadeLinks(),
@@ -15,7 +15,7 @@ export const links = () => [
   ...communitiesLinks(),
 ];
 
-export const loader: LoaderFunction = getNewsLoader({ limit: 5 });
+export const loader: LoaderFunction = indexLoader;
 
 export default function Index() {
   return (

@@ -1,19 +1,12 @@
 import { Track } from '../track';
-import type { TrackEntry } from '../track';
-
-interface Requested {
-  title?: string;
-  artist: string;
-  album?: string;
-  tracks: TrackEntry[];
-}
+import type { RequestedItemDto } from '~/data-fetch';
 
 interface RequestedItemProps {
-  item: Requested;
+  item: RequestedItemDto;
 }
 
 export const RequestedItem = ({ item }: RequestedItemProps) => {
-  const title = ''; // {% if entry.data.title %}{{ entry.data.title }}{% else %}{{ entry.data.artist }}{% if entry.data.album %}, {{ entry.data.album }}{% endif %}{% endif %}
+  const title = item.title || (item.artist + (item.album ? ', ' + item.album : ''));
   return (
     <article className="requested-item">
       <button className="requested-item__toggle-visibility" type="button">
@@ -27,17 +20,17 @@ export const RequestedItem = ({ item }: RequestedItemProps) => {
         )}
         <div className="requested-item-tracks__list-container">
           <ol className="requested-item-tracks-list jouele-playlist">
-            {item.tracks.map((track) => (
-              <li className="requested-item-tracks-list__item" key={track.link}>
+            {item.tracks?.map((track) => (
+              <li className="requested-item-tracks-list__item" key={track.id}>
                 <Track item={track} />
               </li>
             ))}
           </ol>
         </div>
         {/* <div className="requested-item-tracks__buttons">
-                        <button className="requested-item-tracks__button requested-item-tracks__button_expand" type="button">Показать весь плейлист</button>
-                        <button className="requested-item-tracks__button requested-item-tracks__button_collapse" type="button">Свернуть</button>
-                    </div>  */}
+            <button className="requested-item-tracks__button requested-item-tracks__button_expand" type="button">Показать весь плейлист</button>
+            <button className="requested-item-tracks__button requested-item-tracks__button_collapse" type="button">Свернуть</button>
+        </div>  */}
       </div>
     </article>
   );

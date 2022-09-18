@@ -1,16 +1,10 @@
 import { TrackAudio } from './track-audio';
 import { TrackYoutube } from './track-youtube';
 import { TrackOk } from './track-ok';
+import type { RequestedTrackItemDto } from '~/data-fetch';
 
-export interface TrackEntry {
-  title: string;
-  link?: string;
-  youtube?: string;
-  length?: string;
-  ok?: string;
-}
 interface TrackProps {
-  item: TrackEntry;
+  item: RequestedTrackItemDto;
 }
 export const Track = ({ item }: TrackProps) => {
   return (

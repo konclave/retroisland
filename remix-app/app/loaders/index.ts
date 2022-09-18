@@ -1,1 +1,1 @@
-export * from './news';
+export * from './index-loader';
