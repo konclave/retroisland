@@ -24,11 +24,14 @@
 }
 
 .news-item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
   color: var(--color-light);
   font: normal 0.875rem/1.715 var(--font-family-text);
   letter-spacing: 0.01em;
   border-top: 1px solid #dfdfdf;
-  padding: 8px 0;
+  padding: 16px 0 24px;
 }
 
 .news-item time {
