@@ -3,16 +3,40 @@ import type { RequestedItemDto } from '~/data-fetch';
 
 interface RequestedItemProps {
   item: RequestedItemDto;
+  width: string;
+  onToggleClick: (threshold: number, nextId: string) => void;
 }
 
-export const RequestedItem = ({ item }: RequestedItemProps) => {
-  const title = item.title || (item.artist + (item.album ? ', ' + item.album : ''));
+export const RequestedItem = ({
+  item,
+  width,
+  onToggleClick,
+}: RequestedItemProps) => {
+  const title =
+    item.title || item.artist + (item.album ? ', ' + item.album : '');
+
+  function handleToggleClick(
+    e: React.MouseEvent<HTMLButtonElement, MouseEvent>
+  ) {
+    const toggleButtonHeight = e.nativeEvent.target
+      ? window
+          .getComputedStyle(e.nativeEvent.target as Element)
+          .getPropertyValue('height')
+      : '0';
+    const threshold = parseInt(toggleButtonHeight);
+    onToggleClick(threshold, item.id);
+  }
+
   return (
     <article className="requested-item">
-      <button className="requested-item__toggle-visibility" type="button">
+      <button
+        className="requested-item__toggle-visibility"
+        type="button"
+        onClick={handleToggleClick}
+      >
         {title}
       </button>
-      <div className="requested-item-tracks">
+      <div className="requested-item-tracks" style={{ width }}>
         <h2 className="requested-item-tracks__title">Концерт по заявкам</h2>
         <h3 className="requested-item-tracks__author">{item.artist}</h3>
         {item.album && (

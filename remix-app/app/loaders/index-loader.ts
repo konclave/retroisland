@@ -3,8 +3,8 @@ import type { LoaderFunction } from '@remix-run/node';
 import type { NewsItemDto, RequestedItemDto } from '~/data-fetch';
 
 export interface IndexLoaderData {
-  news: NewsItemDto[],
-  requested: RequestedItemDto[],
+  news: NewsItemDto[];
+  requested: RequestedItemDto[];
 }
 
 export const indexLoader: LoaderFunction = async () => {
