@@ -1,0 +1,22 @@
+.requested-item-tracks-list {
+  list-style: none;
+  font: normal var(--font-size-base) / 167% Merriweather;
+  color: var(--color-text-footer);
+  counter-reset: track-counter;
+  margin: 0;
+  padding: 0;
+}
+
+.requested-item-tracks-list__item {
+  display: flex;
+  padding: 0.5em 0 0.5em;
+  counter-increment: track-counter;
+  gap: 10px;
+  align-items: center;
+}
+
+.requested-item-tracks-list__item::before {
+  content: counter(track-counter);
+  text-align: right;
+  width: 15px;
+}

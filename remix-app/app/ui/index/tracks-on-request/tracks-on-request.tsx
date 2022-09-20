@@ -2,9 +2,12 @@ import { useEffect, useState, useRef } from 'react';
 import { useLoaderData } from '@remix-run/react';
 import { BREAKPOINT_DESKTOP } from '~/config';
 import type { IndexLoaderData } from '~/loaders';
-import { RequestedItem } from './components/requested-item/requested-item';
+import { RequestedItem, links as requestedItemLinks } from './components/requested-item/requested-item';
 import styles from './tracks-on-request.css';
 import desktopStyles from './tracks-on-request.d.css';
+import joueleStyles from 'ilyabirman-jouele/dist/jouele.css';
+import joueleLocalStyles from './jouele.css';
+import joueleLocalDesktopStyles from './jouele.d.css';
 import {
   collapseH,
   collapseSection,
@@ -28,12 +31,16 @@ if (typeof document !== 'undefined') {
 }
 
 export const links = () => [
+  { rel: 'stylesheet', href: joueleStyles },
   { rel: 'stylesheet', href: styles },
   {
     rel: 'stylesheet',
     href: desktopStyles,
     media: `(min-width: ${BREAKPOINT_DESKTOP})`,
   },
+  { rel: 'stylesheet', href: joueleLocalStyles },
+  { rel: 'stylesheet', href: joueleLocalDesktopStyles, media: `(min-width: ${BREAKPOINT_DESKTOP})`, },
+  ...requestedItemLinks(),
 ];
 
 const BREAKPOINT_NUMERIC = parseInt(BREAKPOINT_DESKTOP);
