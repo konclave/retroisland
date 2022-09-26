@@ -1,0 +1,14 @@
+.catalogue {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: calc(2 * var(--section-top-padding-base));
+  list-style: none;
+  margin: calc(3 * var(--section-top-padding-base)) 0
+    calc(5 * var(--section-top-padding-base));
+  padding: 0;
+}
+
+.catalogue__item {
+  margin: 0;
+  padding: 0;
+}
