@@ -4,7 +4,7 @@ import { catalogueLoader } from '~/loaders';
 import { Catalogue, links as catalogueLinks } from '~/ui/catalogue';
 import { Header, links as headerLinks } from '~/ui/shared/header';
 
-export const links = () => [...catalogueLinks(), ...headerLinks()];
+export const links = () => [...headerLinks(), ...catalogueLinks()];
 
 export const loader: LoaderFunction = catalogueLoader;
 

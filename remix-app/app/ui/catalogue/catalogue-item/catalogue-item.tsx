@@ -4,7 +4,7 @@ import styles from './catalogue-item.css';
 import desktopStyles from './catalogue-item.d.css';
 
 export const links = () => [
-  { rel: 'stylesheet', href: links },
+  { rel: 'stylesheet', href: styles },
   {
     rel: 'stylesheet',
     href: desktopStyles,
