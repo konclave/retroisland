@@ -1,4 +1,8 @@
 import { BREAKPOINT_DESKTOP } from '~/config';
+import {
+  CommunityNavigation,
+  links as communityNavigationLinks,
+} from './community-navigation';
 import styles from './facade.css';
 import desktopStyles from './facade.d.css';
 
@@ -20,22 +24,7 @@ export const Facade = () => {
           Авторский сайт о вокально-инструментальных ансамблях и музыке
           советской эпохи
         </p>
-        <nav className="community-navigation-wrap">
-          <ul className="community-navigation">
-            <li className="community-navigation__item">
-              <a href="/guestbook/">Гостевая книга</a>
-            </li>
-            <li className="community-navigation__item">
-              <a
-                target="_blank"
-                rel="nofollow, noindex, noreferrer"
-                href="http://nostalgie30-80.com/forum/login.php?0"
-              >
-                Форум «Ностальгия»
-              </a>
-            </li>
-          </ul>
-        </nav>
+        <CommunityNavigation />
       </div>
     </section>
   );
