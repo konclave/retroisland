@@ -1,7 +1,3 @@
-.padded-wrap {
-  padding: 0 var(--section-side-padding);
-}
-
 .facade {
   height: 100vh;
   background: #9dbbc5 url('/img/vynil.svg') right bottom no-repeat;

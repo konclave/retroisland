@@ -164,14 +164,15 @@ h1 {
   margin: 0 0 calc(2 * var(--section-top-padding-base));
 }
 
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
+.padded-wrap {
+  padding: 0 var(--section-side-padding);
+}
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 800px) {
+  .padded-wrap {
+    padding: var(--section-top-padding-base) var(--section-side-padding)
+      var(--section-side-padding);
+  }
 }
 
 @media print,
