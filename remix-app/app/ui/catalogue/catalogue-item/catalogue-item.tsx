@@ -1,3 +1,4 @@
+import { Link } from '@remix-run/react';
 import { BREAKPOINT_DESKTOP } from '~/config';
 import styles from './catalogue-item.css';
 import desktopStyles from './catalogue-item.d.css';
@@ -18,9 +19,9 @@ interface CatalogueItemProps {
 export const CatalogueItem = ({ item }: CatalogueItemProps) => {
   return (
     <div className="catalogue-entry">
-      <a href={item.link}>
+      <Link to={item.slug}>
         <h2 className="catalogue-entry__title">{item.title}</h2>
-      </a>
+      </Link>
     </div>
   );
 };

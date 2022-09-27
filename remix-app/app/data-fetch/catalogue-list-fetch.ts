@@ -31,7 +31,7 @@ export async function fetchCatalogueList(): Promise<CatalogueEntryDto[]> {
     // images:
     shortDescription: item.fields.shortDescription,
     description: item.fields.description,
-    // albums: item.fields.albums,
+    albums: item.fields.albums,
     acknowledgements: item.fields.acknowledgements,
     // tracks: item.fields.tracks?.map((track) => ({
     //   id: track.sys.id,
