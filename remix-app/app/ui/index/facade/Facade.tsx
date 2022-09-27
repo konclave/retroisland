@@ -1,4 +1,5 @@
 import { BREAKPOINT_DESKTOP } from '~/config';
+import { Header, links as headerLinks } from '../../shared/header';
 import {
   CommunityNavigation,
   links as communityNavigationLinks,
@@ -13,17 +14,15 @@ export const links = () => [
     href: desktopStyles,
     media: `(min-width: ${BREAKPOINT_DESKTOP})`,
   },
+  ...headerLinks(),
+  ...communityNavigationLinks(),
 ];
 
 export const Facade = () => {
   return (
     <section className="facade">
       <div className="padded-wrap">
-        <h1 className="main-title main-title_index">Васильевский остров</h1>
-        <p className="main-subtitle">
-          Авторский сайт о вокально-инструментальных ансамблях и музыке
-          советской эпохи
-        </p>
+        <Header />
         <CommunityNavigation />
       </div>
     </section>

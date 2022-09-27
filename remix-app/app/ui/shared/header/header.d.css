@@ -1,0 +1,32 @@
+.main-title {
+  margin: 0 0 8px;
+  padding: 0;
+  font: normal 3rem/1.166 var(--font-family-header);
+  letter-spacing: -0.005em;
+  color: var(--color-main);
+  text-transform: uppercase;
+}
+
+.main-title__section {
+  display: none;
+}
+
+.main-title__website,
+.main-title__website:link,
+.main-title__website:visited,
+.main-title__website:hover,
+.main-title__website:active {
+  display: block;
+  text-decoration: none;
+  color: var(--color-main);
+}
+
+.main-subtitle {
+  font: normal var(--font-size-header) / 1.166 var(--font-family-header);
+  display: block;
+  color: var(--color-text-dark-gray);
+  font: normal 0.875rem/1.715 var(--font-family-text);
+  letter-spacing: 0.01em;
+  margin: 0;
+  padding: 0;
+}
