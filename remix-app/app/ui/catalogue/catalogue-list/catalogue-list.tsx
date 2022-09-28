@@ -1,5 +1,6 @@
 import { BREAKPOINT_DESKTOP } from '~/config';
 import { CatalogueItem, links as catalogueItemLinks } from '../catalogue-item';
+import type { CatalogueEntryDto } from '~/data-fetch';
 import styles from './catalogue-list.css';
 import desktopStyles from './catalogue-list.d.css';
 
@@ -14,7 +15,7 @@ export const links = () => [
 ];
 
 interface CatalogueListProps {
-  items: any[];
+  items: CatalogueEntryDto[];
 }
 
 export const CatalogueList = ({ items }: CatalogueListProps) => {

@@ -16,6 +16,11 @@ interface CatalogueFormProps {
 }
 
 export const CatalogueForm = ({ onSearch }: CatalogueFormProps) => {
+  function handleSearchChange(e: React.ChangeEvent) {
+    const needle = e.target.value;
+    onSearch(needle);
+  }
+
   return (
     <form className="catalogue-form">
       <div className="catalogue-form__group">
@@ -24,6 +29,7 @@ export const CatalogueForm = ({ onSearch }: CatalogueFormProps) => {
           type="text"
           placeholder="Поиск исполнителя"
           inputMode="search"
+          onChange={handleSearchChange}
         />
       </div>
       {/* <div className="catalogue-form__group">

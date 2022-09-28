@@ -1,5 +1,6 @@
 import { Link } from '@remix-run/react';
 import { BREAKPOINT_DESKTOP } from '~/config';
+import type { CatalogueEntryDto } from '~/data-fetch';
 import styles from './catalogue-item.css';
 import desktopStyles from './catalogue-item.d.css';
 
@@ -13,7 +14,7 @@ export const links = () => [
 ];
 
 interface CatalogueItemProps {
-  item: any;
+  item: CatalogueEntryDto;
 }
 
 export const CatalogueItem = ({ item }: CatalogueItemProps) => {
