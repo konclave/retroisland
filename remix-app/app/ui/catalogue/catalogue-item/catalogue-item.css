@@ -1,7 +1,42 @@
 .catalogue-entry {
-  background-image: url('/img/catalogue-bg-01.svg');
   border-radius: 22px;
   overflow: hidden;
+}
+
+:nth-child(9n + 1) > .catalogue-entry {
+  background-image: url('/img/catalogue-bg-01.svg');
+}
+
+:nth-child(9n + 2) > .catalogue-entry {
+  background-image: url('/img/catalogue-bg-02.svg');
+}
+
+:nth-child(9n + 3) > .catalogue-entry {
+  background-image: url('/img/catalogue-bg-03.svg');
+}
+
+:nth-child(9n + 4) > .catalogue-entry {
+  background-image: url('/img/catalogue-bg-02.svg');
+}
+
+:nth-child(9n + 5) > .catalogue-entry {
+  background-image: url('/img/catalogue-bg-03.svg');
+}
+
+:nth-child(9n + 6) > .catalogue-entry {
+  background-image: url('/img/catalogue-bg-01.svg');
+}
+
+:nth-child(9n + 7) > .catalogue-entry {
+  background-image: url('/img/catalogue-bg-03.svg');
+}
+
+:nth-child(9n + 8) > .catalogue-entry {
+  background-image: url('/img/catalogue-bg-01.svg');
+}
+
+:nth-child(9n + 9) > .catalogue-entry {
+  background-image: url('/img/catalogue-bg-02.svg');
 }
 
 .catalogue-entry a {
