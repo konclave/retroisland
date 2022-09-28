@@ -1,5 +1,5 @@
-import { BREAKPOINT_DESKTOP } from '~/config';
-import { Header, links as headerLinks } from '../../shared/header';
+import { getLinks } from '~/utils';
+import { Header, links as headerLinks } from '~/ui/shared/header';
 import {
   CommunityNavigation,
   links as communityNavigationLinks,
@@ -7,13 +7,10 @@ import {
 import styles from './facade.css';
 import desktopStyles from './facade.d.css';
 
+const localLinks = getLinks(styles, desktopStyles);
+
 export const links = () => [
-  { rel: 'stylesheet', href: styles },
-  {
-    rel: 'stylesheet',
-    href: desktopStyles,
-    media: `(min-width: ${BREAKPOINT_DESKTOP})`,
-  },
+  ...localLinks(),
   ...headerLinks(),
   ...communityNavigationLinks(),
 ];

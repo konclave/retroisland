@@ -1,0 +1,11 @@
+.catalogue-item-acknowledgements {
+  border-radius: 1rem;
+}
+
+.catalogue-item-acknowledgements__title {
+  font-size: var(--font-size-subheader);
+}
+
+.catalogue-item-acknowledgements__text {
+  line-height: 157%;
+}

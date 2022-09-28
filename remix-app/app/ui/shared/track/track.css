@@ -1,0 +1,15 @@
+.track {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.track-wrap {
+  display: flex;
+  gap: 15px;
+}
+
+.track__description {
+  padding-left: 32px;
+  font-size: 1em;
+}

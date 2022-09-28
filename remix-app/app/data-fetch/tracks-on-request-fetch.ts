@@ -1,4 +1,9 @@
-import type { IRequestedItemFields } from '~/types/generated/contentful';
+import type {
+  IRequestedItemFields,
+  IRequestedTrackFields,
+  IRequestedTrack,
+} from '~/types/generated/contentful';
+import { Entry } from 'contentful';
 import { client } from './contentful-client';
 
 export interface RequestedItemDto {
@@ -9,39 +14,39 @@ export interface RequestedItemDto {
   tracks: RequestedTrackItemDto[];
 }
 
-export interface RequestedTrackItemDto {
+export type RequestedTrackItemDto = IRequestedTrackFields & {
   id: string;
-  title: string;
-  length?: string;
-  link?: string;
-  youtube?: string;
-  ok?: string;
-}
+};
 
 export async function fetchRequested() {
   const data = await client.getEntries<IRequestedItemFields>({
     content_type: 'requestedItem',
     select: 'sys.id,sys.createdAt,fields',
+    order: 'sys.createdAt',
+    include: 2,
   });
 
-  return data.items
-    .sort(
-      (a, z) =>
-        new Date(z.sys.createdAt).getTime() -
-        new Date(a.sys.createdAt).getTime()
-    )
-    .map((item) => ({
-      id: item.sys.id,
-      artist: item.fields.artist,
-      album: item.fields.album,
-      title: item.fields.title,
-      tracks: item.fields.tracks?.map((track) => ({
-        id: track.sys.id,
-        title: track.fields.title,
-        link: track.fields.link || '',
-        length: track.fields.length || '',
-        youtube: track.fields.youtube || '',
-        ok: track.fields.ok || '',
-      })),
-    }));
+  return data.items.map(mapRequestedItemDto);
+}
+
+function mapRequestedItemDto(item: Entry<IRequestedItemFields>) {
+  return {
+    id: item.sys.id,
+    artist: item.fields.artist,
+    album: item.fields.album,
+    title: item.fields.title,
+    tracks: item.fields.tracks?.map(mapTrackToDto),
+  };
+}
+
+export function mapTrackToDto(track: IRequestedTrack): RequestedTrackItemDto {
+  return {
+    id: track.sys.id,
+    title: track.fields.title,
+    link: track.fields.link || '',
+    length: track.fields.length || '',
+    youtube: track.fields.youtube || '',
+    ok: track.fields.ok || '',
+    shortDescription: track.fields.shortDescription || '',
+  };
 }

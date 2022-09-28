@@ -1,0 +1,49 @@
+.catalogue-item-about {
+  padding-top: calc(2 * var(--section-top-padding-base));
+  padding-bottom: calc(3 * var(--section-top-padding-base));
+  background: var(--color-bg-catalogue-item);
+}
+
+.catalogue-item-about__image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: var(--section-side-padding);
+}
+
+.catalogue-item-about__person-desc {
+  font-family: var(--font-family-text);
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--font-size-intense);
+  line-height: 133%;
+  color: var(--color-subtitle-catalogue);
+  margin: 0;
+}
+
+.catalogue-item-about__name {
+  font-family: var(--font-family-header);
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--font-size-header);
+  line-height: 125%;
+  letter-spacing: -0.005em;
+  text-transform: uppercase;
+  color: var(--color-text-dark-gray);
+  margin-top: var(--section-top-padding-base);
+  margin-bottom: var(--section-side-padding);
+}
+
+.catalogue-item-about__text {
+  color: #4b4b4b;
+  font-family: var(--font-family-text);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 162%;
+  margin-bottom: calc(3 * var(--section-top-padding-base));
+}
+
+.catalogue-item-about__text_collapsed {
+  max-height: 350px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

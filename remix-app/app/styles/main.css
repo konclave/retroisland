@@ -52,6 +52,18 @@ button {
   cursor: pointer;
 }
 
+a:link,
+a:visited {
+  color: inherit;
+  text-decoration: underline;
+}
+
+a:hover,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -173,6 +185,23 @@ h1 {
   margin-bottom: calc(5 * var(--section-top-padding-base));
 }
 
+.content-section {
+  font-size: 0.875rem;
+  padding: calc(2 * var(--section-top-padding-base)) var(--section-side-padding)
+    calc(5 * var(--section-top-padding-base));
+}
+
+.section-title {
+  font-family: var(--font-family-header);
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--font-size-base);
+  line-height: 150%;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  color: var(--color-text);
+}
+
 @media only screen and (min-width: 800px) {
   .padded-wrap {
     padding: var(--section-top-padding-base) var(--section-side-padding)
@@ -181,6 +210,14 @@ h1 {
   .inner-page-wrap {
     margin-top: 0;
     margin-bottom: 0;
+  }
+
+  .content-section {
+    padding: 1.5rem;
+  }
+
+  .section-title {
+    font-size: var(--font-size-header);
   }
 }
 

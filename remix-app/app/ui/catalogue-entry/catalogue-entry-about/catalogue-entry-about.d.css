@@ -1,0 +1,39 @@
+.catalogue-item-about {
+  display: grid;
+  grid-template-columns: 453px 1fr;
+  grid-template-rows: repeat(100, min-content);
+  column-gap: calc(var(--section-side-padding) / 2);
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+.catalogue-item-about__image {
+  box-sizing: border-box;
+  grid-column: 1;
+  grid-row: 1 / -1;
+}
+
+.catalogue-item-about__person-desc {
+  font-size: 1rem;
+  margin: 0 0 1em;
+}
+
+.catalogue-item-about__name {
+  font-size: 4.5rem;
+  line-height: 111%;
+  margin: 0 0 0.333em;
+  letter-spacing: -0.005em;
+  text-transform: uppercase;
+  color: #192c31;
+}
+
+.catalogue-item-about__text {
+  font-size: 1rem;
+  line-height: 162%;
+  color: #4b4b4b;
+  margin: 0 0 calc(var(--section-side-padding) / 4);
+}
+
+.catalogue-item-about__play-btn {
+  justify-self: start;
+}

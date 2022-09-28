@@ -20,7 +20,8 @@
     "ilyabirman-jouele": "^3.0.6",
     "jquery": "^3.6.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-lite-youtube-embed": "^2.3.1"
   },
   "devDependencies": {
     "@contentful/rich-text-types": "^15.12.1",

@@ -1,18 +1,13 @@
-import { BREAKPOINT_DESKTOP } from '~/config';
+import { getLinks } from '~/utils';
 import { CatalogueItem, links as catalogueItemLinks } from '../catalogue-item';
 import type { CatalogueEntryDto } from '~/data-fetch';
 import styles from './catalogue-list.css';
 import desktopStyles from './catalogue-list.d.css';
+import tabletStyles from './catalogue-list.tablet.css';
 
-export const links = () => [
-  { rel: 'stylesheet', href: styles },
-  {
-    rel: 'stylesheet',
-    href: desktopStyles,
-    media: `(min-width: ${BREAKPOINT_DESKTOP}`,
-  },
-  ...catalogueItemLinks(),
-];
+const localLinks = getLinks(styles, desktopStyles, tabletStyles);
+
+export const links = () => [...localLinks(), ...catalogueItemLinks()];
 
 interface CatalogueListProps {
   items: CatalogueEntryDto[];

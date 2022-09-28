@@ -24,6 +24,7 @@ specifiers:
   prettier: ^2.7.1
   react: ^18.2.0
   react-dom: ^18.2.0
+  react-lite-youtube-embed: ^2.3.1
   typescript: ^4.7.4
 
 dependencies:
@@ -40,6 +41,7 @@ dependencies:
   jquery: 3.6.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  react-lite-youtube-embed: 2.3.1_biqbaboplfbrettd7655fr4n2y
 
 devDependencies:
   '@contentful/rich-text-types': 15.12.1
@@ -6245,6 +6247,16 @@ packages:
   /react-is/17.0.2:
     resolution: {integrity: sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==}
     dev: true
+
+  /react-lite-youtube-embed/2.3.1_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-14YlE6iZPHwqaQqSmwfI614qumdVAICU9PFmk34vcGnOfiixFjaATGkOfUd2TA6pFpVMP8DT2/l9ebu5/aKeag==}
+    peerDependencies:
+      react: '>=16.0.8'
+      react-dom: '>=16.0.8'
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    dev: false
 
   /react-router-dom/6.3.0_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-uaJj7LKytRxZNQV8+RbzJWnJ8K2nPsOOEuX7aQstlMZKQT0164C+X2w6bnkqU3sjtLvpd5ojrezAyfZ1+0sStw==}

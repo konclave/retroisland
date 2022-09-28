@@ -16,7 +16,7 @@ interface CatalogueFormProps {
 }
 
 export const CatalogueForm = ({ onSearch }: CatalogueFormProps) => {
-  function handleSearchChange(e: React.ChangeEvent) {
+  function handleSearchChange(e: React.ChangeEvent<HTMLInputElement>) {
     const needle = e.target.value;
     onSearch(needle);
   }
