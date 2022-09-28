@@ -168,10 +168,19 @@ h1 {
   padding: 0 var(--section-side-padding);
 }
 
+.inner-page-wrap {
+  margin-top: calc(4 * var(--section-top-padding-base));
+  margin-bottom: calc(5 * var(--section-top-padding-base));
+}
+
 @media only screen and (min-width: 800px) {
   .padded-wrap {
     padding: var(--section-top-padding-base) var(--section-side-padding)
       var(--section-side-padding);
+  }
+  .inner-page-wrap {
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }
 
