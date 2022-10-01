@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Link } from '@remix-run/react';
+import { Link, useLocation } from '@remix-run/react';
 import { BREAKPOINT_DESKTOP } from '~/config';
 import cx from 'classnames';
 
@@ -19,6 +19,11 @@ export const links = () => [
 
 export const Navigation = () => {
   const [isVisible, setIsVisible] = useState<Boolean>(false);
+  let location = useLocation();
+
+  useEffect(() => {
+    setIsVisible(false);
+  }, [location]);
 
   const toggleNavigation = () => {
     setIsVisible(!isVisible);
