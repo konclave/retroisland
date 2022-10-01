@@ -18,6 +18,10 @@ import { About, links as aboutLinks } from '~/ui/shared/about';
 import { BREAKPOINT_DESKTOP } from '~/config';
 
 export const links = () => [
+  { rel: 'icon', href: '/favicon.ico', sizes: 'any' },
+  { rel: 'icon', href: '/icon.svg', type: 'image/svg+xml' },
+  { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
+  { rel: 'manifest', href: '/manifest.webmanifest' },
   { rel: 'stylesheet', href: normalizeStyles },
   { rel: 'stylesheet', href: colorsStyles },
   { rel: 'stylesheet', href: fontsStyles },
@@ -33,7 +37,7 @@ export const links = () => [
 
 export const meta: MetaFunction = () => ({
   charset: 'utf-8',
-  title: 'Retroisland',
+  title: 'ВАСИЛЬЕВСКИЙ ОСТРОВ (Музыка прошлых лет.)',
   viewport: 'width=device-width,initial-scale=1',
 });
 
