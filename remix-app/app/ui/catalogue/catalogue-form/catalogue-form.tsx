@@ -1,4 +1,6 @@
+import { useState } from 'react';
 import { BREAKPOINT_DESKTOP } from '~/config';
+import { CatalogueOrder } from '../catalogue';
 import styles from './catalogue-form.css';
 import desktopStyles from './catalogue-form.d.css';
 
@@ -13,12 +15,26 @@ export const links = () => [
 
 interface CatalogueFormProps {
   onSearch: (needle: string) => void;
+  onOrderChange: (order: CatalogueOrder) => void;
 }
 
-export const CatalogueForm = ({ onSearch }: CatalogueFormProps) => {
+export const CatalogueForm = ({
+  onSearch,
+  onOrderChange,
+}: CatalogueFormProps) => {
+  const [search, setSearch] = useState<string>('');
+  const [order, setOrder] = useState<string>('');
+
   function handleSearchChange(e: React.ChangeEvent<HTMLInputElement>) {
     const needle = e.target.value;
     onSearch(needle);
+    setSearch(needle);
+  }
+
+  function handleOrderChange(e: React.ChangeEvent<HTMLSelectElement>) {
+    const order = e.target.value as CatalogueOrder;
+    onOrderChange(order);
+    setOrder(order);
   }
 
   return (
@@ -30,19 +46,31 @@ export const CatalogueForm = ({ onSearch }: CatalogueFormProps) => {
           placeholder="Поиск исполнителя"
           inputMode="search"
           onChange={handleSearchChange}
+          value={search}
         />
       </div>
-      {/* <div className="catalogue-form__group">
-          <select placeholder="Тип" className="catalogue-form__sort-input" id="catalogue-sort-type">
-              <option>Плейлисты</option>
-              <option>Исполнители</option>
-          </select>
-          <select placeholder="Сортировать" className="catalogue-form__sort-input" id="catalogue-order">
-              <option>По дате добавления</option>
-              <option>А→Я</option>
-              <option>Я→А</option>
-          </select>
-      </div> */}
+      <div className="catalogue-form__group">
+        {/*<select
+          placeholder="Тип"
+          className="catalogue-form__sort-input"
+          id="catalogue-sort-type"
+        >
+          <option>Плейлисты</option>
+          <option>Исполнители</option>
+        </select>*/}
+        <select
+          placeholder="Сортировать"
+          className="catalogue-form__sort-input"
+          onChange={handleOrderChange}
+          id="catalogue-order"
+          value={order}
+        >
+          <option>Сортировать</option>
+          <option value="createdAt">по дате добавления</option>
+          <option value="titleDesc">по алфавиту А → Я</option>
+          <option value="titleAsc">по алфавиту Я → А</option>
+        </select>
+      </div>
     </form>
   );
 };

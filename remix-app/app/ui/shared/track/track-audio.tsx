@@ -8,6 +8,7 @@ export const TrackAudio = ({ item }: { item: RequestedTrackItemDto }) => {
       window.jQuery(ref.current).jouele();
     }
   }, [ref.current]);
+
   return (
     <>
       <div className="track-wrap">
@@ -22,6 +23,7 @@ export const TrackAudio = ({ item }: { item: RequestedTrackItemDto }) => {
           {item.title}
         </a>
       </div>
+
       {item.shortDescription && (
         <small className="track__description">{item.shortDescription}</small>
       )}

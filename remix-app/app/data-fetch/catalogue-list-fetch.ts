@@ -14,6 +14,7 @@ import { client } from './contentful-client';
 
 export interface CatalogueEntryDto {
   id: string;
+  createdAt: IsoDate;
   title: string;
   slug: string;
   images?: Asset[];
@@ -37,8 +38,9 @@ export type LinkDto = IOuterLinkFields & {
 export async function fetchCatalogueList(): Promise<CatalogueEntryDto[]> {
   const data = await client.getEntries<ICatalogueEntryFields>({
     content_type: 'catalogueEntry',
-    select: 'sys.id,fields',
+    select: 'sys.id,sys.createdAt,fields',
     include: 2,
+    order: 'sys.createdAt',
   });
 
   return data.items.map(mapToDto);
@@ -48,6 +50,7 @@ export const mapToDto = (
   item: Entry<ICatalogueEntryFields>
 ): CatalogueEntryDto => ({
   id: item.sys.id,
+  createdAt: item.sys.createdAt,
   title: item.fields.title || '',
   slug: item.fields.slug,
   images: item.fields.images,
