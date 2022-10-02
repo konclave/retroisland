@@ -4,8 +4,13 @@ import type { RequestedTrackItemDto } from '~/data-fetch';
 export const TrackAudio = ({ item }: { item: RequestedTrackItemDto }) => {
   const ref = useRef<HTMLAnchorElement | null>(null);
   useEffect(() => {
-    if (typeof document !== 'undefined' && window.jQuery && ref.current) {
-      window.jQuery(ref.current).jouele();
+    if (
+      typeof document !== 'undefined' &&
+      ref.current &&
+      (window as any).jQuery &&
+      (window as any).jQuery(ref.current).jouele
+    ) {
+      (window as any).jQuery(ref.current).jouele();
     }
   }, [ref.current]);
 
