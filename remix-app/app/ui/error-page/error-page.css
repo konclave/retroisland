@@ -1,30 +1,22 @@
-body,
-html {
-  height: 100%;
-  min-height: 100%;
-}
-
 .error-page {
   display: grid;
-  box-sizing: border-box;
-  height: 100vh;
-  background-color: #a5a14c;
-  background: #a5a14c url('/img/404.svg') left bottom no-repeat;
-  background-size: max(85vh, 450px);
-  min-height: 650px;
   grid-template-rows: min-content 1fr;
-  padding-bottom: var(--section-top-padding-base);
+  box-sizing: border-box;
+  background: none;
+  background-color: #a5a14c;
+  padding: 1.5rem 2rem;
+  height: 100vh;
 }
 
 .error-page-content {
   display: flex;
-  text-align: center;
-  padding: 0 4.5rem 0 calc(max(85vh, 450px) + 4.5rem);
-  justify-content: center;
-  align-items: center;
+  flex: 1;
+  padding: 3.875rem 0 0 0;
 }
 
 .error-page-content__inner {
+  display: flex;
+  flex-direction: column;
 }
 
 .error-page__title {
@@ -41,7 +33,7 @@ html {
 
 .error-page__title strong {
   display: block;
-  font-size: 8rem;
+  font-size: 4rem;
   color: #000;
   line-height: 1.2;
   font-weight: 400;
@@ -53,7 +45,6 @@ html {
   font-weight: 400;
   font-size: var(--font-size-base);
   line-height: 162%;
-  text-align: center;
   color: #000000;
   margin: 0;
 }
@@ -67,7 +58,8 @@ html {
   border-radius: 16px;
   color: #fff;
   padding: 20px 42px;
-  margin: 3rem 0 0 0;
+  margin: auto 0 0 0;
+  text-align: center;
 }
 
 .error-page__link:link,

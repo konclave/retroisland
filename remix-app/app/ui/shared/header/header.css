@@ -20,6 +20,17 @@
   display: none;
 }
 
+.main-title__website:link,
+.main-title__website:visited,
+.main-title__website:hover,
+.main-title__website:active {
+  text-decoration: none;
+}
+
+.main-title__website_forced {
+  display: block;
+}
+
 .main-subtitle {
   display: none;
 }

@@ -1,5 +1,6 @@
 import { useLocation, Link } from '@remix-run/react';
 import { BREAKPOINT_DESKTOP } from '~/config';
+import cx from 'classnames';
 import styles from './header.css';
 import desktopStyles from './header.d.css';
 
@@ -14,18 +15,24 @@ export const links = () => [
 
 interface HeaderProps {
   title?: string;
+  force?: boolean;
 }
 
-export const Header = ({ title }: HeaderProps) => {
+export const Header = ({ title, force }: HeaderProps) => {
   const location = useLocation();
   const isIndex = location.pathname === '/';
   return (
     <>
-      <h1 className={'main-title' + (isIndex ? ' main-title_index' : '')}>
+      <h1 className={cx('main-title', { 'main-title_index': isIndex })}>
         {isIndex ? (
           'Васильевский остров'
         ) : (
-          <Link to="/" className="main-title__website">
+          <Link
+            to="/"
+            className={cx('main-title__website', {
+              'main-title__website_forced': force,
+            })}
+          >
             Васильевский остров
           </Link>
         )}
