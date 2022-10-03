@@ -49,6 +49,6 @@
 }
 
 .social-links {
-  gap: unset;
-  justify-content: space-between;
+  gap: 1rem;
+  justify-content: start;
 }
