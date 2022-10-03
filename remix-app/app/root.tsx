@@ -69,7 +69,7 @@ export function CatchBoundary() {
   return (
     <html lang="ru-Ru">
       <head>
-        <title>Oops!</title>
+        <title>ВАСИЛЬЕВСКИЙ ОСТРОВ (Музыка прошлых лет.)</title>
         <Meta />
         <Links />
       </head>
