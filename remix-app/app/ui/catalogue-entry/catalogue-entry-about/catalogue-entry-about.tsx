@@ -16,27 +16,29 @@ interface CatalogueEntryAboutProps {
   title: string;
   description?: Document;
   shortDescription?: string;
-  image?: Asset;
+  images?: Asset[];
+  tracksCount: number;
 }
 
 export const CatalogueEntryAbout = ({
   title,
   description,
   shortDescription,
-  image,
+  images,
+  tracksCount,
 }: CatalogueEntryAboutProps) => {
-  const joueleRef = useRef(null);
+  const joueleRef = useRef<any>(null);
   const [isPlaying, setIsPlaying] = useState<boolean>(false);
 
   function handlePlayClick() {
-    const isPlaying = $.Jouele.playlist.forEach((pl) => {
-      pl.forEach((track) => {
+    const isPlaying = ($ as any).Jouele.playlist.forEach((pl) => {
+      pl.forEach((track: any) => {
         track.pause();
       });
     });
 
     if (!joueleRef.current) {
-      joueleRef.current = $.Jouele.playlist[0][0].play();
+      joueleRef.current = ($ as any).Jouele.playlist[0][0].play();
       setIsPlaying(true);
     } else {
       if (joueleRef.current.isPlaying()) {
@@ -51,12 +53,17 @@ export const CatalogueEntryAbout = ({
 
   return (
     <article className="catalogue-item-about padded-wrap">
-      {image && (
-        <img
-          className="catalogue-item-about__image"
-          alt={image.fields.title || title}
-          src={image.fields.file.url}
-        />
+      {images?.length && (
+        <div className="catalogue-item-about__images">
+          {images.map((image) => (
+            <img
+              key={image.fields.file.url}
+              className="catalogue-item-about__image"
+              alt={image.fields.title || title}
+              src={image.fields.file.url}
+            />
+          ))}
+        </div>
       )}
       {shortDescription && (
         <h3 className="catalogue-item-about__person-desc">
@@ -69,11 +76,13 @@ export const CatalogueEntryAbout = ({
           {documentToReactComponents(description)}
         </main>
       )}
-      <span className="catalogue-item-about__play-btn">
-        <ButtonPlay onClick={handlePlayClick} isPlaying={isPlaying}>
-          Воспроизвести
-        </ButtonPlay>
-      </span>
+      {tracksCount > 0 && (
+        <span className="catalogue-item-about__play-btn">
+          <ButtonPlay onClick={handlePlayClick} isPlaying={isPlaying}>
+            Воспроизвести
+          </ButtonPlay>
+        </span>
+      )}
     </article>
   );
 };

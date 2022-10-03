@@ -1,0 +1,17 @@
+.catalogue-gallery {
+  background: var(--color-bg-catalogue-gray);
+  grid-row: 2 / span 1;
+  grid-column: 1 / -1;
+  margin-left: calc(-1 * var(--section-side-padding));
+  margin-right: calc(-1 * var(--section-side-padding));
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.catalogue-gallery:last-child {
+  margin-bottom: calc(-1 * var(--section-side-padding));
+}
+
+.catalogue-gallery .section-title {
+  margin-bottom: 3rem;
+}

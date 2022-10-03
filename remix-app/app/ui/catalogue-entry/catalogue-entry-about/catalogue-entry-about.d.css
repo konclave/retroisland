@@ -7,10 +7,11 @@
   padding-bottom: 120px;
 }
 
-.catalogue-item-about__image {
+.catalogue-item-about__images {
   box-sizing: border-box;
   grid-column: 1;
   grid-row: 1 / -1;
+  gap: calc(var(--section-side-padding) / 2);
 }
 
 .catalogue-item-about__person-desc {

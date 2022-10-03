@@ -1,3 +1,9 @@
 .catalogue-gallery {
   background: var(--color-bg-catalogue-gray);
+  padding-top: calc(2 * var(--section-top-padding-base));
+  padding-bottom: calc(2 * var(--section-top-padding-base));
+}
+
+.catalogue-gallery .section-title {
+  margin-top: 0;
 }

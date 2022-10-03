@@ -37,14 +37,25 @@ interface CatalogueEntryProps {
   entry: CatalogueEntryDto;
 }
 
+const GALLERY_IMAGES_START = 5;
+
 export const CatalogueEntry = ({ entry }: CatalogueEntryProps) => {
+  const images =
+    (entry.images?.length || 0) > GALLERY_IMAGES_START
+      ? entry.images?.slice(0, 1)
+      : entry.images;
+  const restImages =
+    (entry.images?.length || 0) > GALLERY_IMAGES_START
+      ? entry.images?.slice(1)
+      : undefined;
   return (
     <section className="catalogue-item">
       <CatalogueEntryAbout
         title={entry.title}
         description={entry.description}
-        image={entry.images?.at(0)}
+        images={images}
         shortDescription={entry.shortDescription}
+        tracksCount={entry.albums?.length || 0}
       />
       <div className="catalogue-main-container padded-wrap">
         <div className="catalogue-tracks-container">
@@ -53,7 +64,7 @@ export const CatalogueEntry = ({ entry }: CatalogueEntryProps) => {
             <Aknowledgements entries={entry.acknowledgements} />
             <Videos entries={entry.videos} />
           </div>
-          <Gallery images={entry.images?.slice(1)} />
+          <Gallery images={restImages} />
           <AdditionalInfo entries={entry.links} />
         </div>
       </div>

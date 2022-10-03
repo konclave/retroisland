@@ -1,8 +1,22 @@
 import type { Asset } from 'contentful';
 import { getLinks } from '~/utils';
 import styles from './gallery.css';
+import desktopStyles from './gallery.d.css';
+import fotoramaStyles from './fotorama.css';
 
-export const links = getLinks(styles);
+if (typeof document !== 'undefined') {
+  Promise.all([import('jquery')]).then(([{ default: jQuery }]) => {
+    (window as any).jQuery = (window as any).$ = jQuery;
+    require('./fotorama');
+  });
+}
+
+const localLinks = getLinks(styles, desktopStyles);
+
+export const links = () => [
+  { rel: 'stylesheet', href: fotoramaStyles },
+  ...localLinks(),
+];
 
 interface GalleryProps {
   images?: Asset[];
@@ -25,7 +39,11 @@ export const Gallery = ({ images, title }: GalleryProps) => {
         data-nav="thumbs"
       >
         {images.map((image) => (
-          <img src={image.fields.file.url} alt={image.fields.title || title} />
+          <img
+            src={image.fields.file.url}
+            alt={image.fields.title || title}
+            key={image.fields.file.url}
+          />
         ))}
       </div>
     </article>
