@@ -1,0 +1,10 @@
+.news-list {
+  margin: 0 0 2rem;
+  padding: 0;
+  list-style: none;
+}
+
+.news-list li {
+  margin: 0;
+  padding: 0;
+}

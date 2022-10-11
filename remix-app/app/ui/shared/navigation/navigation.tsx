@@ -21,6 +21,8 @@ export const Navigation = () => {
   const [isVisible, setIsVisible] = useState<Boolean>(false);
   let location = useLocation();
 
+  const isArchive = location.pathname === '/news-archive';
+
   useEffect(() => {
     setIsVisible(false);
   }, [location]);
@@ -40,7 +42,10 @@ export const Navigation = () => {
 
   return (
     <section
-      className={cx({ navigation: true, navigation_visible: isVisible })}
+      className={cx('navigation', {
+        navigation_visible: isVisible,
+        navigation_archive: isArchive,
+      })}
     >
       <button
         className="navigation-button navigation-open"

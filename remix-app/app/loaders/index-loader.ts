@@ -9,12 +9,12 @@ export interface IndexLoaderData {
 
 export const indexLoader: LoaderFunction = async () => {
   const [news, requested] = await Promise.all([
-    await fetchNews({ limit: 5 }),
+    await fetchNews(),
     await fetchRequested(),
   ]);
 
   return {
-    news,
+    news: news.items,
     requested,
   };
 };

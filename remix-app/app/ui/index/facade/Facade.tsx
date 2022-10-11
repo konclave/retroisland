@@ -19,7 +19,7 @@ export const Facade = () => {
   return (
     <section className="facade">
       <div className="padded-wrap">
-        <Header />
+        <Header layout="index" />
         <CommunityNavigation />
       </div>
     </section>

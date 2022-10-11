@@ -1,4 +1,4 @@
-import { useLocation, Link } from '@remix-run/react';
+import { Link } from '@remix-run/react';
 import { BREAKPOINT_DESKTOP } from '~/config';
 import cx from 'classnames';
 import styles from './header.css';
@@ -13,17 +13,29 @@ export const links = () => [
   },
 ];
 
+export type HeaderLayout = 'generic' | 'archive' | 'index';
+
 interface HeaderProps {
   title?: string;
   force?: boolean;
+  layout?: HeaderLayout;
 }
 
-export const Header = ({ title, force }: HeaderProps) => {
-  const location = useLocation();
-  const isIndex = location.pathname === '/';
+export const Header = ({
+  title,
+  force = false,
+  layout = 'generic',
+}: HeaderProps) => {
+  const isIndex = layout === 'index';
+  const isArchive = layout === 'archive';
   return (
     <>
-      <h1 className={cx('main-title', { 'main-title_index': isIndex })}>
+      <h1
+        className={cx('main-title', {
+          'main-title_index': isIndex,
+          'main-title_archive': isArchive,
+        })}
+      >
         {isIndex ? (
           'Васильевский остров'
         ) : (
@@ -38,7 +50,9 @@ export const Header = ({ title, force }: HeaderProps) => {
         )}
         {title && <span className="main-title__section">{title}</span>}
       </h1>
-      <p className="main-subtitle">
+      <p
+        className={cx('main-subtitle', { 'main-subtitle_archive': isArchive })}
+      >
         Авторский сайт о вокально-инструментальных ансамблях и музыке советской
         эпохи
       </p>

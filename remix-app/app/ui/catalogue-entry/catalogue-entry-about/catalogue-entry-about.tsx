@@ -2,7 +2,10 @@ import { useRef, useState } from 'react';
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 import type { Document } from '@contentful/rich-text-types';
 import type { Asset } from 'contentful';
-import { ButtonPlay, links as buttonPlayLinks } from '~/ui/shared/buttons';
+import {
+  ButtonPlay,
+  links as buttonPlayLinks,
+} from '~/ui/shared/buttons/button-play';
 import { getLinks } from '~/utils';
 
 import styles from './catalogue-entry-about.css';

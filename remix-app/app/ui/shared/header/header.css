@@ -5,6 +5,7 @@
   letter-spacing: 0.01em;
   text-transform: uppercase;
   width: 75%;
+  color: var(--color-text);
 }
 
 .main-title_index {
@@ -20,11 +21,18 @@
   display: none;
 }
 
+.main-title_archive .main-title__website:link,
+.main-title_archive .main-title__website:visited,
+.main-title_archive .main-title__website:hover,
+.main-title_archive .main-title__website:active {
+  color: var(--color-light);
+}
+
 .main-title__website:link,
 .main-title__website:visited,
 .main-title__website:hover,
 .main-title__website:active {
-  text-decoration: none;
+  color: var(--color-light);
 }
 
 .main-title__website_forced {
@@ -33,4 +41,9 @@
 
 .main-subtitle {
   display: none;
+  color: var(--color-text);
+}
+
+.main-subtitle_archive {
+  color: var(--color-light);
 }

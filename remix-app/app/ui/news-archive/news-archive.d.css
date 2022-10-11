@@ -1,0 +1,16 @@
+.news-archive {
+  background-color: var(--color-requested-header-bg-3);
+  color: var(--color-light);
+  display: grid;
+  grid-template-columns: 20% 1fr 20%;
+  padding-top: 2.5rem;
+  padding-bottom: 5rem;
+}
+
+.news-archive__list {
+  grid-column: 2 / span 1;
+}
+
+.news-archive .button-load-more {
+  grid-area: news;
+}

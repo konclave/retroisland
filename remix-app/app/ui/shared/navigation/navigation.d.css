@@ -49,3 +49,15 @@
   color: var(--color-text);
   border-color: rgba(0, 0, 0, 1);
 }
+
+.navigation_archive .main-navigation a:link,
+.navigation_archive .main-navigation a:visited {
+  color: var(--color-light);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.navigation_archive .main-navigation a:hover,
+.navigation_archive .main-navigation a:active {
+  color: var(--color-light);
+  border-color: rgba(255, 255, 255, 1);
+}
