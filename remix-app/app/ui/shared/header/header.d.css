@@ -33,4 +33,5 @@
 
 .main-subtitle_archive {
   color: var(--color-light);
+  background: var(--color-requested-header-bg-3);
 }

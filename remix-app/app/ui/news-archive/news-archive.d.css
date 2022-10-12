@@ -1,6 +1,9 @@
-.news-archive {
+.news-header {
   background-color: var(--color-requested-header-bg-3);
-  color: var(--color-light);
+}
+
+.news-archive {
+  color: var(--color-text);
   display: grid;
   grid-template-columns: 20% 1fr 20%;
   padding-top: 2.5rem;

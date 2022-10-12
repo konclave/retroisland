@@ -5,6 +5,7 @@ import { client } from './contentful-client';
 export interface NewsItemDto {
   id: string;
   text: string;
+  link: string;
   date: IsoDate;
 }
 
@@ -52,6 +53,7 @@ export async function fetchNews({
       .map((item) => ({
         id: item.sys.id,
         text: item.fields.text || '',
+        link: item.fields.link || '',
         date: item.fields.published || item.sys.createdAt,
       }))
       .sort((a, z) => new Date(z.date).getTime() - new Date(a.date).getTime()),

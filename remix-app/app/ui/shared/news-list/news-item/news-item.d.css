@@ -19,7 +19,6 @@
 .news-item time {
   font-size: var(--font-size-intense);
   color: inherit;
-  opacity: 1;
 }
 
 .news-item p {
@@ -63,5 +62,4 @@
 :first-child > .news-item_archive time {
   font-size: var(--font-size-intense);
   line-height: 150%;
-  color: #7b7b7b;
 }
