@@ -1,6 +1,7 @@
 import cx from 'classnames';
 import { Link } from '@remix-run/react';
 import { getLinks } from '~/utils';
+import { OptionalLink } from '~/ui/shared/optional-link';
 import { NewsDate } from './news-date';
 
 import type { NewsListLayout } from '../news-list';
@@ -19,13 +20,6 @@ export const links = getLinks(styles, desktopStyles);
 interface NewsItemProps {
   item: NewsEntry;
   layout: NewsListLayout;
-}
-
-const OptionalLink = ({link, children}) => {
-  if (link) {
-    return <Link to={link}>{children}</Link>
-  }
-  return children;
 }
 
 export const NewsItem = ({ item, layout }: NewsItemProps) => {
