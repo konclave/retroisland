@@ -1,18 +1,20 @@
 import type { LoaderFunction } from '@remix-run/node'; // or cloudflare/deno
-import { useLoaderData } from '@remix-run/react';
-import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
-import { aboutAuthorLoader } from '~/loaders';
 
-export const links = () => [];
+import { aboutAuthorLoader } from '~/loaders';
+import { Header } from '~/ui/shared/header';
+import { AboutAuthor, links as aboutAuthorLinks } from '~/ui/about-author';
+
+export const links = () => [...aboutAuthorLinks()];
 
 export const loader: LoaderFunction = aboutAuthorLoader;
 
-export default function AboutAuthor() {
-  const data = useLoaderData();
+export default function AboutAuthorPage() {
   return (
     <>
-      <h1>Об авторе</h1>
-      {documentToReactComponents(data.fields.text)}
+      <header className="padded-wrap">
+        <Header title="Об авторе" />
+      </header>
+      <AboutAuthor />
     </>
   );
 }
