@@ -1,0 +1,18 @@
+.about-author {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-author__image {
+  margin: 0 0 4rem 0;
+}
+
+.about-author > :nth-child(odd) {
+  padding-left: 25vw;
+  margin-left: auto;
+}
+
+.about-author > :nth-child(even) {
+  padding-right: 25vw;
+  margin-right: auto;
+}

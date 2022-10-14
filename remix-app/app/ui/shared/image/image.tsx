@@ -1,8 +1,9 @@
 import { getLinks } from '~/utils';
 
 import styles from './image.css';
+import desktopStyles from './image.d.css';
 
-export const links = getLinks(styles);
+export const links = getLinks(styles, desktopStyles);
 
 interface ImageProps {
   title?: string;

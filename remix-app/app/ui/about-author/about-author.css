@@ -13,3 +13,7 @@
 .about-author p {
   margin: 0 0 2.4em;
 }
+
+.about-author__image {
+  margin: 0 calc(-1 * var(--section-side-padding)) 2.4em;
+}

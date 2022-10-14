@@ -1,5 +1,5 @@
 .image-box {
-  margin: 0 calc(-1 * var(--section-side-padding)) 2.4em;
+.image-box {
   display: flex;
   flex-direction: column;
 }

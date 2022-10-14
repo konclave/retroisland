@@ -6,8 +6,9 @@ import { getLinks } from '~/utils';
 import { Image, links as imageLinks } from '~/ui/shared/image';
 
 import styles from './about-author.css';
+import desktopStyles from './about-author.d.css';
 
-const localLinks = getLinks(styles);
+const localLinks = getLinks(styles, desktopStyles);
 
 export const links = () => [...imageLinks(), ...localLinks()];
 
@@ -19,7 +20,11 @@ const options = {
       const mimeGroup = mimeType.split('/')[0];
       switch (mimeGroup) {
         case 'image':
-          return <Image title={title} src={file.url} />;
+          return (
+            <div className="about-author__image">
+              <Image title={title} src={file.url} />
+            </div>
+          );
       }
     },
   },
