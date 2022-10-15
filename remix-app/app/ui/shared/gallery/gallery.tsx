@@ -25,12 +25,14 @@ interface GalleryProps {
   images?: Asset[];
   defaultTitle?: string;
   withCaption?: boolean;
+  withNav?: boolean;
 }
 
 export const Gallery = ({
   images,
   defaultTitle,
   withCaption,
+  withNav,
 }: GalleryProps) => {
   const fotorama = useRef<HTMLDivElement>(null);
   useLayoutEffect(() => {
@@ -38,7 +40,16 @@ export const Gallery = ({
       return;
     }
 
-    ($(fotorama.current) as any).fotorama();
+    ($(fotorama.current) as any).fotorama({
+      allowfullscreen: 'native',
+      width: '100%',
+      ratio: '4/3',
+      nav: 'thumbs',
+      fit: 'cover',
+      ...(withNav && { arrows: true }),
+      thumbheight: 100,
+      thumbwidth: 100,
+    });
   }, []);
 
   if (!images?.length) {
@@ -46,15 +57,7 @@ export const Gallery = ({
   }
 
   return (
-    <div
-      ref={fotorama}
-      className="fotorama"
-      data-allowfullscreen="native"
-      data-width="100%"
-      data-ratio="4/3"
-      data-nav="thumbs"
-      data-fit="cover"
-    >
+    <div ref={fotorama} className="fotorama">
       {images.map((image) => (
         <img
           src={image.fields.file.url}
