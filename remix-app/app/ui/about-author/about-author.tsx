@@ -4,13 +4,18 @@ import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 import { documentToHtmlString } from '@contentful/rich-text-html-renderer';
 import { getLinks } from '~/utils';
 import { Image, links as imageLinks } from '~/ui/shared/image';
+import { Gallery, links as galleryLinks } from '~/ui/shared/gallery';
 
 import styles from './about-author.css';
 import desktopStyles from './about-author.d.css';
 
 const localLinks = getLinks(styles, desktopStyles);
 
-export const links = () => [...imageLinks(), ...localLinks()];
+export const links = () => [
+  ...imageLinks(),
+  ...galleryLinks(),
+  ...localLinks(),
+];
 
 const options = {
   renderNode: {
@@ -35,6 +40,11 @@ export const AboutAuthor = () => {
   return (
     <div className="padded-wrap about-author">
       {documentToReactComponents(data.fields.text, options)}
+      {data.fields.gallery && (
+        <div className="about-author__gallery">
+          <Gallery images={data.fields.gallery} withCaption />
+        </div>
+      )}
     </div>
   );
 };

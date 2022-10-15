@@ -17,7 +17,7 @@ import {
   AdditionalInfo,
   links as additionalInfoLinks,
 } from './additional-info';
-import { Gallery, links as galleryLinks } from './gallery';
+import { CatalogueGallery, links as galleryLinks } from './catalogue-gallery';
 
 import { Albums, links as albumLinks } from './albums';
 
@@ -64,7 +64,7 @@ export const CatalogueEntry = ({ entry }: CatalogueEntryProps) => {
             <Aknowledgements entries={entry.acknowledgements} />
             <Videos entries={entry.videos} />
           </div>
-          <Gallery images={restImages} />
+          <CatalogueGallery images={restImages} />
           <AdditionalInfo entries={entry.links} />
         </div>
       </div>
