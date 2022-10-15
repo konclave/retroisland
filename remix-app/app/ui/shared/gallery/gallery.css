@@ -7,3 +7,13 @@
 .catalogue-gallery .section-title {
   margin-top: 0;
 }
+
+.fotorama__caption {
+  font-family: var(--font-family-text);
+  font-size: var(--font-size-small);
+  color: var(--color-text);
+}
+
+.fotorama__caption__wrap {
+  background: rgba(247, 247, 247, 0.75);
+}

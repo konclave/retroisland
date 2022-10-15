@@ -42,7 +42,7 @@ export const AboutAuthor = () => {
       {documentToReactComponents(data.fields.text, options)}
       {data.fields.gallery && (
         <div className="about-author__gallery">
-          <Gallery images={data.fields.gallery} withCaption />
+          <Gallery images={data.fields.gallery} withCaption withNav />
         </div>
       )}
     </div>

@@ -15,3 +15,7 @@
 .catalogue-gallery .section-title {
   margin-bottom: 3rem;
 }
+
+.fotorama__caption {
+  font-size: var(--font-size-base);
+}
