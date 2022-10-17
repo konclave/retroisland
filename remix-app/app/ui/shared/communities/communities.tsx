@@ -1,20 +1,14 @@
 import { Link } from '@remix-run/react';
-import { BREAKPOINT_DESKTOP } from '~/config';
+
 import { IconNext } from '~/ui/shared/icons/icon-next';
+import { getLinks } from '~/utils';
+
 import styles from './communities.css';
 import desktopStyles from './communities.d.css';
 
-export const links = () => [
-  {
-    rel: 'stylesheet',
-    href: styles,
-  },
-  {
-    rel: 'stylesheet',
-    href: desktopStyles,
-    media: `(min-width: ${BREAKPOINT_DESKTOP})`,
-  },
-];
+const localLinks = getLinks(styles, desktopStyles);
+
+export const links = () => [...localLinks()];
 
 export const Communities = () => {
   return (

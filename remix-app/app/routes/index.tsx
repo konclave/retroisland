@@ -5,7 +5,10 @@ import {
   TracksOnRequest,
   links as TracksOnRequestLinks,
 } from '~/ui/index/tracks-on-request';
-import { Communities, links as communitiesLinks } from '~/ui/index/communities';
+import {
+  Communities,
+  links as communitiesLinks,
+} from '~/ui/shared/communities';
 import { indexLoader } from '~/loaders';
 
 export const links = () => [
