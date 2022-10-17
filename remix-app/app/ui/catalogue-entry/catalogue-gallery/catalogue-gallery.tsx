@@ -6,7 +6,7 @@ import styles from './catalogue-gallery.css';
 
 const localLinks = getLinks(styles);
 
-export const links = [...galleryLinks(), ...localLinks()];
+export const links = () => [...galleryLinks(), ...localLinks()];
 
 interface CatalogueGalleryProps {
   images?: Asset[];
