@@ -22,15 +22,13 @@ export const CommunitiesItem = ({
 }: CommunitiesItemProps) => {
   return (
     <article className="community">
-      <h3 className="community__title">{title}</h3>
-      <p className="community__text">{description}</p>
-      <a
-        className="community__link"
-        target="_blank"
-        rel="nofollow, noindex, noreferrer"
-        href={link}
-      >
-        <IconNext />
+      <a target="_blank" rel="nofollow, noindex, noreferrer" href={link}>
+        <h3 className="community__title">{title}</h3>
+        <p className="community__text">{description}</p>
+
+        <span className="community__link">
+          <IconNext />
+        </span>
       </a>
     </article>
   );

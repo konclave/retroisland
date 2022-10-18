@@ -1,0 +1,32 @@
+.about-project {
+  background: var(--color-bg-catalogue-gray);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-family-text);
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--font-size-intense);
+  line-height: 1.71;
+  color: var(--color-text);
+}
+
+.about-project p {
+  margin: 0 0 1.5rem;
+}
+
+.about-project-links {
+  padding-top: 1.5rem;
+  padding-bottom: 4rem;
+}
+
+.about-project-links__title {
+  font-family: var(--font-family-header);
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--font-size-subheader);
+  line-height: 1.33;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--color-text);
+  margin: 0 0 1em;
+}

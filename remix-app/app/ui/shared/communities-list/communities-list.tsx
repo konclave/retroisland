@@ -7,7 +7,8 @@ import {
   links as communitiesItemLinks,
 } from '~/ui/shared/communities-item';
 
-import { IOuterLink } from '~/types/generated/contentful';
+import type { Entry } from 'contentful';
+import type { IOuterLink } from '~/types/generated/contentful';
 
 import styles from './communities-list.css';
 import desktopStyles from './communities-list.d.css';
