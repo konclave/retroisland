@@ -10,9 +10,9 @@ const localLinks = getLinks(styles, desktopStyles);
 export const links = () => [...localLinks()];
 
 interface CommunitiesItemProps {
-  title: string;
+  title?: string;
   description?: string;
-  link: string;
+  link?: string;
 }
 
 export const CommunitiesItem = ({
@@ -24,14 +24,14 @@ export const CommunitiesItem = ({
     <article className="community">
       <h3 className="community__title">{title}</h3>
       <p className="community__text">{description}</p>
-      <Link
+      <a
         className="community__link"
         target="_blank"
         rel="nofollow, noindex, noreferrer"
-        to={link}
+        href={link}
       >
         <IconNext />
-      </Link>
+      </a>
     </article>
   );
 };
