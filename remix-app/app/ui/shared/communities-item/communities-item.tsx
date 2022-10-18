@@ -1,17 +1,25 @@
 import { Link } from '@remix-run/react';
 import { IconNext } from '~/ui/shared/icons/icon-next';
+import { getLinks } from '~/utils';
 
-interface CommunityItemProps {
+import styles from './communities-item.css';
+import desktopStyles from './communities-item.d.css';
+
+const localLinks = getLinks(styles, desktopStyles);
+
+export const links = () => [...localLinks()];
+
+interface CommunitiesItemProps {
   title: string;
   description?: string;
   link: string;
 }
 
-export const CommunityItem = ({
+export const CommunitiesItem = ({
   title,
   description,
   link,
-}: CommunityItemProps) => {
+}: CommunitiesItemProps) => {
   return (
     <article className="community">
       <h3 className="community__title">{title}</h3>

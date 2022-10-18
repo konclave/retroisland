@@ -5,12 +5,12 @@ import type {
   IOuterLinkFields,
   IOuterLink,
 } from '~/types/generated/contentful';
+import { mapTrackToDto } from './tracks-on-request-fetch';
+import { client } from './contentful-client';
+
 import type { Asset, Entry } from 'contentful';
 import type { Document } from '@contentful/rich-text-types';
-import { mapTrackToDto } from './tracks-on-request-fetch';
 import type { RequestedTrackItemDto } from './tracks-on-request-fetch';
-
-import { client } from './contentful-client';
 
 export interface CatalogueEntryDto {
   id: string;

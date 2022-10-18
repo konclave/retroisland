@@ -1,14 +1,11 @@
-import type { LoaderFunction } from '@remix-run/node'; // or cloudflare/deno
+import type { LoaderFunction } from '@remix-run/node';
 import { Facade, links as facadeLinks } from '~/ui/index/facade';
 import { News, links as newsLinks } from '~/ui/index/news';
 import {
   TracksOnRequest,
   links as TracksOnRequestLinks,
 } from '~/ui/index/tracks-on-request';
-import {
-  Communities,
-  links as communitiesLinks,
-} from '~/ui/shared/communities';
+import { Communities, links as communitiesLinks } from '~/ui/index/communities';
 import { indexLoader } from '~/loaders';
 
 export const links = () => [

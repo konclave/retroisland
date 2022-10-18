@@ -44,10 +44,12 @@ export const CatalogueEntry = ({ entry }: CatalogueEntryProps) => {
     (entry.images?.length || 0) > GALLERY_IMAGES_START
       ? entry.images?.slice(0, 1)
       : entry.images;
+
   const restImages =
     (entry.images?.length || 0) > GALLERY_IMAGES_START
       ? entry.images?.slice(1)
       : undefined;
+
   return (
     <section className="catalogue-item">
       <CatalogueEntryAbout

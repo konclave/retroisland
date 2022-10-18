@@ -37,7 +37,7 @@ export async function fetchNews({
 }: {
   limit?: number;
   page?: number;
-} = {}) {
+} = {}): Promise<NewsResponseDto> {
   const contentType = 'newsItem';
   const data = await client.getEntries<INewsItemFields>({
     limit,

@@ -18,7 +18,7 @@ export type RequestedTrackItemDto = IRequestedTrackFields & {
   id: string;
 };
 
-export async function fetchRequested() {
+export async function fetchRequested(): Promise<RequestedItemDto[]> {
   const data = await client.getEntries<IRequestedItemFields>({
     content_type: 'requestedItem',
     select: 'sys.id,sys.createdAt,fields',
@@ -29,13 +29,15 @@ export async function fetchRequested() {
   return data.items.map(mapRequestedItemDto);
 }
 
-function mapRequestedItemDto(item: Entry<IRequestedItemFields>) {
+function mapRequestedItemDto(
+  item: Entry<IRequestedItemFields>
+): RequestedItemDto {
   return {
     id: item.sys.id,
-    artist: item.fields.artist,
+    artist: item.fields.artist || '',
     album: item.fields.album,
     title: item.fields.title,
-    tracks: item.fields.tracks?.map(mapTrackToDto),
+    tracks: item.fields.tracks?.map(mapTrackToDto) || [],
   };
 }
 
