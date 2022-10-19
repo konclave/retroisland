@@ -2,20 +2,16 @@ import { useEffect, useState } from 'react';
 import { Link, useLocation } from '@remix-run/react';
 import { BREAKPOINT_DESKTOP } from '~/config';
 import cx from 'classnames';
+import { IconBurger } from '../icons/icon-burger';
+import { IconCross } from '../icons/icon-cross';
+import { getLinks } from '~/utils';
 
 import styles from './navigation.css';
 import stylesDesktop from './navigation.d.css';
-import { IconBurger } from '../icons/icon-burger';
-import { IconCross } from '../icons/icon-cross';
 
-export const links = () => [
-  { rel: 'stylesheet', href: styles },
-  {
-    rel: 'stylesheet',
-    href: stylesDesktop,
-    media: `(min-width: ${BREAKPOINT_DESKTOP})`,
-  },
-];
+const localLinks = getLinks(styles, stylesDesktop);
+
+export const links = () => [...localLinks()];
 
 export const Navigation = () => {
   const [isVisible, setIsVisible] = useState<Boolean>(false);
@@ -64,6 +60,9 @@ export const Navigation = () => {
           <IconCross className="navigation-close__icon" />
         </button>
         <ul className="main-navigation">
+          <li className="main-navigation__item">
+            <Link to="/">Главная</Link>
+          </li>
           <li className="main-navigation__item">
             <Link to="/catalogue">Каталог</Link>
           </li>
