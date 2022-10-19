@@ -14,6 +14,23 @@
   margin: 0 0 1.5rem;
 }
 
+.about-project p:nth-child(1) {
+  position: relative;
+  padding-bottom: 459px;
+}
+.about-project p:nth-child(1)::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: calc(-1 * var(--section-side-padding));
+  width: calc(min(100vw, 320px) - var(--section-side-padding));
+  height: 435px;
+  background-image: url(/img/vinyl-disk.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: auto 435px;
+}
+
 .about-project-links {
   padding-top: 1.5rem;
   padding-bottom: 4rem;
