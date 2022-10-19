@@ -1,0 +1,10 @@
+.about-project-links {
+  padding-top: 3.5rem;
+}
+
+.about-project-links__title {
+  padding-top: 0;
+  padding-bottom: 0;
+  /*margin-bottom: 1.5rem;*/
+  margin-bottom: 0;
+}
