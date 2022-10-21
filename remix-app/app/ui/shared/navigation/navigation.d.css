@@ -33,6 +33,10 @@
   border: none;
 }
 
+.main-navigation__item:nth-child(1) {
+  display: none;
+}
+
 .main-navigation a {
   display: block;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
