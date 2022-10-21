@@ -19,7 +19,7 @@
   z-index: 1;
 }
 
-.facade .padded-wrap {
+.facade > .padded-wrap {
   display: flex;
   flex-direction: column;
 }
