@@ -1,3 +1,17 @@
+.header_index {
+  display: contents;
+}
+
+.header_archive {
+  display: flex;
+  background-color: var(--color-requested-header-bg-3);
+}
+
+.header_project {
+  display: flex;
+  background-color: var(--color-bg-catalogue-gray);
+}
+
 .main-title {
   margin: 0;
   padding: 0;

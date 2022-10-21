@@ -18,9 +18,7 @@ export const loader: LoaderFunction = async ({ request }) => {
 export default function AboutAuthor() {
   return (
     <>
-      <header className="padded-wrap news-header">
-        <Header title="Архив новостей" layout="archive" />
-      </header>
+      <Header title="Архив новостей" layout="archive" />
       <NewsArchive />
     </>
   );

@@ -1,17 +1,13 @@
-import { BREAKPOINT_DESKTOP } from '~/config';
+import { getLinks } from '~/utils';
 import { IconEnvelope } from '../icons/icon-envelope';
 import { IconFb } from '../icons/icon-fb';
+
 import styles from './about.css';
 import desktopStyles from './about.d.css';
 
-export const links = () => [
-  { rel: 'stylesheet', href: styles },
-  {
-    rel: 'stylesheet',
-    href: desktopStyles,
-    media: `(min-width: ${BREAKPOINT_DESKTOP})`,
-  },
-];
+const localLinks = getLinks(styles, desktopStyles);
+
+export const links = () => [...localLinks()];
 
 export const About = () => {
   return (

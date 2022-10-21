@@ -11,9 +11,7 @@ export const loader: LoaderFunction = aboutAuthorLoader;
 export default function AboutAuthorPage() {
   return (
     <>
-      <header className="padded-wrap">
-        <Header title="Об авторе" />
-      </header>
+      <Header title="Об авторе" />
       <AboutAuthor />
     </>
   );

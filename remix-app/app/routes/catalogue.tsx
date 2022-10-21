@@ -13,9 +13,7 @@ export default function AboutAuthor() {
   const catalogueItems = useLoaderData<CatalogueEntryDto[]>();
   return (
     <>
-      <header className="padded-wrap">
-        <Header title="Медиатека" />
-      </header>
+      <Header title="Медиатека" />
       <Catalogue items={catalogueItems} />
     </>
   );

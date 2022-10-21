@@ -1,3 +1,19 @@
+.header_index {
+  display: contents;
+}
+
+.header_archive {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-requested-header-bg-3);
+}
+
+.header_project {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-light);
+}
+
 .main-title {
   margin: 0 0 8px;
   padding: 0;

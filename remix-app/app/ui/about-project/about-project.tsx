@@ -1,7 +1,8 @@
 import { useLoaderData } from '@remix-run/react';
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 import { getLinks } from '~/utils';
-import { Header } from '~/ui/shared/header';
+
+import { aboutProjectLoader } from '~/loaders';
 import {
   CommunitiesList,
   links as communitiesListLinks,
@@ -15,13 +16,10 @@ const localLinks = getLinks(styles, desktopStyles);
 export const links = () => [...communitiesListLinks(), ...localLinks()];
 
 export const AboutProject = () => {
-  const data = useLoaderData();
+  const data = useLoaderData<typeof aboutProjectLoader>();
   return (
     <>
       <section className="about-project padded-wrap">
-        <header>
-          <Header title="О проекте" />
-        </header>
         <div className="about-project__content">
           {documentToReactComponents(data.fields.text)}
         </div>

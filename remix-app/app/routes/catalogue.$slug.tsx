@@ -15,9 +15,7 @@ export default function CatalogueEntryPage() {
   const data = useLoaderData();
   return (
     <>
-      <header className="padded-wrap">
-        <Header title="" />
-      </header>
+      <Header title="" />
       <CatalogueEntry entry={data} />
     </>
   );

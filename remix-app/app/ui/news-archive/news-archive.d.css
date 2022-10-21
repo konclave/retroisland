@@ -1,7 +1,3 @@
-.news-header {
-  background-color: var(--color-requested-header-bg-3);
-}
-
 .news-archive {
   color: var(--color-text);
   display: grid;
