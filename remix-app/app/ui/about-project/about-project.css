@@ -8,6 +8,8 @@
   font-size: var(--font-size-intense);
   line-height: 1.71;
   color: var(--color-text);
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .about-project p {
@@ -18,6 +20,7 @@
   position: relative;
   padding-bottom: 459px;
 }
+
 .about-project p:nth-child(1)::after {
   content: '';
   position: absolute;
