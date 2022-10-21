@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Link, useLocation } from '@remix-run/react';
+import { NavLink, useLocation } from '@remix-run/react';
 import { BREAKPOINT_DESKTOP } from '~/config';
 import cx from 'classnames';
 import { IconBurger } from '../icons/icon-burger';
@@ -15,9 +15,11 @@ export const links = () => [...localLinks()];
 
 export const Navigation = () => {
   const [isVisible, setIsVisible] = useState<Boolean>(false);
+
   let location = useLocation();
 
   const isArchive = location.pathname === '/news-archive';
+  const activeClassName = 'main-navigation-link_active';
 
   useEffect(() => {
     setIsVisible(false);
@@ -61,16 +63,16 @@ export const Navigation = () => {
         </button>
         <ul className="main-navigation">
           <li className="main-navigation__item">
-            <Link to="/">Главная</Link>
+            <NavLink to="/">Главная</NavLink>
           </li>
           <li className="main-navigation__item">
-            <Link to="/catalogue">Каталог</Link>
+            <NavLink to="/catalogue">Каталог</NavLink>
           </li>
           <li className="main-navigation__item">
-            <Link to="/about-project">О проекте</Link>
+            <NavLink to="/about-project">О проекте</NavLink>
           </li>
           <li className="main-navigation__item">
-            <Link to="/about-author">Об авторе</Link>
+            <NavLink to="/about-author">Об авторе</NavLink>
           </li>
         </ul>
       </nav>
