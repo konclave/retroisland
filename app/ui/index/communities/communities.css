@@ -1,0 +1,13 @@
+.communities {
+  padding: 0 0 calc(1.5 * var(--section-side-padding));
+}
+
+.communities__title {
+  padding: 40px 10px 40px 16px;
+  margin: 0 0 var(--section-side-padding);
+  background: #f2e7aa;
+  font: normal var(--font-size-header) / 1.33 'Tenor Sans';
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--color-text);
+}

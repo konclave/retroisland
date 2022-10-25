@@ -1,0 +1,17 @@
+.requested-item {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.requested-item__toggle-visibility {
+  position: relative;
+  color: white;
+  margin: 0;
+  padding: var(--section-top-padding-base) var(--section-side-padding);
+  text-align: center;
+  font: normal var(--font-size-intense) / 1.2 'Tenor Sans';
+  text-transform: uppercase;
+  border: none;
+}

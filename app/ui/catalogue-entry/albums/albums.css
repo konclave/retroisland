@@ -1,0 +1,64 @@
+.catalogue-tracks {
+  padding: calc(2 * var(--section-top-padding-base)) var(--section-side-padding)
+    calc(5 * var(--section-top-padding-base));
+}
+
+.catalogue-album__title {
+  font-family: var(--font-family-header);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 133%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--color-text);
+  margin: 1.666em 0 1em;
+}
+.catalogue-album__subtitle {
+  font-family: var(--font-family-header);
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--font-size-intense);
+  line-height: 143%;
+  text-transform: uppercase;
+  color: var(--color-text-footer);
+  margin: 1.714em 0;
+}
+.catalogue-album__title + .catalogue-album__subtitle {
+  margin-top: -1em;
+}
+.catalogue-album__tracks {
+  margin: 1.5rem 0;
+}
+
+.button-show-more {
+  font-size: var(--font-size-intense);
+  font-family: var(--font-family-text);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 143%;
+  letter-spacing: -0.005em;
+  color: var(--color-text);
+  background: none;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+
+  border: 1px solid var(--color-text);
+  border-radius: 40px;
+}
+.button-show-more:hover,
+.button-show-more:focus {
+  color: var(--color-light);
+  background-color: var(--color-text);
+}
+
+.button-show-more:active {
+  background: #313131;
+  color: #ffffff;
+}

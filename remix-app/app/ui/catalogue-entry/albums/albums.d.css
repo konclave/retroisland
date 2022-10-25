@@ -1,9 +1,0 @@
-.catalogue-tracks {
-  grid-row: 1 / span 1;
-  grid-column: 1 / span 1;
-  padding: 0;
-}
-
-.catalogue-tracks__title {
-  font-size: var(--font-size-subheader);
-}

@@ -1,0 +1,29 @@
+.about-author {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2.4rem;
+}
+
+.about-author__image {
+  margin: 0 0 4rem 0;
+}
+
+.about-author > :nth-child(odd):not(.about-author__gallery) {
+  padding-left: 25vw;
+  margin-left: auto;
+}
+
+.about-author > :nth-child(even):not(.about-author__gallery) {
+  padding-right: 25vw;
+  margin-right: auto;
+}
+
+.about-author__gallery {
+  width: 100%;
+  align-self: center;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 2.4rem;
+}

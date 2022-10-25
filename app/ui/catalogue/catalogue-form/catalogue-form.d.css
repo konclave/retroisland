@@ -1,0 +1,28 @@
+.catalogue-form {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1.5rem;
+  margin: 0 0 var(--section-side-padding);
+}
+
+.catalogue-form__group {
+  margin: 0;
+  justify-content: flex-end;
+}
+
+.catalogue-form__search-input {
+}
+
+.catalogue-form__search-input::placeholder {
+}
+
+.catalogue-form__search-input:focus::placeholder {
+}
+.catalogue-form__search-input:focus {
+}
+
+.catalogue-form__sort-input option,
+.catalogue-form__sort-input {
+  text-align: right;
+}
+}

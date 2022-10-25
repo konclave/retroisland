@@ -1,0 +1,5 @@
+.catalogue {
+  grid-template-columns: 1fr 1fr;
+  margin: var(--section-side-padding) 0 0;
+  gap: 1.5rem;
+}

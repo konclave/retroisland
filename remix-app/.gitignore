@@ -1,8 +1,0 @@
-node_modules
-
-/.cache
-/build
-/public/build
-/public/music
-.env
-generated

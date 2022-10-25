@@ -1,0 +1,21 @@
+.tracks-on-request {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.requested-list {
+  display: flex;
+  --toggle-button-width: 56px;
+}
+
+.requested-list__item {
+  height: 100vh;
+  position: relative;
+  flex: 0 0 var(--toggle-button-width);
+  transition: all 0.25s ease-out;
+  overflow: hidden;
+}
+
+.requested-list__item[data-collapsed='false'] {
+  flex: 1;
+}

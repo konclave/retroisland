@@ -1,6 +1,8 @@
 node_modules
-.DS_Store
-dist
-dist-ssr
-*.local
-_site
+
+/.cache
+/build
+/public/build
+/public/music
+.env
+generated
