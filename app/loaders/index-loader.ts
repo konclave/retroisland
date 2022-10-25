@@ -1,7 +1,7 @@
 import { fetchNews, fetchRequested } from '~/data-fetch';
 import { client } from '~/data-fetch/contentful-client';
 
-import type { LoaderFunction } from '@remix-run/node';
+import type { LoaderFunction } from '@remix-run/deno';
 import type {
   NewsItemDto,
   RequestedItemDto,

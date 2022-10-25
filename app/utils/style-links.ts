@@ -1,5 +1,5 @@
 import { BREAKPOINT_DESKTOP, BREAKPOINT_TABLET } from '~/config';
-import type { LinksFunction } from '@remix-run/node';
+import type { LinksFunction } from '@remix-run/deno';
 
 export function getLinks(
   styles: string,

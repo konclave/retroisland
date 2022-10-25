@@ -1,4 +1,4 @@
-import type { LoaderFunction } from '@remix-run/node';
+import type { LoaderFunction } from '@remix-run/deno';
 import { client } from '~/data-fetch/contentful-client';
 
 export const aboutAuthorLoader: LoaderFunction = async () => {

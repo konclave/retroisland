@@ -1,5 +1,5 @@
-import type { LoaderFunction } from '@remix-run/node';
-import { json } from '@remix-run/node';
+import type { LoaderFunction } from '@remix-run/deno';
+import { json } from '@remix-run/deno';
 import { fetchCatalogueEntry } from '~/data-fetch';
 
 export const catalogueEntryLoader: LoaderFunction = async ({ params }) => {

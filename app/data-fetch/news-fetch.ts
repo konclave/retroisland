@@ -1,4 +1,4 @@
-import type { LoaderFunction } from '@remix-run/node';
+import type { LoaderFunction } from '@remix-run/deno';
 import type { INewsItemFields } from '~/types/generated/contentful';
 import { client } from './contentful-client';
 

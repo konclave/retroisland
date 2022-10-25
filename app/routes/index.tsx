@@ -1,4 +1,4 @@
-import type { LoaderFunction } from '@remix-run/node';
+import type { LoaderFunction } from '@remix-run/deno';
 import { Facade, links as facadeLinks } from '~/ui/index/facade';
 import { News, links as newsLinks } from '~/ui/index/news';
 import {

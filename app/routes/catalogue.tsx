@@ -1,4 +1,4 @@
-import type { LoaderFunction } from '@remix-run/node';
+import type { LoaderFunction } from '@remix-run/deno';
 import { useLoaderData } from '@remix-run/react';
 import { catalogueLoader } from '~/loaders';
 import type { CatalogueEntryDto } from '~/data-fetch';

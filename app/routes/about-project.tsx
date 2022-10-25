@@ -1,4 +1,4 @@
-import type { LoaderFunction } from '@remix-run/node'; // or cloudflare/deno
+import type { LoaderFunction } from '@remix-run/deno'; // or cloudflare/deno
 
 import { aboutProjectLoader } from '~/loaders';
 import { AboutProject, links as aboutProjectLinks } from '~/ui/about-project';

@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import { json } from '@remix-run/node';
+import { json } from '@remix-run/deno';
 import { NewsArchive, links as newsArchiveLinks } from '~/ui/news-archive';
 import { Header, links as headerLinks } from '~/ui/shared/header';
 import { fetchNews } from '~/data-fetch';
 
 import type { NewsItemDto } from '~/data-fetch';
-import type { LoaderFunction } from '@remix-run/node';
+import type { LoaderFunction } from '@remix-run/deno';
 
 export const links = () => [...headerLinks(), ...newsArchiveLinks()];
 

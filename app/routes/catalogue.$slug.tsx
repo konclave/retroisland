@@ -1,4 +1,4 @@
-import type { LoaderFunction } from '@remix-run/node';
+import type { LoaderFunction } from '@remix-run/deno';
 import { useLoaderData } from '@remix-run/react';
 import { Header, links as headerLinks } from '~/ui/shared/header';
 import {

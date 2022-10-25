@@ -1,4 +1,4 @@
-import type { LoaderFunction } from '@remix-run/node'; // or cloudflare/deno
+import type { LoaderFunction } from '@remix-run/deno'; // or cloudflare/deno
 
 import { aboutAuthorLoader } from '~/loaders';
 import { Header } from '~/ui/shared/header';

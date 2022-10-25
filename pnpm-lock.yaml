@@ -3,9 +3,9 @@ lockfileVersion: 5.4
 specifiers:
   '@contentful/rich-text-react-renderer': ^15.12.1
   '@contentful/rich-text-types': ^15.12.1
+  '@remix-run/deno': ^1.7.0
   '@remix-run/dev': ^1.7.0
   '@remix-run/eslint-config': ^1.7.0
-  '@remix-run/node': ^1.7.0
   '@remix-run/react': ^1.7.0
   '@remix-run/serve': ^1.7.0
   '@types/howler': ^2.2.7
@@ -29,7 +29,7 @@ specifiers:
 
 dependencies:
   '@contentful/rich-text-react-renderer': 15.12.1_biqbaboplfbrettd7655fr4n2y
-  '@remix-run/node': 1.7.0_biqbaboplfbrettd7655fr4n2y
+  '@remix-run/deno': 1.7.3_biqbaboplfbrettd7655fr4n2y
   '@remix-run/react': 1.7.0_biqbaboplfbrettd7655fr4n2y
   '@remix-run/serve': 1.7.0_biqbaboplfbrettd7655fr4n2y
   '@types/howler': 2.2.7
@@ -1534,6 +1534,17 @@ packages:
       json-parse-even-better-errors: 2.3.1
     dev: true
 
+  /@remix-run/deno/1.7.3_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-Acy7YKnunNEBKNyj6KyFq4NwKMTFDX286r5bQ3EgXZFVqZexpXPxqyZ0nZTKK8U7wTjKm3BzBJaNTvNTaU9v7Q==}
+    engines: {node: '>=14'}
+    dependencies:
+      '@remix-run/server-runtime': 1.7.3_biqbaboplfbrettd7655fr4n2y
+      mime: 3.0.0
+    transitivePeerDependencies:
+      - react
+      - react-dom
+    dev: false
+
   /@remix-run/dev/1.7.0_p6bz3zlyof7hasoqeidkhkiywu:
     resolution: {integrity: sha512-2CBe6A+MqiFPN8aeeF1bq+T4HqtaQexn8VBCyrmEch1NVqsTn7nCDot3dDKkpwC729/hOi+mx20WXKCzd22HQQ==}
     engines: {node: '>=14'}
@@ -1704,6 +1715,23 @@ packages:
       react-router-dom: 6.3.0_biqbaboplfbrettd7655fr4n2y
       set-cookie-parser: 2.5.1
       source-map: 0.7.4
+
+  /@remix-run/server-runtime/1.7.3_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-U5TR2quAlc5dY5VIYYhuXJOVsJelukgFZARwZWfDCs7HQd1hhHvpe1BNwla/lH3LPYFOVeWfYRmuHurXX1nbNw==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      react: '>=16.8'
+      react-dom: '>=16.8'
+    dependencies:
+      '@types/cookie': 0.4.1
+      '@web3-storage/multipart-parser': 1.0.0
+      cookie: 0.4.2
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      react-router-dom: 6.3.0_biqbaboplfbrettd7655fr4n2y
+      set-cookie-parser: 2.5.1
+      source-map: 0.7.4
+    dev: false
 
   /@remix-run/web-blob/3.0.4:
     resolution: {integrity: sha512-AfegzZvSSDc+LwnXV+SwROTrDtoLiPxeFW+jxgvtDAnkuCX1rrzmVJ6CzqZ1Ai0bVfmJadkG5GxtAfYclpPmgw==}
@@ -5573,6 +5601,12 @@ packages:
     resolution: {integrity: sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==}
     engines: {node: '>=4'}
     hasBin: true
+
+  /mime/3.0.0:
+    resolution: {integrity: sha512-jSCU7/VB1loIWBZe14aEYHU/+1UMEHoaO7qxCOVJOw9GgH72VAWppxNcjU+x9a2k3GSIBXNKxXQFqRvvZ7vr3A==}
+    engines: {node: '>=10.0.0'}
+    hasBin: true
+    dev: false
 
   /mimic-fn/2.1.0:
     resolution: {integrity: sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==}
