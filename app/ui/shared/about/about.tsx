@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import { getLinks } from '~/utils';
 import { IconEnvelope } from '../icons/icon-envelope';
 import { IconFb } from '../icons/icon-fb';
@@ -10,6 +11,15 @@ const localLinks = getLinks(styles, desktopStyles);
 export const links = () => [...localLinks()];
 
 export const About = () => {
+  const [email, setEmail] = useState<string>('noreply@gmail.com');
+  useEffect(() => {
+    const handler = setTimeout(() => {
+      setEmail('rddra@gmail.com');
+    }, 250);
+    return () => {
+      clearTimeout(handler);
+    };
+  }, []);
   return (
     <section className="about">
       <header className="about__header">
@@ -32,7 +42,7 @@ export const About = () => {
         <em className="author__name">Анатолий Васильев</em>
         <ul className="author__link social-links">
           <li className="social-links__item">
-            <a className="social-link" href="mailto:rddra@gmail.com">
+            <a className="social-link" href={`mailto:${email}`}>
               <IconEnvelope />
             </a>
           </li>
