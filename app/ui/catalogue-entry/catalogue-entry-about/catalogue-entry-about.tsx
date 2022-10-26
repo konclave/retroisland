@@ -79,13 +79,13 @@ export const CatalogueEntryAbout = ({
           {documentToReactComponents(description)}
         </main>
       )}
-      {tracksCount > 0 && (
+      {/*{tracksCount > 0 && (
         <span className="catalogue-item-about__play-btn">
           <ButtonPlay onClick={handlePlayClick} isPlaying={isPlaying}>
             Воспроизвести
           </ButtonPlay>
         </span>
-      )}
+      )}*/}
     </article>
   );
 };
