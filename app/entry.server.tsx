@@ -3,6 +3,7 @@ import type { EntryContext } from '@remix-run/node';
 import { Response } from '@remix-run/node';
 import { RemixServer } from '@remix-run/react';
 import { renderToPipeableStream } from 'react-dom/server';
+import { createRequestHandler } from '@remix-run/vercel';
 
 const ABORT_DELAY = 5000;
 
