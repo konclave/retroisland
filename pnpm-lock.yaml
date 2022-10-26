@@ -19,7 +19,7 @@ specifiers:
   contentful-management: ^10.14.0
   contentful-typescript-codegen: ^3.2.3
   dotenv: ^16.0.2
-  eslint: ^8.20.0
+  eslint: ^8.23.1
   howler: ^2.2.3
   ilyabirman-jouele: ^3.0.6
   jquery: ^3.6.1
