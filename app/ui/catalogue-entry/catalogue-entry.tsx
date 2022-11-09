@@ -63,7 +63,10 @@ export const CatalogueEntry = ({ entry }: CatalogueEntryProps) => {
         <div className="catalogue-tracks-container">
           <Albums entries={entry.albums} />
           <div className="catalogue-tracks-container__side-panel">
-            <Aknowledgements entries={entry.acknowledgements} />
+            <Aknowledgements
+              entries={entry.acknowledgements}
+              text={entry.acknowledgementText}
+            />
             <Videos entries={entry.videos} />
           </div>
           <CatalogueGallery images={restImages} />

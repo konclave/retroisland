@@ -6,9 +6,10 @@ export const links = getLinks(styles, desktopStyles);
 
 interface AknowledgementsProps {
   entries?: string[];
+  text?: string;
 }
 
-export const Aknowledgements = ({ entries }: AknowledgementsProps) => {
+export const Aknowledgements = ({ entries, text }: AknowledgementsProps) => {
   if (!entries?.length) {
     return null;
   }
@@ -18,8 +19,8 @@ export const Aknowledgements = ({ entries }: AknowledgementsProps) => {
         Благодарности
       </h2>
       <p className="catalogue-item-acknowledgements__text">
-        За выложенные песни огромное спасибо людям, которые их сохранили, нашли
-        и поделились ими!
+        {text ||
+          'За выложенные песни огромное спасибо людям, которые их сохранили, нашли и поделились ими!'}
       </p>
       <ul className="acknowledgements-list">
         {entries.map((entry) => (

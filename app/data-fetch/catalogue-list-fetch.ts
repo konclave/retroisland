@@ -22,6 +22,7 @@ export interface CatalogueEntryDto {
   description?: Document;
   albums?: AlbumDto[] | undefined;
   acknowledgements?: string[];
+  acknowledgementText?: string;
   videos?: string[];
   links?: LinkDto[];
 }
@@ -58,6 +59,7 @@ export const mapToDto = (
   description: item.fields.description,
   albums: item.fields.albums?.map(mapAlbumToDto),
   acknowledgements: item.fields.acknowledgements,
+  acknowledgementText: item.fields.acknowledgementText,
   videos: item.fields.videos,
   links: item.fields.links?.map(mapOuterLinkToDto),
 });
