@@ -56,18 +56,16 @@ export const CatalogueEntryAbout = ({
 
   return (
     <article className="catalogue-item-about padded-wrap">
-      {images?.length && (
-        <div className="catalogue-item-about__images">
-          {images.map((image) => (
-            <img
-              key={image.fields.file.url}
-              className="catalogue-item-about__image"
-              alt={image.fields.title || title}
-              src={image.fields.file.url}
-            />
-          ))}
-        </div>
-      )}
+      <div className="catalogue-item-about__images">
+        {images?.map((image) => (
+          <img
+            key={image.fields.file.url}
+            className="catalogue-item-about__image"
+            alt={image.fields.title || title}
+            src={image.fields.file.url}
+          />
+        ))}
+      </div>
       {shortDescription && (
         <h3 className="catalogue-item-about__person-desc">
           {shortDescription}
