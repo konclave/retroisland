@@ -1,11 +1,18 @@
 #! /usr/bin/env node
+// TODO: Валентин Бадьяров – пофиксил название альбома "Группа Валентина Бадьярова - альбом "Песни Олега Иванова" (послдений альбом – был пустой)
+// При апдейте артиста пофиксить заново
 import * as cheerio from 'cheerio';
 import { createHash } from 'crypto';
 import { writeFileSync, readFileSync } from 'fs';
 
+const HOST = 'https://retroisland.net';
+
 main();
 
 function main() {
+  console.log(
+    'Валентин Бадьяров – пофиксил название альбома "Группа Валентина Бадьярова - альбом "Песни Олега Иванова" (послдений альбом – был пустой) При апдейте артиста пофиксить заново'
+  );
   let saved;
   try {
     saved = JSON.parse(readFileSync('generated/data.json').toString());
@@ -13,14 +20,15 @@ function main() {
     saved = {};
   }
 
-  fetchHtml('https://retroisland.net').then(async (indexHtml) => {
+  fetchHtml(HOST).then(async (indexHtml) => {
     const indexHash = getHash(indexHtml);
     const news = await loadNews(indexHtml, saved);
-    const albums = loadAlbums(indexHtml, saved);
+    const singers = await loadSingers(indexHtml, saved);
+
     const data = {
       hash: indexHash,
       news,
-      albums,
+      singers: { ...singers },
     };
     writeFileSync('generated/data.json', JSON.stringify(data, null, 2));
   });
@@ -79,9 +87,89 @@ async function loadNews(html, saved) {
   };
 }
 
-async function loadAlbums(html, saved) {
-  return {
-    items: [],
+async function loadSingers(html, saved) {
+  const $ = cheerio.load(html);
+  const $links = $('td.pole ol li a');
+
+  const links = $links.get().map((anchor) => {
+    return HOST + '/' + $(anchor).attr('href');
+  });
+
+  const items = await Promise.all(links.map(fetchAlbums(saved)));
+
+  const result = items.reduce((acc, entry) => {
+    const [key, value] = Object.entries(entry)[0];
+    acc[key] = value;
+    return acc;
+  }, {});
+
+  return result;
+}
+
+function fetchAlbums(saved) {
+  return async (url) => {
+    const html = await fetchHtml(url);
+    const hash = getHash(html);
+
+    const $ = cheerio.load(html);
+    const singer = $('.hid > font[color="#666666"]')
+      .text()
+      .replace(/\s+/g, ' ')
+      .trim();
+    if (saved.singers[getHash(singer)]?.hash === hash) {
+      console.log(`[singers] "${singer}" page content was not changed`);
+      return { [getHash(singer)]: saved.singers[getHash(singer)] };
+    }
+
+    const albums = $('ol');
+
+    const result = {
+      hash,
+      singer,
+      albums: [],
+    };
+
+    albums.each((idx, album) => {
+      let title = typography($(album).children(':not(li)').text().trim());
+      if (!title) {
+        title = $(album).prev(':not(ol)').text().trim();
+      }
+      const albumObj = {
+        title,
+        tracks: [],
+        videos: [],
+        otherLinks: [],
+      };
+
+      $(album)
+        .find('li')
+        .each((idx, track) => {
+          const $track = $(track);
+          const $anchor = $track.find('a');
+          const link = $anchor
+            .attr('href')
+            .replace(/https?:\/\/retroisland\.net/, '');
+          const title = typography($anchor.text().trim());
+          const subtitle = typography(
+            $track.text().replace(title, '').replaceAll('  ', '').trim()
+          );
+          if (link.includes('.mp3')) {
+            albumObj.tracks.push({
+              title,
+              subtitle,
+              link,
+            });
+          }
+        });
+
+      if (albumObj.tracks.length) {
+        result.albums.push(albumObj);
+      }
+    });
+    console.log(`[singers] "${singer}" data updated`);
+    return {
+      [getHash(singer)]: result,
+    };
   };
 }
 
@@ -91,5 +179,6 @@ function typography(str) {
     .replace(/^"/g, '«')
     .replace(/"([ ,.])/g, '»$1')
     .replace(/"$/g, '»')
-    .replace(' - ', ' – ');
+    .replace(/\s-\s/g, ' – ')
+    .replace(/\s+/g, ' ');
 }
