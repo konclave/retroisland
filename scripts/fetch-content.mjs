@@ -13,15 +13,12 @@ function main() {
   console.log(
     'Валентин Бадьяров – пофиксил название альбома "Группа Валентина Бадьярова - альбом "Песни Олега Иванова" (послдений альбом – был пустой) При апдейте артиста пофиксить заново'
   );
-  let saved;
-  try {
-    saved = JSON.parse(readFileSync('generated/data.json').toString());
-  } catch {
-    saved = {};
-  }
+
+  const saved = readStoredData();
 
   fetchHtml(HOST).then(async (indexHtml) => {
     const indexHash = getHash(indexHtml);
+
     const news = await loadNews(indexHtml, saved);
     const singers = await loadSingers(indexHtml, saved);
 
@@ -30,8 +27,17 @@ function main() {
       news,
       singers: { ...singers },
     };
+
     writeFileSync('generated/data.json', JSON.stringify(data, null, 2));
   });
+}
+
+function readStoredData() {
+  try {
+    return JSON.parse(readFileSync('generated/data.json').toString());
+  } catch {
+    return {};
+  }
 }
 
 function getHash(content) {
@@ -61,30 +67,38 @@ async function loadNews(html, saved) {
   const items = $newsContainer
     .find('p')
     .get()
-    .reduce((acc, p) => {
-      const content = $(p).text();
-      const hash = getHash(content);
-      const parsed = content.match(/(\d{2}\.\d{2}\.\d{4}) (.+)/);
-
-      if (parsed) {
-        const [, published, text] = parsed;
-        const [date, month, year] = published.split('.');
-        const dateIso =
-          date && month && year
-            ? new Date(Date.UTC(year, month - 1, date)).toISOString()
-            : null;
-        acc[dateIso] = {
-          hash,
-          text: typography(text.trim()),
-        };
-      }
-      return acc;
-    }, saved.news?.items || {});
+    .reduce(foldNews, saved.news?.items || {});
 
   return {
     hash,
     items,
   };
+}
+
+function foldNews(acc, p) {
+  const content = $(p).text();
+  const hash = getHash(content);
+  const parsed = content.match(/(\d{2}\.\d{2}\.\d{4}) (.+)/);
+
+  if (!parsed) {
+    return acc;
+  }
+
+  const [, published, text] = parsed;
+  const [date, month, year] = published.split('.');
+  const dateIso = getDateIso(year, month, date);
+  acc[dateIso] = {
+    hash,
+    text: typography(text.trim()),
+  };
+
+  return acc;
+}
+
+function getDateIso() {
+  return date && month && year
+    ? new Date(Date.UTC(year, month - 1, date)).toISOString()
+    : null;
 }
 
 async function loadSingers(html, saved) {
@@ -116,12 +130,11 @@ function fetchAlbums(saved) {
       .text()
       .replace(/\s+/g, ' ')
       .trim();
+
     if (saved.singers[getHash(singer)]?.hash === hash) {
       console.log(`[singers] "${singer}" page content was not changed`);
       return { [getHash(singer)]: saved.singers[getHash(singer)] };
     }
-
-    const albums = $('ol');
 
     const result = {
       hash,
@@ -129,47 +142,58 @@ function fetchAlbums(saved) {
       albums: [],
     };
 
-    albums.each((idx, album) => {
-      let title = typography($(album).children(':not(li)').text().trim());
-      if (!title) {
-        title = $(album).prev(':not(ol)').text().trim();
-      }
-      const albumObj = {
-        title,
-        tracks: [],
-        videos: [],
-        otherLinks: [],
-      };
+    const albums = $('ol');
+    albums.each(iterateAlbums(result));
 
-      $(album)
-        .find('li')
-        .each((idx, track) => {
-          const $track = $(track);
-          const $anchor = $track.find('a');
-          const link = $anchor
-            .attr('href')
-            .replace(/https?:\/\/retroisland\.net/, '');
-          const title = typography($anchor.text().trim());
-          const subtitle = typography(
-            $track.text().replace(title, '').replaceAll('  ', '').trim()
-          );
-          if (link.includes('.mp3')) {
-            albumObj.tracks.push({
-              title,
-              subtitle,
-              link,
-            });
-          }
-        });
-
-      if (albumObj.tracks.length) {
-        result.albums.push(albumObj);
-      }
-    });
     console.log(`[singers] "${singer}" data updated`);
+
     return {
       [getHash(singer)]: result,
     };
+  };
+}
+
+function interateAlbums(result) {
+  return (idx, album) => {
+    let title = typography($(album).children(':not(li)').text().trim());
+    if (!title) {
+      title = $(album).prev(':not(ol)').text().trim();
+    }
+    const albumObj = {
+      title,
+      tracks: [],
+      videos: [],
+      otherLinks: [],
+    };
+
+    $(album).find('li').each(iterateTracks(albumObj));
+
+    if (albumObj.tracks.length) {
+      result.albums.push(albumObj);
+    }
+  };
+}
+
+function interateTracks(albumObj) {
+  return (idx, track) => {
+    const $track = $(track);
+    const $anchor = $track.find('a');
+    const link = $anchor
+      .attr('href')
+      .replace(/https?:\/\/retroisland\.net/, '');
+
+    const title = typography($anchor.text().trim());
+    const subtitle = typography(
+      $track.text().replace(title, '').replaceAll('  ', '').trim()
+    );
+
+    if (link.includes('.mp3')) {
+      albumObj.tracks.push({
+        title,
+        subtitle,
+        link,
+      });
+    }
   };
 }
 
