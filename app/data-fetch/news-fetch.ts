@@ -43,20 +43,19 @@ export async function fetchNews({
     limit,
     skip: limit * page,
     content_type: contentType,
+    order: '-fields.published,-sys.createdAt',
   });
   const { total, skip, items } = data;
   return {
     total,
     limit,
     skip,
-    items: items
-      .map((item) => ({
-        id: item.sys.id,
-        text: item.fields.text || '',
-        link: item.fields.link || '',
-        date: item.fields.published || item.sys.createdAt,
-      }))
-      .sort((a, z) => new Date(z.date).getTime() - new Date(a.date).getTime()),
-    // .slice(0, limit || data.items.length)
+    items: items.map((item) => ({
+      id: item.sys.id,
+      text: item.fields.text || '',
+      link: item.fields.link || '',
+      date: item.fields.published || item.sys.createdAt,
+    })),
+    // .sort((a, z) => new Date(z.date).getTime() - new Date(a.date).getTime()),
   };
 }
