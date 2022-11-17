@@ -67,7 +67,26 @@ async function loadNews(html, saved) {
   const items = $newsContainer
     .find('p')
     .get()
-    .reduce(foldNews, saved.news?.items || {});
+    .reduce((acc, p) => {
+      const content = $(p).text();
+      const hash = getHash(content);
+      const parsed = content.match(/(\d{2}\.\d{2}\.\d{4}) (.+)/);
+
+      if (!parsed) {
+        return acc;
+      }
+
+      const [, published, text] = parsed;
+      const [date, month, year] = published.split('.');
+      const dateIso = getDateIso(year, month, date);
+      acc[hash] = {
+        published: dateIso,
+        hash,
+        text: typography(text.trim()),
+      };
+
+      return acc;
+    }, saved.news?.items || {});
 
   return {
     hash,
@@ -75,27 +94,7 @@ async function loadNews(html, saved) {
   };
 }
 
-function foldNews(acc, p) {
-  const content = $(p).text();
-  const hash = getHash(content);
-  const parsed = content.match(/(\d{2}\.\d{2}\.\d{4}) (.+)/);
-
-  if (!parsed) {
-    return acc;
-  }
-
-  const [, published, text] = parsed;
-  const [date, month, year] = published.split('.');
-  const dateIso = getDateIso(year, month, date);
-  acc[dateIso] = {
-    hash,
-    text: typography(text.trim()),
-  };
-
-  return acc;
-}
-
-function getDateIso() {
+function getDateIso(year, month, date) {
   return date && month && year
     ? new Date(Date.UTC(year, month - 1, date)).toISOString()
     : null;
@@ -131,7 +130,7 @@ function fetchAlbums(saved) {
       .replace(/\s+/g, ' ')
       .trim();
 
-    if (saved.singers[getHash(singer)]?.hash === hash) {
+    if (saved.singers?.[getHash(singer)]?.hash === hash) {
       console.log(`[singers] "${singer}" page content was not changed`);
       return { [getHash(singer)]: saved.singers[getHash(singer)] };
     }
@@ -146,53 +145,52 @@ function fetchAlbums(saved) {
     albums.each(iterateAlbums(result));
 
     console.log(`[singers] "${singer}" data updated`);
-
     return {
       [getHash(singer)]: result,
     };
-  };
-}
 
-function interateAlbums(result) {
-  return (idx, album) => {
-    let title = typography($(album).children(':not(li)').text().trim());
-    if (!title) {
-      title = $(album).prev(':not(ol)').text().trim();
+    function iterateAlbums(result) {
+      return (idx, album) => {
+        let title = typography($(album).children(':not(li)').text().trim());
+        if (!title) {
+          title = $(album).prev(':not(ol)').text().trim();
+        }
+        const albumObj = {
+          title,
+          tracks: [],
+          videos: [],
+          otherLinks: [],
+        };
+
+        $(album).find('li').each(iterateTracks(albumObj));
+
+        if (albumObj.tracks.length) {
+          result.albums.push(albumObj);
+        }
+      };
     }
-    const albumObj = {
-      title,
-      tracks: [],
-      videos: [],
-      otherLinks: [],
-    };
 
-    $(album).find('li').each(iterateTracks(albumObj));
+    function iterateTracks(albumObj) {
+      return (idx, track) => {
+        const $track = $(track);
+        const $anchor = $track.find('a');
+        const link = $anchor
+          .attr('href')
+          .replace(/https?:\/\/retroisland\.net/, '');
 
-    if (albumObj.tracks.length) {
-      result.albums.push(albumObj);
-    }
-  };
-}
+        const title = typography($anchor.text().trim());
+        const subtitle = typography(
+          $track.text().replace(title, '').replaceAll('  ', '').trim()
+        );
 
-function interateTracks(albumObj) {
-  return (idx, track) => {
-    const $track = $(track);
-    const $anchor = $track.find('a');
-    const link = $anchor
-      .attr('href')
-      .replace(/https?:\/\/retroisland\.net/, '');
-
-    const title = typography($anchor.text().trim());
-    const subtitle = typography(
-      $track.text().replace(title, '').replaceAll('  ', '').trim()
-    );
-
-    if (link.includes('.mp3')) {
-      albumObj.tracks.push({
-        title,
-        subtitle,
-        link,
-      });
+        if (link.includes('.mp3')) {
+          albumObj.tracks.push({
+            title,
+            subtitle,
+            link,
+          });
+        }
+      };
     }
   };
 }
