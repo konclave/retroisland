@@ -15,6 +15,14 @@ const options = {
 
 const locale = 'ru-RU';
 
+const contentType = {
+  newsItem: 'newsItem',
+  singer: 'catalogueEntry',
+  album: 'album',
+  track: 'requestedTrack',
+  otherLink: 'outerLink',
+};
+
 const argv = yargs(process.argv.slice(2))
   .command('export', 'Export data from Contentful', exportData)
   .command(
@@ -100,51 +108,53 @@ function importData(argv) {
     });
 }
 
-async function mergeData(argv) {
-  const contentType = {
-    newsItem: 'newsItem',
-  };
-
+async function getContentfulClient(contentfulEnv) {
+  if (getContentfulClient.client) {
+    return getContentfulClient.client;
+  }
   const clientInstance = contentful.createClient({
     accessToken: process.env['CONTENTFUL_MANAGEMENT_API_ACCESS_TOKEN'],
   });
   const spaceInstance = await clientInstance.getSpace(
     process.env['CONTENTFUL_SPACE_ID']
   );
-  const client = await spaceInstance.getEnvironment(argv.contentfulEnv);
+  const client = await spaceInstance.getEnvironment(contentfulEnv);
+  getContentfulClient.client = client;
+  return client;
+}
 
+async function mergeData(argv) {
   if (!existsSync(argv.scrappedData)) {
     console.log(`File not found: ${argv.scrappedData}`);
     process.exit(1);
   }
 
   const scrappedData = JSON.parse(readFileSync(argv.scrappedData).toString());
+  const client = await getContentfulClient(argv.contentfulEnv);
+  // mergeNews(scrappedData, client);
+  mergeSingers(scrappedData, client);
+}
 
-  const news = await client.getEntries({
-    content_type: contentType.newsItem,
-  });
-
-  Object.entries(scrappedData.news.items).forEach(
-    async ([hash, scrappedEntry]) => {
-      const existing = news.items.find(isSameNews(scrappedEntry));
-      if (!existing) {
-        const draft = await client.createEntry(contentType.newsItem, {
-          fields: {
-            published: { [locale]: scrappedEntry.published },
-            text: { [locale]: scrappedEntry.text },
-          },
-        });
-        await draft.publish();
-        console.log(
-          `[news] Published entry: ${
-            scrappedEntry.published
-          } ${scrappedEntry.text.slice(0, 30)}...`
-        );
-      }
+async function mergeNews(scrappedData, client) {
+  const newsEntries = Object.entries(scrappedData.news.items);
+  for (let i = 0; i < scrappedData.news.items.length; i++) {
+    const [hash, scrappedEntry] = newsEntries[i];
+    const existing = news.items.find(isSameNews(scrappedEntry));
+    if (!existing) {
+      const draft = await client.createEntry(contentType.newsItem, {
+        fields: {
+          published: { [locale]: scrappedEntry.published },
+          text: { [locale]: scrappedEntry.text },
+        },
+      });
+      await draft.publish();
+      console.log(
+        `[news] Published entry: ${
+          scrappedEntry.published
+        } ${scrappedEntry.text.slice(0, 30)}...`
+      );
     }
-  );
-
-  return {};
+  }
 }
 
 function isSameNews(scrappedEntry) {
@@ -154,4 +164,106 @@ function isSameNews(scrappedEntry) {
       scrappedEntry.text.trim()
     );
   };
+}
+
+async function mergeSingers(scrappedData, client) {
+  const singers = Object.values(scrappedData.singers);
+  for (let singer of singers) {
+    const contentfulSinger = await getContentfulSinger(singer.singer, client);
+
+    if (!contentfulSinger) {
+      console.log(
+        `[Singer] Failed fetching singer with title "${singer.singer}"`
+      );
+      continue;
+    }
+    const { albums } = singer;
+
+    const albumLinks = [];
+    const otherLinks = [];
+    let videos = [];
+    for (let album of albums) {
+      const tracks = album.tracks;
+      let trackLinks = [];
+      for (let track of tracks) {
+        const { title, subtitle, link } = track;
+
+        const createdTrack = await client.createEntry(contentType.track, {
+          fields: {
+            title: l(title),
+            shortDescription: l(subtitle),
+            link: l(link),
+          },
+        });
+        trackLinks.push(linkEntry(createdTrack.sys.id));
+        await createdTrack.publish();
+        console.log(`[Track] "${title}" published`);
+      }
+
+      const createdAlbum = await client.createEntry(contentType.album, {
+        fields: {
+          title: l(album.title),
+          tracks: l(trackLinks),
+        },
+      });
+
+      for (let otherLink of album.otherLinks) {
+        const { title, link } = otherLink;
+
+        const createdLink = await client.createEntry(contentType.otherLink, {
+          fields: {
+            title: l(title),
+            link: l(link),
+          },
+        });
+
+        otherLinks.push(linkEntry(createdLink.sys.id));
+
+        await createdLink.publish();
+        console.log(`[Other link] "${title}" published`);
+      }
+
+      videos = videos.concat(album.videos);
+
+      await createdAlbum.publish();
+      console.log(`[Album] "${album.title}" published`);
+      albumLinks.push(linkEntry(createdAlbum.sys.id));
+    }
+
+    const existingAlbums = contentfulSinger.fields.albums?.[locale] || [];
+    const mergedAlbums = [...existingAlbums, ...albumLinks];
+    contentfulSinger.fields.albums = { [locale]: mergedAlbums };
+    contentfulSinger.fields.videos = l(videos);
+    contentfulSinger.fields.links = l(otherLinks);
+    await contentfulSinger.update();
+    // await contentfulSinger.publish();
+    console.log(`[Singer] "${singer.singer}" updated`);
+  }
+}
+
+function l(field) {
+  return { [locale]: field };
+}
+
+function linkEntry(id) {
+  return {
+    sys: {
+      type: 'Link',
+      linkType: 'Entry',
+      id,
+    },
+  };
+}
+
+async function getContentfulSinger(title, client) {
+  const response = await client.getEntries({
+    content_type: contentType.singer,
+    'fields.title': title,
+  });
+
+  const id = response.items[0]?.sys.id;
+  if (id) {
+    return client.getEntry(id);
+  }
+  return null;
 }

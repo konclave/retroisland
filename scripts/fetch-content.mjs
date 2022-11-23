@@ -174,22 +174,40 @@ function fetchAlbums(saved) {
       return (idx, track) => {
         const $track = $(track);
         const $anchor = $track.find('a');
-        const link = $anchor
-          .attr('href')
-          .replace(/https?:\/\/retroisland\.net/, '');
 
-        const title = typography($anchor.text().trim());
-        const subtitle = typography(
-          $track.text().replace(title, '').replaceAll('  ', '').trim()
-        );
+        $anchor.each((idx, anchor) => {
+          const link = $(anchor)
+            .attr('href')
+            .replace(/https?:\/\/retroisland\.net/, '');
 
-        if (link.includes('.mp3')) {
-          albumObj.tracks.push({
-            title,
-            subtitle,
-            link,
-          });
-        }
+          const title = typography($anchor.text().trim());
+          const subtitle = typography(
+            $track.text().replace(title, '').replaceAll('  ', '').trim()
+          );
+
+          if (
+            link.toLowerCase().includes('.mp3') ||
+            link.toLowerCase().includes('.wma') ||
+            link.toLowerCase().includes('.flac')
+          ) {
+            albumObj.tracks.push({
+              title,
+              subtitle,
+              link,
+            });
+          } else if (
+            link.includes('ok.ru/video') ||
+            link.includes('youtube.com') ||
+            link.includes('youtu.be')
+          ) {
+            albumObj.videos.push(link);
+          } else {
+            albumObj.otherLinks.push({
+              title: title + ' ' + subtitle,
+              link,
+            });
+          }
+        });
       };
     }
   };
