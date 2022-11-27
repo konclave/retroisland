@@ -29,6 +29,7 @@ specifiers:
   lightgallery: ^2.7.0
   prettier: ^2.7.1
   react: ^18.2.0
+  react-alice-carousel: ^2.6.6
   react-dom: ^18.2.0
   typescript: ^4.8.4
   yargs: ^17.6.2
@@ -50,6 +51,7 @@ dependencies:
   jquery: 3.6.1
   lightgallery: 2.7.0
   react: 18.2.0
+  react-alice-carousel: 2.6.6_react@18.2.0
   react-dom: 18.2.0_react@18.2.0
 
 devDependencies:
@@ -332,11 +334,6 @@ packages:
     engines: {node: '>=6.9.0'}
     dev: true
 
-  /@babel/helper-validator-identifier/7.18.6:
-    resolution: {integrity: sha512-MmetCkz9ej86nJQV+sFCxoGGrUbU3q02kgLciwkrt9QqEB7cP39oKEY0PakknEO0Gu20SskMRi+AYZ3b1TpN9g==}
-    engines: {node: '>=6.9.0'}
-    dev: true
-
   /@babel/helper-validator-identifier/7.19.1:
     resolution: {integrity: sha512-awrNfaMtnHUr653GgGEs++LlAvW6w+DcPrOliSMXWCKo597CwL5Acf/wWdNkf/tfEQE3mjkeD1YOVZOUV/od1w==}
     engines: {node: '>=6.9.0'}
@@ -374,7 +371,7 @@ packages:
     resolution: {integrity: sha512-u7stbOuYjaPezCuLj29hNW1v64M2Md2qupEKP1fHc7WdOA3DgLh37suiSrZYY7haUB7iBeQZ9P1uiRF359do3g==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/helper-validator-identifier': 7.18.6
+      '@babel/helper-validator-identifier': 7.19.1
       chalk: 2.4.2
       js-tokens: 4.0.0
     dev: true
@@ -7515,6 +7512,15 @@ packages:
       iconv-lite: 0.4.24
       unpipe: 1.0.0
 
+  /react-alice-carousel/2.6.6_react@18.2.0:
+    resolution: {integrity: sha512-kQYajmtX1GsNPH8reRtYPBFVEubpClEgQ0xsb3ZRzl/UBwqn1Gzx1zOKgjBlYHgnCYArIIDb4ijbCTAfWRT1Iw==}
+    peerDependencies:
+      react: '>=15.4'
+    dependencies:
+      react: 18.2.0
+      vanilla-swipe: 2.4.1
+    dev: false
+
   /react-dom/18.2.0_react@18.2.0:
     resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
     peerDependencies:
@@ -8810,6 +8816,10 @@ packages:
       spdx-correct: 3.1.1
       spdx-expression-parse: 3.0.1
     dev: true
+
+  /vanilla-swipe/2.4.1:
+    resolution: {integrity: sha512-o6pfI0dipet88ZnPLV4Jx04Ia+U3xANh14vhROW2TOe/mrwk2JGG68+Z0BPoD1YUcQQEnK4SZBXkqFe+K1l7/w==}
+    dev: false
 
   /vary/1.1.2:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}

@@ -37,7 +37,7 @@ interface CatalogueEntryProps {
   entry: CatalogueEntryDto;
 }
 
-const GALLERY_IMAGES_START = 5;
+const GALLERY_IMAGES_START = 2;
 
 export const CatalogueEntry = ({ entry }: CatalogueEntryProps) => {
   const images =
