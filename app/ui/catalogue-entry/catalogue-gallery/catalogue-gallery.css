@@ -1,70 +1,48 @@
 .catalogue-gallery {
-  grid-row: 2;
-  grid-column: 1 / -1;
   background: var(--color-bg-catalogue-gray);
-  margin-left: calc(-1 * var(--section-side-padding));
-  margin-right: calc(-1 * var(--section-side-padding));
-  padding: 40px var(--section-side-padding) 80px;
+  padding: calc(2 * var(--section-top-padding-base)) var(--section-side-padding)
+    0;
 }
 
 .catalogue-gallery__title {
-  margin: 0 0 40px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--font-size-subheader);
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: var(--color-requested-header-bg-5);
+  margin-top: 0;
 }
 
 .catalogue-gallery__item {
-  display: inline-block;
-  padding: 0 12px;
+  padding: 0;
 }
-
 .catalogue-gallery__image {
   border-radius: 8px;
-  max-height: 390px;
-}
-
-.alice-carousel {
-  margin-left: -12px;
-  margin-right: -12px;
-}
-
-.alice-carousel__prev-btn-item.__inactive,
-.alice-carousel__next-btn-item.__inactive,
-.alice-carousel__next-btn:has(.__inactive),
-.alice-carousel__prev-btn:has(.__inactive) {
-  display: none;
+  width: 100%;
 }
 
 .alice-carousel__prev-btn,
-.alice-carousel__next-btn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: auto;
-}
-
-.alice-carousel__prev-btn {
-  left: 16px;
-}
-
-.alice-carousel__next-btn {
-  right: 16px;
-}
-
+.alice-carousel__next-btn,
 .catalogue-gallery__button {
-  width: 48px;
-  height: 48px;
-  border: none;
-  border-radius: 24px;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--color-light);
-}
-
-.catalogue-gallery__button_next {
-  transform: rotate(180deg);
-}
-
-.catalogue-gallery__button[disabled] {
   display: none;
 }
+
+.alice-carousel__dots {
+  margin: 0;
+  /*  position: absolute;
+  bottom: 16px;
+  width: 100%;*/
+}
+
+/*.alice-carousel__dots-item:not(.__custom):hover,
+.alice-carousel__dots-item:not(.__custom).__active {
+  background-color: var(--color-light);
+  opacity: 1;
+}
+
+.alice-carousel__dots-item:not(.__custom) {
+  opacity: 0.4;
+  background-color: var(--color-light);
+}
+*/

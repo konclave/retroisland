@@ -6,8 +6,9 @@ import { renderCatalogueGalleryButton } from './catalogue-gallery-button';
 
 import galleryStyles from 'react-alice-carousel/lib/alice-carousel.css';
 import styles from './catalogue-gallery.css';
+import desktopStyles from './catalogue-gallery.d.css';
 
-const localLinks = getLinks(styles);
+const localLinks = getLinks(styles, desktopStyles);
 
 export const links = () => [
   { rel: 'stylesheet', href: galleryStyles },
@@ -31,7 +32,6 @@ export const CatalogueGallery = ({ images, title }: CatalogueGalleryProps) => {
       </h2>
       <AliceCarousel
         ssrSilentMode={true}
-        disableDotsControls={true}
         autoWidth
         mouseTracking
         renderPrevButton={renderCatalogueGalleryButton({ type: 'prev' })}
