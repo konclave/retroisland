@@ -111,5 +111,14 @@ async function mapVideo(url: string): Promise<VideoDto | null> {
     };
   }
 
+  if (/youtu\.be/.test(url) || /youtube.com/.test(url)) {
+    const id = url.split('/').at(-1);
+    const thumbUrl = `https://i3.ytimg.com/vi/${id}/hqdefault.jpg`;
+    return {
+      url,
+      thumbUrl,
+    };
+  }
+
   return null;
 }
