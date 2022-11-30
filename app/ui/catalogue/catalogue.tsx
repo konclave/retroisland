@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import type { CatalogueEntryDto } from '~/data-fetch';
+import type { CatalogueListEntryDto } from '~/data-fetch';
 import {
   CatalogueNotFound,
   links as notFoundLinks,
@@ -12,11 +12,13 @@ export const links = () => [...catalogueFromLinks(), ...catalogueListLinks()];
 export type CatalogueOrder = 'createdAt' | 'titleAsc' | 'titleDesc';
 
 interface CatalogueProps {
-  items: CatalogueEntryDto[];
+  items: CatalogueListEntryDto[];
 }
 
 export const Catalogue = ({ items }: CatalogueProps) => {
-  const [filtered, setFiltered] = useState<CatalogueEntryDto[] | null>(null);
+  const [filtered, setFiltered] = useState<CatalogueListEntryDto[] | null>(
+    null
+  );
 
   function handleCatalogueSearch(needle: string) {
     const trimmed = needle.trim().toLowerCase();

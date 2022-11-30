@@ -1,45 +1,20 @@
-import type {
-  ICatalogueEntryFields,
-  IAlbumFields,
-  IAlbum,
-  IOuterLinkFields,
-  IOuterLink,
-} from '~/types/generated/contentful';
 import { mapTrackToDto } from './tracks-on-request-fetch';
 import { client } from './contentful-client';
 
-import type { Asset, Entry } from 'contentful';
+import type { Entry } from 'contentful';
+import type { ICatalogueEntryFields } from '~/types/generated/contentful';
 import type { Document } from '@contentful/rich-text-types';
-import type { RequestedTrackItemDto } from './tracks-on-request-fetch';
+import type { CatalogueEntryDto } from './catalogue-entry-fetch';
 
-export interface CatalogueEntryDto {
-  id: string;
-  createdAt: IsoDate;
-  title: string;
-  slug: string;
-  images?: Asset[];
-  shortDescription?: string;
-  description?: Document;
-  albums?: AlbumDto[] | undefined;
-  acknowledgements?: string[];
-  acknowledgementText?: string;
-  videos?: string[];
-  links?: LinkDto[];
-}
+export type CatalogueListEntryDto = Pick<
+  CatalogueEntryDto,
+  'id' | 'createdAt' | 'slug' | 'title'
+>;
 
-export type AlbumDto = Omit<IAlbumFields, 'tracks'> & {
-  id: string;
-  tracks?: RequestedTrackItemDto[];
-};
-
-export type LinkDto = IOuterLinkFields & {
-  id: string;
-};
-
-export async function fetchCatalogueList(): Promise<CatalogueEntryDto[]> {
+export async function fetchCatalogueList(): Promise<CatalogueListEntryDto[]> {
   const data = await client.getEntries<ICatalogueEntryFields>({
     content_type: 'catalogueEntry',
-    select: 'sys.id,sys.createdAt,fields',
+    select: 'sys.id,sys.createdAt,fields.slug,fields.title',
     include: 2,
     order: 'sys.createdAt',
   });
@@ -47,34 +22,11 @@ export async function fetchCatalogueList(): Promise<CatalogueEntryDto[]> {
   return data.items.map(mapToDto);
 }
 
-export const mapToDto = (
+const mapToDto = (
   item: Entry<ICatalogueEntryFields>
-): CatalogueEntryDto => ({
+): CatalogueListEntryDto => ({
   id: item.sys.id,
   createdAt: item.sys.createdAt,
   title: item.fields.title || '',
   slug: item.fields.slug,
-  images: item.fields.images,
-  shortDescription: item.fields.shortDescription,
-  description: item.fields.description,
-  albums: item.fields.albums?.map(mapAlbumToDto),
-  acknowledgements: item.fields.acknowledgements,
-  acknowledgementText: item.fields.acknowledgementText,
-  videos: item.fields.videos,
-  links: item.fields.links?.map(mapOuterLinkToDto),
 });
-
-function mapAlbumToDto(album: IAlbum): AlbumDto {
-  return {
-    id: album.sys.id,
-    ...album.fields,
-    tracks: album.fields.tracks?.map(mapTrackToDto),
-  };
-}
-
-function mapOuterLinkToDto(link: IOuterLink): LinkDto {
-  return {
-    id: link.sys.id,
-    ...link.fields,
-  };
-}
