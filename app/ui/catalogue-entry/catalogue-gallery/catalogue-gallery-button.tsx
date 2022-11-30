@@ -4,7 +4,7 @@ export type GalleryButtonType = 'prev' | 'next';
 
 export const renderCatalogueGalleryButton =
   ({ type }: { type: GalleryButtonType }) =>
-  ({ isDisabled }: { isDisabled: boolean }): React.ReactNode => {
+  ({ isDisabled }: { isDisabled?: boolean }): React.ReactNode => {
     return (
       <button
         className={cx('catalogue-gallery__button', {
