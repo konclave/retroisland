@@ -8,6 +8,8 @@ import type {
   IAlbum,
   IOuterLinkFields,
   IOuterLink,
+  IVideo,
+  IVideoFields,
 } from '~/types/generated/contentful';
 import { mapTrackToDto } from './tracks-on-request-fetch';
 import type { Asset, Entry } from 'contentful';
@@ -98,7 +100,17 @@ function mapOuterLinkToDto(link: IOuterLink): LinkDto {
   };
 }
 
-async function mapVideo(url: string): Promise<VideoDto | null> {
+async function mapVideo(video: IVideo): Promise<VideoDto | null> {
+  const { url, thumbnail, title } = video.fields;
+
+  if (thumbnail) {
+    return {
+      url,
+      thumbUrl: thumbnail.fields.file.url,
+      title,
+    };
+  }
+
   if (/https?:\/\/ok\.ru/.test(url)) {
     const id = url.split('/').at(-1);
     const response = await fetch('https://m.ok.ru/live/' + id);
@@ -108,6 +120,7 @@ async function mapVideo(url: string): Promise<VideoDto | null> {
     return {
       url,
       thumbUrl,
+      title,
     };
   }
 
@@ -117,6 +130,7 @@ async function mapVideo(url: string): Promise<VideoDto | null> {
     return {
       url,
       thumbUrl,
+      title,
     };
   }
 
