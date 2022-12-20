@@ -17,7 +17,7 @@ export const AdditionalInfo = ({ entries }: AdditionalInfoProps) => {
   }
 
   return (
-    <article className="catalogue-other">
+    <article className="catalogue-other content-section">
       <h2 className="catalogue-other__title section-title">Другие материалы</h2>
       <ul className="catalogue-links">
         {entries.map((entry) => (

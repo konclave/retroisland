@@ -1,9 +1,20 @@
+.catalogue-other {
+  padding-top: 0;
+}
+
 .catalogue-other__title {
-  margin-top: 2.5rem;
+  font-family: var(--font-family-header);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #192c31;
+  margin: 0 0 1rem;
 }
 
 .catalogue-links {
-  margin: 0 0 2.5rem;
+  margin: 0;
   padding: 0;
   list-style: none;
   display: grid;
@@ -12,6 +23,7 @@
 }
 
 .catalogue-link {
+  display: flex;
   font-family: var(--font-family-text);
   font-style: normal;
   font-weight: 400;
@@ -21,6 +33,7 @@
 }
 
 .catalogue-link a {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -39,6 +52,7 @@
 
 .catalogue-link__arrow {
   align-self: end;
+  margin-top: auto;
 }
 
 .link-arrow,

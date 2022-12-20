@@ -1,4 +1,5 @@
 .catalogue-links {
+  margin: 0 0 2.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }

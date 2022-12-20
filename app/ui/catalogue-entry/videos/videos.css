@@ -1,6 +1,5 @@
 .catalogue-item-videos {
-  padding: calc(2 * var(--section-top-padding-base)) var(--section-side-padding)
-    calc(5 * var(--section-top-padding-base));
+  padding: calc(2 * var(--section-top-padding-base)) var(--section-side-padding);
 }
 
 .catalogue-item-videos__title {
@@ -10,7 +9,7 @@
   font-size: 1rem;
   line-height: 150%;
   text-transform: uppercase;
-  color: #67774e;
+  color: #192c31;
   margin: 0 0 1rem;
 }
 
