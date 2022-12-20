@@ -1,6 +1,6 @@
 .catalogue-item-acknowledgements {
   background: var(--color-bg-catalogue-gray);
-  padding-bottom: 3rem;
+  padding: 1.5rem 1.5rem 3rem;
 }
 
 .catalogue-item-acknowledgements__title {

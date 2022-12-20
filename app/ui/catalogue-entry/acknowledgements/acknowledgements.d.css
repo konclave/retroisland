@@ -1,5 +1,6 @@
 .catalogue-item-acknowledgements {
   border-radius: 1rem;
+  padding-bottom: 1.5rem;
 }
 
 .catalogue-item-acknowledgements__title {
@@ -8,4 +9,9 @@
 
 .catalogue-item-acknowledgements__text {
   line-height: 157%;
+}
+
+.acknowledgements-list__item {
+  font-size: var(--font-size-base);
+  line-height: 1.62;
 }
