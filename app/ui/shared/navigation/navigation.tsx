@@ -23,6 +23,16 @@ export const Navigation = () => {
 
   useEffect(() => {
     setIsVisible(false);
+    if (typeof document !== 'undefined') {
+      const jouele = (window as any).$?.Jouele;
+      if (jouele) {
+        jouele.history.forEach((jInstance) => {
+          if (jInstance.isPlaying()) {
+            jInstance.pause();
+          }
+        });
+      }
+    }
   }, [location]);
 
   const toggleNavigation = () => {
