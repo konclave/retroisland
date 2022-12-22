@@ -41,11 +41,19 @@ function mapRequestedItemDto(
   };
 }
 
+function attachStorageUrl(link?: string): string {
+  if (!link || /http?s:\/\//.test(link)) {
+    return link ?? '';
+  }
+  const base = process.env['FILE_STORAGE']?.replace(/\/$/, '');
+  return `${base}${link.replace(/^\/Files/, '')}`;
+}
+
 export function mapTrackToDto(track: IRequestedTrack): RequestedTrackItemDto {
   return {
     id: track.sys.id,
     title: track.fields.title,
-    link: track.fields.link || '',
+    link: attachStorageUrl(track.fields.link),
     length: track.fields.length || '',
     youtube: track.fields.youtube || '',
     ok: track.fields.ok || '',
