@@ -9,6 +9,6 @@
 
 .news h2 {
   grid-area: header;
-  margin-bottom: calc(var(--section-top-padding-base) * 1.5);
+  margin-bottom: var(--section-top-padding-base);
   color: var(--color-light);
 }

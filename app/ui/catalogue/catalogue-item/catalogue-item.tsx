@@ -20,7 +20,7 @@ interface CatalogueItemProps {
 export const CatalogueItem = ({ item }: CatalogueItemProps) => {
   return (
     <div className="catalogue-entry">
-      <Link to={item.slug}>
+      <Link to={`/catalogue/${item.slug}`}>
         <h2 className="catalogue-entry__title">{item.title}</h2>
       </Link>
     </div>

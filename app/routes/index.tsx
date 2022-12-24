@@ -6,6 +6,10 @@ import {
   links as TracksOnRequestLinks,
 } from '~/ui/index/tracks-on-request';
 import { Communities, links as communitiesLinks } from '~/ui/index/communities';
+import {
+  CatalogueIndex,
+  links as catalogueIndexLinks,
+} from '~/ui/index/catalogue-index';
 import { indexLoader } from '~/loaders';
 
 export const links = () => [
@@ -13,6 +17,7 @@ export const links = () => [
   ...newsLinks(),
   ...TracksOnRequestLinks(),
   ...communitiesLinks(),
+  ...catalogueIndexLinks(),
 ];
 
 export const loader: LoaderFunction = indexLoader;
@@ -22,6 +27,7 @@ export default function Index() {
     <>
       <Facade />
       <News />
+      <CatalogueIndex />
       <TracksOnRequest />
       <Communities />
     </>

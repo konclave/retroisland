@@ -26,6 +26,7 @@ export const TracksOnRequest = () => {
 
   return (
     <section className="tracks-on-request">
+      <h2 className="tracks-on-request__title">Концерт по заявкам</h2>
       <ul
         className="requested-list"
         ref={(ul) => {

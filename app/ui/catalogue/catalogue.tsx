@@ -1,21 +1,34 @@
 import { useState } from 'react';
+import cx from 'classnames';
 import type { CatalogueListEntryDto } from '~/data-fetch';
 import {
   CatalogueNotFound,
   links as notFoundLinks,
 } from './catalogue-not-found';
+
 import { CatalogueForm, links as catalogueFromLinks } from './catalogue-form';
 import { CatalogueList, links as catalogueListLinks } from './catalogue-list';
 
-export const links = () => [...catalogueFromLinks(), ...catalogueListLinks()];
+import desktopStyles from './catalogue.d.css';
+import styles from './catalogue.css';
+import { getLinks } from '../../utils';
+
+const localLinks = getLinks(styles, desktopStyles);
+
+export const links = () => [
+  ...catalogueFromLinks(),
+  ...catalogueListLinks(),
+  ...localLinks(),
+];
 
 export type CatalogueOrder = 'createdAt' | 'titleAsc' | 'titleDesc';
 
 interface CatalogueProps {
   items: CatalogueListEntryDto[];
+  noFilter?: boolean;
 }
 
-export const Catalogue = ({ items }: CatalogueProps) => {
+export const Catalogue = ({ items, noFilter }: CatalogueProps) => {
   const [filtered, setFiltered] = useState<CatalogueListEntryDto[] | null>(
     null
   );
@@ -59,11 +72,17 @@ export const Catalogue = ({ items }: CatalogueProps) => {
   }
 
   return (
-    <section className="padded-wrap inner-page-wrap">
-      <CatalogueForm
-        onSearch={handleCatalogueSearch}
-        onOrderChange={handleOrderChange}
-      />
+    <section
+      className={cx('padded-wrap inner-page-wrap', {
+        'catalogue_no-filter': noFilter,
+      })}
+    >
+      {noFilter ? null : (
+        <CatalogueForm
+          onSearch={handleCatalogueSearch}
+          onOrderChange={handleOrderChange}
+        />
+      )}
       {filtered?.length === 0 ? (
         <CatalogueNotFound />
       ) : (

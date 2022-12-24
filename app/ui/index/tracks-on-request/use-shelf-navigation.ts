@@ -26,6 +26,7 @@ interface UseShelfNavigationReturn {
   ref: React.MutableRefObject<HTMLUListElement | null>;
   width: string;
   handleClick: (threshold: number, id: string) => void;
+  expandedId: string | null;
 }
 
 export function useShelfNavigation(id: string): UseShelfNavigationReturn {

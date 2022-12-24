@@ -19,3 +19,7 @@
 .requested-list__item[data-collapsed='false'] {
   flex: 1;
 }
+
+.tracks-on-request__title {
+  display: none;
+}

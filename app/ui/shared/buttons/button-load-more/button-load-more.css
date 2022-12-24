@@ -17,6 +17,12 @@
   margin: 0 auto;
 }
 
+.button-load-more:link,
+.button-load-more:visited {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
 .button-load-more:hover,
 .button-load-more:focus-visible {
   background-color: var(--color-text);

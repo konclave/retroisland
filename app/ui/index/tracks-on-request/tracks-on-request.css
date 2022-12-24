@@ -22,3 +22,11 @@
 .requested-list__item:nth-child(6n) .requested-item__toggle-visibility {
   background-color: var(--color-requested-header-bg-6);
 }
+
+.tracks-on-request__title {
+  font: normal 1.25rem/1.4 var(--font-family-header);
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 40px var(--section-side-padding) 25px;
+}
