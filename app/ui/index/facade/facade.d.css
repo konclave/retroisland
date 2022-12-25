@@ -1,0 +1,25 @@
+.facade {
+  position: relative;
+  height: 100vh;
+  padding: 0;
+  background-color: #9dbbc5;
+  background-image: none;
+  display: grid;
+}
+
+.facade::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 80%;
+  aspect-ratio: 1;
+  background: url('/img/vynil.svg') right bottom no-repeat;
+  background-size: 100% 100%;
+  z-index: 1;
+}
+
+.facade > .padded-wrap {
+  display: flex;
+  flex-direction: column;
+}

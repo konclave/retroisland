@@ -1,0 +1,75 @@
+.about-project {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.about-project__content {
+  --disk-dimension: 1991px;
+
+  position: relative;
+  height: calc(var(--disk-dimension) + 2 * 40px);
+  color: var(--color-light);
+}
+
+.about-project__content::after {
+  position: absolute;
+  left: calc(-1 * var(--section-side-padding) - 50px);
+  top: 40px;
+  content: '';
+  width: calc(100% + 2 * var(--section-side-padding));
+  height: var(--disk-dimension);
+  background-image: url(/img/vinyl-disk.svg);
+  background-size: var(--disk-dimension) var(--disk-dimension);
+  background-position: top right;
+}
+
+.about-project__content p {
+  position: absolute;
+  display: flex;
+  margin: 0;
+  z-index: 1;
+  font-family: var(--font-family-text);
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--font-size-base);
+  line-height: 1.75;
+}
+
+.about-project__content p:nth-child(1) {
+  align-items: flex-end;
+  width: 630px;
+  height: 224px;
+  left: 0;
+  top: calc(var(--disk-dimension) / 2 - (315px + 120px + 224px) + 40px);
+  padding: 0;
+}
+
+.about-project__content p:nth-child(2) {
+  align-items: center;
+  width: 530px;
+  height: 224px;
+  right: 10px;
+  top: calc(var(--disk-dimension) / 2 - 112px + 40px);
+}
+
+.about-project__content p:nth-child(3) {
+  width: 630px;
+  height: 224px;
+  top: calc(var(--disk-dimension) / 2 + 315px + 120px + 40px);
+  left: 0;
+}
+
+.about-project-links {
+  padding-top: 3.5rem;
+}
+
+.about-project-links__title {
+  padding-top: 0;
+  padding-bottom: 0;
+  /*margin-bottom: 1.5rem;*/
+  margin-bottom: 0;
+}
+
+.about-project p:nth-child(1)::after {
+  display: none;
+}

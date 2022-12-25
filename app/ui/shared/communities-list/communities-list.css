@@ -1,0 +1,10 @@
+.communities-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.communities-list__item {
+  margin: var(--section-side-padding) 0;
+  padding: 0 var(--section-side-padding);
+}

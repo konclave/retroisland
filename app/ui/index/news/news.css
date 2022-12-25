@@ -1,0 +1,13 @@
+.news {
+  padding: 1.5em var(--section-side-padding) 2.5em;
+  color: var(--color-light);
+  background-color: #d7672d;
+}
+
+.news h2 {
+  font: normal 1.25rem/1.4 var(--font-family-header);
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  margin: 0 0 25px;
+  padding: 0;
+}

@@ -1,0 +1,19 @@
+.image-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-box__image {
+  width: 100%;
+}
+
+.image-box__caption {
+  padding: 0 var(--section-side-padding);
+  margin-top: var(--section-side-padding);
+  font-family: var(--font-family-text);
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--font-size-small);
+  line-height: 1.67;
+  color: #636363;
+}

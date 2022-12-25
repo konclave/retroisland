@@ -1,0 +1,47 @@
+.catalogue-entry {
+  position: relative;
+  display: flex;
+  padding: 0;
+  aspect-ratio: 1.068;
+  transition: box-shadow linear 0.25s;
+}
+
+.catalogue-entry a::after {
+  content: '';
+  width: 84%;
+  aspect-ratio: 0.512;
+  background: url('/img/vynil-catalogue.svg') no-repeat;
+  position: absolute;
+  left: 50%;
+  top: 7.9%;
+  transform: translateX(-50%) translateY(100%);
+  transition: transform linear 0.25s;
+}
+
+.catalogue-entry a {
+  padding-top: 50%;
+}
+
+.catalogue-entry a:link,
+.catalogue-entry a:visited {
+}
+
+.catalogue-entry:hover,
+.catalogue-entry:focus-within {
+  box-shadow: var(--color-text-footer) 0 0 1rem -0.25rem;
+}
+
+.catalogue-entry a:hover::after,
+.catalogue-entry a:focus::after {
+  transform: translateX(-50%) translateY(0);
+}
+
+.catalogue-entry__title {
+  position: relative;
+  z-index: 1;
+  padding: 7.9%;
+  font-size: clamp(0.75rem, -0.25rem + 2vw, 1.25rem);
+  line-height: 140%;
+  display: flex;
+  align-items: flex-end;
+}

@@ -1,0 +1,30 @@
+.catalogue-item-videos {
+  padding: calc(2 * var(--section-top-padding-base)) var(--section-side-padding);
+}
+
+.catalogue-item-videos__title {
+  font-family: var(--font-family-header);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #192c31;
+  margin: 0 0 1rem;
+}
+
+.videos-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: calc(2 * var(--section-top-padding-base));
+}
+
+.videos-list__item {
+  margin: 0;
+  padding: 0;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}

@@ -1,0 +1,5 @@
+.facade {
+  height: 100vh;
+  background: #9dbbc5 url('/img/vynil.svg') right bottom no-repeat;
+  padding-top: calc(2 * var(--section-top-padding-base));
+}

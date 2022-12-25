@@ -1,0 +1,4 @@
+.catalogue-index__title {
+  margin: 0;
+  padding: var(--section-top-padding-base) var(--section-side-padding);
+}

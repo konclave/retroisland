@@ -1,0 +1,52 @@
+.about-project {
+  background: var(--color-bg-catalogue-gray);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-family-text);
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--font-size-intense);
+  line-height: 1.71;
+  color: var(--color-text);
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.about-project p {
+  margin: 0 0 1.5rem;
+}
+
+.about-project p:nth-child(1) {
+  position: relative;
+  padding-bottom: 459px;
+}
+
+.about-project p:nth-child(1)::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: calc(-1 * var(--section-side-padding));
+  width: calc(min(100vw, 320px) - var(--section-side-padding));
+  height: 435px;
+  background-image: url(/img/vinyl-disk.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: auto 435px;
+}
+
+.about-project-links {
+  padding-top: 1.5rem;
+  padding-bottom: 4rem;
+}
+
+.about-project-links__title {
+  font-family: var(--font-family-header);
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--font-size-subheader);
+  line-height: 1.33;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--color-text);
+  margin: 0 0 1em;
+}

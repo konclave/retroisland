@@ -1,27 +1,50 @@
 {
-  "name": "retroisland",
-  "version": "1.0.0",
+  "private": true,
+  "sideEffects": false,
   "scripts": {
-    "dev": "concurrently npm:dev:*",
-    "dev:eleventy": "eleventy --serve",
-    "dev:vite": "vite",
-    "build": "npm run build:vite && npm run build:eleventy",
-    "build:eleventy": "NODE_ENV=production eleventy",
-    "build:vite": "NODE_ENV=production vite build",
-    "prod": "NODE_ENV=production npm run build",
-    "update:browsertslist": "npx browserslist@latest --update-db"
-  },
-  "devDependencies": {
-    "@11ty/eleventy": "~1.0.1",
-    "@vitejs/plugin-legacy": "~1.5.3",
-    "concurrently": "^6.4.0",
-    "postcss-100vh-fix": "^1.0.2",
-    "vite": "~2.9.6"
+    "build": "remix build",
+    "dev": "remix dev --port=4000",
+    "start": "remix-serve build",
+    "generate:types": "contentful-typescript-codegen --output app/types/generated/contentful.d.ts"
   },
   "dependencies": {
-    "@justinribeiro/lite-youtube": "^1.3.1",
+    "@contentful/rich-text-react-renderer": "^15.12.1",
+    "@remix-run/node": "^1.7.5",
+    "@remix-run/react": "^1.7.5",
+    "@remix-run/serve": "^1.7.5",
+    "@remix-run/vercel": "^1.7.5",
+    "@types/howler": "^2.2.7",
+    "@types/jquery": "^3.5.14",
+    "@vercel/node": "^2.6.2",
+    "classnames": "^2.3.2",
+    "contentful": "^9.2.10",
+    "dotenv": "^16.0.3",
     "howler": "^2.2.3",
     "ilyabirman-jouele": "^3.0.6",
-    "jquery": "^3.6.0"
-  }
+    "jquery": "^3.6.1",
+    "lightgallery": "^2.7.0",
+    "react": "^18.2.0",
+    "react-alice-carousel": "^2.6.6",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@contentful/rich-text-types": "^15.13.2",
+    "@remix-run/dev": "^1.7.5",
+    "@remix-run/eslint-config": "^1.7.5",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
+    "cheerio": "1.0.0-rc.12",
+    "contentful-export": "^7.18.27",
+    "contentful-import": "^8.5.7",
+    "contentful-management": "^10.19.3",
+    "contentful-typescript-codegen": "^3.2.3",
+    "eslint": "^8.27.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4",
+    "yargs": "^17.6.2"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "packageManager": "pnpm@7.18.2"
 }
