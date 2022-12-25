@@ -21,8 +21,10 @@
 .catalogue-form__search-input:focus {
 }
 
+.catalogue-form__sort-input {
+  cursor: pointer;
+}
 .catalogue-form__sort-input option,
 .catalogue-form__sort-input {
   text-align: right;
-}
 }
