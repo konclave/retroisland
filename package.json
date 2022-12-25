@@ -20,7 +20,7 @@
     "contentful": "^9.2.10",
     "dotenv": "^16.0.3",
     "howler": "^2.2.3",
-    "ilyabirman-jouele": "^3.0.6",
+    "ilyabirman-jouele": "git@github.com:konclave/Jouele.git",
     "jquery": "^3.6.1",
     "lightgallery": "^2.7.0",
     "react": "^18.2.0",

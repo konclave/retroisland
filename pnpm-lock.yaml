@@ -24,7 +24,7 @@ specifiers:
   dotenv: ^16.0.3
   eslint: ^8.27.0
   howler: ^2.2.3
-  ilyabirman-jouele: ^3.0.6
+  ilyabirman-jouele: git@github.com:konclave/Jouele.git
   jquery: ^3.6.1
   lightgallery: ^2.7.0
   prettier: ^2.7.1
@@ -47,7 +47,7 @@ dependencies:
   contentful: 9.2.10
   dotenv: 16.0.3
   howler: 2.2.3
-  ilyabirman-jouele: 3.0.6_jquery@3.6.1
+  ilyabirman-jouele: github.com/konclave/Jouele/81f13ddf02a40fb6a2c973675a93d030cba24b95_jquery@3.6.1
   jquery: 3.6.1
   lightgallery: 2.7.0
   react: 18.2.0
@@ -5351,15 +5351,6 @@ packages:
     engines: {node: '>= 4'}
     dev: true
 
-  /ilyabirman-jouele/3.0.6_jquery@3.6.1:
-    resolution: {integrity: sha512-TP8fyk/zy9MWP1FNQ90V5t/FyG77nmUrv9x2s0HBub5MSaW0TyfiDxSZnmPrX8GCYXsD9/UZrViADkqThzdyZw==}
-    peerDependencies:
-      jquery: 3.x
-    dependencies:
-      howler: 2.2.3
-      jquery: 3.6.1
-    dev: false
-
   /import-fresh/3.3.0:
     resolution: {integrity: sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==}
     engines: {node: '>=6'}
@@ -9046,3 +9037,15 @@ packages:
   /zwitch/2.0.2:
     resolution: {integrity: sha512-JZxotl7SxAJH0j7dN4pxsTV6ZLXoLdGME+PsjkL/DaBrVryK9kTGq06GfKrwcSOqypP+fdXGoCHE36b99fWVoA==}
     dev: true
+
+  github.com/konclave/Jouele/81f13ddf02a40fb6a2c973675a93d030cba24b95_jquery@3.6.1:
+    resolution: {tarball: https://codeload.github.com/konclave/Jouele/tar.gz/81f13ddf02a40fb6a2c973675a93d030cba24b95}
+    id: github.com/konclave/Jouele/81f13ddf02a40fb6a2c973675a93d030cba24b95
+    name: ilyabirman-jouele
+    version: 3.0.7-beta
+    peerDependencies:
+      jquery: 3.x
+    dependencies:
+      howler: 2.2.3
+      jquery: 3.6.1
+    dev: false
