@@ -93,10 +93,13 @@ function mapAlbumToDto(album: IAlbum): AlbumDto {
   };
 }
 
-function mapOuterLinkToDto(link: IOuterLink): LinkDto {
+function mapOuterLinkToDto(outerLink: IOuterLink): LinkDto {
+  const { link = '', title, description } = outerLink.fields;
   return {
-    id: link.sys.id,
-    ...link.fields,
+    id: outerLink.sys.id,
+    link: /^http?s:\/\//.test(link) ? link : process.env['FILE_STORAGE'] + link,
+    title,
+    description,
   };
 }
 
