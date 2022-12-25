@@ -10,20 +10,10 @@
   justify-content: flex-end;
 }
 
-.catalogue-form__search-input {
-}
-
-.catalogue-form__search-input::placeholder {
-}
-
-.catalogue-form__search-input:focus::placeholder {
-}
-.catalogue-form__search-input:focus {
-}
-
 .catalogue-form__sort-input {
   cursor: pointer;
 }
+
 .catalogue-form__sort-input option,
 .catalogue-form__sort-input {
   text-align: right;
