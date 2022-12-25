@@ -182,7 +182,7 @@ function fetchAlbums(saved) {
 
           const title = typography($anchor.text().trim());
           const subtitle = typography(
-            $track.text().replace(title, '').replaceAll('  ', '').trim()
+            $track.text().replace(title, '').replaceAll('  ', ' ').trim()
           );
 
           if (
@@ -200,7 +200,10 @@ function fetchAlbums(saved) {
             link.includes('youtube.com') ||
             link.includes('youtu.be')
           ) {
-            albumObj.videos.push(link);
+            albumObj.videos.push({
+              url: link,
+              title: (title + ' ' + subtitle).trim(),
+            });
           } else {
             albumObj.otherLinks.push({
               title: title + ' ' + subtitle,

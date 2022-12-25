@@ -21,6 +21,7 @@ const contentType = {
   album: 'album',
   track: 'requestedTrack',
   otherLink: 'outerLink',
+  video: 'video',
 };
 
 const argv = yargs(process.argv.slice(2))
@@ -58,6 +59,18 @@ const argv = yargs(process.argv.slice(2))
       },
     },
     mergeData
+  )
+  .command(
+    'publish-singers',
+    'Publish all singer entries',
+    {
+      'contentful-env': {
+        describe: 'Contentful environment',
+        type: 'string',
+        default: 'develop',
+      },
+    },
+    publishAllSingers
   )
   .help()
   .parse();
@@ -131,7 +144,7 @@ async function mergeData(argv) {
 
   const scrappedData = JSON.parse(readFileSync(argv.scrappedData).toString());
   const client = await getContentfulClient(argv.contentfulEnv);
-  // mergeNews(scrappedData, client);
+  mergeNews(scrappedData, client);
   mergeSingers(scrappedData, client);
 }
 
@@ -223,8 +236,7 @@ async function mergeSingers(scrappedData, client) {
         console.log(`[Other link] "${title}" published`);
       }
 
-      videos = videos.concat(album.videos);
-
+      videos = videos.concat(await createVideos(album.videos, client));
       await createdAlbum.publish();
       console.log(`[Album] "${album.title}" published`);
       albumLinks.push(linkEntry(createdAlbum.sys.id));
@@ -235,6 +247,7 @@ async function mergeSingers(scrappedData, client) {
     contentfulSinger.fields.albums = { [locale]: mergedAlbums };
     contentfulSinger.fields.videos = l(videos);
     contentfulSinger.fields.links = l(otherLinks);
+
     await contentfulSinger.update();
     // await contentfulSinger.publish();
     console.log(`[Singer] "${singer.singer}" updated`);
@@ -266,4 +279,36 @@ async function getContentfulSinger(title, client) {
     return client.getEntry(id);
   }
   return null;
+}
+
+async function createVideos(videos, client) {
+  let createdArr = [];
+  for (let video of videos) {
+    const { title, url } = video;
+
+    const created = await client.createEntry(contentType.video, {
+      fields: {
+        title: l(title),
+        url: l(url),
+      },
+    });
+    createdArr.push(linkEntry(created.sys.id));
+    await created.publish();
+    console.log(`[Video] "${title}" published`);
+  }
+  return createdArr;
+}
+
+async function publishAllSingers(argv) {
+  const client = await getContentfulClient(argv.contentfulEnv);
+  const response = await client.getEntries({
+    content_type: contentType.singer,
+  });
+
+  response.items?.reduce(async (acc, item) => {
+    await acc;
+    const id = item.sys.id;
+    const entry = await client.getEntry(id);
+    return entry.publish();
+  }, Promise.resolve());
 }
