@@ -1,5 +1,6 @@
 import * as cheerio from 'cheerio';
-import axios from 'axios';
+import { attachStorageUrl } from '~/utils';
+import type { Document } from '@contentful/rich-text-types';
 
 import { client } from './contentful-client';
 import type {
@@ -97,7 +98,7 @@ function mapOuterLinkToDto(outerLink: IOuterLink): LinkDto {
   const { link = '', title, description } = outerLink.fields;
   return {
     id: outerLink.sys.id,
-    link: /^http?s:\/\//.test(link) ? link : process.env['FILE_STORAGE'] + link,
+    link: attachStorageUrl(link),
     title,
     description,
   };

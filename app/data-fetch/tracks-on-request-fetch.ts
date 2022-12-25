@@ -5,6 +5,7 @@ import type {
 } from '~/types/generated/contentful';
 import { Entry } from 'contentful';
 import { client } from './contentful-client';
+import { attachStorageUrl } from '~/utils';
 
 export interface RequestedItemDto {
   id: string;
@@ -39,14 +40,6 @@ function mapRequestedItemDto(
     title: item.fields.title,
     tracks: item.fields.tracks?.map(mapTrackToDto) || [],
   };
-}
-
-function attachStorageUrl(link?: string): string {
-  if (!link || /http?s:\/\//.test(link)) {
-    return link ?? '';
-  }
-  const base = process.env['FILE_STORAGE']?.replace(/\/$/, '');
-  return `${base}${link.replace(/^\/Files/, '')}`;
 }
 
 export function mapTrackToDto(track: IRequestedTrack): RequestedTrackItemDto {
