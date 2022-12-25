@@ -7,7 +7,7 @@ import cx from 'classnames';
 import styles from './track-list.css';
 import desktopStyles from './track-list.d.css';
 
-import joueleStyles from 'ilyabirman-jouele/dist/jouele.css';
+import joueleStyles from 'ilyabirman-jouele/dist/jouele.min.css';
 import joueleLocalStyles from './jouele.css';
 import joueleLocalDesktopStyles from './jouele.d.css';
 
