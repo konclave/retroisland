@@ -213,12 +213,15 @@ async function mergeSingers(scrappedData, client) {
         console.log(`[Track] "${title}" published`);
       }
 
-      const createdAlbum = await client.createEntry(contentType.album, {
-        fields: {
-          title: l(album.title),
-          tracks: l(trackLinks),
-        },
-      });
+      const createdAlbum =
+        album.tracks.length > 0
+          ? await client.createEntry(contentType.album, {
+              fields: {
+                title: l(album.title),
+                tracks: l(trackLinks),
+              },
+            })
+          : null;
 
       for (let otherLink of album.otherLinks) {
         const { title, link } = otherLink;
@@ -235,11 +238,12 @@ async function mergeSingers(scrappedData, client) {
         await createdLink.publish();
         console.log(`[Other link] "${title}" published`);
       }
-
       videos = videos.concat(await createVideos(album.videos, client));
-      await createdAlbum.publish();
-      console.log(`[Album] "${album.title}" published`);
-      albumLinks.push(linkEntry(createdAlbum.sys.id));
+      if (createdAlbum) {
+        await createdAlbum.publish();
+        albumLinks.push(linkEntry(createdAlbum.sys.id));
+        console.log(`[Album] "${album.title}" published`);
+      }
     }
 
     const existingAlbums = contentfulSinger.fields.albums?.[locale] || [];
