@@ -3,9 +3,12 @@
 // При апдейте артиста пофиксить заново
 import * as cheerio from 'cheerio';
 import { createHash } from 'crypto';
-import { writeFileSync, readFileSync } from 'fs';
+import { resolve } from 'path';
+import {writeFileSync, existsSync, mkdirSync} from 'fs';
 
 const HOST = 'https://retroisland.net';
+const GENERATED_PATH = './generated';
+const DATA_FILENAME = 'data.json';
 
 main();
 
@@ -27,14 +30,16 @@ function main() {
       news,
       singers: { ...singers },
     };
-
-    writeFileSync('generated/data.json', JSON.stringify(data, null, 2));
+    if (!existsSync(GENERATED_PATH)) {
+      mkdirSync(GENERATED_PATH)
+    }
+    writeFileSync(resolve(process.cwd(), GENERATED_PATH, DATA_FILENAME), JSON.stringify(data, null, 2));
   });
 }
 
 function readStoredData() {
   try {
-    return JSON.parse(readFileSync('generated/data.json').toString());
+    return JSON.parse(eradFileSync(resolve(process.cwd(), GENERATED_PATH, DATA_FILENAME)).toString());
   } catch {
     return {};
   }
@@ -50,8 +55,7 @@ async function fetchHtml(url) {
   const response = await fetch(url, headers);
   const buffer = await response.arrayBuffer();
   const decoder = new TextDecoder('cp1251');
-  const html = decoder.decode(buffer);
-  return html;
+  return decoder.decode(buffer);
 }
 
 async function loadNews(html, saved) {
@@ -110,13 +114,11 @@ async function loadSingers(html, saved) {
 
   const items = await Promise.all(links.map(fetchAlbums(saved)));
 
-  const result = items.reduce((acc, entry) => {
+  return items.reduce((acc, entry) => {
     const [key, value] = Object.entries(entry)[0];
     acc[key] = value;
     return acc;
   }, {});
-
-  return result;
 }
 
 function fetchAlbums(saved) {
@@ -161,12 +163,8 @@ function fetchAlbums(saved) {
           videos: [],
           otherLinks: [],
         };
-
         $(album).find('li').each(iterateTracks(albumObj));
-
-        if (albumObj.tracks.length) {
-          result.albums.push(albumObj);
-        }
+        result.albums.push(albumObj);
       };
     }
 

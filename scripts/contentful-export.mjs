@@ -3,7 +3,7 @@ import { config } from 'dotenv';
 import contentfulExport from 'contentful-export';
 import contentfulImport from 'contentful-import';
 import contentful from 'contentful-management';
-import { writeFileSync, existsSync, readFileSync } from 'fs';
+import { existsSync, readFileSync } from 'fs';
 import yargs from 'yargs';
 
 config();
@@ -92,7 +92,7 @@ function exportData() {
     exportDir: './generated',
     contentFile: 'contentful-data.json',
   })
-    .then((result) => {
+    .then(() => {
       console.log('Contentful data successfully exported.');
     })
     .catch((err) => {
@@ -151,7 +151,7 @@ async function mergeData(argv) {
 async function mergeNews(scrappedData, client) {
   const newsEntries = Object.entries(scrappedData.news.items);
   for (let i = 0; i < scrappedData.news.items.length; i++) {
-    const [hash, scrappedEntry] = newsEntries[i];
+    const [, scrappedEntry] = newsEntries[i];
     const existing = news.items.find(isSameNews(scrappedEntry));
     if (!existing) {
       const draft = await client.createEntry(contentType.newsItem, {
