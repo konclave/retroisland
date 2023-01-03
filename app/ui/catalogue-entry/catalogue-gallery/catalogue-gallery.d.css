@@ -11,12 +11,12 @@
 }
 
 .catalogue-gallery__item {
+  width: 300px;
   display: inline-block;
   padding: 0 12px;
 }
 
 .catalogue-gallery__image {
-  max-height: 390px;
 }
 
 .alice-carousel {
