@@ -150,7 +150,10 @@ async function mergeData(argv) {
 
 async function mergeNews(scrappedData, client) {
   const newsEntries = Object.entries(scrappedData.news.items);
-  for (let i = 0; i < scrappedData.news.items.length; i++) {
+  const news = await client.getEntries({
+    content_type: contentType.newsItem,
+  });
+  for (let i = 0; i < newsEntries.length; i++) {
     const [, scrappedEntry] = newsEntries[i];
     const existing = news.items.find(isSameNews(scrappedEntry));
     if (!existing) {
