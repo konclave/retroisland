@@ -81,7 +81,7 @@ const mapToDto = async (
     albums: item.fields.albums?.map(mapAlbumToDto),
     acknowledgements: item.fields.acknowledgements,
     acknowledgementText: item.fields.acknowledgementText,
-    videos,
+    videos: videos.filter(Boolean),
     links: item.fields.links?.map(mapOuterLinkToDto),
   };
 };
@@ -110,7 +110,7 @@ async function mapVideo(video: IVideo): Promise<VideoDto | null> {
   if (thumbnail) {
     return {
       url,
-      thumbUrl: thumbnail.fields.file.url,
+      thumbUrl: thumbnail.fields.file?.url,
       title,
     };
   }
