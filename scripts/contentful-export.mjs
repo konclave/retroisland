@@ -72,6 +72,18 @@ const argv = yargs(process.argv.slice(2))
     },
     publishAllSingers
   )
+  .command(
+    'purge',
+    'Puges newly created tracks',
+    {
+      'contentful-env': {
+        describe: 'Contentful environment',
+        type: 'string',
+        default: 'develop',
+      },
+    },
+    purge
+  )
   .help()
   .parse();
 
@@ -144,7 +156,7 @@ async function mergeData(argv) {
 
   const scrappedData = JSON.parse(readFileSync(argv.scrappedData).toString());
   const client = await getContentfulClient(argv.contentfulEnv);
-  mergeNews(scrappedData, client);
+  // mergeNews(scrappedData, client);
   mergeSingers(scrappedData, client);
 }
 
@@ -318,4 +330,64 @@ async function publishAllSingers(argv) {
     const entry = await client.getEntry(id);
     return entry.publish();
   }, Promise.resolve());
+}
+
+async function purge(argv) {
+  const client = await getContentfulClient(argv.contentfulEnv);
+
+  let fetchedCount = 0;
+  do {
+    const response = await client.getEntries({
+      content_type: contentType.track,
+      'sys.updatedAt[gte]': '2022-09-20T00:00:00Z',
+      limit: 1000,
+    });
+
+    fetchedCount = response.items.length;
+
+    const albumTracks = response.items.filter(
+      (track) =>
+        new Date(track.sys.createdAt) > new Date('2022-09-20T00:00:00Z')
+    );
+
+    for (let i = 0; i < albumTracks.length; i++) {
+      const instance = await client.getEntry(albumTracks[i].sys.id);
+      if (instance.isPublished()) {
+        await fetch(
+          `https://api.contentful.com/spaces/${options.spaceId}/environments/${argv.contentfulEnv}/entries/${albumTracks[i].sys.id}/published`,
+          {
+            method: 'DELETE',
+            headers: {
+              Authorization: `Bearer ${options.managementToken}`,
+              'X-Contentful-Version': Number(instance.sys.publishedVersion) + 1,
+            },
+          }
+        );
+        console.log(
+          `[Track] ${instance.fields.title['ru-RU']} was unpublished`
+        );
+      }
+    }
+
+    for (let i = 0; i < albumTracks.length; i++) {
+      const instance = await client.getEntry(albumTracks[i].sys.id);
+      try {
+        await fetch(
+          `https://api.contentful.com/spaces/${options.spaceId}/environments/${argv.contentfulEnv}/entries/${albumTracks[i].sys.id}`,
+          {
+            method: 'DELETE',
+            headers: {
+              Authorization: `Bearer ${options.managementToken}`,
+              'X-Contentful-Version': Number(instance.sys.publishedVersion) + 1,
+            },
+          }
+        );
+        console.log(`[Track] ${instance.fields.title['ru-RU']} was removed`);
+      } catch (e) {
+        console.log(
+          `[Track] ${instance.fields.title['ru-RU']} was not deleted: ${e.message}`
+        );
+      }
+    }
+  } while (fetchedCount > 0);
 }

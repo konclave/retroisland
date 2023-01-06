@@ -8,7 +8,8 @@
     "generate:types": "contentful-typescript-codegen --output app/types/generated/contentful.d.ts",
     "content:fetch": "node scripts/fetch-content.mjs",
     "content:merge": "node scripts/contentful-export.mjs merge --scrapped-data=./generated/data.json",
-    "content:publish": "node scripts/contentful-export.mjs publish-singers"
+    "content:publish": "node scripts/contentful-export.mjs publish-singers",
+    "content:purge": "node scripts/contentful-export.mjs purge"
   },
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^15.16.2",

@@ -4,7 +4,7 @@
 import * as cheerio from 'cheerio';
 import { createHash } from 'crypto';
 import { resolve } from 'path';
-import {writeFileSync, existsSync, mkdirSync} from 'fs';
+import { writeFileSync, existsSync, mkdirSync } from 'fs';
 
 const HOST = 'https://retroisland.net';
 const GENERATED_PATH = './generated';
@@ -31,15 +31,22 @@ function main() {
       singers: { ...singers },
     };
     if (!existsSync(GENERATED_PATH)) {
-      mkdirSync(GENERATED_PATH)
+      mkdirSync(GENERATED_PATH);
     }
-    writeFileSync(resolve(process.cwd(), GENERATED_PATH, DATA_FILENAME), JSON.stringify(data, null, 2));
+    writeFileSync(
+      resolve(process.cwd(), GENERATED_PATH, DATA_FILENAME),
+      JSON.stringify(data, null, 2)
+    );
   });
 }
 
 function readStoredData() {
   try {
-    return JSON.parse(eradFileSync(resolve(process.cwd(), GENERATED_PATH, DATA_FILENAME)).toString());
+    return JSON.parse(
+      eradFileSync(
+        resolve(process.cwd(), GENERATED_PATH, DATA_FILENAME)
+      ).toString()
+    );
   } catch {
     return {};
   }
@@ -186,6 +193,8 @@ function fetchAlbums(saved) {
           if (
             link.toLowerCase().includes('.mp3') ||
             link.toLowerCase().includes('.wma') ||
+            link.toLowerCase().includes('.wav') ||
+            link.toLowerCase().includes('.m4a') ||
             link.toLowerCase().includes('.flac')
           ) {
             albumObj.tracks.push({
