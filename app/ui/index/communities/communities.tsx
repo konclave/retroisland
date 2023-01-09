@@ -18,7 +18,7 @@ export const links = () => [...communitiesListLinks(), ...localLinks()];
 export const Communities = () => {
   const { content } = useLoaderData<IndexLoaderData>();
 
-  if (!content.links) {
+  if (!content.links || content.links.length === 0) {
     return null;
   }
 

@@ -27,6 +27,7 @@ export const indexLoader: LoaderFunction =
       await fetchCatalogueList(),
     ]);
 
+    content.fields.links = content.fields.links?.filter(link => link.fields) ?? [];
     return {
       news: news.items,
       requested,

@@ -24,10 +24,15 @@ export const AboutProject = () => {
           {documentToReactComponents(data.fields.text)}
         </div>
       </section>
-      <div className="about-project-links">
-        <h2 className="about-project-links__title padded-wrap">Ссылки</h2>
-        <CommunitiesList items={data.fields.links} />
-      </div>
+      { data.fields.links.length === 0 
+        ? null : 
+        (
+          <div className="about-project-links">
+            <h2 className="about-project-links__title padded-wrap">Ссылки</h2>
+            <CommunitiesList items={data.fields.links} />
+          </div>
+        )
+      }
     </>
   );
 };
