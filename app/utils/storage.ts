@@ -1,5 +1,5 @@
 export function attachStorageUrl(link?: string): string {
-  if (!link || /http?s:\/\//.test(link)) {
+  if (!link || /https?:\/\//.test(link)) {
     return link ?? '';
   }
   const base = process.env['FILE_STORAGE']?.replace(/\/$/, '');
