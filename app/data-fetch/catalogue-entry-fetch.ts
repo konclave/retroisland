@@ -42,7 +42,7 @@ export interface CatalogueEntryDto {
   albums?: AlbumDto[] | undefined;
   acknowledgements?: string[];
   acknowledgementText?: string;
-  videos?: (VideoDto | null)[];
+  videos?: VideoDto[];
   links?: LinkDto[];
 }
 
@@ -81,7 +81,7 @@ const mapToDto = async (
     albums: item.fields.albums?.map(mapAlbumToDto),
     acknowledgements: item.fields.acknowledgements,
     acknowledgementText: item.fields.acknowledgementText,
-    videos: videos.filter(Boolean),
+    videos: videos.filter((video): video is VideoDto => Boolean(video)),
     links: item.fields.links?.map(mapOuterLinkToDto),
   };
 };
