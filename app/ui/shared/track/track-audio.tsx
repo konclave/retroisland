@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
 import type { RequestedTrackItemDto } from '~/data-fetch';
+import { DownloadLink } from './download-link';
 
 export const TrackAudio = ({ item }: { item: RequestedTrackItemDto }) => {
   const ref = useRef<HTMLAnchorElement | null>(null);
@@ -16,6 +17,7 @@ export const TrackAudio = ({ item }: { item: RequestedTrackItemDto }) => {
 
   return (
     <>
+
       <div className="track-wrap">
         <a
           ref={ref}
@@ -28,10 +30,7 @@ export const TrackAudio = ({ item }: { item: RequestedTrackItemDto }) => {
           {item.title}
         </a>
       </div>
-
-      {item.shortDescription && (
-        <small className="track__description">{item.shortDescription}</small>
-      )}
+      <small className="track__description">{item.shortDescription || "Скачать композицию:"} <DownloadLink url={item.link} title={item.title} /></small>
     </>
   );
 };
