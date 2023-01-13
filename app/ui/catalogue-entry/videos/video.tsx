@@ -28,6 +28,7 @@ export const Video = ({ video }: VideoProps) => {
         />
         <span className="video-item__overlay"></span>
       </a>
+      { video.title ? <h4 className="video-item__title">{ video.title }</h4> : null }
     </div>
   );
 };
