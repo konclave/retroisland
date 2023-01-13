@@ -1,11 +1,12 @@
 .video-item {
-  background: #e7e7e7;
+  background: #dfdfdf;
 }
 .video-item__title {
   margin: 0;
   padding: 0.5em 1em 0.85em;
   font-size: var(--font-size-intense);
   color: var(--color-text-dark-gray);
+  font-weight: normal;
 }
 
 .video-item__link {
