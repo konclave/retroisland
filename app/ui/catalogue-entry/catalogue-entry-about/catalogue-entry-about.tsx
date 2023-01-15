@@ -2,6 +2,7 @@ import { useRef, useState } from 'react';
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 import type { Document } from '@contentful/rich-text-types';
 import type { Asset } from 'contentful';
+import cx from 'classnames';
 import {
   ButtonPlay,
   links as buttonPlayLinks,
@@ -34,7 +35,7 @@ export const CatalogueEntryAbout = ({
   const [isPlaying, setIsPlaying] = useState<boolean>(false);
 
   function handlePlayClick() {
-    const isPlaying = ($ as any).Jouele.playlist.forEach((pl) => {
+    const isPlaying = ($ as any).Jouele.playlist.forEach((pl: any) => {
       pl.forEach((track: any) => {
         track.pause();
       });
@@ -71,7 +72,7 @@ export const CatalogueEntryAbout = ({
           {shortDescription}
         </h3>
       )}
-      <h2 className="catalogue-item-about__name">{title}</h2>
+      <h2 className={cx("catalogue-item-about__name", { 'catalogue-item-about__name_xx-long': title.length > 25})}>{title}</h2>
       {description && (
         <main className="catalogue-item-about__text catalogue-item-about__text">
           {documentToReactComponents(description)}
