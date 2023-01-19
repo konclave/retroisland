@@ -6,6 +6,9 @@ module.exports = {
   // so we default back to the standard build output.
   server: process.env.NODE_ENV === 'development' ? undefined : './server.js',
   ignoredRouteFiles: ['**/.*'],
+  future: {
+    v2_meta: true,
+  },
   // appDirectory: "app",
   // assetsBuildDirectory: "public/build",
   // serverBuildPath: "api/index.js",

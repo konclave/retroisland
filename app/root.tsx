@@ -1,4 +1,3 @@
-import type { MetaFunction } from '@remix-run/node';
 import {
   Links,
   LiveReload,
@@ -20,6 +19,8 @@ import { About, links as aboutLinks } from '~/ui/shared/about';
 import { ErrorPage, links as errorPageLinks } from '~/ui/error-page';
 import { BREAKPOINT_DESKTOP } from '~/config';
 
+import type { V2_MetaFunction } from "@remix-run/node";
+
 export const links = () => [
   { rel: 'icon', href: '/favicon.ico', sizes: 'any' },
   { rel: 'icon', href: '/icon.svg', type: 'image/svg+xml' },
@@ -39,16 +40,20 @@ export const links = () => [
   ...errorPageLinks(),
 ];
 
-export const meta: MetaFunction = () => ({
-  charset: 'utf-8',
-  title: 'ВАСИЛЬЕВСКИЙ ОСТРОВ (Музыка прошлых лет.)',
-  viewport: 'width=device-width,initial-scale=1',
-});
+export const meta: V2_MetaFunction = () => ([
+  { title: 'ВАСИЛЬЕВСКИЙ ОСТРОВ (Музыка прошлых лет.)' },
+  { name: 'description', content: 'Коллекция редких песен вокально-инструментальных ансамблей 70-х годов, а также их солистов.'},
+]);
 
 export default function App() {
   return (
     <html lang="ru-Ru">
       <head>
+        <meta charSet="utf-8" />
+        <meta
+          name="viewport"
+          content="width=device-width,initial-scale=1"
+        />
         <Meta />
         <Links />
       </head>

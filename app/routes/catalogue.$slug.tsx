@@ -1,4 +1,3 @@
-import type { LoaderFunction } from '@remix-run/node';
 import { useLoaderData } from '@remix-run/react';
 import { Header, links as headerLinks } from '~/ui/shared/header';
 import {
@@ -6,6 +5,14 @@ import {
   links as catalogueEntryLinks,
 } from '~/ui/catalogue-entry';
 import { catalogueEntryLoader } from '~/loaders';
+
+import type { LoaderFunction, V2_MetaFunction } from '@remix-run/node';
+
+export const meta: V2_MetaFunction = ({ data }) => ([
+  { title: `${data.title} – ВАСИЛЬЕВСКИЙ ОСТРОВ (Музыка прошлых лет.)` },
+  { name: 'description', content: `Список композиций ${data.title}, которые есть на сайте.`},
+]);
+
 
 export const links = () => [...headerLinks(), ...catalogueEntryLinks()];
 
