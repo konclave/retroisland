@@ -33,6 +33,7 @@ specifiers:
   react-dom: ^18.2.0
   typescript: ^4.9.4
   yargs: ^17.6.2
+  yet-another-react-lightbox: ^2.2.7
 
 dependencies:
   '@contentful/rich-text-react-renderer': 15.16.2_biqbaboplfbrettd7655fr4n2y
@@ -53,6 +54,7 @@ dependencies:
   react: 18.2.0
   react-alice-carousel: 2.7.0_react@18.2.0
   react-dom: 18.2.0_react@18.2.0
+  yet-another-react-lightbox: 2.2.7_biqbaboplfbrettd7655fr4n2y
 
 devDependencies:
   '@contentful/rich-text-types': 16.0.2
@@ -9375,6 +9377,17 @@ packages:
       y18n: 5.0.8
       yargs-parser: 21.1.1
     dev: true
+
+  /yet-another-react-lightbox/2.2.7_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-v6/P2NUOjAQ9egmPYyn8BG3qs6tszVNGWC5fVaKaURqDXcwEqpoSBr4/9djWwiW6DdzxJh06KRV9Fas2HHeExg==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      react: '>=16.8.0'
+      react-dom: '>=16.8.0'
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    dev: false
 
   /yn/3.1.1:
     resolution: {integrity: sha512-Ux4ygGWsu2c7isFWe8Yu1YluJmqVhxqK2cLXNQA5AcC3QfbGNpM7fu0Y8b/z16pXLnFxZYvWhd3fhBY9DLmC6Q==}

@@ -1,6 +1,6 @@
 import * as cheerio from 'cheerio';
 import { attachStorageUrl } from '~/utils';
-import type { Document } from '@contentful/rich-text-types';
+import type { Document, Asset } from '@contentful/rich-text-types';
 
 import { client } from './contentful-client';
 import type {
@@ -106,37 +106,31 @@ function mapOuterLinkToDto(outerLink: IOuterLink): LinkDto {
 
 async function mapVideo(video: IVideo): Promise<VideoDto | null> {
   const { url, thumbnail, title } = video.fields;
-
-  if (thumbnail) {
-    return {
-      url,
-      thumbUrl: thumbnail.fields.file?.url,
-      title,
-    };
+  if (!url) {
+    return null;
   }
 
+  const thumbUrl = thumbnail ? thumbnail.fields.file?.url : await getThumbnailUrl(url);
+  return {
+    url,
+    thumbUrl,
+    title,
+  };
+}
+
+async function getThumbnailUrl(url: string): string {
   if (/https?:\/\/ok\.ru/.test(url)) {
     const id = url.split('/').at(-1);
     const response = await fetch('https://m.ok.ru/live/' + id);
     const page = await response.text();
     const $ = cheerio.load(page);
-    const thumbUrl = $('img.vdo.thumb')?.[0]?.attribs.src || '';
-    return {
-      url,
-      thumbUrl,
-      title,
-    };
+    return $('img.vdo.thumb')?.[0]?.attribs.src || '';
   }
 
   if (/youtu\.be/.test(url) || /youtube.com/.test(url)) {
     const id = url.split('/').at(-1);
-    const thumbUrl = `https://i3.ytimg.com/vi/${id}/hqdefault.jpg`;
-    return {
-      url,
-      thumbUrl,
-      title,
-    };
+    return `https://i3.ytimg.com/vi/${id}/hqdefault.jpg`;    
   }
 
-  return null;
+  return '';
 }

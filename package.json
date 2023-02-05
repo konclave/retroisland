@@ -29,7 +29,8 @@
     "lightgallery": "^2.7.1",
     "react": "^18.2.0",
     "react-alice-carousel": "^2.7.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "yet-another-react-lightbox": "^2.2.7"
   },
   "devDependencies": {
     "@contentful/rich-text-types": "^16.0.2",
@@ -50,5 +51,5 @@
   "engines": {
     "node": ">=16"
   },
-  "packageManager": "pnpm@7.18.2"
+  "packageManager": "pnpm@7.24.0"
 }

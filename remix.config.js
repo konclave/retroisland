@@ -9,6 +9,7 @@ module.exports = {
   future: {
     v2_meta: true,
   },
+  serverDependenciesToBundle: ['yet-another-react-lightbox']
   // appDirectory: "app",
   // assetsBuildDirectory: "public/build",
   // serverBuildPath: "api/index.js",
