@@ -5,7 +5,7 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
-  useCatch,
+  useCatch, useLoaderData,
 } from '@remix-run/react';
 
 import normalizeStyles from '~/styles/normalize.css';
@@ -20,6 +20,7 @@ import { ErrorPage, links as errorPageLinks } from '~/ui/error-page';
 import { BREAKPOINT_DESKTOP } from '~/config';
 
 import type { V2_MetaFunction } from "@remix-run/node";
+import {json} from "@remix-run/node";
 
 export const links = () => [
   { rel: 'icon', href: '/favicon.ico', sizes: 'any' },
@@ -40,12 +41,17 @@ export const links = () => [
   ...errorPageLinks(),
 ];
 
+export const loader = async () => {
+  return json({ panelbearId: process.env.PANEL_BEAR_ID });
+};
+
 export const meta: V2_MetaFunction = () => ([
   { title: 'ВАСИЛЬЕВСКИЙ ОСТРОВ (Музыка прошлых лет.)' },
   { name: 'description', content: 'Коллекция редких песен вокально-инструментальных ансамблей 70-х годов, а также их солистов.'},
 ]);
 
 export default function App() {
+  const { panelbearId } = useLoaderData<typeof loader>();
   return (
     <html lang="ru-Ru">
       <head>
@@ -58,6 +64,18 @@ export default function App() {
         <Links />
       </head>
       <body>
+        {
+          process.env.NODE_ENV === 'development' || !panelbearId ? null : (
+            <>
+              <script async src={`https://cdn.panelbear.com/analytics.js?site=${panelbearId}`} />
+              <script
+                dangerouslySetInnerHTML={{
+                  __html: `window.panelbear = window.panelbear || function() { (window.panelbear.q = window.panelbear.q || []).push(arguments); }; panelbear('config', { site: '${panelbearId}' });`,
+                }}
+              />
+            </>
+          )
+        }
         <Navigation />
         <Outlet />
         <About />
