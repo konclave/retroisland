@@ -1,13 +1,15 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { getLinks } from '~/utils';
 import type { MouseEvent } from 'react';
 import type { VideoDto } from '~/data-fetch';
 
 import styles from './video.css';
 import desktopStyles from './video.d.css';
+import Lightbox from "yet-another-react-lightbox";
+import {VideoPlayer, links as videoPlayerLinks} from "~/ui/catalogue-entry/videos/video-player";
 
 const localLinks = getLinks(styles, desktopStyles);
-export const links = () => [...localLinks()];
+export const links = () => [...videoPlayerLinks(), ...localLinks()];
 
 interface VideoProps {
   video: VideoDto;
@@ -15,10 +17,24 @@ interface VideoProps {
 }
 
 export const Video = ({ video, onClick }: VideoProps) => {
+  const [open, setOpen] = useState(false);
+
   function handleClick(e: MouseEvent<HTMLAnchorElement>) {
     e.preventDefault();
-    onClick();
+    setOpen(true);
+    if (onClick) {
+      onClick();
+    }
   }
+
+  function renderVideo(video: VideoDto) {
+    return <VideoPlayer url={video.url} />
+  }
+
+  function closeLightbox() {
+    setOpen(false);
+  }
+
   return (
     <div className="video-item">
       <a
@@ -36,6 +52,15 @@ export const Video = ({ video, onClick }: VideoProps) => {
         <span className="video-item__overlay"></span>
       </a>
       { video.title ? <h4 className="video-item__title">{ video.title }</h4> : null }
+      <Lightbox
+        open={open}
+        close={closeLightbox}
+        carousel={{
+          finite: true
+        }}
+        slides={[{ type: 'custom-slide', ...video }]}
+        render={{ slide: renderVideo }}
+      />
     </div>
   );
 };

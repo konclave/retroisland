@@ -1,4 +1,8 @@
-import { useEffect } from 'react'; 
+import styles from './video-player.css';
+import {getLinks} from "~/utils";
+
+const localLinks = getLinks(styles);
+export const links = () => [...localLinks()];
 
 interface Props {
   url: string;
@@ -21,12 +25,13 @@ function getEmbeddedPlayerSrc(url: string): string {
 export const VideoPlayer = ({ url }: Props) => {
   const src = getEmbeddedPlayerSrc(url);
   return (
-    <iframe 
+    <iframe
+      className="video-player-container"
       src={src} 
-      width="1920px"
-      height="1080px"
+      width="100%"
+      height="auto"
+      allow="autoplay; fullscreen; picture-in-picture"
       frameBorder="0"
-      allow="autoplay"
       allowFullScreen
     />
   )
