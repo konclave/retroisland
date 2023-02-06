@@ -3,9 +3,10 @@ import type {
   IRequestedTrackFields,
   IRequestedTrack,
 } from '~/types/generated/contentful';
-import { Entry } from 'contentful';
 import { client } from './contentful-client';
 import { attachStorageUrl } from '~/utils';
+
+import type { Entry } from 'contentful';
 
 export interface RequestedItemDto {
   id: string;
@@ -38,7 +39,7 @@ function mapRequestedItemDto(
     artist: item.fields.artist || '',
     album: item.fields.album,
     title: item.fields.title,
-    tracks: item.fields.tracks?.map(mapTrackToDto) || [],
+    tracks: item.fields.tracks?.filter((track) => track.fields).map(mapTrackToDto) || [],
   };
 }
 
