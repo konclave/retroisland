@@ -6,7 +6,7 @@ interface Props {
 
 function getEmbeddedPlayerSrc(url: string): string {
   if (url.startsWith('https://ok.ru')) {
-    return `https://ok.ru/videoembed/${url.split('/').at(-1)}`;
+    return `https://ok.ru/videoembed/${url.split('/').at(-1)}?autoplay=1`;
   }
   if (url.startsWith('https://youtube.com') || url.startsWith('https://www.youtube.com')) {
     const parsed = new URL(url);
