@@ -11,7 +11,7 @@
   gap: var(--section-side-padding);
 }
 
-.catalogue-item-about__image {
+.catalogue-item-about__images img {
   width: 100%;
   border-radius: 8px;
 }

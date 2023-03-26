@@ -11,6 +11,7 @@ import { getLinks } from '~/utils';
 
 import styles from './catalogue-entry-about.css';
 import desktopStyles from './catalogue-entry-about.d.css';
+import { ContentfulPicture } from '~/ui/shared/contentful-picture';
 
 const localLinks = getLinks(styles, desktopStyles);
 
@@ -59,11 +60,14 @@ export const CatalogueEntryAbout = ({
     <article className="catalogue-item-about padded-wrap">
       <div className="catalogue-item-about__images">
         {images?.map((image) => (
-          <img
+          <ContentfulPicture
             key={image.fields.file.url}
-            className="catalogue-item-about__image"
-            alt={image.fields.title || title}
             src={image.fields.file.url}
+            config={[
+              { media: 'default', width: 480 },
+              { media: '(min-width: 480px)', width: 453 },
+            ]}
+            title={image.fields.title || title}
           />
         ))}
       </div>
@@ -72,7 +76,13 @@ export const CatalogueEntryAbout = ({
           {shortDescription}
         </h3>
       )}
-      <h2 className={cx("catalogue-item-about__name", { 'catalogue-item-about__name_xx-long': title.length > 25})}>{title}</h2>
+      <h2
+        className={cx('catalogue-item-about__name', {
+          'catalogue-item-about__name_xx-long': title.length > 25,
+        })}
+      >
+        {title}
+      </h2>
       {description && (
         <main className="catalogue-item-about__text catalogue-item-about__text">
           {documentToReactComponents(description)}
