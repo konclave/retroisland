@@ -9,6 +9,10 @@
   width: 630px;
 }
 
+.image-box picture {
+  width: 100%;
+}
+
 .image-box__image {
   border-radius: 8px;
   width: 100%;

@@ -8,14 +8,16 @@
   margin: 0 0 4rem 0;
 }
 
-.about-author > :nth-child(odd):not(.about-author__gallery) {
+.about-author > :not(.about-author__gallery) {
   padding-left: 25vw;
   margin-left: auto;
 }
 
-.about-author > :nth-child(even):not(.about-author__gallery) {
+.about-author > .about-author__image {
   padding-right: 25vw;
   margin-right: auto;
+  padding-left: 0;
+  margin-left: 0;
 }
 
 .about-author__gallery {

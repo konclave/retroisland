@@ -3,6 +3,10 @@
   flex-direction: column;
 }
 
+.image-box picture {
+  width: 100%;
+}
+
 .image-box__image {
   width: 100%;
 }

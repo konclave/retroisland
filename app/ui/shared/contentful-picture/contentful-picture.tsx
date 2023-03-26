@@ -11,6 +11,7 @@ interface ContentfulPictureProps {
   src: string;
   title: string;
   config: ContentfulPictureConfigItem[];
+  className?: string;
 }
 
 function getSrc({
@@ -31,6 +32,7 @@ export const ContentfulPicture = ({
   src,
   title,
   config,
+  className,
 }: ContentfulPictureProps) => {
   const defaultEntry = config.find((entry) => entry.media === 'default');
   if (!defaultEntry) {
@@ -41,9 +43,9 @@ export const ContentfulPicture = ({
       {config.map((entry) => {
         const { media, width } = entry;
         const mediaProps = {
-          ...(media && { media }),
+          ...(media !== 'default' && { media }),
         };
-
+        console.log(getSrc({ src, format: 'webp', width }));
         return (
           <Fragment key={media}>
             <source
@@ -64,7 +66,11 @@ export const ContentfulPicture = ({
           </Fragment>
         );
       })}
-      <img src={`${src}?w=${defaultEntry.width}`} alt={title} />
+      <img
+        src={`${src}?w=${defaultEntry.width}`}
+        alt={title}
+        className={className}
+      />
     </picture>
   );
 };
