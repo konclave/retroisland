@@ -1,13 +1,14 @@
 import { useLoaderData } from '@remix-run/react';
 import { BLOCKS } from '@contentful/rich-text-types';
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
-import { documentToHtmlString } from '@contentful/rich-text-html-renderer';
 import { getLinks } from '~/utils';
 import { Image, links as imageLinks } from '~/ui/shared/image';
 import { Gallery, links as galleryLinks } from '~/ui/shared/gallery';
 
 import styles from './about-author.css';
 import desktopStyles from './about-author.d.css';
+import type { aboutAuthorLoader } from '~/loaders';
+import type { Asset } from 'contentful';
 
 const localLinks = getLinks(styles, desktopStyles);
 
@@ -20,7 +21,7 @@ export const links = () => [
 const options = {
   renderNode: {
     [BLOCKS.EMBEDDED_ASSET]: (node: any) => {
-      const { title, description, file } = node.data.target.fields;
+      const { title, file } = node.data.target.fields;
       const mimeType = file.contentType;
       const mimeGroup = mimeType.split('/')[0];
       switch (mimeGroup) {
@@ -36,13 +37,19 @@ const options = {
 };
 
 export const AboutAuthor = () => {
-  const data = useLoaderData();
+  const data = useLoaderData<typeof aboutAuthorLoader>();
+  const galleryImages = data.fields.gallery?.filter((image: Asset) =>
+    Boolean(image.fields)
+  );
+  if (galleryImages?.length === 0) {
+    return null;
+  }
   return (
     <div className="padded-wrap about-author">
-      {documentToReactComponents(data.fields.text, options)}
+      {data.fields.text && documentToReactComponents(data.fields.text, options)}
       {data.fields.gallery && (
         <div className="about-author__gallery">
-          <Gallery images={data.fields.gallery} withCaption withNav />
+          <Gallery images={galleryImages} withCaption withNav />
         </div>
       )}
     </div>
