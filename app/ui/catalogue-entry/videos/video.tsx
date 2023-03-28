@@ -5,8 +5,12 @@ import type { VideoDto } from '~/data-fetch';
 
 import styles from './video.css';
 import desktopStyles from './video.d.css';
-import Lightbox from "yet-another-react-lightbox";
-import {VideoPlayer, links as videoPlayerLinks} from "~/ui/catalogue-entry/videos/video-player";
+import type { CustomSlide, Slide } from 'yet-another-react-lightbox';
+import Lightbox from 'yet-another-react-lightbox';
+import {
+  VideoPlayer,
+  links as videoPlayerLinks,
+} from '~/ui/catalogue-entry/videos/video-player';
 
 const localLinks = getLinks(styles, desktopStyles);
 export const links = () => [...videoPlayerLinks(), ...localLinks()];
@@ -27,12 +31,12 @@ export const Video = ({ video, onClick }: VideoProps) => {
     }
   }
 
-  function renderVideo(video: VideoDto) {
-    return <VideoPlayer url={video.url} />
-  }
-
   function closeLightbox() {
     setOpen(false);
+  }
+
+  function isCustomSlide(slide: Slide): slide is CustomSlide {
+    return slide.type === 'custom-slide';
   }
 
   return (
@@ -51,15 +55,20 @@ export const Video = ({ video, onClick }: VideoProps) => {
         />
         <span className="video-item__overlay"></span>
       </a>
-      { video.title ? <h4 className="video-item__title">{ video.title }</h4> : null }
+      {video.title ? (
+        <h4 className="video-item__title">{video.title}</h4>
+      ) : null}
       <Lightbox
         open={open}
         close={closeLightbox}
         carousel={{
-          finite: true
+          finite: true,
         }}
-        slides={[{ type: 'custom-slide', ...video }]}
-        render={{ slide: renderVideo }}
+        slides={[{ type: 'custom-slide' as const, ...video }]}
+        render={{
+          slide: ({ slide }) =>
+            isCustomSlide(slide) ? <VideoPlayer url={video.url} /> : undefined,
+        }}
       />
     </div>
   );
