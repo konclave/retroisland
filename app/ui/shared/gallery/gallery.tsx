@@ -1,4 +1,4 @@
-import { useLayoutEffect, useRef } from 'react';
+import { useLayoutEffect, useRef, useState, useEffect } from 'react';
 import { getLinks } from '~/utils';
 
 import type { Asset } from 'contentful';
@@ -6,6 +6,14 @@ import type { Asset } from 'contentful';
 import styles from './gallery.css';
 import desktopStyles from './gallery.d.css';
 import fotoramaStyles from './fotorama.css';
+
+const libsLoadPromise =
+  typeof document !== 'undefined'
+    ? Promise.all([import('jquery')]).then(([{ default: jQuery }]) => {
+        (window as any).jQuery = (window as any).$ = jQuery;
+        require('./fotorama');
+      })
+    : Promise.resolve();
 
 const localLinks = getLinks(styles, desktopStyles);
 
@@ -28,6 +36,11 @@ export const Gallery = ({
   withNav,
 }: GalleryProps) => {
   const fotorama = useRef<HTMLDivElement>(null);
+  const [isLoaded, setIsLoaded] = useState(false);
+  useEffect(() => {
+    libsLoadPromise.then(() => setIsLoaded(true));
+  }, []);
+
   useLayoutEffect(() => {
     if (typeof $ === 'undefined' || fotorama.current === null) {
       return;
@@ -43,7 +56,7 @@ export const Gallery = ({
       thumbheight: 100,
       thumbwidth: 100,
     });
-  }, []);
+  }, [isLoaded]);
 
   if (!images?.length) {
     return null;

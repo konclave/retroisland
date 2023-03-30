@@ -12,13 +12,6 @@ import {
 } from '~/ui/index/catalogue-index';
 import { indexLoader } from '~/loaders';
 
-if (typeof document !== 'undefined') {
-  Promise.all([import('jquery')]).then(([{ default: jQuery }]) => {
-    (window as any).jQuery = (window as any).$ = jQuery;
-    require('./fotorama');
-  });
-}
-
 export const links = () => [
   ...facadeLinks(),
   ...newsLinks(),
