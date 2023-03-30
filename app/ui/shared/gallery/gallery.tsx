@@ -7,13 +7,6 @@ import styles from './gallery.css';
 import desktopStyles from './gallery.d.css';
 import fotoramaStyles from './fotorama.css';
 
-if (typeof document !== 'undefined') {
-  Promise.all([import('jquery')]).then(([{ default: jQuery }]) => {
-    (window as any).jQuery = (window as any).$ = jQuery;
-    require('./fotorama');
-  });
-}
-
 const localLinks = getLinks(styles, desktopStyles);
 
 export const links = () => [
@@ -36,7 +29,7 @@ export const Gallery = ({
 }: GalleryProps) => {
   const fotorama = useRef<HTMLDivElement>(null);
   useLayoutEffect(() => {
-    if (fotorama.current === null) {
+    if (typeof $ === 'undefined' || fotorama.current === null) {
       return;
     }
 
