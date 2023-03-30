@@ -4,11 +4,7 @@ import { fetchCatalogueList } from '~/data-fetch';
 import type { CatalogueEntryDto } from '~/data-fetch';
 
 import type { LoaderFunction } from '@remix-run/node';
-import type {
-  NewsItemDto,
-  RequestedItemDto,
-  NewsResponseDto,
-} from '~/data-fetch';
+import type { NewsItemDto, RequestedItemDto } from '~/data-fetch';
 import type { ITextPageFields } from '~/types/generated/contentful';
 
 export interface IndexLoaderData {
@@ -27,7 +23,8 @@ export const indexLoader: LoaderFunction =
       await fetchCatalogueList(),
     ]);
 
-    content.fields.links = content.fields.links?.filter(link => link.fields) ?? [];
+    content.fields.links =
+      content.fields.links?.filter((link) => link.fields) ?? [];
     return {
       news: news.items,
       requested,

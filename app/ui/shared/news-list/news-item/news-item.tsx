@@ -1,5 +1,4 @@
 import cx from 'classnames';
-import { Link } from '@remix-run/react';
 import { getLinks } from '~/utils';
 import { OptionalLink } from '~/ui/shared/optional-link';
 import { NewsDate } from './news-date';
@@ -27,12 +26,10 @@ export const NewsItem = ({ item, layout }: NewsItemProps) => {
     <article
       className={cx('news-item', { 'news-item_archive': layout === 'archive' })}
     >
-      <OptionalLink link={item.link}>
-        <time dateTime="item.date">
-          <NewsDate date={item.date} />
-        </time>
-        {item.text}
-      </OptionalLink>
+      <time dateTime="item.date">
+        <NewsDate date={item.date} />
+      </time>
+      <OptionalLink link={item.link}>{item.text}</OptionalLink>
     </article>
   );
 };

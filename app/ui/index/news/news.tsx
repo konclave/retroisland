@@ -1,14 +1,11 @@
-import { Link, useLoaderData } from '@remix-run/react';
-import { BREAKPOINT_DESKTOP } from '~/config';
+import { useLoaderData } from '@remix-run/react';
 import { getLinks } from '~/utils';
 import { NewsList, links as newsListLinks } from '~/ui/shared/news-list';
 import { NewsFooter, links as footerLinks } from './news-footer';
 
-import type { NewsItemDto } from '~/data-fetch';
-import type { IndexLoaderData } from '~/loaders';
-
 import styles from './news.css';
 import desktopStyles from './news.d.css';
+import type { indexLoader } from '~/loaders';
 
 const localLinks = getLinks(styles, desktopStyles);
 
@@ -19,7 +16,7 @@ export const links = () => [
 ];
 
 export const News = () => {
-  const { news } = useLoaderData<IndexLoaderData>();
+  const { news } = useLoaderData<typeof indexLoader>();
 
   return (
     <section className="news">

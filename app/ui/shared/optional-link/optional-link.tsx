@@ -1,8 +1,9 @@
+import type { ReactNode } from 'react';
 import { Link } from '@remix-run/react';
 
 interface OptionalLinkProps {
   link: string;
-  children: React.ReactNode;
+  children: ReactNode;
 }
 
 export const OptionalLink = ({ link, children }: OptionalLinkProps) => {
