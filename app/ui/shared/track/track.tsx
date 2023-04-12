@@ -1,3 +1,4 @@
+import { ClientOnly } from 'remix-utils';
 import { getLinks } from '~/utils';
 import { TrackAudio } from './track-audio';
 import { TrackYoutube } from './track-youtube';
@@ -15,10 +16,14 @@ interface TrackProps {
 
 export const Track = ({ item }: TrackProps) => {
   return (
-    <div className="track">
-      {item.link && <TrackAudio item={item} />}
-      {item.youtube && <TrackYoutube item={item} />}
-      {item.ok && <TrackOk item={item} />}
-    </div>
+    <ClientOnly>
+      {() => (
+        <div className="track">
+          {item.link && <TrackAudio item={item} />}
+          {item.youtube && <TrackYoutube item={item} />}
+          {item.ok && <TrackOk item={item} />}
+        </div>
+      )}
+    </ClientOnly>
   );
 };

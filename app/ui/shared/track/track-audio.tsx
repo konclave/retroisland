@@ -1,10 +1,10 @@
-import { useEffect, useRef } from 'react';
+import { useLayoutEffect, useRef } from 'react';
 import type { RequestedTrackItemDto } from '~/data-fetch';
 import { DownloadLink } from './download-link';
 
 export const TrackAudio = ({ item }: { item: RequestedTrackItemDto }) => {
   const ref = useRef<HTMLAnchorElement | null>(null);
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (
       typeof document !== 'undefined' &&
       ref.current &&
@@ -13,11 +13,10 @@ export const TrackAudio = ({ item }: { item: RequestedTrackItemDto }) => {
     ) {
       (window as any).jQuery(ref.current).jouele();
     }
-  }, [ref.current]);
+  }, []);
 
   return (
     <>
-
       <div className="track-wrap">
         <a
           ref={ref}
@@ -30,7 +29,10 @@ export const TrackAudio = ({ item }: { item: RequestedTrackItemDto }) => {
           {item.title}
         </a>
       </div>
-      <small className="track__description">{item.shortDescription || "Скачать композицию:"} <DownloadLink url={item.link} title={item.title} /></small>
+      <small className="track__description">
+        {item.shortDescription || 'Скачать композицию:'}{' '}
+        <DownloadLink url={item.link} title={item.title} />
+      </small>
     </>
   );
 };
