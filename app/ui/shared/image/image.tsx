@@ -19,8 +19,8 @@ export const Image = ({ title, src }: ImageProps) => {
         title={title || ''}
         config={[
           { media: 'default', width: 480 },
-          { media: '(min-width: 480px)', width: 800 },
-          { media: '(min-width: 800px)', width: 630 },
+          { media: '(min-width: 480px)', width: 811 },
+          { media: '(min-width: 811px)', width: 630 },
         ]}
         className="image-box__image"
       />

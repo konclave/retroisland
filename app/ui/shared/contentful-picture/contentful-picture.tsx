@@ -45,7 +45,6 @@ export const ContentfulPicture = ({
         const mediaProps = {
           ...(media !== 'default' && { media }),
         };
-        console.log(getSrc({ src, format: 'webp', width }));
         return (
           <Fragment key={media}>
             <source

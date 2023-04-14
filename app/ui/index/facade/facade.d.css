@@ -3,11 +3,11 @@
   height: 100vh;
   padding: 0;
   background-color: #9dbbc5;
-  background-image: none;
+  /* background-image: none; */
   display: grid;
 }
 
-.facade::after {
+/* .facade::after {
   content: '';
   position: absolute;
   right: 0;
@@ -17,7 +17,7 @@
   background: url('/img/vynil.svg') right bottom no-repeat;
   background-size: 100% 100%;
   z-index: 1;
-}
+} */
 
 .facade > .padded-wrap {
   display: flex;

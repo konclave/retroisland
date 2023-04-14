@@ -21,6 +21,13 @@
   letter-spacing: -0.005em;
   color: var(--color-main);
   text-transform: uppercase;
+  width: min-content;
+}
+
+@media (min-width: 1200px) {
+  .main-title {
+    width: max-content;
+  }
 }
 
 .main-title__section {

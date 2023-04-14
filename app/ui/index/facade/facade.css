@@ -1,5 +1,18 @@
 .facade {
-  height: 100vh;
+  height: calc(100vh - 72px);
   background: #9dbbc5 url('/img/vynil.svg') right bottom no-repeat;
   padding-top: calc(2 * var(--section-top-padding-base));
+}
+
+
+@media (orientation: portrait) {
+  .facade {
+    background-size: auto 50vh;
+  }
+}
+
+@media (orientation: landscape) {
+  .facade {
+    background-size: min(50vw, 80vh) auto;
+  }
 }

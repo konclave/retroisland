@@ -45,7 +45,7 @@
   --font-family-header: 'Tenor Sans', Arial, Helvetica, sans-serif;
 }
 
-@media screen and (min-width: 810px) {
+@media screen and (min-width: 811px) {
   :root {
     --font-size-base: 1rem;
     /* 16px */

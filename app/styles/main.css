@@ -202,7 +202,7 @@ h1 {
   color: var(--color-text);
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 811px) {
   .padded-wrap {
     padding: var(--section-top-padding-base) var(--section-side-padding)
       var(--section-side-padding);
