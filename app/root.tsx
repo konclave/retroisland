@@ -8,6 +8,7 @@ import {
   useCatch,
   useLoaderData,
 } from '@remix-run/react';
+import { Analytics } from '@vercel/analytics/react';
 
 import normalizeStyles from '~/styles/normalize.css';
 import colorsStyles from '~/styles/colors.css';
@@ -83,6 +84,7 @@ export default function App() {
         <About />
         <ScrollRestoration />
         <Scripts />
+        <Analytics />
         <LiveReload />
       </body>
     </html>

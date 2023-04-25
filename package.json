@@ -19,6 +19,7 @@
     "@remix-run/vercel": "^1.14.0",
     "@types/howler": "^2.2.7",
     "@types/jquery": "^3.5.16",
+    "@vercel/analytics": "^1.0.0",
     "@vercel/node": "^2.8.14",
     "classnames": "^2.3.2",
     "contentful": "^9.2.17",
