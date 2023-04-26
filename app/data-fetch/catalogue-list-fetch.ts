@@ -16,7 +16,7 @@ export async function fetchCatalogueList(): Promise<CatalogueListEntryDto[]> {
     content_type: 'catalogueEntry',
     select: 'sys.id,sys.createdAt,fields.slug,fields.title',
     include: 2,
-    order: 'sys.createdAt',
+    order: 'fields.title',
   });
 
   return data.items.map(mapToDto);
