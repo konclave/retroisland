@@ -35,11 +35,12 @@
 }
 
 .about-project__content p:nth-child(1) {
+  position: absolute;
   align-items: flex-end;
   width: 630px;
-  height: 224px;
   left: 0;
-  top: calc(var(--disk-dimension) / 2 - (315px + 120px + 224px) + 40px);
+  top: auto;
+  bottom: calc(var(--disk-dimension) / 2 + 450px);
   padding: 0;
 }
 
