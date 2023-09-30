@@ -1,6 +1,7 @@
-# Welcome to Remix!
+# Retroisland.net
 
-- [Remix Docs](https://remix.run/docs)
+That is an Anatoliy Vasilev hobby project website about USSR 
+[Remix Docs](https://remix.run/docs)
 
 ## Development
 
