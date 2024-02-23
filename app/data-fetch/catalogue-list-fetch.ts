@@ -1,9 +1,7 @@
-import { mapTrackToDto } from './tracks-on-request-fetch';
 import { client } from './contentful-client';
 
 import type { Entry } from 'contentful';
 import type { ICatalogueEntryFields } from '~/types/generated/contentful';
-import type { Document } from '@contentful/rich-text-types';
 import type { CatalogueEntryDto } from './catalogue-entry-fetch';
 
 export type CatalogueListEntryDto = Pick<

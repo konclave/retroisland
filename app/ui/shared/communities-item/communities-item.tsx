@@ -1,4 +1,3 @@
-import { Link } from '@remix-run/react';
 import { IconNext } from '~/ui/shared/icons/icon-next';
 import { getLinks } from '~/utils';
 

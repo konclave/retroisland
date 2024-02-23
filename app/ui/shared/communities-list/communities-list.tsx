@@ -1,13 +1,9 @@
-import { Link } from '@remix-run/react';
-
-import { IconNext } from '~/ui/shared/icons/icon-next';
 import { getLinks } from '~/utils';
 import {
   CommunitiesItem,
   links as communitiesItemLinks,
 } from '~/ui/shared/communities-item';
 
-import type { Entry } from 'contentful';
 import type { IOuterLink } from '~/types/generated/contentful';
 
 import styles from './communities-list.css';

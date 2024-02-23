@@ -3,7 +3,7 @@ import * as dotenv from 'dotenv';
 
 dotenv.config();
 
-export const client = contentful.createClient({
+export const client = (contentful as any).default.createClient({
   space: process.env['CONTENTFUL_SPACE_ID'] as string,
   accessToken: process.env['CONTENTFUL_ACCESS_TOKEN'] as string,
   environment: process.env['CONTENTFUL_ENV'] || 'master',

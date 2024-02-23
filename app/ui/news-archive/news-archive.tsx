@@ -26,7 +26,7 @@ export const NewsArchive = () => {
   const [page, setPage] = useState<number>(0);
   const initialNews = useLoaderData<NewsResponseDto>();
   const [news, setNews] = useState<NewsItemDto[]>(initialNews.items);
-  const newsFetcher = useFetcher();
+  const newsFetcher = useFetcher<NewsResponseDto>();
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [isLoaded, setIsLoaded] = useState<boolean>(
     initialNews.items.length === initialNews.total
@@ -45,7 +45,7 @@ export const NewsArchive = () => {
     if (newsFetcher.data && newsFetcher.data.items.length > 0) {
       setNews((prevNews: NewsItemDto[]) => [
         ...prevNews,
-        ...newsFetcher.data.items,
+        ...(newsFetcher.data?.items ?? []),
       ]);
     }
   }, [newsFetcher.data]);

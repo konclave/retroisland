@@ -1,10 +1,12 @@
-import { fetchNews, fetchRequested } from '~/data-fetch';
+import { fetchCatalogueList, fetchNews, fetchRequested } from '~/data-fetch';
 import { client } from '~/data-fetch/contentful-client';
-import { fetchCatalogueList } from '~/data-fetch';
-import type { CatalogueEntryDto } from '~/data-fetch';
+import type {
+  NewsItemDto,
+  RequestedItemDto,
+  CatalogueEntryDto,
+} from '~/data-fetch';
 
 import type { LoaderFunction } from '@remix-run/node';
-import type { NewsItemDto, RequestedItemDto } from '~/data-fetch';
 import type { ITextPageFields } from '~/types/generated/contentful';
 
 export interface IndexLoaderData {

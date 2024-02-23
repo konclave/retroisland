@@ -1,4 +1,4 @@
-import { ClientOnly } from 'remix-utils';
+import { ClientOnly } from 'remix-utils/client-only';
 import { getLinks } from '~/utils';
 import { TrackAudio } from './track-audio';
 import { TrackYoutube } from './track-youtube';

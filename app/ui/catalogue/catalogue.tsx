@@ -1,17 +1,14 @@
 import { useState } from 'react';
 import cx from 'classnames';
 import type { CatalogueListEntryDto } from '~/data-fetch';
-import {
-  CatalogueNotFound,
-  links as notFoundLinks,
-} from './catalogue-not-found';
+import { CatalogueNotFound } from './catalogue-not-found';
 
 import { CatalogueForm, links as catalogueFromLinks } from './catalogue-form';
 import { CatalogueList, links as catalogueListLinks } from './catalogue-list';
 
 import desktopStyles from './catalogue.d.css';
 import styles from './catalogue.css';
-import { getLinks } from '../../utils';
+import { getLinks } from '~/utils';
 
 const localLinks = getLinks(styles, desktopStyles);
 

@@ -2,7 +2,8 @@ import { useLoaderData } from '@remix-run/react';
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 import { getLinks } from '~/utils';
 
-import { aboutProjectLoader } from '~/loaders';
+import type { aboutProjectLoader } from '~/loaders';
+
 import {
   CommunitiesList,
   links as communitiesListLinks,
@@ -24,15 +25,12 @@ export const AboutProject = () => {
           {documentToReactComponents(data.fields.text)}
         </div>
       </section>
-      { data.fields.links.length === 0 
-        ? null : 
-        (
-          <div className="about-project-links">
-            <h2 className="about-project-links__title padded-wrap">Ссылки</h2>
-            <CommunitiesList items={data.fields.links} />
-          </div>
-        )
-      }
+      {data.fields.links.length === 0 ? null : (
+        <div className="about-project-links">
+          <h2 className="about-project-links__title padded-wrap">Ссылки</h2>
+          <CommunitiesList items={data.fields.links} />
+        </div>
+      )}
     </>
   );
 };

@@ -3,10 +3,7 @@ import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 import type { Document } from '@contentful/rich-text-types';
 import type { Asset } from 'contentful';
 import cx from 'classnames';
-import {
-  ButtonPlay,
-  links as buttonPlayLinks,
-} from '~/ui/shared/buttons/button-play';
+import { links as buttonPlayLinks } from '~/ui/shared/buttons/button-play';
 import { getLinks } from '~/utils';
 
 import styles from './catalogue-entry-about.css';
@@ -32,29 +29,29 @@ export const CatalogueEntryAbout = ({
   images,
   tracksCount,
 }: CatalogueEntryAboutProps) => {
-  const joueleRef = useRef<any>(null);
-  const [isPlaying, setIsPlaying] = useState<boolean>(false);
+  // const joueleRef = useRef<any>(null);
+  // const [isPlaying, setIsPlaying] = useState<boolean>(false);
 
-  function handlePlayClick() {
-    const isPlaying = ($ as any).Jouele.playlist.forEach((pl: any) => {
-      pl.forEach((track: any) => {
-        track.pause();
-      });
-    });
-
-    if (!joueleRef.current) {
-      joueleRef.current = ($ as any).Jouele.playlist[0][0].play();
-      setIsPlaying(true);
-    } else {
-      if (joueleRef.current.isPlaying()) {
-        joueleRef.current.pause();
-        setIsPlaying(false);
-      } else {
-        joueleRef.current.play();
-        setIsPlaying(true);
-      }
-    }
-  }
+  // function handlePlayClick() {
+  //   const isPlaying = ($ as any).Jouele.playlist.forEach((pl: any) => {
+  //     pl.forEach((track: any) => {
+  //       track.pause();
+  //     });
+  //   });
+  //
+  //   if (!joueleRef.current) {
+  //     joueleRef.current = ($ as any).Jouele.playlist[0][0].play();
+  //     setIsPlaying(true);
+  //   } else {
+  //     if (joueleRef.current.isPlaying()) {
+  //       joueleRef.current.pause();
+  //       setIsPlaying(false);
+  //     } else {
+  //       joueleRef.current.play();
+  //       setIsPlaying(true);
+  //     }
+  //   }
+  // }
 
   return (
     <article className="catalogue-item-about padded-wrap">

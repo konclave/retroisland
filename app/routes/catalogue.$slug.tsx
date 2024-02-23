@@ -6,13 +6,15 @@ import {
 } from '~/ui/catalogue-entry';
 import { catalogueEntryLoader } from '~/loaders';
 
-import type { LoaderFunction, V2_MetaFunction } from '@remix-run/node';
+import type { LoaderFunction } from '@remix-run/node';
 
-export const meta: V2_MetaFunction = ({ data }) => ([
+export const meta = ({ data }) => [
   { title: `${data.title} – ВАСИЛЬЕВСКИЙ ОСТРОВ (Музыка прошлых лет.)` },
-  { name: 'description', content: `Список композиций ${data.title}, которые есть на сайте.`},
-]);
-
+  {
+    name: 'description',
+    content: `Список композиций ${data.title}, которые есть на сайте.`,
+  },
+];
 
 export const links = () => [...headerLinks(), ...catalogueEntryLinks()];
 

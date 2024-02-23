@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { BREAKPOINT_DESKTOP } from '~/config';
-import { CatalogueOrder } from '../catalogue';
+import type { CatalogueOrder } from '../catalogue';
 import styles from './catalogue-form.css';
 import desktopStyles from './catalogue-form.d.css';
 
@@ -59,7 +59,6 @@ export const CatalogueForm = ({
           <option>Исполнители</option>
         </select>*/}
         <select
-          placeholder="Сортировать"
           className="catalogue-form__sort-input"
           onChange={handleOrderChange}
           id="catalogue-order"

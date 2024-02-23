@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { NavLink, useLocation } from '@remix-run/react';
-import { BREAKPOINT_DESKTOP } from '~/config';
 import cx from 'classnames';
 import { IconBurger } from '../icons/icon-burger';
 import { IconCross } from '../icons/icon-cross';
@@ -19,14 +18,13 @@ export const Navigation = () => {
   let location = useLocation();
 
   const isArchive = location.pathname === '/news-archive';
-  const activeClassName = 'main-navigation-link_active';
 
   useEffect(() => {
     setIsVisible(false);
     if (typeof document !== 'undefined') {
       const jouele = (window as any).$?.Jouele;
       if (jouele) {
-        jouele.history.forEach((jInstance) => {
+        jouele.history.forEach((jInstance: any) => {
           if (jInstance.isPlaying()) {
             jInstance.pause();
           }

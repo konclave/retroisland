@@ -5,8 +5,7 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
-  useCatch,
-  useLoaderData,
+  useRouteError,
 } from '@remix-run/react';
 import { Analytics } from '@vercel/analytics/react';
 
@@ -20,9 +19,6 @@ import { Navigation, links as navitationLinks } from '~/ui/shared/navigation';
 import { About, links as aboutLinks } from '~/ui/shared/about';
 import { ErrorPage, links as errorPageLinks } from '~/ui/error-page';
 import { BREAKPOINT_DESKTOP } from '~/config';
-
-import type { V2_MetaFunction } from '@remix-run/node';
-import { json } from '@remix-run/node';
 
 export const links = () => [
   { rel: 'icon', href: '/favicon.ico', sizes: 'any' },
@@ -43,7 +39,7 @@ export const links = () => [
   ...errorPageLinks(),
 ];
 
-export const meta: V2_MetaFunction = () => [
+export const meta = () => [
   { title: 'ВАСИЛЬЕВСКИЙ ОСТРОВ (Музыка прошлых лет.)' },
   {
     name: 'description',
@@ -59,7 +55,12 @@ export default function App() {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         {process.env.NODE_ENV === 'development' ? null : (
-          <script async defer src="https://beampipe.io/js/tracker.js" data-beampipe-domain="retroisland.net"></script>
+          <script
+            async
+            defer
+            src="https://beampipe.io/js/tracker.js"
+            data-beampipe-domain="retroisland.net"
+          ></script>
         )}
         <Meta />
         <Links />
@@ -77,8 +78,9 @@ export default function App() {
   );
 }
 
-export function CatchBoundary() {
-  const caught = useCatch();
+export function ErrorBoundary() {
+  const error = useRouteError();
+
   return (
     <html lang="ru-Ru">
       <head>
@@ -87,7 +89,7 @@ export function CatchBoundary() {
         <Links />
       </head>
       <body>
-        <ErrorPage error={caught} />
+        <ErrorPage error={error} />
         <Scripts />
       </body>
     </html>

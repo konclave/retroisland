@@ -1,6 +1,6 @@
 import * as cheerio from 'cheerio';
 import { attachStorageUrl } from '~/utils';
-import type { Document, Asset } from '@contentful/rich-text-types';
+import type { Document } from '@contentful/rich-text-types';
 
 import { client } from './contentful-client';
 import type {
@@ -10,7 +10,6 @@ import type {
   IOuterLinkFields,
   IOuterLink,
   IVideo,
-  IVideoFields,
 } from '~/types/generated/contentful';
 import { mapTrackToDto } from './tracks-on-request-fetch';
 import type { Asset, Entry } from 'contentful';
@@ -110,7 +109,9 @@ async function mapVideo(video: IVideo): Promise<VideoDto | null> {
     return null;
   }
 
-  const thumbUrl = thumbnail ? thumbnail.fields.file?.url : await getThumbnailUrl(url);
+  const thumbUrl = thumbnail
+    ? thumbnail.fields.file?.url
+    : await getThumbnailUrl(url);
   return {
     url,
     thumbUrl,
@@ -118,7 +119,7 @@ async function mapVideo(video: IVideo): Promise<VideoDto | null> {
   };
 }
 
-async function getThumbnailUrl(url: string): string {
+async function getThumbnailUrl(url: string): Promise<string> {
   if (/https?:\/\/ok\.ru/.test(url)) {
     const id = url.split('/').at(-1);
     const response = await fetch('https://m.ok.ru/live/' + id);
@@ -129,7 +130,7 @@ async function getThumbnailUrl(url: string): string {
 
   if (/youtu\.be/.test(url) || /youtube.com/.test(url)) {
     const id = url.split('/').at(-1);
-    return `https://i3.ytimg.com/vi/${id}/hqdefault.jpg`;    
+    return `https://i3.ytimg.com/vi/${id}/hqdefault.jpg`;
   }
 
   return '';
