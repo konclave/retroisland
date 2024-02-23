@@ -16,7 +16,7 @@ export const CommunityNavigation = () => {
     <nav className="community-navigation-wrap">
       <ul className="community-navigation">
         <li className="community-navigation__item">
-          <a href="https://retroisland.ucoz.net/gb">Гостевая книга</a>
+          <a href="https://ventl.ru/rdddra/">Гостевая книга</a>
         </li>
         <li className="community-navigation__item">
           <a
