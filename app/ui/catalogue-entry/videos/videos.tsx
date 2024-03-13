@@ -1,16 +1,18 @@
-import Lightbox from 'yet-another-react-lightbox';
-
 import { getLinks } from '~/utils';
 import { Video, links as videoLinks } from './video';
 
 import type { VideoDto } from '~/data-fetch';
-import lightboxStyles from "yet-another-react-lightbox/styles.css";
+import lightboxStyles from 'yet-another-react-lightbox/styles.css';
 
 import styles from './videos.css';
 import desktopStyles from './videos.d.css';
 
 const localLinks = getLinks(styles, desktopStyles);
-export const links = () => [{ rel: 'stylesheet', href: lightboxStyles }, ...videoLinks(), ...localLinks()];
+export const links = () => [
+  { rel: 'stylesheet', href: lightboxStyles },
+  ...videoLinks(),
+  ...localLinks(),
+];
 
 interface VideosProps {
   entries?: VideoDto[];

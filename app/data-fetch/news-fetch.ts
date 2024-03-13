@@ -1,5 +1,5 @@
 import type { LoaderFunction } from '@remix-run/node';
-import type { INewsItemFields } from '~/types/generated/contentful';
+import type { INewsItem } from '~/types/generated/contentful';
 import { client } from './contentful-client';
 
 export interface NewsItemDto {
@@ -25,10 +25,9 @@ export function getNewsLoader({
   limit,
   page,
 }: NewsLoaderFabricParams = {}): LoaderFunction {
-  const newsLoader: LoaderFunction = async (): Promise<NewsResponseDto> => {
+  return async (): Promise<NewsResponseDto> => {
     return fetchNews({ limit, page });
   };
-  return newsLoader;
 }
 
 export async function fetchNews({
@@ -39,7 +38,7 @@ export async function fetchNews({
   page?: number;
 } = {}): Promise<NewsResponseDto> {
   const contentType = 'newsItem';
-  const data = await client.getEntries<INewsItemFields>({
+  const data = await client.getEntries({
     limit,
     skip: limit * page,
     content_type: contentType,
@@ -50,7 +49,7 @@ export async function fetchNews({
     total,
     limit,
     skip,
-    items: items.map((item) => ({
+    items: items.map((item: INewsItem) => ({
       id: item.sys.id,
       text: item.fields.text || '',
       link: item.fields.link || '',

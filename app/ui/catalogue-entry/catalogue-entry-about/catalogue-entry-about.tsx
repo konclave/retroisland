@@ -1,4 +1,3 @@
-import { useRef, useState } from 'react';
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 import type { Document } from '@contentful/rich-text-types';
 import type { Asset } from 'contentful';

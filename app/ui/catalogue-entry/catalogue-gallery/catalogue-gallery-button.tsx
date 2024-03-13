@@ -1,10 +1,18 @@
 import cx from 'classnames';
+import type { ReactNode } from 'react';
 
 export type GalleryButtonType = 'prev' | 'next';
 
-export const renderCatalogueGalleryButton =
-  ({ type }: { type: GalleryButtonType }) =>
-  ({ isDisabled }: { isDisabled?: boolean }): React.ReactNode => {
+export const renderCatalogueGalleryButton = ({
+  type,
+}: {
+  type: GalleryButtonType;
+}) =>
+  function CatalogueGalleryButton({
+    isDisabled,
+  }: {
+    isDisabled?: boolean;
+  }): ReactNode {
     return (
       <button
         className={cx('catalogue-gallery__button', {

@@ -1,6 +1,6 @@
 import type { Asset } from 'contentful';
 import { getLinks } from '~/utils';
-import AliceCarousel from 'react-alice-carousel';
+import AliceCarouselCommonJs from 'react-alice-carousel';
 
 import { renderCatalogueGalleryButton } from './catalogue-gallery-button';
 
@@ -20,6 +20,8 @@ interface CatalogueGalleryProps {
   title?: string;
 }
 
+const AliceCarousel = (AliceCarouselCommonJs as any).default;
+
 export const CatalogueGallery = ({ images, title }: CatalogueGalleryProps) => {
   if (!images?.length) {
     return null;
@@ -37,7 +39,7 @@ export const CatalogueGallery = ({ images, title }: CatalogueGalleryProps) => {
         renderPrevButton={renderCatalogueGalleryButton({ type: 'prev' })}
         renderNextButton={renderCatalogueGalleryButton({ type: 'next' })}
         items={images.map((image) => (
-          <span className="catalogue-gallery__item">
+          <span className="catalogue-gallery__item" key={image.fields.file.url}>
             <img
               className="catalogue-gallery__image"
               src={image.fields.file.url}

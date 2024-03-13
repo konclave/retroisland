@@ -1,5 +1,5 @@
 import { BREAKPOINT_DESKTOP, BREAKPOINT_TABLET } from '~/config';
-import type { LinksFunction } from '@remix-run/node';
+import type { LinksFunction, LinkDescriptor } from '@remix-run/node';
 
 export function getLinks(
   styles: string,
@@ -7,7 +7,7 @@ export function getLinks(
   tabletStyles?: string
 ): LinksFunction {
   return () => {
-    const links = [{ rel: 'stylesheet', href: styles }];
+    const links: LinkDescriptor[] = [{ rel: 'stylesheet', href: styles }];
     if (desktopStyles) {
       links.push({
         rel: 'stylesheet',

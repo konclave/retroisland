@@ -1,8 +1,8 @@
-import type { LoaderFunction } from '@remix-run/node';
+import type { LoaderFunctionArgs } from '@remix-run/node';
 import { json } from '@remix-run/node';
 import { fetchCatalogueEntry } from '~/data-fetch';
 
-export const catalogueEntryLoader: LoaderFunction = async ({ params }) => {
+export const catalogueEntryLoader = async ({ params }: LoaderFunctionArgs) => {
   if (!params.slug) {
     throw new Error('Slug is required');
   }

@@ -5,10 +5,9 @@ import {
   links as catalogueEntryLinks,
 } from '~/ui/catalogue-entry';
 import { catalogueEntryLoader } from '~/loaders';
+import type { CatalogueEntryDto } from '~/data-fetch';
 
-import type { LoaderFunction } from '@remix-run/node';
-
-export const meta = ({ data }) => [
+export const meta = ({ data }: { data: CatalogueEntryDto }) => [
   { title: `${data.title} – ВАСИЛЬЕВСКИЙ ОСТРОВ (Музыка прошлых лет.)` },
   {
     name: 'description',
@@ -18,10 +17,10 @@ export const meta = ({ data }) => [
 
 export const links = () => [...headerLinks(), ...catalogueEntryLinks()];
 
-export const loader: LoaderFunction = catalogueEntryLoader;
+export const loader = catalogueEntryLoader;
 
 export default function CatalogueEntryPage() {
-  const data = useLoaderData();
+  const data = useLoaderData<typeof loader>() as CatalogueEntryDto;
   return (
     <>
       <Header title="" />

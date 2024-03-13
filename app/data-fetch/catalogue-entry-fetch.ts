@@ -48,7 +48,7 @@ export interface CatalogueEntryDto {
 export async function fetchCatalogueEntry(
   slug: string
 ): Promise<CatalogueEntryDto | null> {
-  const response = await client.getEntries<ICatalogueEntryFields>({
+  const response = await client.getEntries({
     content_type: 'catalogueEntry',
     'fields.slug': slug,
     select: 'sys.id,fields',

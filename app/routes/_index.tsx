@@ -22,7 +22,7 @@ export const links = () => [
 
 export const loader: LoaderFunction = indexLoader;
 
-export default function Index() {
+export default function _index() {
   return (
     <>
       <Facade />

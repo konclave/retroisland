@@ -21,7 +21,7 @@ export type RequestedTrackItemDto = IRequestedTrackFields & {
 };
 
 export async function fetchRequested(): Promise<RequestedItemDto[]> {
-  const data = await client.getEntries<IRequestedItemFields>({
+  const data = await client.getEntries({
     content_type: 'requestedItem',
     select: 'sys.id,sys.createdAt,fields',
     order: 'sys.createdAt',
@@ -39,7 +39,9 @@ function mapRequestedItemDto(
     artist: item.fields.artist || '',
     album: item.fields.album,
     title: item.fields.title,
-    tracks: item.fields.tracks?.filter((track) => track.fields).map(mapTrackToDto) || [],
+    tracks:
+      item.fields.tracks?.filter((track) => track.fields).map(mapTrackToDto) ||
+      [],
   };
 }
 

@@ -56,7 +56,7 @@ export const Gallery = ({
       thumbheight: 100,
       thumbwidth: 100,
     });
-  }, [isLoaded]);
+  }, [isLoaded, withNav]);
 
   if (!images?.length) {
     return null;

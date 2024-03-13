@@ -10,7 +10,7 @@ export type CatalogueListEntryDto = Pick<
 >;
 
 export async function fetchCatalogueList(): Promise<CatalogueListEntryDto[]> {
-  const data = await client.getEntries<ICatalogueEntryFields>({
+  const data = await client.getEntries({
     content_type: 'catalogueEntry',
     select: 'sys.id,sys.createdAt,fields.slug,fields.title',
     include: 2,

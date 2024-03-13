@@ -1,4 +1,4 @@
-import { CatalogueEntryDto } from '~/data-fetch';
+import type { CatalogueEntryDto } from '~/data-fetch';
 import { getLinks } from '~/utils';
 
 import styles from './catalogue-entry.css';
