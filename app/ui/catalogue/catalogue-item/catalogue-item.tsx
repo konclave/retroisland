@@ -21,7 +21,9 @@ export const CatalogueItem = ({ item }: CatalogueItemProps) => {
   return (
     <div className="catalogue-entry">
       <Link to={`/catalogue/${item.slug}`}>
-        <h2 className="catalogue-entry__title">{item.title}</h2>
+        <h2 className="catalogue-entry__title">
+          {item.shortTitle || item.title}
+        </h2>
       </Link>
     </div>
   );

@@ -34,6 +34,7 @@ export interface CatalogueEntryDto {
   id: string;
   createdAt: IsoDate;
   title: string;
+  shortTitle: string;
   slug: string;
   images?: Asset[];
   shortDescription?: string;
@@ -73,6 +74,7 @@ const mapToDto = async (
     id: item.sys.id,
     createdAt: item.sys.createdAt,
     title: item.fields.title || '',
+    shortTitle: item.fields.shortTitle || '',
     slug: item.fields.slug,
     images: item.fields.images,
     shortDescription: item.fields.shortDescription,
