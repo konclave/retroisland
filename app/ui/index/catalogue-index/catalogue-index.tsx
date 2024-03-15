@@ -1,9 +1,6 @@
 import { useLoaderData } from '@remix-run/react';
 import { Catalogue, links as catalogueLinks } from '~/ui/catalogue';
-import {
-  ButtonLoadMore,
-  links as buttonLinks,
-} from '~/ui/shared/buttons/button-load-more';
+import { links as buttonLinks } from '~/ui/shared/buttons/button-load-more';
 import { getLinks } from '~/utils';
 
 import type { IndexLoaderData } from '~/loaders';
@@ -25,9 +22,6 @@ export const CatalogueIndex = () => {
     <div className="catalogue-index">
       <h2 className="catalogue-index__title">Каталог</h2>
       <Catalogue items={catalogueItems} noFilter />
-      <div className="catalogue-index__nav">
-        <ButtonLoadMore href="/catalogue">Весь каталог</ButtonLoadMore>
-      </div>
     </div>
   );
 };
