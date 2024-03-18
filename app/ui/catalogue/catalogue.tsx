@@ -48,7 +48,7 @@ export const Catalogue = ({ items, noFilter }: CatalogueProps) => {
       case 'createdAt':
         list.sort(
           (a, z) =>
-            new Date(a.createdAt).getTime() - new Date(z.createdAt).getTime()
+            new Date(z.createdAt).getTime() - new Date(a.createdAt).getTime()
         );
         setFiltered([...list]);
         break;

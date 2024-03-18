@@ -23,7 +23,7 @@ export const CatalogueForm = ({
   onOrderChange,
 }: CatalogueFormProps) => {
   const [search, setSearch] = useState<string>('');
-  const [order, setOrder] = useState<string>('');
+  const [order, setOrder] = useState<string>('titleDesc');
 
   function handleSearchChange(e: React.ChangeEvent<HTMLInputElement>) {
     const needle = e.target.value;
@@ -64,10 +64,9 @@ export const CatalogueForm = ({
           id="catalogue-order"
           value={order}
         >
-          <option>Сортировать</option>
-          <option value="createdAt">по дате добавления</option>
           <option value="titleDesc">по алфавиту А → Я</option>
           <option value="titleAsc">по алфавиту Я → А</option>
+          <option value="createdAt">по дате добавления</option>
         </select>
       </div>
     </form>

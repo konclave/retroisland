@@ -6,13 +6,14 @@ import type { CatalogueEntryDto } from './catalogue-entry-fetch';
 
 export type CatalogueListEntryDto = Pick<
   CatalogueEntryDto,
-  'id' | 'createdAt' | 'slug' | 'title' | 'shortTitle'
+  'id' | 'createdAt' | 'updatedAt' | 'slug' | 'title' | 'shortTitle'
 >;
 
 export async function fetchCatalogueList(): Promise<CatalogueListEntryDto[]> {
   const data = await client.getEntries({
     content_type: 'catalogueEntry',
-    select: 'sys.id,sys.createdAt,fields.slug,fields.title,fields.shortTitle',
+    select:
+      'sys.id,sys.createdAt,sys.updatedAt,fields.slug,fields.title,fields.shortTitle',
     include: 2,
     order: 'fields.title',
   });
@@ -25,6 +26,7 @@ const mapToDto = (
 ): CatalogueListEntryDto => ({
   id: item.sys.id,
   createdAt: item.sys.createdAt,
+  updatedAt: item.sys.updatedAt,
   title: item.fields.title || '',
   shortTitle: item.fields.shortTitle || '',
   slug: item.fields.slug,

@@ -74,9 +74,7 @@ export const Navigation = () => {
             <NavLink to="/">Главная</NavLink>
           </li>
           <li className="main-navigation__item">
-            <NavLink to="/catalogue" end>
-              Каталог
-            </NavLink>
+            <a href="/#catalogue">Каталог</a>
           </li>
           <li className="main-navigation__item">
             <NavLink to="/about-project">О проекте</NavLink>

@@ -20,8 +20,10 @@ export const CatalogueIndex = () => {
   const { catalogueItems } = useLoaderData<IndexLoaderData>();
   return (
     <div className="catalogue-index">
-      <h2 className="catalogue-index__title">Каталог</h2>
-      <Catalogue items={catalogueItems} noFilter />
+      <h2 className="catalogue-index__title" id="catalogue">
+        Каталог
+      </h2>
+      <Catalogue items={catalogueItems} />
     </div>
   );
 };

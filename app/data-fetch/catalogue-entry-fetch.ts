@@ -33,6 +33,7 @@ export type LinkDto = IOuterLinkFields & {
 export interface CatalogueEntryDto {
   id: string;
   createdAt: IsoDate;
+  updatedAt: IsoDate;
   title: string;
   shortTitle: string;
   slug: string;
@@ -73,6 +74,7 @@ const mapToDto = async (
   return {
     id: item.sys.id,
     createdAt: item.sys.createdAt,
+    updatedAt: item.sys.updatedAt,
     title: item.fields.title || '',
     shortTitle: item.fields.shortTitle || '',
     slug: item.fields.slug,
