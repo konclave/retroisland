@@ -19,6 +19,8 @@
   margin: 0.875em 0;
 }
 
+
+
 .news-item_archive {
   color: var(--color-text);
 }
@@ -53,4 +55,9 @@
 .news-item_archive a:hover,
 .news-item_archive a:active {
   color: #636363;
+}
+
+.news-item__md a {
+  display: inline;
+  text-decoration: underline;
 }
