@@ -1,5 +1,8 @@
 import { fetchNews } from '~/data-fetch';
-import { marked } from 'marked';
+import { remark } from 'remark';
+import strip from 'strip-markdown';
+
+const RSS_TITLE_LENGTH = 100;
 
 export type RssEntry = {
   title: string;
@@ -12,15 +15,16 @@ export type RssEntry = {
 
 export const rssLoader = async () => {
   const news = await fetchNews();
-  const entries = news.items.map((item) => ({
-    title: marked.parse(item.text),
-    link: 'https://retroisland.net/news-archive',
-    description: item.text,
-    pubDate: new Date(item.date).toUTCString(),
-    guid: item.id,
-  })) as RssEntry[];
-
-  const feed = generateRss({ entries });
+  const entries = await Promise.all(
+    news.items.map(async (item) => ({
+      title: await getRssTitle(item.text),
+      link: 'https://retroisland.net/news-archive',
+      description: item.html,
+      pubDate: new Date(item.date).toUTCString(),
+      guid: item.id,
+    }))
+  );
+  const feed = await generateRss({ entries });
 
   return new Response(feed, {
     headers: {
@@ -30,7 +34,11 @@ export const rssLoader = async () => {
   });
 };
 
-function generateRss({ entries = [] }: { entries: RssEntry[] }): string {
+async function generateRss({
+  entries = [],
+}: {
+  entries: RssEntry[];
+}): Promise<string> {
   return `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
@@ -44,8 +52,8 @@ function generateRss({ entries = [] }: { entries: RssEntry[] }): string {
       .map(
         (entry) => `
       <item>
-        <title><![CDATA[${entry.title.slice(0, 255)}]]></title>
-        <description><![CDATA[${entry.title}]]></description>
+        <title><![CDATA[${entry.title}]]></title>
+        <description><![CDATA[${entry.description}]]></description>
         <pubDate>${entry.pubDate}</pubDate>
         ${entry.guid ? `<guid isPermaLink="false">${entry.guid}</guid>` : ''}
       </item>`
@@ -53,4 +61,12 @@ function generateRss({ entries = [] }: { entries: RssEntry[] }): string {
       .join('')}
   </channel>
 </rss>`;
+}
+
+async function getRssTitle(markdown: string) {
+  const cleanText = String(await remark().use(strip).process(markdown));
+  if (cleanText.length > RSS_TITLE_LENGTH) {
+    return cleanText.slice(0, RSS_TITLE_LENGTH) + '...';
+  }
+  return cleanText;
 }

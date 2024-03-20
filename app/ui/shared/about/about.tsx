@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { getLinks } from '~/utils';
 import { IconEnvelope } from '../icons/icon-envelope';
 import { IconFb } from '../icons/icon-fb';
+import { IconRss } from '../icons/icon-rss';
 
 import styles from './about.css';
 import desktopStyles from './about.d.css';
@@ -49,6 +50,11 @@ export const About = () => {
           <li className="social-links__item">
             <a className="social-link" href="https://www.facebook.com/rdddra">
               <IconFb />
+            </a>
+          </li>
+          <li className="social-links__item">
+            <a className="social-link" href="/rss.xml">
+              <IconRss />
             </a>
           </li>
         </ul>

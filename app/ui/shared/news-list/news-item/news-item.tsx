@@ -7,11 +7,11 @@ import type { NewsListLayout } from '../news-list';
 
 import styles from './news-item.css';
 import desktopStyles from './news-item.d.css';
-import { marked } from 'marked';
 
 interface NewsEntry {
   date: string;
   text: string;
+  html: string;
   link: string;
 }
 
@@ -31,11 +31,11 @@ export const NewsItem = ({ item, layout }: NewsItemProps) => {
         <NewsDate date={item.date} />
       </time>
       {item.link ? (
-        <OptionalLink link={item.link}>{item.text}</OptionalLink>
+        <OptionalLink link={item.link}>{item.html}</OptionalLink>
       ) : (
         <div
           className="news-item__md"
-          dangerouslySetInnerHTML={{ __html: marked.parse(item.text) }}
+          dangerouslySetInnerHTML={{ __html: item.html }}
         />
       )}
     </article>

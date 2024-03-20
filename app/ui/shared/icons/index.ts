@@ -5,3 +5,4 @@ export * from './icon-fb';
 export * from './icon-next';
 export * from './icon-pause';
 export * from './icon-play';
+export * from './icon-rss';
