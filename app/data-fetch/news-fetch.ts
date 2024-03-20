@@ -1,10 +1,13 @@
 import type { LoaderFunction } from '@remix-run/node';
 import type { INewsItem } from '~/types/generated/contentful';
 import { client } from './contentful-client';
+import { remark } from 'remark';
+import remarkHtml from 'remark-html';
 
 export interface NewsItemDto {
   id: string;
   text: string;
+  html: string;
   link: string;
   date: IsoDate;
 }
@@ -49,12 +52,15 @@ export async function fetchNews({
     total,
     limit,
     skip,
-    items: items.map((item: INewsItem) => ({
-      id: item.sys.id,
-      text: item.fields.text || '',
-      link: item.fields.link || '',
-      date: item.fields.published || item.sys.createdAt,
-    })),
+    items: await Promise.all(
+      items.map(async (item: INewsItem) => ({
+        id: item.sys.id,
+        text: item.fields.text || '',
+        html: String(await remark().use(remarkHtml).process(item.fields.text)),
+        link: item.fields.link || '',
+        date: item.fields.published || item.sys.createdAt,
+      }))
+    ),
     // .sort((a, z) => new Date(z.date).getTime() - new Date(a.date).getTime()),
   };
 }
