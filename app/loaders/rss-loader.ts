@@ -12,11 +12,45 @@ export type RssEntry = {
 
 export const rssLoader = async () => {
   const news = await fetchNews();
-  return news.items.map((item) => ({
+  const entries = news.items.map((item) => ({
     title: marked.parse(item.text),
     link: 'https://retroisland.net/news-archive',
     description: item.text,
     pubDate: new Date(item.date).toUTCString(),
     guid: item.id,
   })) as RssEntry[];
+
+  const feed = generateRss({ entries });
+
+  return new Response(feed, {
+    headers: {
+      'Content-Type': 'application/xml',
+      'Cache-Control': 'public, max-age=2419200',
+    },
+  });
 };
+
+function generateRss({ entries = [] }: { entries: RssEntry[] }): string {
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Васильевский Остров</title>
+    <description>Авторский сайт о вокально-инструментальных ансамблях и музыке советской эпохи</description>
+    <link>https://retroisland.net</link>
+    <language>ru-RU</language>
+    <ttl>60</ttl>
+    <atom:link href="https://retroisland.net/rss.xml" rel="self" type="application/rss+xml" />
+    ${entries
+      .map(
+        (entry) => `
+      <item>
+        <title><![CDATA[${entry.title.slice(0, 255)}]]></title>
+        <description><![CDATA[${entry.title}]]></description>
+        <pubDate>${entry.pubDate}</pubDate>
+        ${entry.guid ? `<guid isPermaLink="false">${entry.guid}</guid>` : ''}
+      </item>`
+      )
+      .join('')}
+  </channel>
+</rss>`;
+}
