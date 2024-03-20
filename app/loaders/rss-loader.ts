@@ -17,5 +17,6 @@ export const rssLoader = async () => {
     link: 'https://retroisland.net/news-archive',
     description: item.text,
     pubDate: new Date(item.date).toUTCString(),
+    guid: item.id,
   })) as RssEntry[];
 };
