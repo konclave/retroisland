@@ -9,6 +9,8 @@
     "start": "remix-serve build",
     "generate:types": "contentful-typescript-codegen --output app/types/generated/contentful.d.ts",
     "content:fetch": "node scripts/fetch-content.mjs",
+    "content:export": "node scripts/contentful-export.mjs export",
+    "content:transform": "node scripts/transform-content.mjs",
     "content:merge": "node scripts/contentful-export.mjs merge --scrapped-data=./generated/data.json",
     "content:publish": "node scripts/contentful-export.mjs publish-singers",
     "content:purge": "node scripts/contentful-export.mjs purge"
@@ -37,6 +39,7 @@
     "yet-another-react-lightbox": "^3.17.0"
   },
   "devDependencies": {
+    "@contentful/rich-text-html-renderer": "^16.0.0",
     "@contentful/rich-text-types": "^16.3.4",
     "@remix-run/dev": "^2.7.2",
     "@remix-run/eslint-config": "^2.7.2",
