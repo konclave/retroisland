@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "Васильевский остров (Музыка прошлых лет.)",
+  "short_name": "Васильевский остров",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "Васильевский остров – Авторский веб-сайт Анатолия Васильева. Коллекция некоторых песен не очень широко известных вокально-инструментальных ансамблей 70-х годов, а также их солистов.",
+  "icons": [
+    { "src": "/icon-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/icon-512.png", "type": "image/png", "sizes": "512x512" }
+  ]
+}

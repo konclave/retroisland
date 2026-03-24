@@ -1,0 +1,34 @@
+---
+interface LinkItem {
+  id: string;
+  link: string;
+  title: string;
+  description: string;
+}
+
+interface Props {
+  items: LinkItem[];
+}
+
+const { items } = Astro.props;
+---
+
+<ul class="communities-list">
+  {items.map((item) => (
+    <li class="communities-list__item">
+      <article class="community">
+        <a href={item.link} target="_blank" rel="nofollow noindex noreferrer">
+          <h3 class="community__title">{item.title}</h3>
+          <p class="community__text">{item.description}</p>
+          <span class="community__link">
+            <!-- icon-next arrow -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" fill="none">
+              <path fill="#626262"
+                d="M.293 12.293a1 1 0 0 0 1.414 1.414l6-6a1 1 0 0 0 .03-1.383l-5.5-6a1 1 0 0 0-1.474 1.352L5.616 6.97.293 12.293Z" />
+            </svg>
+          </span>
+        </a>
+      </article>
+    </li>
+  ))}
+</ul>

@@ -1,0 +1,45 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import NewsList from '../components/NewsList.astro';
+import { readFileSync } from 'fs';
+import { join } from 'path';
+
+let allNews: any[] = [];
+try {
+  allNews = JSON.parse(readFileSync(join(process.cwd(), 'src/content/news.json'), 'utf-8'));
+} catch {
+  // content not generated yet
+}
+
+const INITIAL_LIMIT = 20;
+const initial = allNews.slice(0, INITIAL_LIMIT);
+const remaining = allNews.slice(INITIAL_LIMIT);
+---
+
+<Layout title="Новости – ВАСИЛЬЕВСКИЙ ОСТРОВ" isArchive={true}>
+  <Header title="Новости" layout="archive" />
+  <div class="news-archive">
+    <div class="news-archive__list" id="news-list">
+      <NewsList news={initial} layout="archive" />
+      <!-- Hidden remainder, revealed by "Load more" -->
+      <div id="news-more" style="display:none">
+        <NewsList news={remaining} layout="archive" />
+      </div>
+      {remaining.length > 0 && (
+        <button class="button-load-more" type="button" id="load-more-btn">
+          Показать ещё
+        </button>
+      )}
+    </div>
+  </div>
+</Layout>
+
+<script>
+  const btn = document.getElementById('load-more-btn');
+  const more = document.getElementById('news-more');
+  btn?.addEventListener('click', () => {
+    if (more) more.style.display = '';
+    btn.style.display = 'none';
+  });
+</script>

@@ -1,0 +1,34 @@
+---
+interface ConfigItem {
+  media: string;
+  width: number;
+}
+
+interface Props {
+  src: string;
+  title: string;
+  config: ConfigItem[];
+  class?: string;
+}
+
+const { src, title, config, class: className } = Astro.props;
+
+const defaultEntry = config.find((e) => e.media === 'default');
+
+function getSrcSet(src: string, format: string, width: number) {
+  return `${src}?fm=${format}&q=85&w=${width}, ${src}?fm=${format}${format === 'jpg' ? '&fl=progressive' : ''}&q=75&w=${width * 2} 2x, ${src}?fm=${format}&q=65&w=${width * 3} 3x`;
+}
+---
+
+{defaultEntry && (
+  <picture>
+    {config.map(({ media, width }) => (
+      <>
+        <source srcset={getSrcSet(src, 'avif', width)} type="image/avif" {...(media !== 'default' ? { media } : {})} />
+        <source srcset={getSrcSet(src, 'webp', width)} type="image/webp" {...(media !== 'default' ? { media } : {})} />
+        <source srcset={getSrcSet(src, 'jpg', width)} type="image/jpeg" {...(media !== 'default' ? { media } : {})} />
+      </>
+    ))}
+    <img src={`${src}?w=${defaultEntry.width}`} alt={title} class={className} />
+  </picture>
+)}

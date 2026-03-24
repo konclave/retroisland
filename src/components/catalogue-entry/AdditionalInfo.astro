@@ -1,0 +1,33 @@
+---
+interface LinkEntry {
+  id: string;
+  link: string;
+  title: string;
+}
+
+interface Props {
+  entries?: LinkEntry[];
+}
+const { entries } = Astro.props;
+---
+
+{entries && entries.length > 0 && (
+  <article class="catalogue-other content-section">
+    <h2 class="catalogue-other__title section-title">Другие материалы</h2>
+    <ul class="catalogue-links">
+      {entries.map((entry) => (
+        <li class="catalogue-links__item catalogue-link">
+          <a href={entry.link} target="_blank" rel="nofollow noindex noreferrer">
+            <p class="catalogue-link__text">{entry.title}</p>
+            <span class="catalogue-link__arrow link-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" fill="none">
+                <path fill="#626262"
+                  d="M.293 12.293a1 1 0 0 0 1.414 1.414l6-6a1 1 0 0 0 .03-1.383l-5.5-6a1 1 0 0 0-1.474 1.352L5.616 6.97.293 12.293Z" />
+              </svg>
+            </span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </article>
+)}

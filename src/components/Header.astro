@@ -1,0 +1,48 @@
+---
+export type HeaderLayout = 'generic' | 'archive' | 'index' | 'project';
+
+interface Props {
+  title?: string;
+  layout?: HeaderLayout;
+  class?: string;
+}
+
+const { title, layout = 'generic', class: className } = Astro.props;
+const isIndex = layout === 'index';
+const isArchive = layout === 'archive';
+const isProject = layout === 'project';
+---
+
+<header
+  class:list={[
+    'header padded-wrap',
+    className,
+    { header_index: isIndex, header_archive: isArchive, header_project: isProject },
+  ]}
+>
+  <h1
+    class:list={[
+      'main-title',
+      {
+        'main-title_index': isIndex,
+        'main-title_archive': isArchive,
+        'main-title_about-project': isProject,
+      },
+    ]}
+  >
+    {isIndex ? (
+      'Васильевский остров'
+    ) : (
+      <a href="/" class="main-title__website">Васильевский остров</a>
+    )}
+    {title && <span class="main-title__section">{title}</span>}
+  </h1>
+  <p
+    class:list={[
+      'main-subtitle',
+      { 'main-subtitle_archive': isArchive, 'main-subtitle_about-project': isProject },
+    ]}
+  >
+    Авторский сайт о вокально-инструментальных ансамблях и музыке советской эпохи
+  </p>
+</header>

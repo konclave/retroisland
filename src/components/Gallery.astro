@@ -1,0 +1,73 @@
+---
+interface ImageAsset {
+  url: string;
+  title: string;
+  description?: string;
+  width?: number | null;
+  height?: number | null;
+}
+
+interface Props {
+  images?: ImageAsset[];
+  defaultTitle?: string;
+  withCaption?: boolean;
+  withNav?: boolean;
+}
+
+const { images, defaultTitle = '', withCaption = false, withNav = false } = Astro.props;
+---
+
+{images && images.length > 0 && (
+  <div
+    class="fotorama js-fotorama"
+    data-allow-fullscreen="native"
+    data-width="100%"
+    data-ratio="4/3"
+    data-nav="thumbs"
+    data-fit="cover"
+    data-arrows={withNav ? 'true' : 'false'}
+    data-thumb-height="100"
+    data-thumb-width="100"
+  >
+    {images.map((image) => (
+      <img
+        src={image.url}
+        alt={image.title || defaultTitle}
+        data-caption={withCaption ? image.title : ''}
+      />
+    ))}
+  </div>
+)}
+
+<script>
+  // Initialise all fotorama galleries on this page after jQuery is ready
+  document.addEventListener('DOMContentLoaded', () => {
+    const init = () => {
+      const galleries = document.querySelectorAll<HTMLElement>('.js-fotorama');
+      galleries.forEach((el) => {
+        const $ = (window as any).$;
+        if ($ && $(el).fotorama) {
+          $(el).fotorama({
+            allowfullscreen: el.dataset.allowFullscreen || 'native',
+            width: el.dataset.width || '100%',
+            ratio: el.dataset.ratio || '4/3',
+            nav: el.dataset.nav || 'thumbs',
+            fit: el.dataset.fit || 'cover',
+            arrows: el.dataset.arrows === 'true',
+            thumbheight: Number(el.dataset.thumbHeight) || 100,
+            thumbwidth: Number(el.dataset.thumbWidth) || 100,
+          });
+        }
+      });
+    };
+
+    // jQuery may still be loading; poll until ready
+    let attempts = 0;
+    const poll = setInterval(() => {
+      if ((window as any).$ || ++attempts > 20) {
+        clearInterval(poll);
+        init();
+      }
+    }, 100);
+  });
+</script>

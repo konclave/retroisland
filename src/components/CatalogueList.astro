@@ -1,0 +1,26 @@
+---
+interface CatalogueEntry {
+  id: string;
+  slug: string;
+  title: string;
+  shortTitle: string;
+}
+
+interface Props {
+  items: CatalogueEntry[];
+}
+
+const { items } = Astro.props;
+---
+
+<ul class="catalogue">
+  {items.map((item) => (
+    <li class="catalogue__item">
+      <div class="catalogue-entry">
+        <a href={`/catalogue/${item.slug}`}>
+          <h2 class="catalogue-entry__title">{item.shortTitle || item.title}</h2>
+        </a>
+      </div>
+    </li>
+  ))}
+</ul>

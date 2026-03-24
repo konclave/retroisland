@@ -1,0 +1,26 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Gallery from '../components/Gallery.astro';
+import { readFileSync } from 'fs';
+import { join } from 'path';
+
+let page: any = { text: '', gallery: [] };
+try {
+  page = JSON.parse(readFileSync(join(process.cwd(), 'src/content/pages/about-author.json'), 'utf-8'));
+} catch {
+  // content not generated yet
+}
+---
+
+<Layout title="Об авторе – ВАСИЛЬЕВСКИЙ ОСТРОВ">
+  <Header title="Об авторе" />
+  <div class="padded-wrap about-author">
+    {page.text && <div set:html={page.text} />}
+    {page.gallery?.length > 0 && (
+      <div class="about-author__gallery">
+        <Gallery images={page.gallery} withCaption withNav />
+      </div>
+    )}
+  </div>
+</Layout>

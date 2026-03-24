@@ -1,0 +1,62 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import NewsList from '../components/NewsList.astro';
+import CatalogueList from '../components/CatalogueList.astro';
+import CommunitiesList from '../components/CommunitiesList.astro';
+import TracksOnRequest from '../components/islands/TracksOnRequest';
+import { readFileSync } from 'fs';
+import { join } from 'path';
+
+function readJson(name: string) {
+  try {
+    return JSON.parse(readFileSync(join(process.cwd(), 'src/content', name), 'utf-8'));
+  } catch {
+    return null;
+  }
+}
+
+const news = readJson('news.json')?.slice(0, 5) ?? [];
+const catalogueItems = readJson('catalogue-list.json') ?? [];
+const requested = readJson('requested.json') ?? [];
+const indexPage = readJson('pages/index.json') ?? { links: [] };
+---
+
+<Layout>
+  <!-- Facade -->
+  <section class="facade">
+    <div class="padded-wrap">
+      <Header layout="index" />
+    </div>
+  </section>
+
+  <!-- News -->
+  <section class="news">
+    <h2>Новости</h2>
+    <NewsList news={news} />
+    <div class="news-footer padded-wrap">
+      <a href="/news-archive" class="news-footer__link">Все новости →</a>
+    </div>
+  </section>
+
+  <!-- Catalogue index -->
+  <div class="catalogue-index">
+    <h2 class="catalogue-index__title" id="catalogue">Каталог</h2>
+    <section class="padded-wrap inner-page-wrap catalogue_no-filter">
+      <CatalogueList items={catalogueItems} />
+    </section>
+  </div>
+
+  <!-- Tracks on request -->
+  {requested.length > 0 && (
+    <TracksOnRequest requested={requested} client:load />
+  )}
+
+  <!-- Communities -->
+  {indexPage.links.length > 0 && (
+    <section class="communities">
+      <h2 class="communities__title">Сообщества</h2>
+      <CommunitiesList items={indexPage.links} />
+    </section>
+  )}
+</Layout>

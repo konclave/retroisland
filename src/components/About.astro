@@ -1,0 +1,60 @@
+---
+---
+
+<section class="about">
+  <header class="about__header">
+    <h1>Васильевский остров</h1>
+    <h2>Авторский сайт о вокально-инструментальных ансамблях и музыке советской эпохи</h2>
+  </header>
+  <p class="about__disclaimer">
+    Песни, представленные на этом сайте, выложены в пониженном битрейте
+    и предназначены исключительно для ознакомления с творчеством
+    исполнителей. Каждый законопослушный гражданин обязан после
+    прослушивания немедленно стереть файл со своего компьютера и срочно
+    бежать в магазин для покупки этих песен на легальных носителях (т.е.
+    виниловых миньонов и гибких пластинок).
+  </p>
+  <address class="about__author author">
+    <h3 class="author__header">Автор проекта</h3>
+    <em class="author__name">Анатолий Васильев</em>
+    <ul class="author__link social-links">
+      <li class="social-links__item">
+        <a class="social-link" href="mailto:noreply@example.com" id="author-email">
+          <!-- envelope icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24">
+            <path stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+              d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+            <polyline stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+              points="22,6 12,13 2,6"/>
+          </svg>
+        </a>
+      </li>
+      <li class="social-links__item">
+        <a class="social-link" href="https://www.facebook.com/rdddra" target="_blank" rel="noopener noreferrer">
+          <!-- fb icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+          </svg>
+        </a>
+      </li>
+      <li class="social-links__item">
+        <a class="social-link" href="/rss.xml">
+          <!-- rss icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none">
+            <path stroke="currentColor" stroke-width="1.5" stroke-linecap="round" d="M4 11a9 9 0 0 1 9 9"/>
+            <path stroke="currentColor" stroke-width="1.5" stroke-linecap="round" d="M4 4a16 16 0 0 1 16 16"/>
+            <circle cx="5" cy="19" r="1" fill="currentColor"/>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </address>
+</section>
+
+<script>
+  // Reveal real email after a short delay (anti-spam)
+  setTimeout(() => {
+    const el = document.getElementById('author-email');
+    if (el) el.setAttribute('href', 'mailto:rddra@gmail.com');
+  }, 250);
+</script>

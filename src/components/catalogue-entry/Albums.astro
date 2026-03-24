@@ -1,0 +1,46 @@
+---
+import Track from '../Track.astro';
+
+interface TrackItem {
+  id: string;
+  title: string;
+  link: string;
+  length: string;
+  youtube: string;
+  ok: string;
+  shortDescription: string;
+}
+
+interface AlbumEntry {
+  id: string;
+  title: string;
+  subtitle?: string;
+  tracks?: TrackItem[];
+}
+
+interface Props {
+  entries?: AlbumEntry[];
+}
+const { entries } = Astro.props;
+---
+
+{entries && entries.length > 0 && (
+  <article class="catalogue-tracks">
+    <h2 class="catalogue-tracks__title section-title">Композиции</h2>
+    {entries.map((album) => (
+      <div class="catalogue-album">
+        {album.title && <h3 class="catalogue-album__title">{album.title}</h3>}
+        {album.subtitle && <h4 class="catalogue-album__subtitle">{album.subtitle}</h4>}
+        {album.tracks && album.tracks.length > 0 && (
+          <ol class="track-list jouele-playlist catalogue-album__tracks">
+            {album.tracks.map((track) => (
+              <li class="track-list__item">
+                <Track item={track} />
+              </li>
+            ))}
+          </ol>
+        )}
+      </div>
+    ))}
+  </article>
+)}
