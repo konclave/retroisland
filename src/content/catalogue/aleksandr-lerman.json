@@ -1,0 +1,749 @@
+{
+  "id": "2qfbOH1jwHFh4i9efSk4ci",
+  "createdAt": "2022-09-28T06:56:18.006Z",
+  "updatedAt": "2023-04-21T05:58:22.269Z",
+  "title": "Александр Лерман",
+  "shortTitle": "",
+  "slug": "aleksandr-lerman",
+  "shortDescription": "",
+  "description": "<p>Еще один легендарный солист, без голоса которого Веселых Ребят начала и середины семидесятых просто невозможно представить. А ведь работал он профессиональной сцене в Советском Союзе всего три года! И успел записать много великолепных песен с тремя ансамблями. Впрочем, с Араксом запись пока сохранилась только в фильме «Афоня».</p><p>А со мной был такой случай: в 1978 году вышла большая пластинка на стихи Игоря Кохановского, на которой было несколько песен в исполнении Добрых Молодцев. Я послушал «Садовое кольцо» и «Трудную любовь» и подумал: «это же тот парень, который пел в Веселых Ребятах!». Тут как раз был концерт Добрых Молодцев в Театре Эстрады, я взял билет и прилетел на концерт. Увы, ничего даже похожего. Только потом я узнал, что он в 75-ом году уехал из страны, а пластинка вышла с большим запозданием после записи. Так живьем я и не услышал... Но песни остались и вы их можете послушать.</p><p>У Александра Лермана вышли два диска в России. Я выложил с них только одну песню, мою самую любимую - «Скоморох», остальные - это то, что было сделано тогда, в семидесятые. А моя любимая из тех времен - «Чернобровая дивчина».</p><p>10 октября 2011 Александра Лермана не стало. Вот здесь находится его <a href=\"http://music.josweb.ru/Lerman/\">мемориальная страничка.</a></p>",
+  "images": [
+    {
+      "id": "1odqjMHHgUivAxfEWtKiEa",
+      "title": "Александр Лерман",
+      "description": "",
+      "url": "https://images.ctfassets.net/i2pyq4z3dq7a/1odqjMHHgUivAxfEWtKiEa/deceeb3661e50c7954974259a6d2c809/Lerman_L.jpg",
+      "contentType": "image/jpeg",
+      "width": 1134,
+      "height": 1344
+    }
+  ],
+  "albums": [
+    {
+      "id": "6cuG2Bp5bCyRgIYnBw3JiG",
+      "title": "Ансамбль Веселые Ребята",
+      "tracks": [
+        {
+          "id": "79hwIZawSycMpbYwMYiFSB",
+          "title": "Васильки",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/VR-Vasilki.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(П.Слободкин-Л.Дербенев) 1972"
+        },
+        {
+          "id": "2asCnss7A9HKaHShNjJiyE",
+          "title": "Варшавский дождь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/VR_Varshavski_Dojd.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-В.Сергеев) 1973"
+        },
+        {
+          "id": "2MoiEWij9qOL20MkvQTae9",
+          "title": "Верю-верю",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/VR_Very.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Антонов – В.Дюнин) 1973-74"
+        },
+        {
+          "id": "POHQQ011X8DX8kZSpoI0E",
+          "title": "Вечный огонь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/VR_1975_Vechny_Ogon.flac",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Лерман-Б.Баркас) с концерта 1975"
+        },
+        {
+          "id": "3OFzxHQEb4snNmDUqEukqr",
+          "title": "Где же ты, мама",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/VR_Gde_Zhe_Ty_mama.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Жеро-русский текст В.Дюнин) 1973"
+        },
+        {
+          "id": "4JC30utEL0KLEhzC5J2ojz",
+          "title": "День без выстрела",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/vr1974br_02_den_bez_vystrela_(remastering_2020).mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-М.Дудин) с концерта 1974"
+        },
+        {
+          "id": "4wqfiCF6RiOMcicuxWlIci",
+          "title": "Если любишь ты",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/VR_Esli_Lybish_Ty.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Антонов-Л.Дербенев) 1973"
+        },
+        {
+          "id": "7bvamx3iGKwPRprPi8jIQG",
+          "title": "Если любишь ты",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/vr1974br_06_esli_lyubish_ty_(remastering_2020).mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Антонов-Л.Дербенев) с концерта 1974"
+        },
+        {
+          "id": "1ZhOXZnfzui1zQ5BMHfWPM",
+          "title": "За белою рекой",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/VR_1975_Za_Beloyu_Rekoy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Морозов-В.Гин) с концерта 1975"
+        },
+        {
+          "id": "3EoefMdwbHmMmaGHMWu84k",
+          "title": "Как прекрасен этот мир",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/VR_Kak_Prekrasen_Etot_Mir.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-В.Харитонов) – 1 и 3 куплеты, 2 куплет – Л.Бергер, в припевах А.Пузырев, В.Сахаров) 1973"
+        },
+        {
+          "id": "471ddCmeuRVWOWAy7Enq0E",
+          "title": "Когда молчим вдвоем",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/VR_Kogfa_Molchim_Vdvoem.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(П.Слободкин-Л.Дербенев) 1974"
+        },
+        {
+          "id": "1ggIaxYyYBRoUqnOWvVdWj",
+          "title": "Когда молчим вдвоем",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/vr1974br_11_kogda_molchim_vdvoem_(remastering_2020).mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(П.Слободкин-Л.Дербенев) с концерта 1974"
+        },
+        {
+          "id": "1k0JkiTiwKXrHW3YgQnjOe",
+          "title": "Любовь-огромная страна",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/VR_Lybov_Ogromnaya_Strana.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Б.Рычков-Л.Дербенев) 1974"
+        },
+        {
+          "id": "63ACxwDtL1RI71rqwMFfrc",
+          "title": "Любовь-дитя планеты",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/vr1974br_03_lyubov_ditya_planety_(remastering_2020).mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-В.Харитонов) с концерта 1974"
+        },
+        {
+          "id": "2bbWixDy2Oh0N8ZcRiGXs9",
+          "title": "На земле живет любовь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/VR_Na_Zamle_Zhivet_Lybov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-Л.Дербенев) 1974"
+        },
+        {
+          "id": "4GOmgLNsm41PsOLw1sb7Th",
+          "title": "На лесной поляне",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/VR_Na_Lesnoy_Polyanke.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Дж.Фогерти-рус.текст В.Дюнин) 1974"
+        },
+        {
+          "id": "6GykkY1kZGMsE5Xzowrju5",
+          "title": "На лесной поляне",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/VR-1972_Na_Lesnoy_Polane.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Дж. Фогерти-рус.текст В.Дюнин) с концерта 1972"
+        },
+        {
+          "id": "4A8NrABjyYpHlA1I8Wbc1M",
+          "title": "На перекрестке",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/VR_Na_Perekrestke.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Дж. Фогерти) 1974"
+        },
+        {
+          "id": "1HrFhForRG5T25LGvavgTo",
+          "title": "Не забывай, земля глядит на нас",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/Lerman_Pugacheva_Ne_Zabyvay.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Атовмян-О.Писаржевская, А.Монастырев) с А.Пугачевой 1975"
+        },
+        {
+          "id": "2Pc5SRuSaceP92YkCJRI00",
+          "title": "Новгородский пир",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/VR-74-Novgorodsky_Pir.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Лерман-Б.Баркас,С.Старостин,С.Шпаков) с концерта 1975"
+        },
+        {
+          "id": "7BeC8Ub7bmDSqezsSOBhkQ",
+          "title": "Ну что с ним делать",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/VR_Nu_Chto_S_Nim_Delat.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Антонов-Л.Дербенев) 1973"
+        },
+        {
+          "id": "6gS95IaDmqGSpKTRG2VPTq",
+          "title": "Отчего",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/VR_Otchego.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Антонов-Т.Сашко) 1974"
+        },
+        {
+          "id": "2oqjN8WPIhwYzXlUAxB3OZ",
+          "title": "Песенка киномеханика",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/VR_Kak_V_Kino.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Н.Богословский-М.Танич) 1973-74"
+        },
+        {
+          "id": "7beNKrVGzudvurpro6HruD",
+          "title": "Размышления деревенского почтальона",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/VR_Pochtalyon.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Зелинский-русский текст В.Дюнин) 1973"
+        },
+        {
+          "id": "3as4WeOAdpYHQfkcIaON7e",
+          "title": "Расставание",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/VR_Rasstavanie.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Дьячков-П.Леонидов) 1972"
+        },
+        {
+          "id": "5VD86RpGACKRw9wJ2GetDD",
+          "title": "Расставание",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/VR-1972_Rasstavanie.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Дьячков-П.Леонидов) с концерта 1972"
+        },
+        {
+          "id": "1d1BGVpFBHf0H4jL76K1jy",
+          "title": "Чернобровая дивчина",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/VR_Chernobrovaya_Divchina.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р.Мануков-Т.Сашко) 1973"
+        },
+        {
+          "id": "60WbjKjPPx6cLssNtpvfNu",
+          "title": "Что такого",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/VR_Chto_Takogo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(П.Слободкин-Л.Дербенев) 1974"
+        },
+        {
+          "id": "70nwkJAHVniLPq5xNMcHlI",
+          "title": "Я к тебе не подойду",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/VR_Ya_K_Tebe_Ne_Podoydu.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-Л.Дербенев, И.Шаферан) 1974"
+        }
+      ]
+    },
+    {
+      "id": "IKCVX5Q3ezKdAbRsbynWP",
+      "title": "Ансамбль Добры Молодцы",
+      "tracks": [
+        {
+          "id": "XEbBhMnZ7eQMWjacO67cB",
+          "title": "Был месяц май",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/DM_Byl_Mesyc_May.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Киселев-И.Кохановский) 1975"
+        },
+        {
+          "id": "3hzskA50h9ZUFpmgHxv9ge",
+          "title": "Делай как мы",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/DM_Delay_Kak_My.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А,Киселев-И.Кохановский) 1975"
+        },
+        {
+          "id": "nKhSNNzS8Qmeau4dgZfX8",
+          "title": "Мое богатство",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/DM_Moye_Bogatstvo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Антонов-И.Кохановский) 1975"
+        },
+        {
+          "id": "3nvnyASS72cZNp3lHjiBLg",
+          "title": "Садовое кольцо",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/DM_Sadovoe_Kolco.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Антонов-И.Кохановский) 1975"
+        },
+        {
+          "id": "1RKp7KF1C8xgnSUmACIfHv",
+          "title": "Сердце, мое сердце",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/Lerman_Serdce.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-И.Гете) с альбома «По волне моей памяти\" 1976, запись 1975"
+        },
+        {
+          "id": "lZfEm8AOlmYJ7nyK8vfEN",
+          "title": "Трудная любовь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/DM_Trudnaya_Lybov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Киселев-И.Кохановский) 1975"
+        },
+        {
+          "id": "5B2cG58xA816U3h3jxZias",
+          "title": "Утушка луговая",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/DM_Utushka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(русская народная) 1975"
+        }
+      ]
+    },
+    {
+      "id": "PgF16GeUFrMXSxp9voH4z",
+      "title": "Песни из альбомов «Ветры перемен» (1995) и «Перемена ветра» (1998).",
+      "tracks": [
+        {
+          "id": "cNmHdLpJRXoD4bwzODQfr",
+          "title": "Скоморох",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/Lerman_Skomoroh.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Лерман-Б.Баркас)"
+        },
+        {
+          "id": "1SE2VdpojrbiIbSxXN54I5",
+          "title": "По этой лестнице",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/Lerman_Po_Etoy_Lestnice.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Лерман-Б.Баркас)"
+        },
+        {
+          "id": "5Zpjta2Yybw8duvqUANVaA",
+          "title": "Надежда, любовь и вера",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/Lerman_Nadezhda_Lybov_I_Vera.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Лерман-Б.Баркас)"
+        },
+        {
+          "id": "70alIUwy4g6WxEEkC0Gn90",
+          "title": "Новгородский пир",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/Lernan_Novgorodsky_Pir.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Лерман-Б.Баркас,С.Старостин,С.Шпаков)"
+        },
+        {
+          "id": "KhyzwIobqhlV3rs3p1yf2",
+          "title": "Летучий Голландец",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/Lerman_Letuchiy_Gollandec.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Лерман-Б.Баркас)"
+        },
+        {
+          "id": "5tLSzL4whh6IN8FrzhfVTW",
+          "title": "До песни задушевной",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/erman_Do_Pesni_zadushevnoy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Лерман-В.Дрожжин)"
+        },
+        {
+          "id": "6VUaqTUtHlQKHPFRKP8gFv",
+          "title": "До любви, до нежности",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/Lerman_Do_Lybvi_Do_Nezhnosti.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Лерман)"
+        },
+        {
+          "id": "4h80gsRXPsNi6S0Qz7mTqh",
+          "title": "Вечный огонь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/Lerman_Vecny_Ogon.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Лерман-Б.Баркас)"
+        },
+        {
+          "id": "26pbqCOkWLxeJVuKvXyMPJ",
+          "title": "Афродита",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/Lerman_Afrodita.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Лерман-Сафо, пер. В. Вересаева)"
+        },
+        {
+          "id": "6m4t145C4cViWm3xmfrUHn",
+          "title": "Где-то в поле возле Магадана",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/Lerman_Gde_to.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Лерман-Н.Заболоцкий)"
+        },
+        {
+          "id": "1kBHpmvLm83AJzydBivVFu",
+          "title": "Город",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/Lerman_Gorog.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Лерман-Б.Баркас)"
+        },
+        {
+          "id": "3I5IAgDL2L1vSU7fIG8Mge",
+          "title": "Лена",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/Lerman_Lena.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Лерман)"
+        }
+      ]
+    },
+    {
+      "id": "4BeGPVECgHHQvxZcWuaoc6",
+      "title": "Концерт в МАРХИ 1975 года (С Машиной Времени)",
+      "tracks": [
+        {
+          "id": "4rlP4sF4P0UQgpZp2k6Ps2",
+          "title": "Летучий Голландец",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/01_Leyuchiy_Gollandec_(remastering_2020).mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Лерман-Б.Баркас)"
+        },
+        {
+          "id": "7BI4V4occQrLEA9BGQiFkL",
+          "title": "Зеленый дол",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/02_Zeleny_Dol_(remastering_2020).mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Лерман-Р.Бернс)"
+        },
+        {
+          "id": "3ltgWckA8Nu0Yjd1NnfE37",
+          "title": "Твой облик",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/03_Tvoy_oblik_(remastering_2020).mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Лерман-С.Шпаков)"
+        },
+        {
+          "id": "4QWccaS7GeWfjNnH9L7EA0",
+          "title": "Такие вещи",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/04_Takie_Veshi_(remastering_2020).mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Лерман-Л.Мартынов)"
+        },
+        {
+          "id": "6RU2WdQgLiMOqadbM277Hv",
+          "title": "Надежда, любовь и вера",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/05_Nadezhda_Lybov_I_Vera_(remastering_2020).mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Лерман-Б.Баркас)"
+        },
+        {
+          "id": "5YZ8SuEERWjb8qXlOisYa1",
+          "title": "Волхвы",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/06_Volhvy_(remastering_2020).mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Лерман-Б.Баркас)"
+        },
+        {
+          "id": "5edjIOqTssXlb9SFxNxtes",
+          "title": "Ванька-встанька",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/07_Vanka_Vstanka_(remastering_2020).mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Лерман)"
+        },
+        {
+          "id": "6kypYLcBdsbUPPZsLxwJEK",
+          "title": "Новгородский пир",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/08_Novgorodsky_Pir_(remastering_2020).mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Лерман-Б.Баркас,С.Старостин,С.Шпаков)"
+        },
+        {
+          "id": "2cW7ffeT3bS5gM1wMixtKY",
+          "title": "Скоморох",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/09_Skomoroh_(remastering_2020).mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Лерман-Б.Баркас)"
+        }
+      ]
+    },
+    {
+      "id": "zhvx5wtMvXoccxBkQXjPL",
+      "title": "Песни из альбома «Концерт для своих» 2008 (с сайта В.Малежика www.malezhik.ru)",
+      "tracks": [
+        {
+          "id": "6XKap5sC9fLrmps8G1EMqy",
+          "title": "Гуленька (На прекрасной на долине) ",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/Gulenka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Лерман-народные)"
+        },
+        {
+          "id": "1JgAgXaqwVx4joy9pAQLZ1",
+          "title": "По этой лестнице",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/Lestnica.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Лерман-Б.Баркас)"
+        },
+        {
+          "id": "48l6TVnGarkXRBRXXlrQFz",
+          "title": "Зеленый дол",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/Zelyoniy_dol.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Лерман-Р.Бернс)"
+        },
+        {
+          "id": "6ZW3YFxCngiiuDYY3hgGVr",
+          "title": "Нежный монтер",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/Nezhniy_montyor.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Лерман-Ю.Валов)"
+        }
+      ]
+    },
+    {
+      "id": "7g0diYoZ5P65gHXA6SaX4D",
+      "title": "Работы последнего периода",
+      "tracks": [
+        {
+          "id": "36JSNgum4VPkpLCkYVIGb2",
+          "title": "Декабрьское",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/Lerman_Dekabrskoe.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Лерман-А.Цветков) 2010"
+        },
+        {
+          "id": "4wju7jT3lXTcccIEaHhrSy",
+          "title": "Декабрьское",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/Lerman_Dekabrskoe_.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Лерман-А.Цветков) студия, одна из последних записей, от Юрия Валова 2011"
+        },
+        {
+          "id": "6Ts5bsI4CsMqXL76hg6Iyz",
+          "title": "Судьба",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/Lerman_Sudba.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Лерман-А.Цветков) 2010"
+        }
+      ]
+    },
+    {
+      "id": "6bMzVqxCdBC5dZsaO1ecVW",
+      "title": "Разные песни и материалы",
+      "tracks": [
+        {
+          "id": "3FDf2Gwi9hOWKrpdAlLiCD",
+          "title": "Мемуары",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/Lerman_Memuary.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Шахназаров-В.Сауткин) акустика"
+        },
+        {
+          "id": "1fhbMoKzVIhW2vPZJkVsU1",
+          "title": "Друг друга мы нашли",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/Lerman_Drug_Druga_My_Nashli.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Зацепин-Л.Дербенев) – из к/ф «Отважный Ширак» – дуэт с А.Пугачевой 1975"
+        },
+        {
+          "id": "1Uaerd0yxiuQt6H7U9kNgb",
+          "title": "Разве, скажи мне, разве",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Lerman/Lerman_Razve.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Зацепин-Л.Дербенев) – из к/ф «Отважный Ширак» – дуэт с А.Пугачевой 1975"
+        }
+      ]
+    }
+  ],
+  "acknowledgements": [
+    "Вячеславу Капустину",
+    "Андрею Шперлу",
+    "Юрию Герцеву",
+    "Виктору Кривоклякину",
+    "Михаилу Файбушевичу и сайту \"Бродячие артисты\"",
+    "Сергею Жарикову",
+    "Владимиру Сонцу",
+    "Алексею Морозову",
+    "Александру Устюгову",
+    "Олегу Беликову",
+    "Алексею Туфлину",
+    "Владимиру Никандрову",
+    "Александру (Тупица)",
+    "Валентину Титову",
+    "Александру Шану",
+    "Вячеславу Малежику",
+    "Павлу Слободкину",
+    "Олегу Кричевскому",
+    "Юрию Валову",
+    "Михаилу Юпенину",
+    "Алексею Васину",
+    "Василию Минаеву",
+    "Борису Щеглову",
+    "Энди Бишопу",
+    "Юрию Анненкову"
+  ],
+  "acknowledgementText": "",
+  "videos": [
+    {
+      "url": "https://ok.ru/video/2708729235999",
+      "thumbUrl": "",
+      "title": "Александр Лерман в Москве (часть 1)"
+    },
+    {
+      "url": "https://ok.ru/video/2708729367071",
+      "thumbUrl": "",
+      "title": "Александр Лерман в Москве (часть 2)"
+    },
+    {
+      "url": "https://ok.ru/video/2708729301535",
+      "thumbUrl": "",
+      "title": "Александр Лерман в Москве (часть 3)"
+    },
+    {
+      "url": "https://ok.ru/video/2708747651615",
+      "thumbUrl": "",
+      "title": "Два Александра (Архив Виктора Дегтярева)"
+    },
+    {
+      "url": "https://ok.ru/video/2708746537503",
+      "thumbUrl": "",
+      "title": "Передача памяти Александра Лермана"
+    },
+    {
+      "url": "https://ok.ru/video/2708740901407",
+      "thumbUrl": "",
+      "title": "«Рожденные в СССР». Памяти Александра Лермана  16.11.2011"
+    },
+    {
+      "url": "https://ok.ru/video/2994128685599",
+      "thumbUrl": "",
+      "title": "«Памяти Александра Лермана». Видеоклип Алексея Васина на песню «Скоморох»"
+    },
+    {
+      "url": "https://ok.ru/video/2994136353311",
+      "thumbUrl": "",
+      "title": " «Памяти Александра Лермана». Видеоклип Алексея Васина на «Когда молчим вдвоем» с концерта Веселых Ребят 1974 года."
+    },
+    {
+      "url": "https://ok.ru/video/3231760058911",
+      "thumbUrl": "",
+      "title": "«Памяти Александра Лермана». Видеоклип Алексея Васина на «Вечный огонь» с концерта Веселых Ребят 1975 года."
+    },
+    {
+      "url": "https://ok.ru/video/4113822911007",
+      "thumbUrl": "",
+      "title": "Видеозарисовка Юрия Валова, вокал – А.Лерман 1989-93"
+    }
+  ],
+  "links": []
+}

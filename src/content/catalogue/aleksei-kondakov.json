@@ -1,0 +1,627 @@
+{
+  "id": "6wTOLpVNnsR6Pnuitx818O",
+  "createdAt": "2022-09-28T07:01:48.812Z",
+  "updatedAt": "2024-04-14T10:01:23.806Z",
+  "title": "Алексей Кондаков",
+  "shortTitle": "",
+  "slug": "aleksei-kondakov",
+  "shortDescription": "",
+  "description": "<p>Солист ансамблей Надежда, Самоцветы, Пламя, группы Вячеслава Добрынина Доктор Шлягер, сейчас Пламя-2000. Певец с удивительно пластичным голосом. Для меня знакомство с его творчеством началось с курьеза. Однажды на сайте Popsa.Info Наташа Бравичева задала вопрос: «Кому какая больше нравится аранжировка песни «Раз и навсегда» – Надежды или Самоцветов?» Я ответил – Надежды и на вопрос «Почему?» сказал «Потому что мне очень нравится Игорь Иванов». «А это не Игорь Иванов, это Алексей Кондаков». И Наташа прислала мне еще песню ансамбля Самоцветы. И оказалось, что там голос совсем другой - и выше и мягче. После этого я и стал искать, а что же он еще пел и где. И спасибо Игорю Иванову и Алексею Кондакову, которые, можно сказать, заставили меня сделать эту страничку. Теперь и Вы можете познакомится с песнями этого замечательного певца. Кстати, и не только певца, если послушаете написанные им песни, то согласитесь, что он еще и талантливый композитор, поскольку песни пишет очень хорошие.</p><p>15.02.2013 Алексея Кондакова не стало.</p>",
+  "images": [
+    {
+      "id": "jVKrHiBIuV9Y61FOipA7V",
+      "title": "Алексей Кондаков",
+      "description": "",
+      "url": "https://images.ctfassets.net/i2pyq4z3dq7a/jVKrHiBIuV9Y61FOipA7V/ba94ce219c0dee8505e82750945fd1a8/Kondakov_1.jpg",
+      "contentType": "image/jpeg",
+      "width": 300,
+      "height": 400
+    },
+    {
+      "id": "Qo7fyDSvMFohXDlIpWqn6",
+      "title": "Алексей Кондаков",
+      "description": "",
+      "url": "https://images.ctfassets.net/i2pyq4z3dq7a/Qo7fyDSvMFohXDlIpWqn6/02115c00c3f29a672a05b03c68fd33e0/Kondakov_2.jpg",
+      "contentType": "image/jpeg",
+      "width": 261,
+      "height": 379
+    }
+  ],
+  "albums": [
+    {
+      "id": "71Zs7w4oJIVAwm8pJ53hED",
+      "title": "Ансамбль Надежда",
+      "tracks": [
+        {
+          "id": "5ZneaV6v2beAypS9QK2XMy",
+          "title": "Гаванские вечера",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Nsdezhda_Gavanskie_Vechera.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Пьянов-А.Трусов) – с Л.Ивановой"
+        },
+        {
+          "id": "dIul8Y5SZTdoLZqPNglNk",
+          "title": "Горячий снег",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Nadezhda_Goryacy_Sneg.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Пахмутова-Н.Добронравов) 1978"
+        },
+        {
+          "id": "7BjJ5IpPFRkglkvHR1kh8f",
+          "title": "Олимпийский факел",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Nadezhda_Olimpiysky_Fakel.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "Олимпийский факел (М.Минков-В.Костров) 1980"
+        },
+        {
+          "id": "5l0JqUnGwntzYyd50YUlSC",
+          "title": "Письмо с дороги",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Nadezhda_Pismo_S_Dorogi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Словесник-Г.Борисов) 1980"
+        },
+        {
+          "id": "66wbfYov88t78o0Gtl3Mca",
+          "title": "Раз и навсегда",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Nadezhda_Raz_I_Navsegda.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-М.Пляцковский) 1980"
+        },
+        {
+          "id": "EMj7DJ0upI17YIUw8D4oY",
+          "title": "Твои глаза",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Nadezhda_Tvoi_Glaza.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Поклад-Ю.Рыбчинский)"
+        },
+        {
+          "id": "455Ub55yVQVw78xAZlFVzG",
+          "title": "Я жду, ты не приходишь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Nadezhda_Ya_Zhdu_Ty_Ne Prihodish.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р.Майоров-М.Рябинин)"
+        }
+      ]
+    },
+    {
+      "id": "4z9rTPcq2IoAioFYEaVbdc",
+      "title": "Ансамбль Самоцветы",
+      "tracks": [
+        {
+          "id": "2xMeU9fEAn3HlHPFDXE5G2",
+          "title": "Белый снег",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/SM_Bely_Sneg.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-Л.Дербенев) 1980"
+        },
+        {
+          "id": "3kz0TiGhgsuV6GkXjEZHve",
+          "title": "Мама",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/SM_Mama.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Кузьмин) 1981"
+        },
+        {
+          "id": "2ntvyuDznpXMgvSkTgq4Sn",
+          "title": "Раз и навсегда",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/SM_Raz_I_Navsegda.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-М.Пляцковский) 1981"
+        },
+        {
+          "id": "1yJBJjGE5TAbFEOvmUmMTj",
+          "title": "Телефон",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/SM_Telefon.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Маликов,В.Пресняков-Я.Гальперин) 1981"
+        },
+        {
+          "id": "78Tzid3USYkvNgnFsBOZxs",
+          "title": "Солнечный луч",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/SM_Solnechny_Luch.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Мелик-Я.Гальперин) 1981"
+        }
+      ]
+    },
+    {
+      "id": "46PtejMyCtZeYpcI36DPq5",
+      "title": "Ансамбль Пламя",
+      "tracks": [
+        {
+          "id": "4snuRoLexB87vk6dt1NAmC",
+          "title": "А нам по 20 лет",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Kondakov_a_nam_po_20_let.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(З.Бинкин-В.Петров) 1986"
+        },
+        {
+          "id": "q2Lz2AYptUFoRFDNCdK5T",
+          "title": "Звездные просторы",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Plamya_Zvezdnie_Prostory.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Э.Артемьев-Я.Гальперин) 1987-89"
+        },
+        {
+          "id": "1f6SUrppEQTvjgPo612OKp",
+          "title": "Кенгуру",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Plamya_Kenguru.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Т.Ефимов – Л.Рубальская) 1988, запись 1987"
+        },
+        {
+          "id": "5GoVbPPso6aUGdRpW1cvxH",
+          "title": "Озеро",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Plamya_Ozero.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р.Паулс-Л.Ошанин) 1986"
+        },
+        {
+          "id": "4UC6eYG0bsBMitEFDpfmSw",
+          "title": "Посмотри",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Plamya_Posmotri.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Петров – Б.Дубровин) 1988"
+        },
+        {
+          "id": "2AY2IuvSXa9xzITKIpv2e7",
+          "title": "Прикажи помиловать",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Plamya_Prikazhi_Pomilovat.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин – В.Гин) 1988"
+        },
+        {
+          "id": "2LOomabHFJdUqpjtSpir28",
+          "title": "Причал",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Plamya_Prichal.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин – М.Пляцковский) 1988, запись 1987"
+        },
+        {
+          "id": "R1qhU77PQ6id5nOU0UQGp",
+          "title": "Речной трамвайчик",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Plamya_Rechnoy_Tramvaychik.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Семенов – В.Дюнин) 1988"
+        },
+        {
+          "id": "1o1DKJyapLpHD3OkUX22U4",
+          "title": "Строим домик",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Plamya_Stroim_Domik.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин – Л.Дербенев) 1988, запись 1987"
+        }
+      ]
+    },
+    {
+      "id": "4lNC1Fi7rq0HuP9pCLg7vA",
+      "title": "Группа Доктор Шлягер",
+      "tracks": [
+        {
+          "id": "1c47pK0IiQfIF7p7oBmsKw",
+          "title": "Когда нибудь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Doctor_Shlager_Kogda_Nibud.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин – С.Осиашвили) 1990, запись 1989"
+        },
+        {
+          "id": "6zJRqRVbIzkQCVcVNtNI1",
+          "title": "Левый берег",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Doctor_Shlager_Leviy_Bereg.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин – Б.Заболотских) 1990, запись 1989"
+        },
+        {
+          "id": "2LMYq3Wi6fjbQQKgkqLHiy",
+          "title": "Мостик",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Doctor_Shlager_Mostik.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин – С.Осиашвили) 1990, запись 1989"
+        },
+        {
+          "id": "3CwvcREvjPgWhLjtVYfFbJ",
+          "title": "На всякий случай",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Doctor_Shlager_Na_Vsyakiy_Sluchay.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин – М.Рябинин) 1991, запись 1990"
+        },
+        {
+          "id": "4ubp2VrP2rMvrLXELMphmW",
+          "title": "Раз в неделю",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Doctor_Shlager_Raz_V_Nedely.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин – Л.Дербенев) 1991"
+        },
+        {
+          "id": "7tw78lJE0NbTK2VS0eEFyy",
+          "title": "То что доктор прописал",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Doctor_Shlager_To_Chto_Doctor_Propisal.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин – М.Рябинин) 1990, запись 1989"
+        },
+        {
+          "id": "4Ux52gkPTbVT5vciTLIqU0",
+          "title": "Черная птица",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Doctor_Shlager_Chernaya_Ptica.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин – М.Рябинин) 1990, запись 1989"
+        }
+      ]
+    },
+    {
+      "id": "2d26UILis9d9oPmPAct1zM",
+      "title": "Сольные работы",
+      "tracks": [
+        {
+          "id": "1qle8jYQjciFmGjjGLjjdR",
+          "title": "А на окне герань цветет",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Kondakov_A_Na_Okne_Geran_Cvetet.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Кондаков-Н.Просторова)"
+        },
+        {
+          "id": "UYpspxM0LVrtASFhDYz1o",
+          "title": "Все тебе прощаю",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Kondakov_Vse_Tebe_Proshayu.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Кондаков-Н.Просторова) 1991"
+        },
+        {
+          "id": "71vcjgztA52ZxFcLkPGHLK",
+          "title": "Возвращайся",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Kondakov_Vozvrashaysa.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Кондаков-Н.Просторова)"
+        },
+        {
+          "id": "2PgtILPR8DWMZttZLP8QXw",
+          "title": "Дочка кареглазая",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Kondakov_Dochka_Kareglazaya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Кондаков-Н.Просторова) 1991"
+        },
+        {
+          "id": "3Kx8njtNVRO8QigvAwAwKo",
+          "title": "Зина-Зина",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Kondakov_Zina_Zina.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Кондаков-Ю.Дружкова)"
+        },
+        {
+          "id": "1AiQfZEIrwbRF2UGV22vAQ",
+          "title": "Золотой водопад",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Kondakov_Zolotoy_Vodopad.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Кондаков-Н.Просторова) 1991"
+        },
+        {
+          "id": "61GofFfuF0DUgOHQOodKV3",
+          "title": "Маленькая фея",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Kondakov_Malenkaya_Feya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Кондаков-Н.Просторова)"
+        },
+        {
+          "id": "172SDYKuGAJxC7JSJoTNze",
+          "title": "Нарисованный мир",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Kondakov_Narisovanny_Mir.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Кондаков-Н.Просторова)<"
+        },
+        {
+          "id": "13oqVknw3asLU2uK8Uasqf",
+          "title": "Ново-Косино",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Kondakov_Novo_Kosino.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Кондаков-Н.Просторова)"
+        },
+        {
+          "id": "2EyyYvvEXYaYsjv7HXrAWV",
+          "title": "Она ушла к тебе",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Kondakov_Ona_Ushla_K_Tebe.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Кондаков-Н.Просторова)"
+        },
+        {
+          "id": "34Zg97BjuuuZDYD4CCuDyY",
+          "title": "Праздник любви",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Kondakov_Prazdnik_Lybvi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Кондаков-Н.Просторова)"
+        },
+        {
+          "id": "7v9QRRlQ1sZzyQVmfLAL37",
+          "title": "Раз на раз не приходится",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Kondakov_Raz_Na_Raz_Ne_Prihoditsa.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-М.Пляцковский) 1991"
+        },
+        {
+          "id": "3TOVtvGtfB83SQxVSi1llK",
+          "title": "Спартак",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Kondakov_Spartak.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Богатырев)"
+        },
+        {
+          "id": "1zuyAMEYGfoHjN17E6P7eF",
+          "title": "Ты сама придумала",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Kondakov_Ty_Sama_Pridumala.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-М.Пляцковский)"
+        },
+        {
+          "id": "3ava3WYuBlPbG9ZcM0vU6H",
+          "title": "Чепуха",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Kondakov_Chepuha.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Кондаков-Н.Просторова)"
+        },
+        {
+          "id": "7qQW4GyPuK4Ud5JVmRsC3I",
+          "title": "Я не стал другим",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Kondakov_Ya_Ne_Stal_Drugim.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Мудров)"
+        },
+        {
+          "id": "53b9KluBR32qHxXrN8eFSp",
+          "title": "Я в пути",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Kondakov_Ya_V_Puti.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Барыкин)"
+        }
+      ]
+    },
+    {
+      "id": "1RQQfHCSMmLae5JFzKrG3W",
+      "title": "Группа Пламя-2000",
+      "tracks": [
+        {
+          "id": "3loDSZj03bnMwtLeGp3QJ5",
+          "title": "В последний раз",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Plamya_2000_V_Posledny_Raz.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Аверин-С.Мудров) 2004"
+        },
+        {
+          "id": "6VeeEMCfkSmyKoFg3Kk2qR",
+          "title": "Все тебе прощаю",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Plamya_2000_Vse_Tebe_Proshayu.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Кондаков-Н.Просторова) 2004"
+        },
+        {
+          "id": "3RLZXdInnBtgFjWUlHE4yi",
+          "title": "На дальней станции сойду",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Plamya_2000_Na_Dalney_Stancii_Soydu.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Шаинский-М.Танич) 2004"
+        },
+        {
+          "id": "5C4QtPpuYohwPpBLrh5FzI",
+          "title": "Последний бал",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Plamya_2000_Posledny_Bal.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Барыкин-И.Славоросов) 2004"
+        },
+        {
+          "id": "6TQRYo9CmpVGQrjiAbmsHt",
+          "title": "Прикажи помиловать",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Plamya_2000_Prikazhi_Pomilovat.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-В.Гин) 2004"
+        },
+        {
+          "id": "4NQ2RfjLrH9FJHEzfJJCjJ",
+          "title": "Раз и навсегда",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Kondakov_Raz_I_Navsegda.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-М.Пляцковский) 2004"
+        },
+        {
+          "id": "7qyIUscovCCaqbt11lyRxV",
+          "title": "Романс",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Plamya_2000_Romans.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Барыкин,С.Редько-С.Есенин) 2004"
+        }
+      ]
+    }
+  ],
+  "acknowledgements": [
+    "Владиславу Самсонову",
+    "Александру Устюгову",
+    "Михаилу Юпенину",
+    "Александру Леонову",
+    "Володе Никандрову",
+    "Николаю Тютюниченко",
+    "Валентину Титову",
+    "Игорю Иванову",
+    "Алексею Кондакову",
+    "Екатерина Вадзинской",
+    "Валентин Ярин (сайт ВИА Пламя)"
+  ],
+  "acknowledgementText": "",
+  "videos": [
+    {
+      "url": "https://ok.ru/video/1537742932511",
+      "thumbUrl": "",
+      "title": "Я так и знал (В.Добрынин-М.Рябинин)"
+    },
+    {
+      "url": "https://ok.ru/video/1539851684383",
+      "thumbUrl": "",
+      "title": "Нарисованный мир (А.Кондаков-Н.Просторова)"
+    },
+    {
+      "url": "https://ok.ru/video/1537743850015",
+      "thumbUrl": "",
+      "title": "Изюминка - творческий вечер М.Рябинина, 1991"
+    },
+    {
+      "url": "https://ok.ru/video/1537745357343",
+      "thumbUrl": "",
+      "title": "Алексей Кондаков в передаче «Час совы»  1997"
+    },
+    {
+      "url": "https://ok.ru/video/1537745553951",
+      "thumbUrl": "",
+      "title": "Алексей Кондаков в передаче «Лицо с обложки» "
+    },
+    {
+      "url": "https://ok.ru/video/1537745488415",
+      "thumbUrl": "",
+      "title": "Попурри"
+    },
+    {
+      "url": "https://ok.ru/video/3093535525407",
+      "thumbUrl": "",
+      "title": "Как сон - Юбилейный вечер Сергея Мудрова, 1998"
+    },
+    {
+      "url": "https://ok.ru/video/3093591165471",
+      "thumbUrl": "",
+      "title": "Клен с Пламя-2000"
+    },
+    {
+      "url": "https://ok.ru/video/4142163298847",
+      "thumbUrl": "",
+      "title": "Где же ты была (В.Добрынин-Л.Дербенев) – ТРК Останкино, 1994"
+    },
+    {
+      "url": "https://ok.ru/video/3093616265759",
+      "thumbUrl": "",
+      "title": "Листья падают (А.Барыкин-С.Есенин)"
+    },
+    {
+      "url": "https://ok.ru/video/1150051551775",
+      "thumbUrl": "",
+      "title": "Пламя-2000 в программе «Рожденные в СССР» (2011)"
+    }
+  ],
+  "links": [
+    {
+      "id": "48ao19cOppWsjyBDapxC7E",
+      "link": "http://popsa.info/bio/286/286b.html",
+      "title": "Информация об Алексее на popsa.info ",
+      "description": ""
+    },
+    {
+      "id": "6gB0fmFaNlv85MJXAvJKP3",
+      "link": "https://specialradio.ru/art/id242/",
+      "title": "Интервью с В.Марочкиным для СпециалРадио: Часть 1 ",
+      "description": ""
+    },
+    {
+      "id": "3w2Z5QUT2KAdg8btpjLwGb",
+      "link": "https://specialradio.ru/art/id243/",
+      "title": "Интервью с В.Марочкиным для СпециалРадио: Часть 2",
+      "description": ""
+    }
+  ]
+}

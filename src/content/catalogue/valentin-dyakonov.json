@@ -1,0 +1,736 @@
+{
+  "id": "4pNgjg2atXuIU5LFZPAQh5",
+  "createdAt": "2022-09-28T06:55:34.079Z",
+  "updatedAt": "2024-02-22T17:11:10.991Z",
+  "title": "Валентин Дьяконов",
+  "shortTitle": "",
+  "slug": "valentin-dyakonov",
+  "shortDescription": "",
+  "description": "<p>Солист и гитарист ансамблей Самоцветы и Пламя. По сути, это был не просто солист и гитарист, это был фронтмен этих ансамблей, не только голос но и лицо их. Красавчик, что там говорить. девчонки от него просто с ума сходили. Я и сам в середине семидесятых жил в доме, где тремя этажами ниже жила его сестра. И хотя сам он появлялся там очень редко, все равно у нашего подъезда около года дежурила одна его поклонница. Можно представить, что было у его дома.</p><p>Но, конечно, не только внешность послужило причиной появления этой странички. Я считаю, что именно его голос определял ту самую мягкую и лиричную манеру, которой отличались первые составы Самоцветов и Пламени, и которая если не исчезла, но очень сильно изменилась с уходом этого музыканта.</p><p>Сейчас, оглядываясь назад, видишь, что с этими ансамблями и связаны все лучшие его песни, по которым его знают и любят, и все, что он делал в своей сольной карьере (впрочем, очень недолгой), все-таки с теми песнями в ряд встать не может (хотя это только мое мнение).</p><p>А дальше, после ухода и недолгой сольной карьеры, как рассказывают, была карьера звукорежиссера, работа с Вячеславом Малежиком, не так давно опять появление в Самоцветах Юрия Маликова и вновь он куда-то исчез. А жалко...</p><p>В сети есть и <a href=\"http://www.v-dyakonov.ru/\">сайт Валентина Дьяконова</a> c большим объемом информации.</p>",
+  "images": [
+    {
+      "id": "3kM5k08zOGFaKqa3bzqj97",
+      "title": "Валентин Дьяконов",
+      "description": "",
+      "url": "https://images.ctfassets.net/i2pyq4z3dq7a/3kM5k08zOGFaKqa3bzqj97/ae4df9e15cd4af4ee4c1fbce41cf6898/Djaykonov-3_L.jpg",
+      "contentType": "image/jpeg",
+      "width": 760,
+      "height": 1024
+    },
+    {
+      "id": "3xNA4a2IgVxy69BBGRikSu",
+      "title": "Валентин Дьяконов",
+      "description": "",
+      "url": "https://images.ctfassets.net/i2pyq4z3dq7a/3xNA4a2IgVxy69BBGRikSu/01394f57a108a5ddd728e50daf6b7621/Djaykonov-1.jpg",
+      "contentType": "image/jpeg",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "id": "1M7HBKX6EMfVfFiy0tRWQ2",
+      "title": "Валентин Дьяконов",
+      "description": "",
+      "url": "https://images.ctfassets.net/i2pyq4z3dq7a/1M7HBKX6EMfVfFiy0tRWQ2/4b6c2847128cfe64b96a08ce64eb4df1/Djaykonov-2_L.jpg",
+      "contentType": "image/jpeg",
+      "width": 829,
+      "height": 768
+    }
+  ],
+  "albums": [
+    {
+      "id": "GnVbqIMUSVoEcCyUeGY8v",
+      "title": "Самоцветы",
+      "tracks": [
+        {
+          "id": "7jYaMciHn3Jpg5epKcymJr",
+          "title": "Горлица ",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/SM_Gorlica_2.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Иванов-С.Кирсанов) запись 1972"
+        },
+        {
+          "id": "5HLSTQEzuNPhftBWDUR9cn",
+          "title": "Добрые приметы",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/SM_Dobrye_Primety.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Фрадкин-Е.Долматовский) – с И.Шачневой 1973"
+        },
+        {
+          "id": "6Y95WFwd1Wp3Ha6jwVrdXo",
+          "title": "За того парня",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/SM_Za_Togo_Parnya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Фрадкин-Р.Рождественский) запись 1972"
+        },
+        {
+          "id": "1m8a4vsMxX6E4w5Yzj5B7K",
+          "title": "Ивушка",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/SM_Ivushka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Дьяконов-В.Лозовой) 1974"
+        },
+        {
+          "id": "2S3GEWaNpQqcBgjVhJHPYB",
+          "title": "Комсомольская площадь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/SM_Komsomolskaya_Ploshad.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Э.Ханок-Е.Долматовский) запись 1974"
+        },
+        {
+          "id": "3b9XIdGG3rSVOBRoYKFUj",
+          "title": "Ледовитый океан",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/SM_Ledovity_Okean.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р.Мануков-М.Пляцковский) запись 1974"
+        },
+        {
+          "id": "62mKQ9tYQ8k1QcjFyOcTZS",
+          "title": "Сказание о земле",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/SM_Skazanie_O_Zemle.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Березин – С.Островой) 1973"
+        },
+        {
+          "id": "23hT2rhwst6U06o2hUp5u4",
+          "title": "Туман",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/SM_Tuman.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Колкер-К.Рыжов) запись 1973"
+        },
+        {
+          "id": "1uE7uG4jzfz9gfFaUzC3pC",
+          "title": "У деревни Крюково",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/SM_U_Derevni_Kryukovo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Фрадкин-С.Островой) запись 1974"
+        },
+        {
+          "id": "PVLL5L5m60onjD8D2EXOz",
+          "title": "Школьный бал",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/SM_Shkolny_Bal.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Дьячков-П.Леонидов) запись 1972"
+        }
+      ]
+    },
+    {
+      "id": "4mWd2jP0rZzLj8uh5HvDwb",
+      "title": "Пламя",
+      "tracks": [
+        {
+          "id": "1FdP3tRqAHvlKOgpZPt5eD",
+          "title": "Баллада о спасенном хлебе",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Plamya_Ballada_O_Spasennom_Hlebe.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Фрадкин-В.Штормов) 1976"
+        },
+        {
+          "id": "4LqwuWyirSoDaeKxUuh6v6",
+          "title": "До шестнадцати лет",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Plamya_Do_16_Let.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Туликов-М.Пляцковский) с И.Шачневой 1976"
+        },
+        {
+          "id": "1ZNh3JzCw9OiHOhxgtIHpd",
+          "title": "За фабричной заставой",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Plamya_Za_Fabrichnoy_Zastavoy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Фрадкин-Е.Долматовский) 1977"
+        },
+        {
+          "id": "45pHl6JlnxlbKeFs49pQVx",
+          "title": "Здравствуй, мама",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Plamya_Zdravstvuy_Mama.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-Р.Рождественский) 1976"
+        },
+        {
+          "id": "11yTCfnMpkyXkgwLSzlqOb",
+          "title": "Кольцо",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Plamya_Kolco.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Березин-П.Проскурин) 1984"
+        },
+        {
+          "id": "nWJaX8DCI7NK4gDv9Apb2",
+          "title": "Летит студенческий отряд",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Plamya_Letit_Studenchesky_Otryad.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Основиков-Б.Дубровин)"
+        },
+        {
+          "id": "3SnXxjGiT5sGIStzBFn8cQ",
+          "title": "На дальней станции сойду",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Plamya_Na_Dalney_Stancii_Soydu.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Шаинский-М.Танич) 1977"
+        },
+        {
+          "id": "55KRv1c8JXYd6TOKkVRaWl",
+          "title": "Столица областная",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Plamya_Stolica_Oblastnaya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Фрадкин-Е.Долматовский) 1977"
+        },
+        {
+          "id": "w2dik7NQumwr5g7S9kK2R",
+          "title": "Ты послушай, ровесник",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Plamya_Ty_Poslushay_Rovesnik.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Букин-М.Пляцковский) 1976"
+        },
+        {
+          "id": "pWfJab9Kye4iUixk0fApm",
+          "title": "Ты спроси у ручья",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Plamya_Ty_Sprosi_U_Ruchya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Дьяконов-М.Пляцковский)(acc59.nm.ru) 1976"
+        },
+        {
+          "id": "4fh5XeiqBTkc1HitpTeXtn",
+          "title": "У деревни Крюково",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Plamya_U_Derevni_Kryukovo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Фрадкин-С.Островой) 1976"
+        },
+        {
+          "id": "3TcyxKd87MSLcp8859M6xt",
+          "title": "Это ты, наша молодость",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_Eto_Ty_Nasha_Molodost.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Комаров) с И.Шачневой и Ю.Петерсоном 1977"
+        }
+      ]
+    },
+    {
+      "id": "2EMATRDvuCFlGdPrmAeucK",
+      "title": "Сольные работы",
+      "tracks": [
+        {
+          "id": "18HrimeewldVOtt3WUK2uL",
+          "title": "Алло, алло, Алена",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Dyakonov_Allo_Alena.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-М.Пляцковский) 1977"
+        },
+        {
+          "id": "aKgkKxMx6qcwuWWhqSJf8",
+          "title": "Вот и зима",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Dyakonov_Vot_I_Zima.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Дьяконов-В.Харитонов) 1983"
+        },
+        {
+          "id": "1InvNdKNHpsll95qyRXre7",
+          "title": "Все было бы не так",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Dyakonov_Vse_Bylo_By_Ne_Tak.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Дьяконов-Харитонов) 1982"
+        },
+        {
+          "id": "1dXKpvHNSF4Hphr2RvNflp",
+          "title": "Воспоминание",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Dyakonov_Vospominanie.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Дьяконов-В.Харитонов) 1981"
+        },
+        {
+          "id": "ZmVQKUG3jlF9YNeotuPgZ",
+          "title": "Все, что мы отдадим",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Dyakonov_Vse_Chto_My_Otdadim.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Г.Мовсесян-О.Писаржевская, А.Монастырев)"
+        },
+        {
+          "id": "6cGd4jLWpJppBIBhQltJWv",
+          "title": "День, в котором жил я",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Dyakonov_Den_V_Kotorom_Zhil_Ya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Дьяконов-В.Харитонов) 1983"
+        },
+        {
+          "id": "kUTlPHoZzNmXaW5ik0Bi4",
+          "title": "Завтра после уроков",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/KM_Zavtra_Posle_Urokov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-М.Пляцковский) – с Н.Кусакиной 1980"
+        },
+        {
+          "id": "5oQEspjWa1XxTQB21b4XYo",
+          "title": "Красный конь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Dyakonov_Krasny_Kon.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Фрадкин-М.Пляцковский)"
+        },
+        {
+          "id": "5D1FHJQFkiMh6cjAaPScKA",
+          "title": "Наше кафе",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Malezhik_Dyakonov_Nashe_Kafe.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Малежик-С.Осиашвили), дуэт с В.Малежиком 1995"
+        },
+        {
+          "id": "56PuYZXDGPFuwMNRLeIm9c",
+          "title": "Русская мелодия",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Dyakonov_Kusakina_Russkaya_Melodiya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Касторский-М.Рябинин – с Н.Кусакиной 1980"
+        },
+        {
+          "id": "4Pl9BwZjiLQbmgdTbnyig5",
+          "title": "Старая Гитара",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/V_DYAKONOV-Staraya Gitara.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(acc59.nm.ru) 1980"
+        },
+        {
+          "id": "kqa0raU2Zj0KUklOm8izr",
+          "title": "Ты со мной",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Dyakonov_Ty_So_Mnoy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Дьяконов-В.Харитонов) 1981"
+        },
+        {
+          "id": "XiDJolLcuDVzr2dYxR8AN",
+          "title": "Флюгер",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Dyakonov_Flyger.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Дьяконов) 1985"
+        },
+        {
+          "id": "IKwaSPSabvkN02r8pCwHG",
+          "title": "Через переправу",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Dyakonov_Cherez_Perepravu.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Дьяконов) 1985"
+        },
+        {
+          "id": "5nhBe2oyCvZGJ4Rl2s28Mu",
+          "title": "Я буду ждать",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Dyakonov_Ya_Budu_Zhdat.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Дьяконов-В.Харитонов) 1981"
+        }
+      ]
+    },
+    {
+      "id": "79iN5CsInX1Y7e1qRjyMVZ",
+      "title": "Песни с концертов ансамбля Самоцветы 1973-1974 года",
+      "tracks": [
+        {
+          "id": "b9ysrVV9N9hTAv3lBFr2e",
+          "title": "Сказание о Земле",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/SM_74-Skazanie_O_Zemle.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Березин – С.Островой) 1974"
+        },
+        {
+          "id": "7m8qUTzHJEsorjmyKcLOrS",
+          "title": "Школьный бал",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/SM_1973-Shkolny_Bal.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Дьячков-П.Леонидов) 1973"
+        }
+      ]
+    },
+    {
+      "id": "5H9kFOHI9LIBPqmrwdVSgW",
+      "title": "Песня с концертов ансамбля Пламя 1976 года",
+      "tracks": [
+        {
+          "id": "T5V6cv4NbXsJR82Obpqb3",
+          "title": "Мчится поезд",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Plamya_76_Mchisya_Poezd.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "3Y5PVztbmgNmOfiSkEonu3",
+          "title": "Вы не верьте, девочки",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Plamya_76_Vy_Poverte_Devochki.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Э.Ханок-М.Пляцковский)"
+        }
+      ]
+    },
+    {
+      "id": "6OtoWCfnnUhQeDXG8lu4tF",
+      "title": "Несколько песен с концертов ансамбля Пламя 1977 года",
+      "tracks": [
+        {
+          "id": "6nHywbfCnq7xdWvFFZYvQ0",
+          "title": "Невеста",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Plamya_Navesta.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-И.Шаферан)"
+        },
+        {
+          "id": "2xD85GAJCpxe89RrUi5b8H",
+          "title": "Еще раз про любовь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Plamya_Eshe_Raz_Pro_Lybov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Фрадкин-М.Пляцковский) – с И.Шачневой"
+        },
+        {
+          "id": "37E1N2mExh3LgjIQh7YlML",
+          "title": "Столица областная",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Plamya_77_Stolica_Oblastnaya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Фрадкин-Е.Долматовский) – с Ю.Петерсоном"
+        },
+        {
+          "id": "2boFH6BpZyTYl13UpDspKk",
+          "title": "Увезу тебя я в тундру",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Plamya_Uvezu_Tebya_Ya_V_Tundru.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Фрадкин-М.Пляцковский)"
+        }
+      ]
+    },
+    {
+      "id": "4rAFHQo7pRN4HucAcy6VHQ",
+      "title": "Песни с акустического сольного концерта в Ленинграде в 197? году",
+      "tracks": [
+        {
+          "id": "2bKa4zBbN1UrTMffmRkW6O",
+          "title": "У деревни Крюково",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Dyakonov_Live_Piter-01-U_Derevni_Kryukovo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Фрадкин-С.Островой)"
+        },
+        {
+          "id": "75jD4sFXfmfRdkCvbbEo4k",
+          "title": "Красный конь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Dyakonov_Live_Piter-02-Krasny_Kony.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Фрадкин-М.Пляцковский)"
+        },
+        {
+          "id": "4QluNpKW10mzv8S1TT5yWo",
+          "title": "За фабричной заствой",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Dyakonov_Live_Piter-03-Za_Fabrichnoy_Zastavoy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Фрадкин-Е.Долматовский)"
+        }
+      ]
+    },
+    {
+      "id": "1MhFGBpLD1CnRfLZkCnSrk",
+      "title": "Запись 1995/96 года с группой \"Солисты ансамблей Самоцветы и Пламя\" (Валентин Дьяконов - аранжировка, запись всех инструментов)",
+      "tracks": [
+        {
+          "id": "53CjGRjKWqafBjFqgQyNYI",
+          "title": "Верба",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/SM-99_Verba.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Э.Ханок-Ю.Рыбчинский)  с И.Шачневой, В.Аникиенко"
+        },
+        {
+          "id": "LaIZMC9enqQf3IlXsCZCh",
+          "title": "Вся жизнь впереди",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/SM-99_Vsya_Zhizn_Vperedi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Экимян-Р.Рождественский) с И.Шачневой, В.Аникиенко"
+        },
+        {
+          "id": "1XIYc5oaYw8N9O3125Hro",
+          "title": "Горлица ",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/SM-1999-Gorlica.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Иванов-С.Кирсанов)"
+        },
+        {
+          "id": "fhz9d8YGZJRDU0tyqQ3uZ",
+          "title": "Добрые приметы",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/SM-99-Dobrie_Primety.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Фрадкин-Е.Долматовский) – с И.Шачневой"
+        },
+        {
+          "id": "4sVtw2nTYZ1KoUKNToiKzX",
+          "title": "Мой адрес - Советский Союз",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/SM-99_Moy_Adres_SSSR.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-В.Харитонов) с И.Шачневой, В.Аникиенко"
+        },
+        {
+          "id": "2WmEFRtehwABGsObIC1D0U",
+          "title": "Не повторяется такое никогда",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/SM-99_Ne_Povtoryaetsa.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Туликов-М.Пляцковский) с И.Шачневой, В.Аникиенко"
+        },
+        {
+          "id": "NRfYEpMkPWyU44nVX3yBC",
+          "title": "Увезу тебя я в тундру",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Dyakonov_Uvezu_Tebya_ya_V_Tundru.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Фрадкин-Пляцковский)"
+        },
+        {
+          "id": "5FYoTpaLJyrPIYquE3REpS",
+          "title": "Школьный бал",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Dyakonov_Shkolny_Bal.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Дьячков-П.Леонидов)"
+        },
+        {
+          "id": "28NltRICBH0v4uojlasDQu",
+          "title": "Экипаж - одна семья",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/SM-99_Ekipazh_Semya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Плешак-Ю.Погорельский) с И.Шачневой, В.Аникиенко"
+        }
+      ]
+    }
+  ],
+  "acknowledgements": [
+    "Вячеславу Капустину",
+    "Андрею Шперлу",
+    "Владимиру Бахареву",
+    "Владимиру Сонцу",
+    "Александру Устюгову",
+    "Але Шмелевой",
+    "Егору Рукину",
+    "Сергею Пасечнику",
+    "Михаилу Загребину",
+    "Виктору Кривоклякину",
+    "Галине Стельмах",
+    "Олегу Гринченко",
+    "Валентину Титову"
+  ],
+  "acknowledgementText": "",
+  "videos": [
+    {
+      "url": "https://ok.ru/video/3065701468703",
+      "thumbUrl": "",
+      "title": "Верба (Э.Ханок-Ю.Рыбчинский) с И.Шачневой и В.Селезневым фильм-концерт «Самоцветы\"» 1973"
+    },
+    {
+      "url": "https://ok.ru/video/1658071812639",
+      "thumbUrl": "",
+      "title": "Вся жизнь впереди (А.Экимян-Р.Рождественский), Песня-79, Пламя, запись 1976"
+    },
+    {
+      "url": "https://ok.ru/video/1658071878175",
+      "thumbUrl": "",
+      "title": "Вся жизнь впереди (А.Экимян-Р.Рождественский), с И.Шачневой, Хит-парад «Ностальгия» 1995"
+    },
+    {
+      "url": "https://ok.ru/video/2960523332127",
+      "thumbUrl": "",
+      "title": "Добрые приметы (А.Экимян-Р.Рождественский), с И.Шачневой, Хит-парад «Ностальгия» 1995"
+    },
+    {
+      "url": "https://ok.ru/video/2959265040927",
+      "thumbUrl": "",
+      "title": "За того парня (М.Фрадкин-Р.Рождественский) фильм-концерт «Самоцветы\"» 1973"
+    },
+    {
+      "url": "https://ok.ru/video/1658071681567",
+      "thumbUrl": "",
+      "title": "За фабричной заставой (М.Фрадкин-Е.Долматовский), Вечер М.Фрадкина 1979"
+    },
+    {
+      "url": "https://ok.ru/video/1657970100767",
+      "thumbUrl": "",
+      "title": "Ивушка (В.Дьяконов-В.Лозовой) На концерте 35-летия Самоцветов"
+    },
+    {
+      "url": "https://ok.ru/video/1658072271391",
+      "thumbUrl": "",
+      "title": "Красный конь (М.Фрадкин-М.Пляцковский), вечер М.Фрадкина 1979"
+    },
+    {
+      "url": "https://ok.ru/video/1658071484959",
+      "thumbUrl": "",
+      "title": "Красный конь (М.Фрадкин-М.Пляцковский), Песня-79, 1980"
+    },
+    {
+      "url": "https://ok.ru/video/2847401052703",
+      "thumbUrl": "",
+      "title": "Налетели дожди (Д.Тухманов-В.Харитонов) поют Ю.Петерсон, В.Селезнев, Г.Жарков, В.Дьяконов в кадре, фильм-концерт «Самоцветы\"» 1973"
+    },
+    {
+      "url": "https://ok.ru/video/1658072205855",
+      "thumbUrl": "",
+      "title": "Наше кафе (В.Малежик-С.Осиашвили), дуэт с В.Малежиком 1995"
+    },
+    {
+      "url": "https://ok.ru/video/1658072074783",
+      "thumbUrl": "",
+      "title": "Не повторяется такое никогда (С.Туликов-М.Пляцковский), ансамбль Пламя, 1978"
+    },
+    {
+      "url": "https://ok.ru/video/1658072140319",
+      "thumbUrl": "",
+      "title": "Погрусти (В.Дьяконов – М.Танич), телепередача «Споемте, друзья» 1991"
+    },
+    {
+      "url": "https://ok.ru/video/1657969576479",
+      "thumbUrl": "",
+      "title": "Расцвела сирень (Ю.Милютин-А.Софронов) ВИА Пламя, Песня 1985"
+    },
+    {
+      "url": "https://ok.ru/video/1658071550495",
+      "thumbUrl": "",
+      "title": "Снежинка (Ю.Саульский-П.Леонидов), с И.Шачневой, концерт «Легенды ВИА» в Санкт-Петербурге 1998"
+    },
+    {
+      "url": "https://ok.ru/video/2959267793439",
+      "thumbUrl": "",
+      "title": "Туман (А.Колкер-К.Рыжов) фильм-концерт «Самоцветы\"» 1973"
+    },
+    {
+      "url": "https://ok.ru/video/1658071616031",
+      "thumbUrl": "",
+      "title": "У деревни Крюково (М.Фрадкин-С.Островой), Песня-75, Пламя 1976"
+    },
+    {
+      "url": "https://ok.ru/video/1658072009247",
+      "thumbUrl": "",
+      "title": "У деревни Крюково (М.Фрадкин-С.Островой), Вечер М.Фрадкина 1979"
+    },
+    {
+      "url": "https://ok.ru/video/1658071943711",
+      "thumbUrl": "",
+      "title": "Увезу тебя я в тундру (М.Фрадкин-М.Пляцковский), с И.Шачневой, Ю.Маликовым, В.Беляниным"
+    },
+    {
+      "url": "https://ok.ru/video/2959278672415",
+      "thumbUrl": "",
+      "title": "Увезу тебя я в тундру (М.Фрадкин-М.Пляцковский) фильм-концерт «Самоцветы\"» 1973"
+    },
+    {
+      "url": "https://ok.ru/video/1658071747103",
+      "thumbUrl": "",
+      "title": "Школьный бал (С.Дьячков-П.Леонидов), Хит-парад «Ностальгия» 1995"
+    },
+    {
+      "url": "https://ok.ru/video/3065603820063",
+      "thumbUrl": "",
+      "title": "Фрагмент телепередачи о Песнярах с участием В.Дьяконова"
+    },
+    {
+      "url": "https://ok.ru/video/6476727978527",
+      "thumbUrl": "",
+      "title": "Вечер Марка Фрадкина в Колонном зале, 1979. Три песни: \"У деревни Крюково\"-\"Красный конь\"-\"У фабричной заставы\" . С сайта Валентина Дьяконова."
+    }
+  ],
+  "links": []
+}

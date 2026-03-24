@@ -1,0 +1,357 @@
+{
+  "id": "RG56TP2qQRUen9fcwkxLc",
+  "createdAt": "2022-09-28T06:56:34.135Z",
+  "updatedAt": "2023-10-30T15:02:49.456Z",
+  "title": "Александр Барыкин",
+  "shortTitle": "",
+  "slug": "aleksandr-barykin",
+  "shortDescription": "",
+  "description": "<p>Этот музыкант и певец в представлении не нуждается. Его знают все, кто хоть как-то интересуется нашей музыкой. Лидер и один из основателей группы Карнавал, пиcал песни (и очень неплохие) и пел до самой своей безвременной смерти. Это Александр Барыкин (или Бырыкин, что правильнее).</p><p>Однако не так давно я поймал себя на мысли, что не очень-то и много могу назвать песен, которые он пел в «докарнавальный» период. Нет, то, что он был музыкантом ансамблей Веселые Ребята и Самоцветы, это я знаю, но вот какие именно песни он там пел? А ведь в Веселых Ребятах именно он вместе с Александром Лерманом до 1975 года определял то фирменное многоголосье этого ансамбля.</p><p>Вот, собственно это и сподвигло на создание странички Александра Барыкина. Здесь представлены все песни, которые я смог обнаружить в период его творчества до группы Карнавал. Если у вас есть что-то еще, с радостью приму и выложу еще песни для этой странички. А пока - слушайте и наслаждайтесь.</p>",
+  "images": [
+    {
+      "id": "3DmPCYsWYpslaCwo1phhVj",
+      "title": "Александр Барыкин",
+      "description": "",
+      "url": "https://images.ctfassets.net/i2pyq4z3dq7a/3DmPCYsWYpslaCwo1phhVj/5e8f2aa416190814ba82d0c57533fdfe/Barykin_2_L.jpg",
+      "contentType": "image/jpeg",
+      "width": 331,
+      "height": 442
+    },
+    {
+      "id": "3eN2ccWshDytZGejbXv9K2",
+      "title": "Александр Барыкин",
+      "description": "",
+      "url": "https://images.ctfassets.net/i2pyq4z3dq7a/3eN2ccWshDytZGejbXv9K2/53686252db2ddda431462af32cf59806/Barykin.jpg",
+      "contentType": "image/jpeg",
+      "width": 224,
+      "height": 306
+    }
+  ],
+  "albums": [
+    {
+      "id": "2R550ZMOw8zPaHyrPsLtda",
+      "title": "Ансамбль Москвичи",
+      "tracks": [
+        {
+          "id": "61NhbArtVZwiejLG9Ts9Wk",
+          "title": "Сны",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Barykin/Moskvichi_Sny.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-Б.Кагермазов, пер. В.Гераскина) 1973"
+        }
+      ]
+    },
+    {
+      "id": "7kkdGNzGjPv2uj0YwcwERm",
+      "title": "Ансамбль Веселые Ребята",
+      "tracks": [
+        {
+          "id": "4kSG2kM7BOhgubLrfhUslq",
+          "title": "А мне-то зачем",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Barykin/VR_A_Mne_To_Zachem.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(П.Слободкин-Л.Дербенев) 1974"
+        },
+        {
+          "id": "2tN9bJYjE6r7iwz3B1nuhy",
+          "title": "Была любовь (вар. 1)",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Barykin/VR_Byla_Lybov_1.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-И.Шаферан) 1974"
+        },
+        {
+          "id": "2VBGqekMZNxeygLWkjnzHp",
+          "title": "Была любовь (вар. 2)",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Barykin/VR_Byla_Lybov_2.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-И.Шаферан) 1975"
+        },
+        {
+          "id": "3T7bDqeE9ueRrYyO3uNjXr",
+          "title": "Варшавский дождь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Barykin/VR-1974_Varshavsky_Dojd_Live.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-В.Сергеев) - с концерта 1974"
+        },
+        {
+          "id": "51g0HG3dkXfMnuJLrT7XYn",
+          "title": "Вечная весна",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Barykin/VR_Vechnaya_Vesna.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-И.Шаферан) 1974"
+        },
+        {
+          "id": "3uUzCjob3fSXZJUxiWVHUW",
+          "title": "Двойка за весну",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Barykin/VR_Dvoyka_Za_Vesnu.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-М.Пляцковский) 1978"
+        },
+        {
+          "id": "7n84MUjrlz2jBb0uaJ5S01",
+          "title": "Двойка за весну",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Barykin/VR-1978-Dvoyka_Za_Vesnu.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-М.Пляцковский) - с концерта в Архангельске 1978"
+        },
+        {
+          "id": "2DJJrJxVKTMcfs8aYnBtid",
+          "title": "Дневник (Памяти Тани Савичевой)",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Barykin/VR-1974-Dnevnik.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "П.Слободкин-О.Волин) с концерта 1974"
+        },
+        {
+          "id": "4Gh4jyyrXNVn1A3wL8wJDH",
+          "title": "Дневник (Памяти Тани Савичевой)",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Barykin/VR-1974-Kurgan-Dnevnik.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(П.Слободкин-О.Волин) - с концерта в Кургане 1974"
+        },
+        {
+          "id": "4M6ny68I2k2q2Yp4z88EqJ",
+          "title": "Загранка",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Barykin/VR_Zagranka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Минков-М.Танич) с А.Алешиным и А.Пугачевой 1975"
+        },
+        {
+          "id": "6S5YxFx6Y4XwcN2ccPvTH",
+          "title": "Избранник",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Barykin/VR_Izbrannik.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р.Мануков-Т.Сашко) 1975"
+        },
+        {
+          "id": "3SXA7CksT5eDTrsv03x3qX",
+          "title": "Из вагантов",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Barykin/VR-1978-Iz_Vagantov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-Поэзия вагантов) - с концерта в Архангельске 1978"
+        },
+        {
+          "id": "65Z2lW7sa2OvVq2lVej3YZ",
+          "title": "Мона Лиза",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Barykin/VR_Mona_Liza.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(UFO) 1979"
+        },
+        {
+          "id": "6zY5mcwkp61Z4ayEz4dZ2n",
+          "title": "Не надо ждать",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Barykin/VR_Ne_Nado_Zhdat.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": " (Р.Мануков-В.Харитонов) с А.Алешиным и А.Пузыревым 1975"
+        },
+        {
+          "id": "50dpxLql59YdJfPhvYYGWQ",
+          "title": "Полоса невезения",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Barykin/VR_Polosa_Nevezeniya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-Л.Дербенев, И.Шаферан) 1975"
+        },
+        {
+          "id": "4uecDUpteZUPQJfjBKDiI1",
+          "title": "У той горы",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Barykin/VR_U_Toy_Gory.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-В.Харитонов) с А.Лерманом 1974"
+        },
+        {
+          "id": "4kcuW4ZVbO6ER0x1HfBlOr",
+          "title": "Что ты хочешь мне сказать",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Barykin/VR_Chto_Ty_Hocesh_Mne_Skazat.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(W.Theunissen-русский текст В.Луговой) 1979"
+        },
+        {
+          "id": "1QcfHhwC2tgolaf6jzOCHH",
+          "title": "Эльтиген",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Barykin/VR_Eltigen.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Л.Лядова-М.Владимов) с А.Алешиным и А.Пугачевой"
+        },
+        {
+          "id": "5pGj8fZlqVeW3xqxCjMy8b",
+          "title": "Этот мир",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Barykin/VR_Etot_Mir.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Зацепин-Л.Дербенев)"
+        }
+      ]
+    },
+    {
+      "id": "7il9nUJ1k2XEJwkgehG39G",
+      "title": "Ансамбль Верные Друзья",
+      "tracks": [
+        {
+          "id": "4DhL3pDkalLLtQebbiDEk5",
+          "title": "В который раз",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Barykin/VD_V_Kotory_Raz.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Антонов-И.Шаферан) 1973"
+        }
+      ]
+    },
+    {
+      "id": "3M5fgAKQnW2X5db00hOz5I",
+      "title": "Ансамбль Самоцветы",
+      "tracks": [
+        {
+          "id": "2Y4qwce0F7hoFdMyE25f1w",
+          "title": "Взяли!",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Barykin/SM_Vzyali.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Е.Жарковский-Н.Лабковский)"
+        },
+        {
+          "id": "7H0LtaIIjMmAZ21UToPZUH",
+          "title": "Здравствуй, мама",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Barykin/SM_Zdravstvuy_Mama.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-Рождественский) 1976"
+        },
+        {
+          "id": "7jRUdikGAGB3vEvlDIF5xi",
+          "title": "Горький мед",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Barykin/SM-1976_Gorky_med.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Иванов-В.Павлинов)  - с концерта в Ленинграде, сентябрь 1976"
+        },
+        {
+          "id": "5NrkO66jbUGyifONj4TW2y",
+          "title": "Просто не верится",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Barykin/SM-1976_Prosto_Ne_Veritsya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-М.Пляцковский) - с концерта в Ленинграде, сентябрь 1976"
+        },
+        {
+          "id": "1ZV2X7Q5ayUEVNthN5ISwQ",
+          "title": "Студентка – практикантка",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Barykin/SM_Studentka_Praktikantka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Пресняков,Ю.Маликов-Б.Пургалин, Б.Салибов) 1976"
+        },
+        {
+          "id": "5erHLt6I4EGrqW5BRxYrYo",
+          "title": "Студентка-практикантка",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Barykin/SM-1976_Studentka_Praktikantka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Пресняков,Ю.Маликов-Б.Пургалин, Б.Салибов) - концерт в Ленинграде, сентябрь 1976"
+        }
+      ]
+    },
+    {
+      "id": "6uI942vnQsOtxDbQWC9sFL",
+      "title": "Сольно",
+      "tracks": [
+        {
+          "id": "1J3LCYf02ISqja4U6WSXQb",
+          "title": "Ковбой",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Barykin/AlBar_Cowboy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(дуэт с Р.Бабаян из сказки \"Старик Хоттабыч\") 1979"
+        },
+        {
+          "id": "6mEIMQGPuINSNaznOhmQYm",
+          "title": "Приглашение к путешествию",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Barykin/Barykin_Priglashenie_K_Puteshestviyu.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-Шарль Бодлер) – с диска «По волне моей памяти» 1976, запись 1975"
+        }
+      ]
+    }
+  ],
+  "acknowledgements": [
+    "Олегу Беликову",
+    "Александру Устюгову",
+    "Андрею Шперлу",
+    "Сергею Амброзику",
+    "Владимиру Бахареву",
+    "Олегу Пипичу",
+    "Валентину Титову",
+    "Николаю Тютюниченко",
+    "Михаиллу Юпенину",
+    "Сергею Маругину",
+    "Игорю Чураку",
+    "Александру Шутову",
+    "Ренату Шарибджанову",
+    "Володе Никандрову",
+    "ЛЕАФ",
+    "Василию Минаеву"
+  ],
+  "acknowledgementText": "",
+  "videos": [
+    {
+      "url": "https://ok.ru/video/1535969528351",
+      "thumbUrl": "",
+      "title": "Попурри из песен ВИА (видео)"
+    }
+  ],
+  "links": [
+    {
+      "id": "6Ue5bK9zrGwZ7xDJVyn6vf",
+      "link": "http://www.via-era.narod.ru/Solisti/Barikin.html",
+      "title": "Материалы Валерия Колпакова (сайт ВИА-Эра)",
+      "description": ""
+    }
+  ]
+}

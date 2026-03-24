@@ -1,0 +1,371 @@
+{
+  "id": "4l2wJ4kPTfosqGediaMVoG",
+  "createdAt": "2022-09-28T07:03:07.339Z",
+  "updatedAt": "2023-01-06T18:43:30.955Z",
+  "title": "Леонид Кошелев",
+  "shortTitle": "",
+  "slug": "leonid-koshelev",
+  "shortDescription": "",
+  "description": "<p>Давно хотел сделать страничку этого музыканта. Потому что ансамбль Верасы у большинства его знающих ассоциируется с песней «Малиновка» и, соответственно, с солистами Александром Тихановичем и Ядвигой Поплавской. Но ведь в начале своей деятельности Верасы были женской группой, имея в своем составе вокальную группу из четырех солисток. И одного чистого солиста - Леонида Кошелева. Яркий, красивый, очень узнаваемый голос определял вокальное звучание ранних Верасов. И записать он успел большое количество очень хороших песен. Но вот одну песню, которую я слышал на концерте, записать, похоже, не удалось - это «Лошади в океане» и очень жаль, поскольку исполнение было очень пронзительное и запоминающееся.</p><p>Буду благодарен за любую информацию и фотографии этого замечательного исполнителя.</p>",
+  "images": [
+    {
+      "id": "KNZsF94qki0OPI4ZpfaUb",
+      "title": "Леонид Кошелев",
+      "description": "",
+      "url": "https://images.ctfassets.net/i2pyq4z3dq7a/KNZsF94qki0OPI4ZpfaUb/a14c319d3e96e3ab9301e34a7f42f6ce/Koshelev_1.jpg",
+      "contentType": "image/jpeg",
+      "width": 463,
+      "height": 525
+    },
+    {
+      "id": "4iHGnjrh6HqjwAuMXtdzVC",
+      "title": "Леонид Кошелев",
+      "description": "Бывшие Верасы: Александр Тиханович, Надежда Микулич и Леонид Кошелев",
+      "url": "https://images.ctfassets.net/i2pyq4z3dq7a/4iHGnjrh6HqjwAuMXtdzVC/cf671ea3ec456b52c6a53a6a80dabe60/Koshelev_2.jpg",
+      "contentType": "image/jpeg",
+      "width": 600,
+      "height": 450
+    }
+  ],
+  "albums": [
+    {
+      "id": "2sj1KXdHLqr26EVvbzXr4R",
+      "title": "Ансамбль Верасы",
+      "tracks": [
+        {
+          "id": "4idvIRVHjI4Y74KkJBgmu3",
+          "title": "Андрюша",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Koshelev/Verasy_Andrusha.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Жак-Г.Гридов) 1979"
+        },
+        {
+          "id": "3PPcnNZQM1SuKLACssfGyg",
+          "title": "Анита",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Koshelev/Verasy_Anita.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Мексиканская народная-С.Давидович) 1979"
+        },
+        {
+          "id": "4idjggw57dqfKVUGHuebhN",
+          "title": "Белая береза",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Koshelev/Verasy_Belaya_Bereza.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Семенов-Л.Федин) 1979"
+        },
+        {
+          "id": "1SZIHLBDdStSOWng71GUI2",
+          "title": "Белоруссия",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Koshelev/Verasy_Belorussia.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Пахмутова-Н.Добронравов) 1976"
+        },
+        {
+          "id": "vx91ft8t4fqsgiiJR5qur",
+          "title": "Белый парус",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Koshelev/Verasy_Bely_Parus.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Е.Глебов-Б.Окуджава) 1980"
+        },
+        {
+          "id": "2py6t1PtKTbRzj6Oi7Ts9Y",
+          "title": "Город юности",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Koshelev/Verasy_Gorod_Yunosti.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Раинчик-В.Некляев)"
+        },
+        {
+          "id": "1621rM2qXrNQHq6se4wuPx",
+          "title": "Ехал я из Берлина",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Koshelev/Verasy_Ehal_Ya_Iz_Berlina.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Дунаевский-Л.Ошанин) 1976"
+        },
+        {
+          "id": "BwgA43SRRmyMymWzyufQ2",
+          "title": "Если любишь-найди",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Koshelev/Verasy_Esli_Lybissh-Naydi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(К.Листов-Л.Ошанин) 1979"
+        },
+        {
+          "id": "3XZsUTmawzdJIXfriazS6F",
+          "title": "Заклинание",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Koshelev/Verasy_Zaklinanie.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Лученок-Е.Евтушенко) 1980"
+        },
+        {
+          "id": "xSSBiwIkZd1XGKcXOxJbw",
+          "title": "Ивушка",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Koshelev/Verasy_Ivushka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Э.Ханок-И.Резник) 1975"
+        },
+        {
+          "id": "4DBiQP9m7muxxIyJM3zAXY",
+          "title": "Катюша",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Koshelev/Verasy_Katysha.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Блантер-М.Исаковский) 1976"
+        },
+        {
+          "id": "5xT82pt17E5AVElbNxXIgj",
+          "title": "Колыбельная",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Koshelev/Verasy_Kolybelnaya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Фельцман-Р.Гамзатов) 1975"
+        },
+        {
+          "id": "3fxM17nFNoD4vpS5y1wHwC",
+          "title": "Красные маки",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Koshelev/Verasy_Krasnie_Maki.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Семенов-Л.Дюнин,И.Генов) 1976"
+        },
+        {
+          "id": "6cLCkPpYX8xJXTVXCsM4VE",
+          "title": "Любишь-не любишь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Koshelev/Verasy_Lybish_Ne_Lybish.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-И.Кохановский) 1980"
+        },
+        {
+          "id": "6iTrkQ3k4PSb0GKZWTpLSP",
+          "title": "Люблю тебя",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Koshelev/Verasy_Lybly_Tebya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Якушенко-В.Харитонов) с Ядвигой Поплавской 1980"
+        },
+        {
+          "id": "6l0efZvnG5p1r61O8i542k",
+          "title": "Пахнет чабор",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Koshelev/Verasy_Pahnet_Chabor.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Иванов-П.Бровка) 1977"
+        },
+        {
+          "id": "1ZsxC4bDGU2tG2ERmSyiKQ",
+          "title": "Песня о родной земле",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Koshelev/Verasy_Pesnya_O_Rodnoy_Zemle.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Лученок-В.Каризно)"
+        },
+        {
+          "id": "1zO6G1gEVEOlFd2Z4zrwdh",
+          "title": "Песня о талой воде",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Koshelev/Verasy_Pesnya_O_Taloy_Vode.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Иванов-Л.Ошанин) 1975"
+        },
+        {
+          "id": "4ZrODnlMuFxztQ0MzV4cKl",
+          "title": "Прости меня, мама",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Koshelev/Verasy_Prosti_Menya_Mama.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Г.Пономаренко-Н.Шумаков)"
+        },
+        {
+          "id": "1Rz8nOks3NMlqi9wcBt3cc",
+          "title": "Травы детства (вар 1)",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Koshelev/Verasy_Travy_Detstva.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Семеняко-Н.Шумаков) 1979"
+        },
+        {
+          "id": "6Wn58ROhJznycnpiKMXigz",
+          "title": "Травы детства (вар 2)",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Koshelev/Verasy_Travy_Detstva-2.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Семеняко-Н.Шумаков)"
+        },
+        {
+          "id": "3ucIoryY0zBC6JhlApMvNW",
+          "title": "Тебе еще об этом не сказал",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Koshelev/Verasy_Tebe_Eshe_Ob_Etom_Ne_Skazal.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Мажуков-Н.Шумаков)"
+        },
+        {
+          "id": "6OPdH9qlbFOqC1IXTeL1Hd",
+          "title": "Цветные сны",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Koshelev/Verasy_Cvetnie_Sny.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Шаинский-М.Танич) 1980"
+        },
+        {
+          "id": "489MHYpa70igA6v3WhV9FB",
+          "title": "Школьный вальс",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Koshelev/Verasy_Shkolny_Vals.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Захлевный-В.Некляев)(acc59.nm.ru)"
+        },
+        {
+          "id": "5h2NjJBChkNAYc9Loa18vb",
+          "title": "Честно говоря",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Koshelev/Verasy_Chestno_Govorya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Дьячков-М.Ножкин)"
+        },
+        {
+          "id": "32yzgKZtxMUyun26s5hEbt",
+          "title": "Чур-чура",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Koshelev/Verasy_Chur_Chura.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Раинчик-В.Некляев) с Надеждой Микулич 1980"
+        }
+      ]
+    },
+    {
+      "id": "5pzrN5NopZDVMFf881qnj",
+      "title": "Записи последних лет",
+      "tracks": [
+        {
+          "id": "1DxzJtNJJI42aGURC8aw39",
+          "title": "Дождь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Koshelev/Koshelev-Dozd.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Аршанский)"
+        }
+      ]
+    }
+  ],
+  "acknowledgements": [
+    "Андрею Шперлу",
+    "Александру Устюгову",
+    "Вячеславу Капустину",
+    "Мирославу Алиновскому",
+    "Николаю Тютюниченко",
+    "Владимиру Иванову",
+    "Валентину Бадьярову",
+    "Артему Зенину",
+    "Марине Сивер",
+    "Михаилу Юпенину",
+    "Игорю Плотникову",
+    "Владимиру Никандрову",
+    "Василию Минаеву"
+  ],
+  "acknowledgementText": "",
+  "videos": [
+    {
+      "url": "https://ok.ru/video/1464877451807",
+      "thumbUrl": "",
+      "title": "Если любишь-найди (из фильма 1975 г.)"
+    },
+    {
+      "url": "https://ok.ru/video/1464877517343",
+      "thumbUrl": "",
+      "title": "Колыбельная (из фильма 1975 г.)"
+    },
+    {
+      "url": "https://ok.ru/video/1464898947615",
+      "thumbUrl": "",
+      "title": "Ивушка (из фильма 1975 г.)"
+    },
+    {
+      "url": "https://ok.ru/video/1464898882079",
+      "thumbUrl": "",
+      "title": "Песня о талой воде (из фильма 1975 г.)"
+    },
+    {
+      "url": "https://ok.ru/video/1464877648415",
+      "thumbUrl": "",
+      "title": "Люблю тебя (Песня-79) с Я.Поплавской"
+    },
+    {
+      "url": "https://ok.ru/video/1464877582879",
+      "thumbUrl": "",
+      "title": "Белый парус (Песня-80)"
+    },
+    {
+      "url": "https://ok.ru/video/1466411518495",
+      "thumbUrl": "",
+      "title": "Ивушка (из фильма 1977 г.)"
+    },
+    {
+      "url": "https://ok.ru/video/1464877255199",
+      "thumbUrl": "",
+      "title": "Малая земля (из фильма 1977 г.)"
+    },
+    {
+      "url": "https://ok.ru/video/1464877713951",
+      "thumbUrl": "",
+      "title": "Белоруссия (из фильма 1977 г.)"
+    },
+    {
+      "url": "https://ok.ru/video/1464877779487",
+      "thumbUrl": "",
+      "title": "Чур-чура (с Надеждой Микулич, с концерта в ГДР 1979 г.)"
+    },
+    {
+      "url": "https://ok.ru/video/3168388778527",
+      "thumbUrl": "",
+      "title": "Верасы в ДК Железнодорожников в Минске 2011 г.)"
+    },
+    {
+      "url": "https://ok.ru/video/1460136118815",
+      "thumbUrl": "",
+      "title": "Белоруссия (с фестиваля Спасти Жизнь, 2015 г.)"
+    },
+    {
+      "url": "https://ok.ru/video/1460136774175",
+      "thumbUrl": "",
+      "title": "Малиновка (с фестиваля Спасти Жизнь, 2015 г.)"
+    }
+  ],
+  "links": []
+}

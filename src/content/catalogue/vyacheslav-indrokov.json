@@ -1,0 +1,336 @@
+{
+  "id": "7qCYDeH7sQwJfMPEXl4ndl",
+  "createdAt": "2022-09-28T07:04:32.452Z",
+  "updatedAt": "2023-01-06T18:44:57.485Z",
+  "title": "Вячеслав Индроков",
+  "shortTitle": "",
+  "slug": "vyacheslav-indrokov",
+  "shortDescription": "",
+  "description": "<p>Еще один солист ансамбля Поющие Сердца, солист, который всю свою творческую жизнь связал только с этим коллективом. Я подумал, есть ли особенная песня, с которой можно его ассоциировать и на память сразу пришла «Лицо в ладонях». Изумительная кристальная аранжировка Александра Ольцмана, его же гитара и прекрасное исполнение Вячеслава Индрокова. Шедевр ведь, правда? И не единственный, в чем вы здесь можете убедиться. Светлый и проникновенный певец. </p><p>Вячеслав Индроков играл и пел в ансамбле Поющие Сердца с 1971 по 1983 года, а также с 2000 по 2011 год, с момента возрождения ансамбля и до своего безвременного ухода. Не стало Вячеслава Индрокова 24 июня 2011 года ему было 59 лет.</p>",
+  "images": [
+    {
+      "id": "32waX1bvj1TxosshEDyA0V",
+      "title": "Вячеслав Индроков",
+      "description": "",
+      "url": "https://images.ctfassets.net/i2pyq4z3dq7a/32waX1bvj1TxosshEDyA0V/e85de0ced142e60c71b563d736775db7/Indrokov.jpg",
+      "contentType": "image/jpeg",
+      "width": 310,
+      "height": 312
+    },
+    {
+      "id": "66S7Wa0bu3zKnZ5feuHMvx",
+      "title": "Вячеслав Индроков",
+      "description": "",
+      "url": "https://images.ctfassets.net/i2pyq4z3dq7a/66S7Wa0bu3zKnZ5feuHMvx/53c070a7a2f4315541544a4a4a5b6965/Indrokov_3.jpg",
+      "contentType": "image/jpeg",
+      "width": 589,
+      "height": 581
+    }
+  ],
+  "albums": [
+    {
+      "id": "1VXp43s8dJHSLvVO1cyHaO",
+      "title": "Ансамбль Поющие сердца (студия)",
+      "tracks": [
+        {
+          "id": "6dw88jaK7ZOXrp61GSTQuf",
+          "title": "Бусинки",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Indrokov/PS_Businki.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Голиков-Н.Попов) с Н.Шеманковой  1976"
+        },
+        {
+          "id": "EPuZA6WrB2KxuPLEVkFfv",
+          "title": "Вот какая беда",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Indrokov/PS_Vot_Kakaya_Beda.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Б.Савельев-И.Кохановский) 1974"
+        },
+        {
+          "id": "6bYQlu5a5AsSQqwLYyJbN8",
+          "title": "Где и когда",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Indrokov/PS_Gde_I_Kogda.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Е.Крылатов-И.Шаферан)  с Н.Шеманковой 1973"
+        },
+        {
+          "id": "78A1Mu8MaF999MX1YYSwsU",
+          "title": "Давно прошло детство",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Indrokov/PS_Davno_Proshlo_Detstvo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Днепров-В.Харитонов) 1978"
+        },
+        {
+          "id": "2kf09NgJFkjtUPA2jliXtD",
+          "title": "Для чего",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Indrokov/PS_Dlya_Chego.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(З.Бинкин-В.Светличный)"
+        },
+        {
+          "id": "76CpEA69wyQ4VLRluiIkoJ",
+          "title": "Кто может знать",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Indrokov/PS_Kto_Mozhet_Znat.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Рыбников-И.Кохановский) 1973"
+        },
+        {
+          "id": "iJZCt45lgIh6xI7POE1Ol",
+          "title": "Лицо в ладонях",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Indrokov/PS_Lico_V_ladonyah.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Днепров-В.Харитонов) 1977"
+        },
+        {
+          "id": "4ALE0DYUmy04uN8I3xqYZe",
+          "title": "Любовь-беда",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Indrokov/PS_Lybov_Beda.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Фельцман-М.Геттуев, р.т. Я.Серпина) 1975"
+        },
+        {
+          "id": "7r1Z0iE0Zo0HtLj1Kk4grB",
+          "title": "Не пойму",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Indrokov/PS_Ne_Pojmu.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Векштейн-О.Павлова) 1974"
+        },
+        {
+          "id": "2axgTNyIMTYgsTADh4xttw",
+          "title": "Подари мне улыбку",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Indrokov/PS_Podari_Mne_Ulybku.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Дж.Панков) 1975"
+        },
+        {
+          "id": "6qaZmIdZhEeyEcff2flg28",
+          "title": "Так должны любить сердца (вар 1)",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Indrokov/PS_Tak_Dolzhny_Lybit_Serdca_1.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "3ldDBoIxXwY2znwyXEclXi",
+          "title": "Так должны любить сердца (вар 2)",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Indrokov/PS_Tak_Dolzhny_Lybit_Serdca_2.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "1gpERkwtfJjhypZqHyiM8Z",
+          "title": "Только я не верю",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Indrokov/PS_Tolko_Ya_Ne_Very.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-М.Шабров) 1980"
+        },
+        {
+          "id": "666KmBxZRTpO30HN83HQSZ",
+          "title": "Ты любовь моя безответная",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Indrokov/PS_Ty_Lybov_Moya_Bezotvetnaya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Мелитонян-Л.Ошанин) 1974"
+        },
+        {
+          "id": "4fFY9yWBJyBRIJ5ON4oOui",
+          "title": "У других весна",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Indrokov/PS_U_Drugih_Vesna.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Фельцман-Н.Олев) 1977"
+        },
+        {
+          "id": "1S7mgZlCVWu9Bd7xrXjGGU",
+          "title": "Я не забуду это лето",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Indrokov/PS_Ya_Ne_Zabudu_Eto_Leto.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Днепров-В.Харитонов) 1974"
+        }
+      ]
+    },
+    {
+      "id": "1AiPoT8hNrM0ln5ogiIofW",
+      "title": "Ансамбль Поющие Сердца (концерты)",
+      "tracks": [
+        {
+          "id": "1DEX0cFaTWzdSuYjh2Am6t",
+          "title": "Вернись, отец",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Indrokov/PS_Vernis_Otec_Live.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Б.Симон)"
+        },
+        {
+          "id": "6GXTHZEjPyvtTjACdS3oKk",
+          "title": "Вернись, отец",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Indrokov/PS_Vernis_Otec_Live_1977.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Б.Симон) 1977"
+        },
+        {
+          "id": "TDau6qg9DSkV70QSwxlo8",
+          "title": "Еще вчера",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Indrokov/PS_Eshe_Vchera_Live_1973.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Антонов-О.Гаджикасимов)"
+        },
+        {
+          "id": "4g18eAtUOusV2D5NLNzBQu",
+          "title": "Как служил солдат",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Indrokov/PS-1973-Kak_Sluzhil_Soldat.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Блантер-К.Симонов) 1973"
+        },
+        {
+          "id": "1YZ5ZFKcvSidFxENoF2njv",
+          "title": "Лицо в ладонях",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Indrokov/PS_Lico_V_Ladonyah_Live_1977.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Днепров-В.Харитонов) 1977"
+        },
+        {
+          "id": "6eWYlZZzJSCUIaXgPzNrC4",
+          "title": "У других весна",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Indrokov/PS_U_Drugih_Vesna_Live_1977.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Фельцман-Н.Олев) 1977"
+        }
+      ]
+    },
+    {
+      "id": "20cQyxb3lQWixGHGM6AIhu",
+      "title": "Ансамбль Поющие Сердца, альбом «P.S.» 2002",
+      "tracks": [
+        {
+          "id": "RDZd6iVl9AaqPjU60Jkk2",
+          "title": "Вот какая беда",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Indrokov/PS_2002_Vot_Takaya_Beda.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Б.Савельев-И.Кохановский)"
+        },
+        {
+          "id": "lkvc7pTfcwI5m9ARxzTp9",
+          "title": "Давно прошло детство",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Indrokov/PS_2002_Davno_Proshlo_Detstvo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Днепров-И.Кохановский)"
+        },
+        {
+          "id": "5TAuW9XvX55tgDLc0CKkF4",
+          "title": "Листья закружат",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Indrokov/PS_2002_Listya_Zakruzhat.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р.Майоров-И.Кохановский)"
+        },
+        {
+          "id": "6Rkw7KUk1iCUoue2RJwwDV",
+          "title": "Лицо в ладонях",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Indrokov/PS_2002_Lico_V_Ladonyah.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Днепров-В.Харитонов)"
+        },
+        {
+          "id": "4iGPYn62MPf3S9SHlO5UxU",
+          "title": "Только я не верю",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Indrokov/PS_2002_Tolko_Ya_Ne_Veru.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-М.Шабров)"
+        },
+        {
+          "id": "2pfqQfoe8n2sbsKGyw4jr1",
+          "title": "Не пойму",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Indrokov/PS_2002_Ne_Poymu.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Векштейн-О.Павлова)"
+        },
+        {
+          "id": "7soMLNjCUbIZBE1PfBFSlK",
+          "title": "Подарите женщине любовь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Indrokov/PS_2002_Podarite_Zhenschine_Lybov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Индроков-Ю.Гарин)"
+        },
+        {
+          "id": "2wNI3Y9h7UhrcuosHMTO8V",
+          "title": "Только я не верю",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Indrokov/PS_2002_Tolko_Ya_Ne_Veru.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-М.Шабров)"
+        }
+      ]
+    }
+  ],
+  "acknowledgements": [
+    "Андрею Шперлу",
+    "Александру Устюгову",
+    "Владимиру Бахареву",
+    "Владимиру Сонцу",
+    "Олегу Беликову",
+    "Сергею Амброзику",
+    "Владимиру Никандрову",
+    "Игорю Иванову",
+    "Виктору Кривоклякину",
+    "Валерию Колпакову",
+    "Энди Бишопу"
+  ],
+  "acknowledgementText": "",
+  "videos": [],
+  "links": []
+}

@@ -1,0 +1,216 @@
+{
+  "id": "2GPOVaqC77Pv1H2KcCQuhD",
+  "createdAt": "2022-09-28T07:04:17.764Z",
+  "updatedAt": "2023-03-03T07:57:56.737Z",
+  "title": "Евгений Печёнов",
+  "shortTitle": "",
+  "slug": "evgenii-pechyonov",
+  "shortDescription": "",
+  "description": "<p>Солист ансамбля Надежда начала ее деятельности. О нем самом лучше почитать материал Валеры Колпакова (он есть на этой страничке), а для меня это второй солиcт моей любимой песни «Парни довоенных лет». </p>",
+  "images": [
+    {
+      "id": "J6aOscV3AGVKzx6D4a7kC",
+      "title": "Евгений Печенов",
+      "description": "",
+      "url": "https://images.ctfassets.net/i2pyq4z3dq7a/J6aOscV3AGVKzx6D4a7kC/e2d80ca8dbb43ac0d2a2dbfbad5f262c/Pechenov_1.jpg",
+      "contentType": "image/jpeg",
+      "width": 600,
+      "height": 444
+    }
+  ],
+  "albums": [
+    {
+      "id": "2brgzGJpqXYz0E2EmECsXn",
+      "title": "",
+      "tracks": [
+        {
+          "id": "3kx8OH3dUHWVqpApb5jxhd",
+          "title": "Альпийский огонек",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Pechenov/Nadezhda_Alpiysky_Ogonek.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Пахмутова-Н.Добронравов) с вок. группой 1976-77"
+        },
+        {
+          "id": "6p8hqbBkiRky1Ci0Xoz4Um",
+          "title": "Алый парус надежды",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Pechenov/Nadezhda_Aly_Parus_Nadezhdy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Орловецкий-Н.Щипахина) с Л.Шабиной 1977"
+        },
+        {
+          "id": "6YqNp9dUkOtrNo2WZCCrUx",
+          "title": "Большое лето",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Pechenov/Nadezhda_Bolshoe_Leto.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": " (В.Мигуля-В.Харитонов) с Л.Шабиной 1976-77"
+        },
+        {
+          "id": "m5X6FNhiqNTskHKwMZ3w3",
+          "title": "Вишня",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Pechenov/Nadezhda__Vishnya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р.Мануков-А.Прокофьев) с Л.Барыкиной и Е.Гудковым 1976"
+        },
+        {
+          "id": "7dS3RIC2qWjJUoThfMXtzS",
+          "title": "Время не ждет",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Gudkov/Nadezhda_Vremya_Ne_Zhdet.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": " (А.Пахмутова-Н.Добронравов) 1976г., с Е.Гудковым и Л.Барыкиной 1976"
+        },
+        {
+          "id": "1HDMg8KzswdAWf5r4HE6eG",
+          "title": "До третьих петухов",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Pechenov/Nadezhda__Do_Tretyih_Petuhov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Пахмутова-Н.Добронравов) с вок. группой 1977"
+        },
+        {
+          "id": "NfYpLPTk6oEgHHNUcEmI5",
+          "title": "Кончилось детство",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Pechenov/Nadezhda_Konchilos_Detstvo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": " (Р.Майоров-Н.Олев) 1976-77"
+        },
+        {
+          "id": "7BLGCFgQui1HpWMSLjzPNz",
+          "title": "Мне доверена песня",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Gudkov/Nadezhda_Mne_doverena_Pesnya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Г.Мовсесян-Л.Ошанин) 1976 г. - с Е.Гудковым"
+        },
+        {
+          "id": "6jgbJbg11rFW1e5nDe9M55",
+          "title": "Мне теперь все равно",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Pechenov/Nadezhda_Mne_Teper_Vse_Ravno.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Шульга-Л.Дербенев) 1976-77"
+        },
+        {
+          "id": "1gDSbvaEHNK2z5qGg9kdJl",
+          "title": "Оксана",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Gudkov/Nadezhda_Oksana.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Г.Мовсесян-Л.Ошанин) с Е.Гудковым 1976"
+        },
+        {
+          "id": "1kAk5K1Eq42QfGNiwoXIJ8",
+          "title": "Парни довоенных лет",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Gudkov/Nadezhda_Parni_Dovoennyh_Let.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Мигуля-К.Филиппова) с Е.Гудковым 1976"
+        },
+        {
+          "id": "ulnPh63iBL33u25GlqUqF",
+          "title": "Песенка про сапожника",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Pechenov/Nadezhda_Pesenka_Pro_Sapozhnika.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-В.Харитонов) с Л.Барыкиной 1976"
+        },
+        {
+          "id": "5qY2JlntrCF2fFhneoGCA1",
+          "title": "Синяя песня",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Gudkov/Nadezhda_Sinaya_Pesnya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Т.Кухалев-И.Сергеева) с Е.Гудковым 1976"
+        },
+        {
+          "id": "4nrPEn29mDNTVwL5M7bCRB",
+          "title": "Троллейбус",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Pechenov/Nadezhda_Nadezhda_Trolleybus.mp3\"",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": " (Б.Рычков-Н.Олев) 1977"
+        },
+        {
+          "id": "3jV4IVUiNfqoacu6iJLvTG",
+          "title": "Ты на море похожа",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Pechenov/Nadezhda_Ty_Na_More_Pohozha.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Я.Френкель-И.Шаферан) 1977"
+        },
+        {
+          "id": "1iAHo1W0lXaOvI8XVLMq1D",
+          "title": "Утро ровесников",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Pechenov/Nadezhda_Utro_Rovesnikov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Пахмутова, С.Гребенников-Н.Добронравов) с Е.Гудковым 1976"
+        },
+        {
+          "id": "17QsBij1rc1QpEUJvgjrpU",
+          "title": "Это только начало",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Pechenov/Nadezhda_Eto_Tolko_Nachalo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Б.Ривчун-В.Харитонов) с Л.Барыкиной 1976"
+        },
+        {
+          "id": "3tJjUOAELaJNs1unoD7t55",
+          "title": "Это ты, любовь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Gudkov/Nadezhda_Eto_Ty_Lybov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": " (Р.Майоров-В.Харитонов) с Е.Гудковым 1976"
+        }
+      ]
+    }
+  ],
+  "acknowledgements": [
+    "Валентину Титову",
+    "Евгению Печёнову",
+    "Вячеславу Капустину",
+    "Александру Леонову",
+    "Андрею Шперлу",
+    "Мирославу Алиновскому",
+    "Александру Устюгову",
+    "Сергею Амброзику",
+    "Володе Никандрову",
+    "Сергею (forte)",
+    "Сергею Пасечнику",
+    "Олегу Кричевскому",
+    "Михаилу Загребину "
+  ],
+  "acknowledgementText": "",
+  "videos": [],
+  "links": [
+    {
+      "id": "4cQWPFbkawfMj2JVNKrpiu",
+      "link": "http://via-era.narod.ru/Ansambli/Nadezda/pezenov/pez.htm",
+      "title": "Интервью на сайте Валерия Колпакова Via-Era.narod.ru",
+      "description": ""
+    }
+  ]
+}

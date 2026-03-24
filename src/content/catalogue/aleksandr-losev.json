@@ -1,0 +1,1229 @@
+{
+  "id": "6iyeeoHEZAzjP6jUrMgQqX",
+  "createdAt": "2022-09-28T07:00:57.944Z",
+  "updatedAt": "2023-10-30T15:03:03.743Z",
+  "title": "Александр Лосев",
+  "shortTitle": "",
+  "slug": "aleksandr-losev",
+  "shortDescription": "",
+  "description": "<p>Этого человека уже нет с нами, остались только его песни, его голос и \nнаша память о нем. Может быть, немного позже, я и напишу что-нибудь. А \nпока просто послушайте песни в исполнении легендарного солиста Цветов, \nКрасных Маков и Группы Стаса Намина.</p>",
+  "images": [
+    {
+      "id": "7jxg1OAbigqthZAq96B9fE",
+      "title": "Александр Лосев",
+      "description": "",
+      "url": "https://images.ctfassets.net/i2pyq4z3dq7a/7jxg1OAbigqthZAq96B9fE/efe5ce55a5975ede238b69682da7336c/Losev_2.jpg",
+      "contentType": "image/jpeg",
+      "width": 260,
+      "height": 200
+    },
+    {
+      "id": "1LU0K70L9g0IyNXNqSvXHW",
+      "title": "Александр Лосев",
+      "description": "",
+      "url": "https://images.ctfassets.net/i2pyq4z3dq7a/1LU0K70L9g0IyNXNqSvXHW/1ed8f524479f9803bd2739d012b50db5/Losev_3.jpg",
+      "contentType": "image/jpeg",
+      "width": 258,
+      "height": 300
+    },
+    {
+      "id": "1RMVzb6PXQW1XJRguxSzvA",
+      "title": "Александр Лосев",
+      "description": "",
+      "url": "https://images.ctfassets.net/i2pyq4z3dq7a/1RMVzb6PXQW1XJRguxSzvA/db72850809b6c5fff3eacd7b10185cab/Losev_1.jpg",
+      "contentType": "image/jpeg",
+      "width": 287,
+      "height": 400
+    },
+    {
+      "id": "6RJC9RfkI7ljdHGqZ08r0G",
+      "title": "Александр Лосев",
+      "description": "",
+      "url": "https://images.ctfassets.net/i2pyq4z3dq7a/6RJC9RfkI7ljdHGqZ08r0G/7c86f4c2c7116d73da7e9b6f92ab091f/Losev_4_L.jpg",
+      "contentType": "image/jpeg",
+      "width": 562,
+      "height": 800
+    }
+  ],
+  "albums": [
+    {
+      "id": "21Lj2Lzps04i3sOqeNjp7X",
+      "title": "Цветы`",
+      "tracks": [
+        {
+          "id": "40iMksjF8reRGo2rvg7j28",
+          "title": "Больше жизни",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Cvety_Bolshe_Ghizni.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Семенов-Л.Дербенев) 1974"
+        },
+        {
+          "id": "2mNqKJUW5ztKr85UZraym8",
+          "title": "Ветка жасмина",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Cvety_Vetka_Zhasmina.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Дьячков-С.Ошанин) 1974"
+        },
+        {
+          "id": "78ggOCfFSEC5eQfJ0bX8L1",
+          "title": "Есть глаза у цветов",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Cvety_Ect_Glaza_U_Cvetov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Фельцман-Р.Гамзатов, пер. Я.Козловского) 1973"
+        },
+        {
+          "id": "6tHUJ6NIBA59k7T823xSRx",
+          "title": "Звездочка моя ясная",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Cvety_Zvezdochka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Семенов-О.Фокина) 1973"
+        },
+        {
+          "id": "6pvRMhCJfRzpbhHo6xBuSs",
+          "title": "Колыбельная",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Cvety_Kolybelnaya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Фельцман-Р.Гамзатов, пер.Я Козловского) 1974"
+        },
+        {
+          "id": "rNkEoxkEOUp3A7zfxly5o",
+          "title": "Не надо",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Cvety_Ne_Nado.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Дьячков-О.Гаджикасимов) 1973"
+        },
+        {
+          "id": "2N2ozyT1RyZXJrAWOhLsqI",
+          "title": "Ты и я",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Cvety_Ty_I_Ya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Лосев-С.Намин) 1974"
+        },
+        {
+          "id": "4XBQVsZbxPquRm9fLFWDLH",
+          "title": "Я - вольный ветер",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Cvety-74_Ya_Volny_Veter.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(К.Никольский) с концерта 1974"
+        }
+      ]
+    },
+    {
+      "id": "4FKnvoQBJy5TNkCzT79Ib0",
+      "title": "Группа Стаса Намина.",
+      "tracks": [
+        {
+          "id": "2N8uv8SunnGMOUH1gdyG1h",
+          "title": "Ах, футбол",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Ah_Futbol.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Пахмутова-С.Гребенников, Н.Добронравов)"
+        },
+        {
+          "id": "3grCPEeB9qnfji8WQTqRQk",
+          "title": "Белые льдины",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Belye_Ldiny.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Намин-Е.Евтушенко) 1981"
+        },
+        {
+          "id": "KyoyzeURrz5nNgmfdse8u",
+          "title": "Большой талант",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Bolshoy_Talant.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Намин-Е.Евтушенко) 1990 альбом \"Идол\""
+        },
+        {
+          "id": "34KnWu9eJIvnnHiPPAnyNK",
+          "title": "Вечером",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Vecherom.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Намин-И.Кохановский) 1977"
+        },
+        {
+          "id": "4eJErtO5SInp29eGUV86bl",
+          "title": "Возьмемся за руки, друзья (вар. 1)",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Vozmemsya_Za_Ruki_1.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Намин-Б.Окуджава) 1990 альбом \"Идол\""
+        },
+        {
+          "id": "3g5kW0hLNj7eTWGVuHhIvh",
+          "title": "Возьмемся за руки, друзья (вар 2)",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Vozmemsya_Za_Ruki_2.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "С.Намин-Б.Окуджава 1990 с сайта Сергея Амброзика"
+        },
+        {
+          "id": "14fmOF8d9BhUrKzvknw5as",
+          "title": "Вольный ветер",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Ya_Volny_Veter_2.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(К.Никольский) с концерта 1974 г."
+        },
+        {
+          "id": "68exsDKd0FATqxLDwrhKtA",
+          "title": "Древний сон",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Drevny_Son.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Намин-Ю.Кузнецов) 1985 альбом \"Мы желаем счастья вам\""
+        },
+        {
+          "id": "4AA5nUjEOQ6yrt0Bbup3Sw",
+          "title": "Дружная песня",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Druzhnaya_Pesnya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Пахмутова-Н.Добронравов, пер.Д.Вулкомба, С.Рифкина) 1985 альбом \"Мы желаем счастья вам\""
+        },
+        {
+          "id": "3Zijt23rve0oKGU9saosDD",
+          "title": "Европа",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Evropa.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Варга) 1985 альбом \"Мы желаем счастья вам\""
+        },
+        {
+          "id": "6opIv2lJI2UoCDfmI4Tv6r",
+          "title": "Еще не все",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Eshe_Ne_Vse.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Намин-Е.Евтушенко) 1985 альбом \"Мы желаем счастья вам\""
+        },
+        {
+          "id": "66wW02mTK6q7gfo3EQncWl",
+          "title": "Ищу тебя",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Ishu_Tebya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Легран-Ж.Деми) 1983 альбом \"Сюрприз для мсье Леграна\""
+        },
+        {
+          "id": "1sf5L5VGAcwTdFqQ9r8ukf",
+          "title": "Карусель",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Karusel.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Намин-Б.Пургалин) 1982 альбом \"Регги, диско, рок\""
+        },
+        {
+          "id": "7leyY9EDkCyU34E8LIF9hQ",
+          "title": "Красный командир",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Krasny_Komandir.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "5W4zPI3Cl3DjyeYfx9lOeZ",
+          "title": "Кричат у моря петухи",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Krichat_U_Morya_Petuhi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Намин-Е.Евтушенко) 1990 альбом \"Идол\""
+        },
+        {
+          "id": "3TkSUB79s3bbX5Uv5pj29e",
+          "title": "Лошади в океане",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Loshadi_V_Okeane.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Берковский-М.Слуцкий) с концерта"
+        },
+        {
+          "id": "7p8WHlztCXgzW5BsfVXnGq",
+          "title": "Марина",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Marina.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Резниченко,В.Долгов, А.Лосев-С.Рифкин)"
+        },
+        {
+          "id": "7JkcFMMJkuuuOQV0mjyWRR",
+          "title": "Мир на земле",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Mir_Na_Zemle.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Г.Белафонте-С.Намин) 1985 альбом \"Мы желаем счастья вам\""
+        },
+        {
+          "id": "3wA8bpd6wxzHYusLZE83Sy",
+          "title": "Мистер Президент",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Mister_President.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Гордон) 1985 альбом \"Мы желаем счастья вам\""
+        },
+        {
+          "id": "5PKO1BL2QeuP6e2m1H6fBA",
+          "title": "Мне все это нравится",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Mne_Vse_Eto_Nravitsya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Намин-Е.Евтушенко) 1990 альбом \"Идол\""
+        },
+        {
+          "id": "55jXs5xnU95BLPsILAqkUO",
+          "title": "Мы желаем счастья вам",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_My_Zhelaem_Schastya_Vam.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(вар. 1)(С.Намин-И.Шаферан, пер. Д.Вулкомба, С.Рифкина) 1985 альбом \"Мы желаем счастья вам\""
+        },
+        {
+          "id": "2IeIpyuqdhTckPLeFP29cp",
+          "title": "Мы желаем счастья вам",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_My_Zhelaem_Schastya_Vam_2.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(вар. 2)(С.Намин-И.Шаферан) 1985"
+        },
+        {
+          "id": "3bCx8XVstIlych80fVhIfr",
+          "title": "Наша биография",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Nasha_Biografiya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(фрагмент)(А.Мажуков-О.Писаржевская,А.Монастырев)"
+        },
+        {
+          "id": "3DsgLTRraB6m6yhH1a5GMj",
+          "title": "Наша тайна",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Nasha_Tayna.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Намин-В.Харитонов) 1982 альбом \"Регги, диско, рок\""
+        },
+        {
+          "id": "494ukgOfqhbM9mxggPbZcB",
+          "title": "Не жалей",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Ne_Zhaley.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Намин-М.Танич)"
+        },
+        {
+          "id": "46cuKfVELR8iaG4x4uLxP5",
+          "title": "Ностальгия по настоящему",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Nostalgiya_Po_Nastoyashemu.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Намин-А.Вознесенский) 1985 альбом \"Мы желаем счастья вам\""
+        },
+        {
+          "id": "46x2mZnmM3YVQv9cfxgSrs",
+          "title": "Ноябрьский снег",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Noyabrsky_Sneg.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Намин-А.Битов) 1985 альбом «Мы желаем счастья вам» "
+        },
+        {
+          "id": "24poqewUWhOlF5BuzCK4kO",
+          "title": "Ноябрьский снег",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Noyabrskiy_Sneg.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Намин-А.Битов) 1990 альбом «Идол»"
+        },
+        {
+          "id": "2KnD7TLmV55mgFwiwFmax0",
+          "title": "Оковы счастья",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Okovy_Schastya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Легран-Д.Дрежак) 1983 альбом \"Сюрприз для мсье Леграна\""
+        },
+        {
+          "id": "46zlnxbR13M20F1gJwzGcb",
+          "title": "Первая любовь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Pervaya_Lybov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Легран-Ж.Дрежак) 1983 альбом \"Сюприз для мсье Леграна\""
+        },
+        {
+          "id": "bIelEMMtkxJEQiY7SMhJG",
+          "title": "Подводный замок",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Podvony_Zamok.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Легран-Ж.Дрежак) 1983 альбом \"Сюприз для мсье Леграна\""
+        },
+        {
+          "id": "78jgNQe7cCD2G1RVGNc15B",
+          "title": "Попурри на тему песен М.Леграна",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Parafraz_Legran.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Легран) 1983 альбом \"Сюприз для мсье Леграна\""
+        },
+        {
+          "id": "3oItbWnBZCQhVb1qadf58J",
+          "title": "Предвидение",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Predvidenie.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Гордон) 1985 альбом \"Мы желаем счастья вам\""
+        },
+        {
+          "id": "5BItWCU9f6PIxikmLMIzjI",
+          "title": "Прозрачная стена",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Prozrachnaya_Stena.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Намин-Б.Пургалин) 1982 альбом \"Регги, диско, рок\""
+        },
+        {
+          "id": "3PS9jfe5CkQSo78EjXl1Pr",
+          "title": "Пустой орех",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Pustoy_Oreh.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Намин-Ю.Кузнецов) 1985 альбом \"Мы желаем счастья вам\""
+        },
+        {
+          "id": "3DXZgo2Gd0EMAWWQqEYwPm",
+          "title": "Пусть будет так",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Pust_Budet_Tak.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Намин-В.Харитонов)"
+        },
+        {
+          "id": "3HtYnUBd5Uhb71hAr1K7wD",
+          "title": "Уж ты сад",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Uzh_Ty_Sad.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(русская народная) 1982"
+        },
+        {
+          "id": "YC9rzSVVZzm87TJqvZ2y9",
+          "title": "Урок непослушания",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Urok_Neposlushaniya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(acc59.ucoz.net)"
+        },
+        {
+          "id": "6WZl8kqxlsQhBMKbLIT49C",
+          "title": "Шарик",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_My_Sharik.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Дьячков-А.Цейтлин)"
+        },
+        {
+          "id": "6s4c3vyHaSoXHFdyPAVmGw",
+          "title": "Эта девочка",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Eta_Devochka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Намин-А.Вознесенский) 1990 альбом \"Идол\""
+        },
+        {
+          "id": "4eYIG20QGWJbwOffQ5524R",
+          "title": "Юрмала",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Yurmala.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Намин-В.Харитонов) 1982"
+        },
+        {
+          "id": "6rE3JJE8St2NMqrMN9ZJg5",
+          "title": "Юрмала (Live)",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Yurmala_Live.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Намин-В.Харитонов)"
+        },
+        {
+          "id": "3m1gD7v4IZ9s3e7YJvAzJa",
+          "title": "Я найду",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Ya_Naydu.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Намин-О.Писаржевская,А.Монастырев) 1982"
+        }
+      ]
+    },
+    {
+      "id": "4rgIObgj7K3wPML2kcZmCi",
+      "title": "Красные Маки",
+      "tracks": [
+        {
+          "id": "27yfyAoNBLt77x9bzqL6VQ",
+          "title": "Бессонница",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/KM_Bessonnica.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-М.Рябинин) 1979"
+        },
+        {
+          "id": "5xtt2IdGJV4UhKK968iTt5",
+          "title": "Все, что было",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/KM_Vse_Chto_Bylo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин,В.Кретов-И.Шаферан) 1979"
+        },
+        {
+          "id": "2VRRZtz61Z77fM7BUmwY06",
+          "title": "Зеркало",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/KM_Zerkalo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Антонов-М.Танич) 1979"
+        },
+        {
+          "id": "5HPdt3vPuqYDQOaeVlDbCT",
+          "title": "Как тебя мне разлюбить",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/KM_Kak_Tebya_Mne_Razlybit.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-И.Резник) 1980"
+        },
+        {
+          "id": "42ct9DTPQVadEakI6gNgJp",
+          "title": "Поцелуй для любимой",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/KM_Poceluy_Dlya_Lybimoy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Дж.Хилтон-рус.текст А.Григорьева) 1978"
+        }
+      ]
+    },
+    {
+      "id": "3HuOLvAORAFsmk2qheHXh4",
+      "title": "Разные составы",
+      "tracks": [
+        {
+          "id": "FzkqhlFBVVWt7G7AqffJi",
+          "title": "Lucrecia McEvan",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Arsenal_Lucrecia_NcEval.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Blood, Sweat and Tears)"
+        },
+        {
+          "id": "1Q2hUROyLTlBNKFQGwcC4G",
+          "title": "Back In The Ussr",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Beatles/Losev_Back_In_The+USSR.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(2000)"
+        }
+      ]
+    },
+    {
+      "id": "6PbldHnzMHtK6PufofMGKD",
+      "title": "Концерт ансамбля Цветы во Дворце Спорта г.Горький 23.03.1976г.",
+      "tracks": [
+        {
+          "id": "Fad24d2srmELR8ADefz1a",
+          "title": "Лошади в океане",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Cvety-76-03_Loshadi_V_Okeane.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Берковский-М.Слуцкий)"
+        },
+        {
+          "id": "5KAw00unhtCLTEr0gdk8wI",
+          "title": "Старый рояль",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Cvety-76-04_Stary_Royal.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(К.Никольский, А.Слизунов-В.Солдатов) припев - В.Сахаров"
+        },
+        {
+          "id": "6dAY93gjUkmCxqxnlqNQrt",
+          "title": "Красные маки",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Cvety-76-05-Krasnie_Maki.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Семенов-В.Дюнин)"
+        },
+        {
+          "id": "7jYQs8wGIwOA5z51qMR2VR",
+          "title": "Не надо",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Cvety-76-06-Ne_Nado.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Дьячков-О.Гаджикасимов)"
+        },
+        {
+          "id": "1AQMEnKqtxAJKLw60dCLbY",
+          "title": "Нам не жить друг без друга",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Cvety-76-07-Nam_Ne_Jit_Drug_Bez_Druga.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Пахмутова-Н.Добронравов)"
+        }
+      ]
+    },
+    {
+      "id": "5IOqvhb6i3kKOPYbfLHyKr",
+      "title": "Концерт Группы Стаса Намина в Ленинграде 06.06.1980",
+      "tracks": [
+        {
+          "id": "27S2yR6kzAv50yPaMe8xTW",
+          "title": "Есть Глаза у цветов",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_1980_Est_Glaza_U_Cvetov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Фельцман-Р.Гамзатов, пер. Я.Козловского)"
+        },
+        {
+          "id": "7CNh3pz8QJa1Jlpg1HlrqQ",
+          "title": "Красные маки",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_1980_Krasnie_Maki.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Семенов-В.Дюнин)"
+        },
+        {
+          "id": "50klKYZCeSbZVT4jJfiZVK",
+          "title": "Попурри",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_1980_Popurri.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "1dmSeZxU7spDDszfqbiBFb",
+          "title": "Карате",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_1980_Karate",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        }
+      ]
+    },
+    {
+      "id": "bnUCSFWMdAPkeFlquO8l2",
+      "title": "Концерт Группы Стаса Намина в Ленинграде 29.10.1980г.",
+      "tracks": [
+        {
+          "id": "3pNORWrQNNZo37s3fCfD5W",
+          "title": "Есть глаза у цветов",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Live_Est_Glaza_U_Cvetov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Фельцман-Р.Гамзатов, пер. Я.Козловского)"
+        },
+        {
+          "id": "46P8A80pbtnwvsVW2f3sMS",
+          "title": "Кто виноват",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Live_Kto_Vinovat.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Резников) с И.Сарухановым"
+        },
+        {
+          "id": "28jkreMMNJUSAGGAz0iOnR",
+          "title": "Ты только слушай",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Live_Ty_Tolko_Slushay.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Слизунов-С.Намин)"
+        },
+        {
+          "id": "1qCxFtsSzO397l7PMq0o5W",
+          "title": "Попурри",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/G_S_N_Live_Popurri.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        }
+      ]
+    },
+    {
+      "id": "5vTOMsM0LBHIpKO5qbfg9",
+      "title": "Фрагменты оперы Александра Градского «Стадион», 1985 год.",
+      "tracks": [
+        {
+          "id": "58i4KajyhQsIVsgrP50ef6",
+          "title": "Фрагмент 1",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Stadion-Fragment-1.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "7dIWciP48aZfHmYCuU9EvG",
+          "title": "Фрагмент 2",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Stadion-Fragment-2.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "21cGFKGXsAjYiNjp98gHy6",
+          "title": "Фрагмент 3",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Stadion-Fragment-3.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "2ighKqgVuj2vO6nDkVTOW5",
+          "title": "Фрагмент 4",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Stadion-Fragment-4.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        }
+      ]
+    },
+    {
+      "id": "7vWOSh0UQPfIZH8K74LDLv",
+      "title": "Записи ансамблей Арсенал и Цветы, 1972-73 год.",
+      "tracks": [
+        {
+          "id": "7KTsiINTk2CwqiRijk6TZQ",
+          "title": "A Whiter Shade Of Pale (Procol Harum)",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Arsenal_Cvety_1.m4a",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "1NqK15TJgK3a65s4ckEmdy",
+          "title": "Из Blood Sweat & Tears",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Arsenal_Cvety_2.m4a",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "10E2twRg7EtpR8t6NEsdoH",
+          "title": "Запись 3",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Arsenal_Cvety_3.m4a",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        }
+      ]
+    },
+    {
+      "id": "5f2PhPK10HDRxTRGPXoGUl",
+      "title": "Сольные записи Александра Лосева 1990-95 годов",
+      "tracks": [
+        {
+          "id": "6X4y4ANuaviYv707wqD7uV",
+          "title": "Звездочка моя ясная",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Losev_199x-Zvezdochka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Семенов-О.Фокина)"
+        },
+        {
+          "id": "MejzFMYp1GBIEl4zxagak",
+          "title": "Летний вечер",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Losev_199x-Letny_Vecher.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Намин-В.Харитонов)"
+        },
+        {
+          "id": "1hNFLvPuK8waCRGsIz6OGX",
+          "title": "Не надо",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Losev_199x-Ne_Nado.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Дьячков-О.Гаджикасимов)"
+        },
+        {
+          "id": "6tWDz3eo7RlwfYfeWvX8xw",
+          "title": "Рано прощаться",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Losev_199x-Rano_Proshatsa.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Намин-В.Харитонов)"
+        },
+        {
+          "id": "6kJNrBDtDL6j0NGSiqFXwl",
+          "title": "Старый рояль",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Losev_199x-Stary_Royal.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Слизунов,К.Никольский-В.Солдатов)"
+        },
+        {
+          "id": "2aGfzZeWJDvzl16jXxDrKu",
+          "title": "Честно говоря",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Losev_199x-Chestno_Govorya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Дьячков-М.Ножкин)"
+        }
+      ]
+    },
+    {
+      "id": "2sxrSCqe95KwMopE0goFlr",
+      "title": "Концерт группы Александра Лосева в г. Алма-Ата 2002 год",
+      "tracks": [
+        {
+          "id": "5ajDeQJEsEl2YKUpzihjrR",
+          "title": "01 Есть глаза у цветов",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Losev_2002_01_Est_Glaza_U_Cvetov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "О.Фельцман-Р.Гамзатов"
+        },
+        {
+          "id": "155oXAO2SAHHsUu3iK7IHk",
+          "title": "02 Приветствие",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Losev_2002_02_Privetstvie.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "1z9oEdg3uTLs5zv9NGaRe3",
+          "title": "03 Рано прощаться",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Losev_2002_03_Rano_Proshatsa.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "С.Намин-В.Харитонов"
+        },
+        {
+          "id": "62SFEIhqei24dbK8OBRqU9",
+          "title": "04 Предисловие к песне",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Losev_2002_04_Predislovie.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "5FXOCpAB6hz59LwALABl9Y",
+          "title": "05 Колыбельная",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Losev_2002_05_Kolybelnaya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "О.Фельцман-Р.Гамзатов"
+        },
+        {
+          "id": "3VUlCbagLFrOCip6ygGJir",
+          "title": "06 Предисловие к песне",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Losev_2002_06_Predislovie.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "lyRlLWEO8fNNzDHL83inJ",
+          "title": "07 Старый рояль",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Losev_2002_07_Stary_Royal.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Слизунов-В.Солдатов)"
+        },
+        {
+          "id": "3QjMssBpGeRnN4JgYvNtYh",
+          "title": "08 Богатырская сила",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Losev_2002_08_Bogatyrskaya_Sila.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Пахмутова-Н.Добронравов)"
+        },
+        {
+          "id": "7h0nfJCeMG2ggnRlmHX8RH",
+          "title": "09 Блюз",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Losev_2002_09_Blyz.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Молчанов-В.Петровский)"
+        },
+        {
+          "id": "4p7pS2CQyZAIX1t5br1Tls",
+          "title": "10 Предисловие к песне",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Losev_2002_10_Predislovie.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "1bIeXD1x06iRNyBAnEJWnV",
+          "title": "11 Back in the USSR",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Losev_2002_11_Back_in_the_USSR.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Paul McCartney)"
+        },
+        {
+          "id": "7vRrNex4OKFtjkpnInfqxE",
+          "title": "12 Honky Tonk Women",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Losev_2002_12_Honky_Tonk_women.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Mick Jagger & Keith Richards)"
+        },
+        {
+          "id": "6tpLba2MjZfH8NVwOGyaVl",
+          "title": "13 Предисловие к песне",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Losev_2002_13_Predislovie.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "73mqlqxlj8EFyR4hhg4bTl",
+          "title": "14 Звездочка моя ясная",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Losev_2002_14_Zvezdochka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Семенов-О.Фокина)"
+        },
+        {
+          "id": "1ti8wSnROm4N7DhxhajtAD",
+          "title": "15 Честно говоря",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Losev_2002_15_Chestno_Govorya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Дьячков-М.Ножкин)"
+        },
+        {
+          "id": "1eWS8s3KeRxRhNKWgfH2pE",
+          "title": "16 Мы желаем счастья вам",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Losev_2002_16_Schastua.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Намин-И.Шаферан)"
+        },
+        {
+          "id": "58P6keEPVRqgFa8A4eO7Ab",
+          "title": "17 Летний вечер",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev_2002_17_Letny_Vecher.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Намин-В.Харитонов)"
+        }
+      ]
+    }
+  ],
+  "acknowledgements": [
+    "Андрею Шперлу",
+    "Владимиру Никандрову",
+    "Александру Устюгову",
+    "Владимиру Бахареву",
+    "Сергею Авлахову",
+    "Николаю Тютюниченко",
+    "Виктору Кривоклякину",
+    "Игорю Плотникову",
+    "Денису Петрову",
+    "Леониду Сорокину",
+    "Вячеславу Капустину",
+    "Сергею Максимову",
+    "Михаилу Юпенину",
+    "Александру Куликову",
+    "Екатерине (Kitty)",
+    "Алексею Туфлину",
+    "Марине Сивер",
+    "Николаю Сердюку",
+    "Олегу Кричевскому",
+    "Феликсу Песелеву",
+    "Тимуру Тинаеву",
+    "Юрию Герцеву",
+    "Сергею Амброзику",
+    "Сергею Маякову"
+  ],
+  "acknowledgementText": "",
+  "videos": [
+    {
+      "url": "https://ok.ru/video/3487041653279",
+      "thumbUrl": "",
+      "title": "Back in Ussr (1994)"
+    },
+    {
+      "url": "https://ok.ru/video/252863187655",
+      "thumbUrl": "",
+      "title": "Богатырская сила  (вокал не Лосева – Лосев в кадре) 1984"
+    },
+    {
+      "url": "https://ok.ru/video/1242931661511",
+      "thumbUrl": "",
+      "title": "Колыбельная Новогодний аттракцион 1984"
+    },
+    {
+      "url": "https://ok.ru/video/3487029922335",
+      "thumbUrl": "",
+      "title": "Колыбельная Фонограмма с первой пластинки ансамбля Цветы 1987"
+    },
+    {
+      "url": "https://ok.ru/video/1324781079239",
+      "thumbUrl": "",
+      "title": "Колыбельная 1995"
+    },
+    {
+      "url": "https://ok.ru/video/89303943879",
+      "thumbUrl": "",
+      "title": "Летний вечер 1999"
+    },
+    {
+      "url": "https://ok.ru/video/1245570927303",
+      "thumbUrl": "",
+      "title": "Мы желаем счастья вам 1985"
+    },
+    {
+      "url": "https://ok.ru/video/1245467708103",
+      "thumbUrl": "",
+      "title": "Ностальгия 1985"
+    },
+    {
+      "url": "https://ok.ru/video/1234396777159",
+      "thumbUrl": "",
+      "title": "Юрмала  Новогодний аттракцион 1983"
+    },
+    {
+      "url": "https://ok.ru/video/3487007967775",
+      "thumbUrl": "",
+      "title": "Александр Лосев «Звездочка моя ясная» часть 1. Автор – Марина Кочнева 2010"
+    },
+    {
+      "url": "https://ok.ru/video/3487017208351",
+      "thumbUrl": "",
+      "title": "Александр Лосев «Звездочка моя ясная» часть 2. Автор – Марина Кочнева 2010"
+    },
+    {
+      "url": "https://ok.ru/video/3470389021215",
+      "thumbUrl": "",
+      "title": "Концерт в Программе А 1995"
+    },
+    {
+      "url": "https://ok.ru/video/3731082512927",
+      "thumbUrl": "",
+      "title": "В передаче «Живьем с Максом (от Марины Кочневой) 1994"
+    },
+    {
+      "url": "https://ok.ru/video/4096445188639",
+      "thumbUrl": "",
+      "title": "Концерт на фестивале \"Голосуй или проиграешь\" (от Марины Кочневой) Омск, 25.05.1996"
+    },
+    {
+      "url": "https://ok.ru/video/4132242655775",
+      "thumbUrl": "",
+      "title": "Программа Сергея Фарисеева об Александре Лосеве  2022"
+    },
+    {
+      "url": "https://ok.ru/video/4138575399455",
+      "thumbUrl": "",
+      "title": "Памяти Александра Лосева (Сергей Фарисеев) часть 1 2022"
+    },
+    {
+      "url": "https://ok.ru/video/4138579855903",
+      "thumbUrl": "",
+      "title": "Памяти Александра Лосева (Сергей Фарисеев) часть 2 2022"
+    },
+    {
+      "url": "https://ok.ru/video/4142198229535",
+      "thumbUrl": "",
+      "title": "Богатырская сила (1980) - Песня -80 (вокал не Лосева - Лосев в кадре)"
+    },
+    {
+      "url": "https://ok.ru/video/4142211402271",
+      "thumbUrl": "",
+      "title": "Есть глаза у цветов (1995)"
+    },
+    {
+      "url": "https://ok.ru/video/4142221101599",
+      "thumbUrl": "",
+      "title": "Летний вечер (1999, БеларусьТВ)"
+    },
+    {
+      "url": "https://ok.ru/video/4148318571039",
+      "thumbUrl": "",
+      "title": "Мир на земле (1984-Камера смотрит в мир)"
+    },
+    {
+      "url": "https://ok.ru/video/4148345637407",
+      "thumbUrl": "",
+      "title": "Мы желаем счастья вам (1997,с Л.Сенчиной)"
+    },
+    {
+      "url": "https://ok.ru/video/4148350159391",
+      "thumbUrl": "",
+      "title": "Не сделать ничего (1984)"
+    },
+    {
+      "url": "https://ok.ru/video/4148354615839",
+      "thumbUrl": "",
+      "title": "Ностальгия (1986)"
+    },
+    {
+      "url": "https://ok.ru/video/4148359006751",
+      "thumbUrl": "",
+      "title": "Ноябрьский снег (1984)"
+    },
+    {
+      "url": "https://ok.ru/video/4148364184095",
+      "thumbUrl": "",
+      "title": "Пустой орех (1986)"
+    },
+    {
+      "url": "https://ok.ru/video/5738113075743",
+      "thumbUrl": "",
+      "title": "Пустой орех войны  (1986 - другая съемка)"
+    },
+    {
+      "url": "https://ok.ru/video/4148369492511",
+      "thumbUrl": "",
+      "title": "Рано прощаться (1996) - с концерта \"Голосуй или проиграешь\" в Омске"
+    },
+    {
+      "url": "https://ok.ru/video/4148375587359",
+      "thumbUrl": "",
+      "title": "Честно говоря (1995)"
+    },
+    {
+      "url": "https://ok.ru/video/4148378667551",
+      "thumbUrl": "",
+      "title": "Честно говоря (1999, БеларусьТВ)"
+    },
+    {
+      "url": "https://ok.ru/video/4614503533087",
+      "thumbUrl": "",
+      "title": "Владислав Петровский об Александре Лосеве (2022)"
+    }
+  ],
+  "links": [
+    {
+      "id": "jInjL7f12DtoG7RG46GyC",
+      "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Losev/Stadion.doc",
+      "title": "Краткое описание того, что происходит в фрагментах оперы \"Стадион\" ",
+      "description": ""
+    },
+    {
+      "id": "5PqMr2l8OJJXFOm7J9N7wQ",
+      "link": "https://vk.com/club210577868",
+      "title": "Группа В Контакте ",
+      "description": ""
+    },
+    {
+      "id": "43gNU9sHC0159hofbWSxzX",
+      "link": "https://vk.com/@190762224-aleksandr-losev-nemerknuschaya-zvezda-liricheskogo-roka-sove",
+      "title": "Материал Сергея Маякова о творчестве Александра Лосева. ",
+      "description": ""
+    }
+  ]
+}

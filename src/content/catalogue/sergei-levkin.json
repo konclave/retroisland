@@ -1,0 +1,374 @@
+{
+  "id": "5DLs1hiJHfD6BMQs4GdGIp",
+  "createdAt": "2022-09-28T07:01:14.915Z",
+  "updatedAt": "2023-01-06T18:42:05.141Z",
+  "title": "Сергей Левкин",
+  "shortTitle": "",
+  "slug": "sergei-levkin",
+  "shortDescription": "",
+  "description": "<p>Всем известно, что голос ансамбля Синяя Птица - это Сергей Дроздов. Это так, он и в ансамбле с самого начала и спета им большая часть репертуара этого ансамбля. Но был и другой солист, без песен которого так же трудно представить Синюю Птицу, и песни которого являются такой же визитной карточкой этого ВИА. Это Сергей Левкин.</p><p>Его нет с нами с 2006 года и это страничка его памяти. Она сделана благодаря вам, посетителям этого сайта, по вашим просьбам. Уже существует страничка этого певца у <a href=\"http://acc59.ucoz.net/index/s_ljovkin/0-28\">Сергея Амброзика</a>, поэтому за полной коллекцией песен прощу вас обратиться туда. Здесь же я хочу разместить самые мои любимые песни Сергея Левкина, а также некоторые редкие поздние вещи, которые мне прислал мз Калининграда земляк Сергея Александр Мамаев. Слушайте и наслаждайтесь.</p>",
+  "images": [
+    {
+      "id": "4gGPpREJkjFaJRTQFIVkAW",
+      "title": "Сергей Левкин",
+      "description": "",
+      "url": "https://images.ctfassets.net/i2pyq4z3dq7a/4gGPpREJkjFaJRTQFIVkAW/2318ead00bb0bdfcfd5de5fd10461fa8/levkin_1.jpg",
+      "contentType": "image/jpeg",
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "7B4oZP7wkGzeEdcZfOXtfG",
+      "title": "Сергей Левкин",
+      "description": "",
+      "url": "https://images.ctfassets.net/i2pyq4z3dq7a/7B4oZP7wkGzeEdcZfOXtfG/1c4a80124c8678c801f88738070f4682/levkin_2.jpg",
+      "contentType": "image/jpeg",
+      "width": 300,
+      "height": 300
+    }
+  ],
+  "albums": [
+    {
+      "id": "3sk96QwFt0ZTh0YVAnugq2",
+      "title": "Ансамбль Синяя Птица",
+      "tracks": [
+        {
+          "id": "54xhq4Wmk6NzZ8memJrVer",
+          "title": "В семь часов у Никитских Ворот",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/SP_V_7_Chasov_U_Nikitskih_Vorot.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Т.Ефимов-М.Любезнов) 1977"
+        },
+        {
+          "id": "1FN6gn2ficBZ9Owkrpr5Mp",
+          "title": "Гололед",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/SP-86_Gololed.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Левкин-С.Осиашвили) с концерта в г. Гомеле 1986 "
+        },
+        {
+          "id": "4RTtzsC9nagZGd19oSihLA",
+          "title": "Здравствуй, как ты живешь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/SP_Zdravstvuy_Kak_Ty_Zhovesh.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Т.Ефимов-С.Осиашвили) 1987, запись 1984-85"
+        },
+        {
+          "id": "7wTjf0apWpkmURbdzmv5b3",
+          "title": "Золотая пора",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/SP_Zolotaya_Pora.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Болотный-И.Кохановский)"
+        },
+        {
+          "id": "2NstypCubFtDj8pagSQ95l",
+          "title": "Когда-нибудь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/SP_Kogda_Nibud.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Минков-А.Макаревич) 1986"
+        },
+        {
+          "id": "75mFGOOBlsWSSinJFlm7nk",
+          "title": "Марья",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/SP_Marya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Левкин-Р.Болотный) 1982"
+        },
+        {
+          "id": "5jmdNcn7BgMIb1lmmLM0UC",
+          "title": "Мир на холсте",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/SP_Mir_Na_Holste.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Лёвкин-И.Лазаревский) 1987"
+        },
+        {
+          "id": "5AbjjEBXMpD5ehS0ZMoWqg",
+          "title": "Мир на холсте",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/SP-86_Mir_Na_Holste.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Лёвкин-И.Лазаревский) с концерта в г. Гомеле 1986"
+        },
+        {
+          "id": "71kkhMMeg1i5JVWL2rQgDZ",
+          "title": "На закате в среду",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/SP_Na_Zakate_V_Sredu.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Левкин-С.Огарков) 1987"
+        },
+        {
+          "id": "3VOzgNayuQr2rHjOoUaYcq",
+          "title": "На закате в среду",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/SP-86_Na_Zakate_V_Sredu.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Лёвкин-С.Огарков) с концерта в г. Гомеле 1986 "
+        },
+        {
+          "id": "3gbIVYycM0hgK1ByM6Phit",
+          "title": "Осень настала",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/SP_Osen_Nastala.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Левкин-Ю.Ласский) 1987"
+        },
+        {
+          "id": "20BbJT5IVWa0nZt4hWmXkK",
+          "title": "Последнее письмо",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/SP_Poslednee_Pismo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Семенов-В.Дюнин) 1981"
+        },
+        {
+          "id": "2K7SFKwAQynNHm0vRS3K4v",
+          "title": "Признание",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/SP-86_Priznanie.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Левкин-Е.Вербин) с концерта в г. Гомеле 1986"
+        },
+        {
+          "id": "1O31UKdLyfVaIacHH2lrPD",
+          "title": "Разлука",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/SP_Razluka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Болотный-С.Кудров)"
+        },
+        {
+          "id": "kY1ClgXWdXmMi1lXeHxeu",
+          "title": "Хочешь, я стану дождиком",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/SP_Hochesh_Ya_Stanu_Dozhdikom.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Т.Ефимов-С.Каминский) 1978"
+        },
+        {
+          "id": "1yNVXoWv4kw7v23P7gIdJ0",
+          "title": "Цветные звуки",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/SP_Cvetnye_Zvuki.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Антонов-В.Харитонов) 1983"
+        },
+        {
+          "id": "2gW6v6LfpM7WKHztJvfJEL",
+          "title": "Числа 31 нет",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/SP_88_Chisla_31_Net.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "с концерта 1988"
+        },
+        {
+          "id": "4z0JXcSgiftJAQlfRizmwA",
+          "title": "Что же ты молчишь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/SP_Chto_Zhe_Ty_Molchish.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Крутой-А.Жигарев,С.Алиханов) 1985"
+        },
+        {
+          "id": "3beWlm3XQVBoHOD1xDlt8Q",
+          "title": "Я найду ее",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/SP_Ya_Naydu_Ee.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Болотный-М.Танич)"
+        }
+      ]
+    },
+    {
+      "id": "6baLRAeYuutipRnMNDyZgR",
+      "title": "Сольные записи Сергея Левкина.",
+      "tracks": [
+        {
+          "id": "5nZK1RIELxECZuiAVH2f9D",
+          "title": "Гвоздики",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/S_Levkin_Gvozdiki.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Левкин-Г.Гущев)"
+        },
+        {
+          "id": "qSUk9pyjz4IKdEBiQ6pgB",
+          "title": "Детство мое",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/Levkin_Detstvo_Moe.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Левкин-?)"
+        },
+        {
+          "id": "4XAQmXvBNQJ2waCmZJDvXp",
+          "title": "Влюбленный гном",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/S_Levkin_Gnom.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Левкин-О.Жуков)"
+        },
+        {
+          "id": "3gXQFUJEvsrg64NdkGCtzg",
+          "title": "Запасной",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/Levkin_Zapasnoy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Левкин)"
+        },
+        {
+          "id": "7j1ja4DsfFjY9el2e1IrQ9",
+          "title": "Золотое,хрустальное",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/S_Levkin_Zolotoe_Hrustalnoe.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Левкин-А.Михайлик)"
+        },
+        {
+          "id": "4cYx3TaRi1sAWvad70s02l",
+          "title": "Клен",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/S_Levkin_Klen.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Акулов-Л.Шишко)"
+        },
+        {
+          "id": "2t9Lc0O8oqVUKHUTP7RYqs",
+          "title": "Клен",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/Levkin_KLen_.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Акулов-Л.Шишко) – еще один вариант, очень необычный"
+        },
+        {
+          "id": "21G2HBVLvZv4BwEcraECbg",
+          "title": "Окно",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/S_Levkin_Okno.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Левкин-В.Петровский)"
+        },
+        {
+          "id": "58Yz5aI9T4reCHnJryamS9",
+          "title": "Первый снег",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/Levkin_Pervy_Sneg.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Левкин-?)"
+        },
+        {
+          "id": "3Auug9o1M7dxspb6Ieococ",
+          "title": "Такие добрые глаза",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/S_Levkin_Takie_Dobrye_Glaza.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(http://acc59.nm.ru)"
+        },
+        {
+          "id": "3LirebiAkt3teyFwsWRR2D",
+          "title": "Я не верю",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/S_Levkin_Ya_Ne_Very.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Левкин-Г.Гущев)"
+        }
+      ]
+    },
+    {
+      "id": "3YqBE6d1zD7yTtQxeIRHyE",
+      "title": "Песни, написанные С.Левкиным спетые другими исполнителями.",
+      "tracks": [
+        {
+          "id": "78spiw1nGcQAdjHGnG0CGX",
+          "title": "Влюбленный гном",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/SP-86_Vlyblenny_Gnom.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "С.Левкин-О.Жуков) с концерта в г. Гомеле 1986 – С.Лазарева"
+        },
+        {
+          "id": "31AFAZNvnJrgpH9EoHNCYj",
+          "title": "Осенний этюд",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/SP-86_Osenny_Etyd.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Левкин-Р.Болотный) с концерта в г. Гомеле 1986 - С.Лазарева"
+        },
+        {
+          "id": "3p84qkQK6CkSgUMaPG49sV",
+          "title": "Семь дней",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/Surzhikova_Sem_Dney.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Левкин-С.Касторский) – Катя Суржикова"
+        }
+      ]
+    }
+  ],
+  "acknowledgements": [
+    "Александру Мамаеву",
+    "Сергею Амброзику",
+    "Марине Сивер",
+    "Олегу Кричевскому",
+    "Игорю Плотникову",
+    "Сергею Девятову"
+  ],
+  "acknowledgementText": "",
+  "videos": [
+    {
+      "url": "https://ok.ru/video/3255033793055",
+      "thumbUrl": "",
+      "title": "Клен"
+    },
+    {
+      "url": "https://ok.ru/video/3690719283743",
+      "thumbUrl": "",
+      "title": "Детство"
+    },
+    {
+      "url": "https://ok.ru/video/3255033399839",
+      "thumbUrl": "",
+      "title": "Интервью на калининградском радио"
+    }
+  ],
+  "links": []
+}

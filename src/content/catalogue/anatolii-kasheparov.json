@@ -1,0 +1,640 @@
+{
+  "id": "go8jT3IJcu69KveBpZwaZ",
+  "createdAt": "2022-09-28T07:02:03.298Z",
+  "updatedAt": "2023-01-06T18:42:42.501Z",
+  "title": "Анатолий Кашепаров",
+  "shortTitle": "",
+  "slug": "anatolii-kasheparov",
+  "shortDescription": "",
+  "description": "<p>Песняры - один из моих любимейших ансамблей, особенно начала семидесятых. Их вокальная культура просто бесподобна. Изумительная раскладка на четыре голоса в песнях, великолепны голоса солистов. Эта страничка посвящена одному из солистов ярчайшего белорусского ансамбля, который, хотя и находился несколько в тени Владимира Мулявина и Леонида Борткевич, но без него те, первые Песняры представить просто нельзя. Здесь сделана попытка собрать песни, которые пел этот замечательный певец в составе Песняров, а также представить его новые работы, благо его голос совсем не изменился, он и сейчас успешно работает.</p><p>Если у кого есть дополнительные материалы, с благодарностью приму. А вот это <a href=\"http://kasheparov.ru/\">официальный сайт Анатолия Кашепарова</a>.</p>",
+  "images": [
+    {
+      "id": "7bVC9w4A9QXudNehlyfPRZ",
+      "title": "Анатолий Кашепаров",
+      "description": "",
+      "url": "https://images.ctfassets.net/i2pyq4z3dq7a/7bVC9w4A9QXudNehlyfPRZ/584086f3d9f18ed9d0cdd1875a41da97/Kasheparov_L.jpg",
+      "contentType": "image/jpeg",
+      "width": 338,
+      "height": 567
+    },
+    {
+      "id": "mQ2Ji8KNRMjXaf8OWXpeL",
+      "title": "Анатолий Кашепаров",
+      "description": "",
+      "url": "https://images.ctfassets.net/i2pyq4z3dq7a/mQ2Ji8KNRMjXaf8OWXpeL/11eeef46e9fbca36b89f344b5aae61f3/Kasheparov_1976.jpg",
+      "contentType": "image/jpeg",
+      "width": 300,
+      "height": 400
+    },
+    {
+      "id": "59du0jOtweqlzcgYNBbssX",
+      "title": "Анатолий Кашепаров",
+      "description": "",
+      "url": "https://images.ctfassets.net/i2pyq4z3dq7a/59du0jOtweqlzcgYNBbssX/19126328530ebdc862bc2e2caf01d77a/Kasheparov_2006.jpg",
+      "contentType": "image/jpeg",
+      "width": 134,
+      "height": 190
+    }
+  ],
+  "albums": [
+    {
+      "id": "hLkQeAjBMiG0gPxtiwnh4",
+      "title": "В составе ансамбля Песняры",
+      "tracks": [
+        {
+          "id": "42AjBOYkshYOfg48XMNT73",
+          "title": "Баллада о Матери",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary_Ballada_O_Materi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Лученок-А.Кулешов) 1975"
+        },
+        {
+          "id": "7AEBoauROab8Ic31P1NvpQ",
+          "title": "Баллада о четырех заложниках ",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary_Ballada_O_4_Zalozhnikah.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Мулявин-А.Кулешов) 1972"
+        },
+        {
+          "id": "1WWtZFurZfvwqNKP9IQwP9",
+          "title": "Белорусочка",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary_Belorusochka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Семеняко-А.Ставер) 1977"
+        },
+        {
+          "id": "50GWMklCnt8xzuydEVsRLN",
+          "title": "Вдоль по улице ходит Ваня",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary_Vdol_Po_Ulice_Hodit_Vanya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(народная) 1979"
+        },
+        {
+          "id": "5DMzrlLuRwwXRAAumUyDLl",
+          "title": "Вологда",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary_Vologda.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Б.Мокроусов-М.Матусовский 1977"
+        },
+        {
+          "id": "7yH4Q5IeUNkN0WbkM17S6Y",
+          "title": "В воскресенье рано-рано",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary_V_Ponedelnik_Rano_Rano.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Лученок-народные) 1974"
+        },
+        {
+          "id": "30qS01TWowyXaueRh4Uok3",
+          "title": "Давно, давно",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary_Dayno_Dayno.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(народная) 1979"
+        },
+        {
+          "id": "3XW9y7gJanShwOTHRAJazW",
+          "title": "Дивчина-серденько",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary_Divchina_Serdenko.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(народная) 1977"
+        },
+        {
+          "id": "5BceHoTQUX8nUdEbiyyRiO",
+          "title": "Моему незаконнорожденному ребенку (Дочурка)",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary_Dochurka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Паливода-Я.Купала) 1981"
+        },
+        {
+          "id": "2ixUdYxjvVDprKx02GTKuy",
+          "title": "Добрый вечер, девчоночка",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary_Dobry_Vecher_Devchonochka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Лученок-народные) 1976"
+        },
+        {
+          "id": "3E2spGfshc0mb3aOLeWru3",
+          "title": "Добрый вечер, паненочка",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary-1979_Dobry_Vecher_Panenochka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(народная) с концерта 1979"
+        },
+        {
+          "id": "X4pE7nGaZzyHqRKy8bAQG",
+          "title": "До третьих петухов",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary_Do_Tretyih_Petuhov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Пахмутова-Н.Добронравов) 1974"
+        },
+        {
+          "id": "1iqVoX4sm0EXVVJ0QMX6I0",
+          "title": "Жили-были",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary_Zhili_Byli.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Э.Ханок-М.Пляцковский, пер. И.Сурко) 1973"
+        },
+        {
+          "id": "3AgBjjsIy2z6BE5U4Oag5m",
+          "title": "Каждый четвертый",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary_Kazhdy_Chetverty.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Т.Хренников-М.Матусовский)"
+        },
+        {
+          "id": "2rILqmYkX0zv9jzgYU27Eh",
+          "title": "Комсомольская юность",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary_Komsomolskaya_Yunost.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Лученок-Н.Алтухов)"
+        },
+        {
+          "id": "5ER8P44z5VFfrvkifA6aEk",
+          "title": "Ленивый гном",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary-1979_Linivy_Gnom.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Резников) с концерта 1979"
+        },
+        {
+          "id": "1dcodChRcIPUlLFwjYwVqs",
+          "title": "Людка",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary_Lyudka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Мулявин-Я.Купала) 1982"
+        },
+        {
+          "id": "5d3njgIqjxzrt0nxgqK7cR",
+          "title": "Матуля-матуля",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary-1979_Matulya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Народная) с концерта 1979"
+        },
+        {
+          "id": "9YRCancU7250BtHhbmTOj",
+          "title": "Наследство",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary_Nasledstvo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Лученок-Я.Купала) 1972"
+        },
+        {
+          "id": "XoP3BqvtdiLNvmNKbGZsN",
+          "title": "На что бабе огород",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary_Na_Chto_Babe_Ogorod.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(белорусская народная) 2 куплет, 1 и 2 куплеты-В.Мулявин) 1972"
+        },
+        {
+          "id": "013BucGboHyljhrWjI7iPn",
+          "title": "Не гляди на меня",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary_Ne_Glyadi_Na_Menya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Мулявин-Я.Купала) 1982"
+        },
+        {
+          "id": "2nuF1Gr2sRmh0OkChVK9VN",
+          "title": "Обращение Князя",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary_Guslyar_Knyaz.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Мулявин-Я.Купала) из \"Гусляр\" 1978"
+        },
+        {
+          "id": "fpZoi4E9q73IMuoZqa7TL",
+          "title": "Песня о волшебной дудочке",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary_udochka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Мулявин-С.Крылов) 1974"
+        },
+        {
+          "id": "4t7T5tEc89XM6vcZHVAFBv",
+          "title": "Поехал я в сваты",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary_Poehal_Ya_V_Svaty.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(народная, обр. И.Паливоды) 1979"
+        },
+        {
+          "id": "1us9qYH6Jg5d3McIckWkT6",
+          "title": "Поцелуй",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary_Poceluy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Лученок-В.Каризно) 1978"
+        },
+        {
+          "id": "2AdKUWKPQjrEo5IMJSLOoP",
+          "title": "Родная сторонка",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary_Rodnaya_Storonka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Мулявин-А.Твардовский) 1984"
+        },
+        {
+          "id": "1T6W2FH3YNuWE9d64EJtNL",
+          "title": "Розы цвет",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary_Rozy_Cvet.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Мулявин-И.Скурко) 1974"
+        },
+        {
+          "id": "7c4qlPioLkv5bw2O96Pd1M",
+          "title": "Сваты",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary_Swaty.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(народная, обр. В.Мулявина) – из к/ф Ясь и Янина 1974"
+        },
+        {
+          "id": "3DMs8oufJeFa6nAiqEZhJX",
+          "title": "Слушай, теща ",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary_Slushay_Tesha.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Пахмутова-М.Дружининский) 1982"
+        },
+        {
+          "id": "7mnh1S8poS0pfnJwF9VpDx",
+          "title": "Сизый голубь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary_Sizy_Golub.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Паливода-Л.Прончак) 1994"
+        },
+        {
+          "id": "7AtOIZlWVX61LrM66NnQXQ",
+          "title": "У доли своя весна",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary_U_Doli_svoya_Vesna.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Ивасюк-Ю.Рыбчинский) 1978"
+        },
+        {
+          "id": "5jvhLXQ8oqAkva7Wwtxj46",
+          "title": "Чемпион",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary_Chempion.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Э.Ханок-С.Поляков) 1975"
+        },
+        {
+          "id": "1ZvThDs39HYGSgCY8MfP9l",
+          "title": "Что такое хорошо",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary_Chto_Takoe_Horosho.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Мулявин-В.Маяковский) 1987"
+        },
+        {
+          "id": "5WbK1lMok3dcetrzwzeKgh",
+          "title": "Я не могу иначе",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary_Ya_Ne_Mogu_Inache.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Пахмутова-Н.Добронравов) 1982"
+        },
+        {
+          "id": "41h9gHBfw9KJjHcKVniTC2",
+          "title": "Я ваша честь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnyary_Ya_Vasha_Chest.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Паливода-Р.Бернс, пер.С.Маршака) 1981"
+        }
+      ]
+    },
+    {
+      "id": "2xuZwL5xLTocHawXOywQYg",
+      "title": "Фрагменты «Песни о Доле» 1976",
+      "tracks": [
+        {
+          "id": "3kqe3vrCBYyafj8Uls2XJV",
+          "title": "Пастушок I Мацi",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnya_O_Dole_Pastushok_I_Maci.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "1M7gH5BgqpA4qC2fohHsKZ",
+          "title": "Ария Мужика",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnya_O_Dole_Aria_Muzhika.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "25hWTFn2JFu379f5vtWSj4",
+          "title": "Ария Лета",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnya_O_Dole_Aria_Leta.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "5jShcIupgicHHaKpda79o5",
+          "title": "Касьба i жнiво",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnya_O_Dole_Kosba_I_Zhnivo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "1l2qBmlKtW0Vdaqw7lZSlt",
+          "title": "Осень и Мужик",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnya_O_Dole_Osen_I_Muzhik.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "5TvoTgqjYK3iG48mAKPsGS",
+          "title": "Перад Святам",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnya_O_Dole_Perad_Swyatam.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "ea6AzYU0IO3BOB5QvE1XU",
+          "title": "Дуэт Мужика и Мороза",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnya_O_Dole_Duet_Muzhika_I_Moroza.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "6JXHZauoX65ywKOAqSdFiF",
+          "title": "Гибель Мужика",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnya_O_Dole_Gibel_Muzhika.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "4qYSPnXtugjK9TQTzvgigT",
+          "title": "Кода",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Pesnya_O_Dole_Koda.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        }
+      ]
+    },
+    {
+      "id": "8SbUpY41QP2FL89FdYuZH",
+      "title": "Новые песни",
+      "tracks": [
+        {
+          "id": "gtfulzgYljZU084Q0gXaS",
+          "title": "Волшебник",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Kasheparov_Volshebnik.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "1Jxe4IrVdURNpCJcNPUS69",
+          "title": "Девчина из детства",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Kasheparov_Devchina_Iz_Detstva.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "2S95hyIGto22nlcj2h2R9B",
+          "title": "Днем и ночью",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Kasheparov_Dnem_I_Nochyu.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "1USYi7rMXwdEQnHxsO9EU1",
+          "title": "Господа, не бейте зеркала",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Kasheparov_Gospoda_Ne_Beyte_Zerkala.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "187NmXZZV7Waxe2aIhO3wQ",
+          "title": "Корова",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Kasheparov_Korova.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "2F29JxxfyyN68XXuRYmaxe",
+          "title": "Слушай, теща",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Kasheparov_Slushay_Tesha.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "w6faTeFafypLKugb3r8aD",
+          "title": "Непутевый",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Kasheparov_Neputevy.MP3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "4RTKalNIkBOa343o9USdiK",
+          "title": "Холостяу",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/Kasheparov_Holostyak.MP3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "9PWHcdhgeQa1AFWdvruGn",
+          "title": "Патефон",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/BGAPesnyary_Patefon.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(с БГА Песняры)"
+        },
+        {
+          "id": "VLjjpxT5HwsOpVXzxdxQn",
+          "title": "Любите женщин",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kasheparov/BGAPesnyary_Lybite_Zhenshin.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(с БГА Песняры)"
+        }
+      ]
+    }
+  ],
+  "acknowledgements": [
+    "Андрею Струкову",
+    "Владиславу Самсонову",
+    "Владимиру Прилепскому",
+    "Анатолию Бабаю",
+    "Михаилу Юпенину",
+    "Игорю Плотникову",
+    "Марине Сивер",
+    "Александру Ефименко",
+    "Михаилу Загребину"
+  ],
+  "acknowledgementText": "",
+  "videos": [
+    {
+      "url": "https://ok.ru/video/3383978363423",
+      "thumbUrl": "",
+      "title": "Белорусочка (Песняры, 8.03.1985, телепередача «Желаем вам!»)"
+    },
+    {
+      "url": "https://ok.ru/video/3383989701151",
+      "thumbUrl": "",
+      "title": "Вологда (Песняры, 1976, вечер М.Матусовского в Колонном Зале Дома Союзов)"
+    },
+    {
+      "url": "https://ok.ru/video/3384007526943",
+      "thumbUrl": "",
+      "title": "Вологда (Песняры, 1976, Песня Года-76)"
+    },
+    {
+      "url": "https://ok.ru/video/3384024631839",
+      "thumbUrl": "",
+      "title": "Вологда 2019 (с БГА Песняры на Славянском Базаре)"
+    },
+    {
+      "url": "https://ok.ru/video/3384032823839",
+      "thumbUrl": "",
+      "title": "Добрый вечер, девчоночка (Песняры, 1975, Песня Года-75)"
+    },
+    {
+      "url": "https://ok.ru/video/3384036231711",
+      "thumbUrl": "",
+      "title": "До третьих петухов (Песняры, 1975, вечер А.Пахмутовой в Колонном Зале Дома Союзов)"
+    },
+    {
+      "url": "https://ok.ru/video/3384038984223",
+      "thumbUrl": "",
+      "title": "Каждый четвертый (Песняры,1979, Песня Года – 79)"
+    },
+    {
+      "url": "https://ok.ru/video/3393196919327",
+      "thumbUrl": "",
+      "title": "Касил Василь сено (Песняры, 1992)"
+    },
+    {
+      "url": "https://ok.ru/video/3384041015839",
+      "thumbUrl": "",
+      "title": "Слуцкие ткачихи (2006, в передаче Ностальгия\")"
+    },
+    {
+      "url": "https://ok.ru/video/3384041867807",
+      "thumbUrl": "",
+      "title": "Сизый голубь 2012"
+    },
+    {
+      "url": "https://ok.ru/video/3393187285535",
+      "thumbUrl": "",
+      "title": "Спадчына (Наследство) (Песняры, 1982)"
+    },
+    {
+      "url": "https://ok.ru/video/3393200654879",
+      "thumbUrl": "",
+      "title": "Улицы без конца (В.Мулявин-В.Яшкин)"
+    },
+    {
+      "url": "https://ok.ru/video/3393183156767",
+      "thumbUrl": "",
+      "title": "Я не могу иначе (Песняры, 1982)"
+    },
+    {
+      "url": "https://ok.ru/video/3384051698207",
+      "thumbUrl": "",
+      "title": "Телепередача «По волне моей памяти»  2019"
+    },
+    {
+      "url": "https://ok.ru/video/3384051239455",
+      "thumbUrl": "",
+      "title": "Интервью;"
+    },
+    {
+      "url": "https://ok.ru/video/1232608037407",
+      "thumbUrl": "",
+      "title": "Юбилейный концерт в Могилеве, 2015"
+    }
+  ],
+  "links": []
+}

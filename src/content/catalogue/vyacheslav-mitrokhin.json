@@ -1,0 +1,621 @@
+{
+  "id": "4uRDzumdyD4O5F3WkrTwFK",
+  "createdAt": "2022-09-28T06:54:46.528Z",
+  "updatedAt": "2023-02-06T14:48:05.205Z",
+  "title": "Вячеслав Митрохин",
+  "shortTitle": "",
+  "slug": "vyacheslav-mitrokhin",
+  "shortDescription": "",
+  "description": "<p>Когда я делал эту страничку, совсем ничего не знал про этого музыканта... Просто в свое время был известен хороший латышский ансамбль МОДО, которым руководил Раймонд Паулс, и в котором пели две замечательные певицы Мирдза Зивере и Айя Кукуле. в 80-х, будучи в городе Даугавпилсе и зайдя там в магазин грампластинок, я увидел и купил миньон этой группы. И хотя это был уже не ансамбль Паулса, все равно музыка хуже не стала. И был написан состав ансамбля, в том числе гитарист Вячеслав Митрохин (и Владимир Болдырев на ударных, если кто знает). В один из следующих приездов в тот же город купил уже большой диск «Музыка для дискоклубов», в которой три вещи исполнял уже инструментальный ансамбль под управлением Вячеслава Митрохина. Очень достойная музыка. Собственно, именно эти три композиции здесь и лежат. Послушайте, не пожалеете.</p><p>Некоторое время спустя, когда сайт уже работал и страничка была, случилось удивительное событие: пришло письмо от самого Вячеслава Митрохина. Он жив и здоров, по-прежнему живет в Риге и, что еще приятнее, занимается музыкой. Появилась информация (я выложил на страничке) и новые работы, которые он разрешил выложить. Очень советую послушать тоже. На скрипке играет его сын, Денис Митрохин.</p><p>К сожалению, Дениса Митрохина не стало, MMBand Вячеслава Митрохина потерял большую часть своей оригинальности, меняются музыканты, но до сих пор эта группа играет в разных местах Латвии. Лично я летом 2007 был в Риге, живьем слушал музыку этой группы на Домской площади (еще с Денисом) и получил большое удовольствие, чего и вам желаю.</p><p>У Вячеслава Митрохина есть канал в YouTube, заходите, смотрите.</p>",
+  "images": [
+    {
+      "id": "4aTKGcGZjoyilZNO3sniRx",
+      "title": "Вячеслав Митрохин",
+      "description": "",
+      "url": "https://images.ctfassets.net/i2pyq4z3dq7a/4aTKGcGZjoyilZNO3sniRx/2b466b511ae1be589bbe284871c30cdb/Mitrohin_l.jpg",
+      "contentType": "image/jpeg",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": "H4OXvVlDdwKM9devsv3MO",
+      "title": "Mitrokhin Master Band",
+      "description": "",
+      "url": "https://images.ctfassets.net/i2pyq4z3dq7a/H4OXvVlDdwKM9devsv3MO/c74c371091ac2cbfe35bae052201ebb8/MMBand_L.jpg",
+      "contentType": "image/jpeg",
+      "width": 318,
+      "height": 472
+    }
+  ],
+  "albums": [
+    {
+      "id": "6bg5rg5SAjDjCfuuc2ceOW",
+      "title": "Группа Вячеслава Митрохина (АРС)",
+      "tracks": [
+        {
+          "id": "2kAt7zWfc2EYLdkDVteoOb",
+          "title": "Мотив пешехода",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/Mitrohin_Motiv.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Митрохин) 1983"
+        },
+        {
+          "id": "2aoEnN6hAWSJBgCa5MBmyu",
+          "title": "Просьба",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/Mitrohin_Prosba.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Митрохин) 1983"
+        },
+        {
+          "id": "6Lsm9d3tFFmnFRZeIiCxbq",
+          "title": "Птицы",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/Mitrohin_Pticy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Митрохин) 1983"
+        },
+        {
+          "id": "5jmCFy4xRVjwoMG580uI9m",
+          "title": "Не опускай паруса",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/ARS_Ne_Opuskay_Parusa.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Митрохин-А.Кришта) 1983"
+        },
+        {
+          "id": "1rLr2cR8AokiQv8KNlJCBe",
+          "title": "Только для тебя",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/ARS_Tolko_Dlya_Tebya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Митрохин-А.Кришта) солистка Янина Лоскис 1983"
+        },
+        {
+          "id": "54zOgrVcI5i1cNX9YZpRLM",
+          "title": "Слова, слова",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/ARS_Slova_slova.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Митрохин-П.Ступанс) 1985"
+        }
+      ]
+    },
+    {
+      "id": "3h6ftDDtdGD6RVmbIjH8iO",
+      "title": "Альбом «Summertime» (2002)",
+      "tracks": [
+        {
+          "id": "1FarKMM2R0WOnmqyVEfHkv",
+          "title": "Overture",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/Overture.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "6yxiMW6Fq8FENxSEZoFc1U",
+          "title": "Summertime",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/Summertime.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "4HZi1UfzeOjzhTGI1XJOKK",
+          "title": "Storm",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/Storm.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "2fQV9ZuX8IMje3GCpdrlpO",
+          "title": "Moldau",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/Moldau.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "1TohBPb2cn1ZPVgTppEd5z",
+          "title": "In the Mountain King",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/In%20the%20Mountain%20King.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "4xH78K2eXh6r2moKI3OZTL",
+          "title": "Habanera",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/Habanera.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "2xD5UFHGNCKgZ7X4wyOJ0H",
+          "title": "Request",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/Request.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "zJk5sMNjTQUr8LnAhiu09",
+          "title": "Elize",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/Elize.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "6wKMjFngxDUc4Tmz54asXb",
+          "title": "Sabre Dance",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/Sabre%20Dance.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "1oVpmrvzZumuQJehVayVBQ",
+          "title": "Tiki-Tiko",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/Tiki-Tiko.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "4fkJC4dBDGBBIHEoR2t5Cs",
+          "title": "Black Eyes",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/Black%20Eyes.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "5upnGqqfq2bd3VPurMzKvu",
+          "title": "Chardash",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/Chardash.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "7uu7DBGKGZZsm0g3aNLu53",
+          "title": "Europe-Latvia",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/Europe-Latvia.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "5UkxHoNOI36VIrWO6tvheT",
+          "title": "The And",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/The%20And.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        }
+      ]
+    },
+    {
+      "id": "5VeBx1imab3sZWEfvV2AkJ",
+      "title": "Альбом «My Guitars» (1996)",
+      "tracks": [
+        {
+          "id": "5Oja1ucy6H3ILJ7MpJXn5N",
+          "title": "Con Dios",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/My_Guitars/01.Con_Dios.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "1Ugkn7loObE5jotWjvmP88",
+          "title": "Dolores",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/My_Guitars/02.Dolores.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "2VdYd5XDcoBuQJ1bS6ESum",
+          "title": "Tanita Tikkaram",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/My_Guitars/03.Tanita_Tikaram.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "5mkYtqXEFMDu5M8BXgJOwJ",
+          "title": "Heve You Ever Seen The Rain",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/My_Guitars/04.Heve_You_Ever_Seen_The_Rain.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "6jMWiwZKyIGwZhcgi0PFTL",
+          "title": "Parusa",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/My_Guitars/05.Parusa.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "1VEgd2JiEbmIyCuaP8RICC",
+          "title": "My Long Way",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/My_Guitars/06.My_Long_Way.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "6jojYLI9RnYD0mKVKnowva",
+          "title": "A.Lenox",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/My_Guitars/07.A_Lenox.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "6qHMq4vKmGOun97nRlHiuT",
+          "title": "Youre My Everything",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/My_Guitars/08.Youre_My_Everything.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "6UV9ZeWy3gLG9OCu6WTLkF",
+          "title": "My Way",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/My_Guitars/09.My_Way.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "bK64w6vJ8GLt4v8F0rQQp",
+          "title": "Yesterday",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/My_Guitars/10.Yestarday.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "ehTEbwECAYyPZS4Cwrewq",
+          "title": "This Day",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/My_Guitars/11.This_Day.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "77ESqybgC3SW1yMU4Am8QY",
+          "title": "Vision",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/My_Guitars/12.Vision.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "4SfTi6T4hMvz91WCLGjkdp",
+          "title": "My Friend",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/My_Guitars/13.My_Friend.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "4TeyKQPAav2O9eQgMYOnk3",
+          "title": "Smoth Operator",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/My_Guitars/14.Smoth_Operator.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "71DgGqumfhbYl5VdMIXG9l",
+          "title": "Samba Pa Ti",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/My_Guitars/15.Samba_Pa_Ti.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        }
+      ]
+    },
+    {
+      "id": "49x3rHg4rWSpHTuafv9f9F",
+      "title": "Нон-стоп композиция из песен Битлз",
+      "tracks": [
+        {
+          "id": "4S03NmrzjfHvB8xXtxvasK",
+          "title": "24 минуты, 24Мб",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/Beatles_Maser_Song_Audio.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        }
+      ]
+    },
+    {
+      "id": "2B9KXWPeKs3AAjIeN6WGAn",
+      "title": "Песни из Альбома «Первый» (2012)",
+      "tracks": [
+        {
+          "id": "3OW09aF5lWEPVOiuAknO0X",
+          "title": "Перелетные птицы",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/MMBand_2009_Pereletnie_Ptycy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "CwcEtFrrMqtoiZhBXgjZz",
+          "title": "И все дела",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/MMBand_2009_I_Vse_Dela.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "4PW9ZNE4Qs5pqUMFwLJloN",
+          "title": "Рок-н-ролл жив!",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/MMBand_2009_I_Vse_Dela.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "2smvrSwWbiYc7X5D7SeqjW",
+          "title": "Рок-н-ролл жив!",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/MMBand_2009_Rock-n-Rol_ Is_Living.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "6V7bdbQrBrnXvUN5fKMRoD",
+          "title": "Цена любви",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/MMBand_2009_Rock-n-Rol_ Is_Living.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "378MtjPPBmqajOHuUkS1xC",
+          "title": "Цена любви",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/Mitrohin_Cena_Lybvi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "5ZCdrWiwWRwblLwIqIHeCb",
+          "title": "Я-наркоман",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/Mitrohin_Ya_Narkoman.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "5vcRiqJBuj4YLNyTsAXBVu",
+          "title": "Слов не говори",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/Mitrohin_2009_Slov_Ne_Govori.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "4uhcjrCI3Ra1ZAuPOcUGYo",
+          "title": "Детка не тормози",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/Mitrohin_2009_Detka_Ne_Tormozi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "6NRCbkbqj8Y3hDftBlFvQT",
+          "title": "Мелодия моя",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/MMBand_2009_Melodiya_Moya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "6cF5rdY70TUVlhs7lln4tn",
+          "title": "Мечта",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/MMBand_2009_Mechta.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "b2i43uDKsvN9lLUbHlHX5",
+          "title": "Удача",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/MMBand_2009_Udacha.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "5rIRC4aflZ1ahPbC2rsTsc",
+          "title": "Мой путь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/MMBand_2009_Moy_Put.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        }
+      ]
+    },
+    {
+      "id": "Tyvhhcqg5WGsKIhJxMZ1i",
+      "title": "Три композиции Раймонда Паулса из его работы 2009 года – музыка к спектаклю «Одесса – город колдовской». Скрипка – Денис Митрохин",
+      "tracks": [
+        {
+          "id": "3L1LGx72z6KHOx65eWqs70",
+          "title": "Взгляните",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/Pauls_Vzglyanite.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "5WLPglHxET13s4DJg9RYGJ",
+          "title": "Дуэт Баси и Бени",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/Pauls_Duet_Basi_I_Beni.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "1f3T5k5r72dU72ypaxzWGp",
+          "title": "Одесса – город колдовской",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/Pauls_Odesa_Gorod_Koldovskoy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        }
+      ]
+    },
+    {
+      "id": "4HJRPUy6XIE7ZTUO0quhIi",
+      "title": "Проект Вячеслава Митрохина и Айварса Херманиса 2No PKPV (2010)",
+      "tracks": [
+        {
+          "id": "64dJr5VkkGVcZXp721Dpwh",
+          "title": "Spain",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/2_No_PKPV_Spain.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "6kgyx1atSMxWbzHLeVqh2o",
+          "title": "Autumn Leaves",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/2_No_PKPV_Autumn Leaves.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "2cZHNldwxNfcpMyQ1kbaly",
+          "title": "Black Magic Woman",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/2_No_PKPV_Black Magic Woman_mp4.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        }
+      ]
+    }
+  ],
+  "acknowledgements": [
+    "Городу Даугавпилсу :-)",
+    "Сергею Максимову",
+    "Вячеславу Митрохину"
+  ],
+  "acknowledgementText": "За классный магазин грампластинок, в котором я купил большое количество материала, которым буду делиться со всеми",
+  "videos": [
+    {
+      "url": "https://youtu.be/1Nn8PElw9Fc",
+      "thumbUrl": "https://i3.ytimg.com/vi/1Nn8PElw9Fc/hqdefault.jpg",
+      "title": "Клип на песню «И все дела» 2010"
+    },
+    {
+      "url": "https://youtu.be/Ik_Cp7tcHPA",
+      "thumbUrl": "https://i3.ytimg.com/vi/Ik_Cp7tcHPA/hqdefault.jpg",
+      "title": "Группа MODO- кафе Аллегро 1976"
+    },
+    {
+      "url": "http://youtu.be/tFhgdYznJ9s",
+      "thumbUrl": "https://i3.ytimg.com/vi/tFhgdYznJ9s/hqdefault.jpg",
+      "title": "Группа MODO - фрагмент из фильма «Город...Осень...Ритм...\"(1978)"
+    },
+    {
+      "url": "https://youtu.be/dQRax0PM7cM",
+      "thumbUrl": "https://i3.ytimg.com/vi/dQRax0PM7cM/hqdefault.jpg",
+      "title": "Autumn Leaves  В.Митрохин,А.Херманис 2010"
+    },
+    {
+      "url": "https://youtu.be/r_H2_vO6Blc",
+      "thumbUrl": "https://i3.ytimg.com/vi/r_H2_vO6Blc/hqdefault.jpg",
+      "title": "Шторм - MBand  2003"
+    },
+    {
+      "url": "https://youtu.be/2_tg2eDwf8M",
+      "thumbUrl": "https://i3.ytimg.com/vi/2_tg2eDwf8M/hqdefault.jpg",
+      "title": "MBand с Марией Наумовой 2003"
+    }
+  ],
+  "links": [
+    {
+      "id": "7e7GMt8o5KETqWCqWVby01",
+      "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/biograf.doc",
+      "title": "Биография ",
+      "description": ""
+    },
+    {
+      "id": "7FKx1M0rQ2s47sSprKHA8g",
+      "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Mitrokhin/Intervyu.doc",
+      "title": "Интервью ",
+      "description": ""
+    }
+  ]
+}

@@ -1,0 +1,376 @@
+{
+  "id": "59SKWq9s3E0yayJ0FBF87y",
+  "createdAt": "2022-09-28T07:02:36.875Z",
+  "updatedAt": "2023-01-06T18:43:08.333Z",
+  "title": "Леонид Белый",
+  "shortTitle": "",
+  "slug": "leonid-belyi",
+  "shortDescription": "",
+  "description": "<p>Еще одна страничка памяти ушедшего музыканта.</p><p>О нем очень мало известно: был солистом ансамбля Надежда, впоследствии ушел в религию и очень рано ушел из жизни. Но все, кто его знал, едины в одном - это был очень светлый человек и очень хороший музыкант.</p><p>Буду благодарен за любую информацию о Леониде Белом, за его песни, музыку и фотографии.</p>",
+  "images": [
+    {
+      "id": "3NVMGjgClw1MjOWRUme8GD",
+      "title": "Леонид Белый",
+      "description": "",
+      "url": "https://images.ctfassets.net/i2pyq4z3dq7a/3NVMGjgClw1MjOWRUme8GD/96c4450b53cd2e1f379749c631aeafd6/Bely_2_L.jpg",
+      "contentType": "image/jpeg",
+      "width": 700,
+      "height": 900
+    },
+    {
+      "id": "2EkaPHS0ll2ACkFywvlhbO",
+      "title": "Леонид Белый",
+      "description": "",
+      "url": "https://images.ctfassets.net/i2pyq4z3dq7a/2EkaPHS0ll2ACkFywvlhbO/2defeca6052628d46ac0ddd1208cf2c7/Bely_L.jpg",
+      "contentType": "image/jpeg",
+      "width": 600,
+      "height": 800
+    }
+  ],
+  "albums": [
+    {
+      "id": "4RslAHZ49Oxkl0dnGDGIGu",
+      "title": "Ансамбль Надежда",
+      "tracks": [
+        {
+          "id": "14EcvBJ0UVKTzKqHdkEt9a",
+          "title": "Зеркало",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Bely/Nadezhda_Zerkalo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Антонов-М.Танич)-репетиционная запись 1977"
+        },
+        {
+          "id": "43dU5qF8Wl0WOqCC8dpmut",
+          "title": "Мне теперь все равно",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Bely/Nadezhda_Mne_Teper_Vse_Ravno.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Шульга-Л.Дербенев) 1976-77"
+        },
+        {
+          "id": "13fcnE5Jnt4wmFiwkMlZyG",
+          "title": "Нежность",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Bely/Nadejda_Nezhnost.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Пахмутова-С.Гребенников,Н.Добронравов)-дуэт с Л.Шабиной 1977"
+        },
+        {
+          "id": "1bBbjArZHXoa8yk05YAjBB",
+          "title": "Не расстанусь с комсомолом",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Bely/Nadezhda_Ne_Rasstanus_S_Komsomolom.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Пахмутова-Н.Добронравов) – с Л.Шабиной 1976-77"
+        },
+        {
+          "id": "7uaMvLbrm5qM0l7BCNBbfe",
+          "title": "Олимпийский талисман",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Bely/Nadejda_Olimpiysky_Talisman.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Комаров-М.Лаписова)"
+        },
+        {
+          "id": "2Hbt3WON8p1Tt35E4wq5gj",
+          "title": "Твои глаза",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Bely/Nadezhda_Tvoi_Glaza.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Поклад-Ю.Рыбчинский) – с А.Кондаковым и Л.Шабиной 1976-77"
+        },
+        {
+          "id": "7kKFL3J9a3aJcEkgUkyn9h",
+          "title": "Ты сама придумала",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Bely/Nadejda_Ty_Sama_Pridumala.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-М.Пляцковский) 1977"
+        },
+        {
+          "id": "6jy1CoL33oBWD9sqEaCWlh",
+          "title": "Я уезжаю часто",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroislandhttp//retroisland.net/Files/Bely/Nadezhda_Ya_Uezhayu_Chasto.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "Я уезжаю часто (Р.Майоров-А.Дементьев)"
+        }
+      ]
+    },
+    {
+      "id": "6tMh8Jerfh4rsDG4CP9Mgr",
+      "title": "Сольные работы и работы в разных коллективах",
+      "tracks": [
+        {
+          "id": "3TskL6LqOa7TG27Fhcl7Ph",
+          "title": "Ау",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Bely/Yunost_Planety_Au.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "ВИА \"Юность планеты\" 1981-82"
+        },
+        {
+          "id": "5FGTcVFsCv4aOqDgsodAUE",
+          "title": "Всегда на высоте",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Bely/Nadezhda_Kosmicheskaya Pesnya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Е.Птичкин-М.Пляцковский) (запев – П.Кравецкий, припев и 3 куплет – вместе с Л.Белым)"
+        },
+        {
+          "id": "5TXzC1LQ2SJlx2DZAwu4QS",
+          "title": "Дружная песня",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Bely/Yunost_Planety_Druzhnaya_Pesnya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "ВИА \"Юность планеты\" 1981-82"
+        },
+        {
+          "id": "1CttBQsuJcCfGzkkuDPtwh",
+          "title": "Я тороплюсь на свиданье с тайгой",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Bely/Nadejda_Ya_Toroplys_Na_Svidanie_S_Taygot.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Комаров)"
+        },
+        {
+          "id": "18tY31z6zWDI6VVLcIjAEq",
+          "title": "В вечернем сумраке",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Bely/Bely_V_Vechernem_Sumrake.MP3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Л.Белый)"
+        },
+        {
+          "id": "5BRMO76aAcUZ5B8P2XnZli",
+          "title": "Гори, гори моя звезда ",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Bely/Bely_Gori_Gori_Moya_Zvezda.MP3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(П.Булахов-В.Чуевский)"
+        },
+        {
+          "id": "4LOXevSs8BCmpKnw8fuYeL",
+          "title": "Душа моя",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Bely/Bely_Dusha_Moya.MP3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Л.Белый, М.Белая – Х.Боскан)"
+        },
+        {
+          "id": "5xvwsWoAH0hXK4Rtwa1sjA",
+          "title": "Две розы",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Bely/Bely_Dve_Rozy.MP3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Покрасс, А.Д'Актиль)"
+        },
+        {
+          "id": "1KqJkT7CKpwpJlHnRkaciN",
+          "title": "Земля моя",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Bely/Bely_Zemlya_Moya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Б.Рычков-И.Шаферан) – из к/ф «Звездный инспектор» 1982, запись 1981-82"
+        },
+        {
+          "id": "5Qzb3ldX4WOYf0STv50ZmZ",
+          "title": "Если не любовь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Bely/Bely_Esli_Ne_Lybov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "61Cz3Dp2GXVjMWdXSpUgaH",
+          "title": "Мундирчик",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Bely/Bely_Mundirchik.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "16Yhidc1NOf386dca81akf",
+          "title": "Остановись, мгновенье",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Bely/Bely_Ostanovis_Mgnovenye.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(студийный вариант)"
+        },
+        {
+          "id": "3GyELjydP1gMtptY48HHQ9",
+          "title": "Остановись, мгновенье ",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Bely/Bely_Kogda_Ya_Vas_Vpervie_Uvidal.MP3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(домашняя запись)"
+        },
+        {
+          "id": "5M1hnQ0vDrqouQp1iTheKp",
+          "title": "Полюби",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Bely/Bely_Polybi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "3cZGSzm5HvMdr2Was2As0Z",
+          "title": "Посмотри на часы",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Bely/Yunost_Planety_Posmotri_Na_Chasy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "ВИА \"Юность планеты\" 1981-82"
+        },
+        {
+          "id": "6eTUcgfCJ4iEKCIxRNjciU",
+          "title": "Песенко про почтальона",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Bely/Bely_Pesenka_Pro_Pochtaljona.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "1B049JmS5ksafkJG0tarsH",
+          "title": "Серые глаза-рассвет",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Bely/Bely_Sinie_Glaza.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Л.Белый-Р.Киплинг, пер. К.Симонова)"
+        },
+        {
+          "id": "3mIgUUgIHoVaOi2oZFixQO",
+          "title": "Спеши любить",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Bely/Bely_Speshi_lybit.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Л.Белый)"
+        },
+        {
+          "id": "3oV4bulLHY0yUMEvzytoEX",
+          "title": "Только не забыть",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Bely/Bely_Voyna.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Любинский-Р.Рождественский)"
+        },
+        {
+          "id": "32w7fc6l6jiS2Y4335wzC6",
+          "title": "Ни к чему меня жалеть",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Bely/Bely_Ni_k_Chemu_Menya_Zhalet.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Т.Мухамеджанов – М. Пляцковский)1985"
+        },
+        {
+          "id": "7tu6Ne97y8jIjPiQXMaHeP",
+          "title": "Элегия",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Bely/Yunost_Planety_Elegiya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "ВИА \"Юность планеты\" 1981-82"
+        }
+      ]
+    },
+    {
+      "id": "jhXd6JySmVYb2GqRYGH90",
+      "title": "Два трека с альбома религиозных песен «\"Молитва прободенного сердца»",
+      "tracks": [
+        {
+          "id": "2tJiYFbhl6DdqnK0klhGNO",
+          "title": "Трек 6",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Bely/Track_06.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "1WQ8innZof9vMa0sHBpDLf",
+          "title": "Трек 23",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Bely/Track_23.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        }
+      ]
+    },
+    {
+      "id": "2HFfWm0Tt77qfn4I5i4JsJ",
+      "title": "Песни Л.Белого, спетые другими исполнителями",
+      "tracks": [
+        {
+          "id": "2gWoebxVUdOkwH2d91RnFu",
+          "title": "Подслушанный разговор",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Bely/Tolkunova_Podslushanny_Razgovor.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Л.Белый-Р.Рождественский) – В.Толкунова 1988"
+        }
+      ]
+    }
+  ],
+  "acknowledgements": [
+    "Вячеславу Капустину",
+    "Андрею Шперлу",
+    "Владимиру Никандрову",
+    "Александру Куликову",
+    "Владиславу Самсонову",
+    "Олегу Кричевскому",
+    "Александру Устюгову",
+    "Асе Белой",
+    "Марине Бронниковой",
+    "Евгению Печенову",
+    "Валентину Титову",
+    "Алексею Тащаеву",
+    "Маргарите Белой",
+    "Сергею Саменкову",
+    "Михаилу Загребину",
+    "Борису Щеглову"
+  ],
+  "acknowledgementText": "",
+  "videos": [
+    {
+      "url": "https://ok.ru/video/4148232456735",
+      "thumbUrl": "",
+      "title": "Верь в доброго человека (Г.Александров-Н.Олев) – песня из к/ф «Случай в аэропорту» (1987 г.)"
+    },
+    {
+      "url": "https://ok.ru/video/1443023292959",
+      "thumbUrl": "",
+      "title": "Разговор с Комсомольском (Б.Рычков-Н.Кошежева) 1982 г."
+    }
+  ],
+  "links": []
+}

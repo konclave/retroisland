@@ -1,0 +1,283 @@
+{
+  "id": "6qhR3QmnPwjULOQSMiRRHI",
+  "createdAt": "2022-09-28T07:04:05.091Z",
+  "updatedAt": "2023-02-27T08:28:53.624Z",
+  "title": "Евгений Гудков",
+  "shortTitle": "",
+  "slug": "evgenii-gudkov",
+  "shortDescription": "",
+  "description": "<p>Солист ансамблей Надежда, Коробейники, Верные Друзья, Акварели, про него есть статья в Википедии, можете найти и почитать. Но на этом сайте он в первую очередь благодаря работе в ВИА Надежда, где он и работал-то чуть больше года, но оставил после себя замечательные песни, в том числе мою любимую «Парни довоенных лет», спетую вместе с Евгением Печеновым. К сожалению, о Евгении Гудкове очень мало осталось материалов, даже фотографии хорошей в сети я не нашел, поэтому просьба: если у кого что-то есть, присылайте, с удовольствием выложу.</p><p>В 2012 году Евгения Гудкова не стало.</p>",
+  "images": [
+    {
+      "id": "uKoOqS0CgYXizIOEtIAO7",
+      "title": "Евгений Гудков",
+      "description": "",
+      "url": "https://images.ctfassets.net/i2pyq4z3dq7a/uKoOqS0CgYXizIOEtIAO7/b9fa4880dd1e19858d4f93472cbd96d7/Gudkov_1.jpg",
+      "contentType": "image/jpeg",
+      "width": 294,
+      "height": 273
+    }
+  ],
+  "albums": [
+    {
+      "id": "1CUuHvmpRUBUJz5tw5SeHw",
+      "title": "Ансамбль Верные Друзья",
+      "tracks": [
+        {
+          "id": "7JH9NMDD2enJViyDqpwJpZ",
+          "title": "Песня верных друзей",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Gudkov/VD_Pesnya_Vernyh_Druzey.wav",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Т.Хренников-М.Матусовский) - с В.Дурандиным (Из архива В.М.Титова ВМТ) 1974"
+        }
+      ]
+    },
+    {
+      "id": "3WzGhxnJpW2hWWMIlEU44x",
+      "title": "Ансамбль Надежда",
+      "tracks": [
+        {
+          "id": "c9mqR4rgWL4KOp5j2BgTm",
+          "title": "Будет светлым наш путь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Gudkov/Nadezhda_Budet_Svetlym_Nash_Put.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р.Майоров-А.Дементьев) 1976"
+        },
+        {
+          "id": "4usqFh4lmdfKBgiF05B7li",
+          "title": "Время мое",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Gudkov/Nadezhda_Vremya_Moe.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Якушенко-Ю.Каменецкий) 1976"
+        },
+        {
+          "id": "2B3q7KfVI0st8m5dsYx8qf",
+          "title": "Время на ждет",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Gudkov/Nadezhda_Vremya_Ne_Zhdet.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Пахмутова-Н.Добронравов) - с Е.Печёновым и Л.Шабиной 1976"
+        },
+        {
+          "id": "7nSzXxl121cZcSGlFaBhRR",
+          "title": "Мне доверена песня",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Gudkov/Nadezhda_Mne_doverena_Pesnya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Г.Мовсесян-Л.Ошанин)  – с Е.Печёновым 1976"
+        },
+        {
+          "id": "6xzAQz3ndFqxCRN7MUs5rO",
+          "title": "Моему современнику",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Gudkov/Nadezhda_Moemu_Sovremenniku.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Пахмутова-Н.Добронравов)  – с вок. группой 1976"
+        },
+        {
+          "id": "1vVAr7g3P5Rdw3MNluXKLc",
+          "title": "Оксана",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Gudkov/Nadezhda_Oksana.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Г.Мовсесян-Л.Ошанин)  – с Е.Печёновым 1976"
+        },
+        {
+          "id": "7uY6DtlnyJbA6WJbkW1bLV",
+          "title": "Парни довоенных лет",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Gudkov/Nadezhda_Parni_Dovoennyh_Let.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Мигуля-К.Филиппова)  – с Е.Печёновым 1976"
+        },
+        {
+          "id": "1Xf8bxZLarzVjo0wiGpnPs",
+          "title": "Синяя песня",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Gudkov/Nadezhda_Sinaya_Pesnya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(?-И.Сергеева)  – с Е.Печёновым 1977"
+        },
+        {
+          "id": "4sDNW6j3yg237IxzPlGjVu",
+          "title": "Старшие",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Gudkov/Nadezhda_Starshie.wav",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Орловецкий-В.Шабанов)  с Л.Шабиной (Из архива В.М.Титова ВМТ) 1976 "
+        },
+        {
+          "id": "1JitZYwNP5rDLbF3w6sP8q",
+          "title": "Это ты, любовь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Gudkov/Nadezhda_Eto_Ty_Lybov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р.Майоров-В.Харитонов) - с Е.Печёновым  1976"
+        }
+      ]
+    },
+    {
+      "id": "4KlI2XOuVE5lo95nbeixWN",
+      "title": "Ансамбль Коробейники",
+      "tracks": [
+        {
+          "id": "6oPcQT8J4086arx3RWT0Sj",
+          "title": "Веселый коробейник",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Gudkov/Korobeyniki_Vasely_Korobeynik.wav",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Дунаевский-???)  (Из архива В.М.Титова ВМТ) 1973"
+        },
+        {
+          "id": "2k0OAFifJTPn2KkUsa21ZS",
+          "title": "Вот и зима",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Gudkov/Korobeyniki_Vot_I_Zima.wav",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р.Майоров-В.Харитонов) (Из архива В.М.Титова ВМТ)  1975 "
+        },
+        {
+          "id": "2znwfZfTx1z9xqEW9aROfj",
+          "title": "День Рожденья",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Gudkov/Korobeyniki_Den_Rozhdeniya.wav",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Мажуков-Н.Шумаков)  (Из архива В.М.Титова ВМТ) 1980"
+        },
+        {
+          "id": "2xkqnwaVmr0srLfWvc4RQF",
+          "title": "Едет царь в карете",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Gudkov/Korobeyniki_Yedet_Car_V_Karete.wav",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Дунаевский-Р.Сеф)  – с Ю.Меньшовым (Из архива В.М.Титова ВМТ) 1973"
+        },
+        {
+          "id": "34pZQyBZavYWIapwfFZYvg",
+          "title": "За зимою весна",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Gudkov/Korobeyniki_Za_Zimoyu_Vesna.wav",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Дунаевский-Р.Сеф) (Из архива В.М.Титова ВМТ)  1973"
+        },
+        {
+          "id": "1yUmuQcuc8K817RMwJ4pRH",
+          "title": "Лови счастье в проруби",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Gudkov/Korobeyniki_Lovi_Schastye_V_Prorubi.wav",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Дунаевский-Р.Сеф) – с К.Румяновой (Из архива В.М.Титова ВМТ)  1973 "
+        },
+        {
+          "id": "3XtTleiwO6b8QAmMqcJWjF",
+          "title": "Любовь заждалась",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Gudkov/Korobeyniki_Lybov_Zazhdalas.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р.Майоров-А.Дементьев) 1977"
+        },
+        {
+          "id": "2FF79QO5oQndHMi9IC5aSL",
+          "title": "На печи Емеля едет",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Gudkov/Korobeyniki_Na_Pechi_Emelya_Edet.wav",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Дунаевский-Р.Сеф)  (Из архива В.М.Титова ВМТ) 1973"
+        },
+        {
+          "id": "5GvR24G2wp1t6F7GTQXaK4",
+          "title": "Ну погоди",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Gudkov/Korobeyniki_Nu_Pogodi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Пахмутова-Н.Добронравов) 1973 "
+        },
+        {
+          "id": "1oIWGlzukhTA2dOFjky96G",
+          "title": "Улыбка юга",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Gudkov/Korobeyniki_Ulybka_Yuga.wav",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Е.Птичкин-М.Пляцковский)  (Из архива В.М.Титова ВМТ) 1975"
+        }
+      ]
+    },
+    {
+      "id": "3irYyvyOQeBO9RgLnKIyRf",
+      "title": "Другие записи",
+      "tracks": [
+        {
+          "id": "6WiFDlfqFkqjC8lngGi7Zb",
+          "title": "Песенка пешехода",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Gudkov/Gudkov_Pesnya_Peshehodov.wav",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Дунаевский-М.Азов) - с А.Левшиным, анс. Мелодия (Из архива В.М.Титова ВМТ)   1979 "
+        },
+        {
+          "id": "4ATwNTT0fRNrZBnpko8TOg",
+          "title": "Песня регулировщика",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Gudkov/Gudkov_Pesnya_Regulirovshika.wav",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Дунаевский-М.Азов) - с Ю.Меньшовым, анс. Мелодия (Из архива В.М.Титова ВМТ) 1979"
+        },
+        {
+          "id": "5YG7XjObcofJBoDaqmKyjr",
+          "title": "Песня светофоров",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Gudkov/Gudkov_Pesnya_Svetoforov.wav",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Дунаевский-М.Азов) - с Ю.Меньшовым, В.Чуйкиным, анс. Мелодия (Из архива В.М.Титова ВМТ) 1975"
+        },
+        {
+          "id": "7fqo4P1TAhyECrs0mPKGMh",
+          "title": "Помни правила движения",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Gudkov/Gudkov_Pomni_Pravila_Dvizheniya.wav",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Дунаевский-М.Азов) - с Ю.Меньшовым, В.Чуйкиным, анс. Мелодия (Из архива В.М.Титова ВМТ) 1975 "
+        }
+      ]
+    }
+  ],
+  "acknowledgements": [
+    "Валентину Титову",
+    "Андрею Шперлу",
+    "Александру Леонову",
+    "Николаю Тютюниченко",
+    "Вячеславу Капустину",
+    "Владимиру Никандрову"
+  ],
+  "acknowledgementText": "",
+  "videos": [],
+  "links": []
+}

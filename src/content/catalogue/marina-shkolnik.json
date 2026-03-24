@@ -1,0 +1,315 @@
+{
+  "id": "3geoHMRLKLEVdOAMe7oDS2",
+  "createdAt": "2022-09-28T07:03:48.504Z",
+  "updatedAt": "2023-01-06T18:44:10.778Z",
+  "title": "Марина Школьник",
+  "shortTitle": "",
+  "slug": "marina-shkolnik",
+  "shortDescription": "",
+  "description": "<p>Марина Школьник – один из старожилов ансамбля Лейся Песня, проработала в нем 7 лет из тех 9, которые он существовал и является неотъемлемой частью того фирменного унисона этого ансамбля времен Михаила Шуфутинского наряду с голосом Влада Андрианова. </p><p>К сожалению, в Лейся Песня у Марины было не так много сольных песен, но я постарался (с помощью самой Марины) собрать ее творчество за все время ее выступления на сцене. Надо сказать, что она и сейчас в отличной форме и совсем недавно выступала вместе с бывшими участниками настоящей Лейся Песня в концертах.  Марина очень приятный в общении человек и эта страничка сделана в знак глубокого к ней уважения. Здоровья и успехов! </p><p>Буду благодарен за песни, фотографии и другие материалы о певице.\n</p>",
+  "images": [
+    {
+      "id": "5h5XxHmVZT7ZaA3lA48Dt5",
+      "title": "Марина Школьник",
+      "description": "",
+      "url": "https://images.ctfassets.net/i2pyq4z3dq7a/5h5XxHmVZT7ZaA3lA48Dt5/576d5b0d254bae7cf030b5b3a2dc8b2b/Shkolnik-2.jpg",
+      "contentType": "image/jpeg",
+      "width": 280,
+      "height": 419
+    },
+    {
+      "id": "3he2AE3C30HPGXrk7xurA6",
+      "title": "Марина Школьник",
+      "description": "",
+      "url": "https://images.ctfassets.net/i2pyq4z3dq7a/3he2AE3C30HPGXrk7xurA6/337ce8f7f7d5b5ecb1184168de9b01dd/Shkolnik-3.jpg",
+      "contentType": "image/jpeg",
+      "width": 280,
+      "height": 285
+    }
+  ],
+  "albums": [
+    {
+      "id": "2nBw0DrnVJrgmwUEaCjE7F",
+      "title": "Ансамбль Лейся Песня",
+      "tracks": [
+        {
+          "id": "4k2sPHHVOe9eeG04T8KAcr",
+          "title": "Двойка за весну",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shkolnik/LP_Dvoyka_Za_Vesnu.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-М.Пляцковский) 1979"
+        },
+        {
+          "id": "pk6yTzsKEPPVIcf1sGbrM",
+          "title": "Замкнутый круг",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shkolnik/LP-82-Zamknuty_Krug.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Касторский) с Н.Расторгуевым, В.Кипеловым и Ю.Рымановым с концерта 1982"
+        },
+        {
+          "id": "zohtupBI9ocFc9lXahJbY",
+          "title": "История с географией",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shkolnik/LP_Istoriya_S_Geografiej.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Шаинский-Б.Салибов) 1980"
+        },
+        {
+          "id": "1Mq6E4IwFuM8s3xu4kT1js",
+          "title": "Крутится волчок",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shkolnik/LP-82_Krutitsja_volchok.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Сарычев) с концерта 1982"
+        },
+        {
+          "id": "5gFI1GvsacKPu0V8tAfSaG",
+          "title": "Не отвечай",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shkolnik/LP_ne_otvechay.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Кретов-М.Пляцковский) 1979"
+        },
+        {
+          "id": "5e0es4YnoU1WFWEbZahFbE",
+          "title": "Не отвечай",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shkolnik/LP-80_Ne_Otvechay.wma",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Кретов-М.Пляцковский) с концерта 1980 г."
+        },
+        {
+          "id": "7uwlLyNDuKTcqgkKwn6FVc",
+          "title": "Обручальное кольцо",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shkolnik/LP-Obruchalnoe_Kolco.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Шаинский-М.Рябинин) с В.Ефименко 1981"
+        }
+      ]
+    },
+    {
+      "id": "4sy7djLHUfQc4jqjkhH8QP",
+      "title": "Сольное творчество",
+      "tracks": [
+        {
+          "id": "3mHVPEU1QdODkAk2rbqImV",
+          "title": "О доме",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shkolnik/Shkolnik_O_Dome.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Школьник) 2010"
+        },
+        {
+          "id": "3DXNfkBnXeq9Zo5Dc2sFZZ",
+          "title": "Поздняя любовь.",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shkolnik/Shkolnik_Pozdnaya_Lybov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Школьник) 2010"
+        },
+        {
+          "id": "6dwyihKrFCcqRuiug2l5Lv",
+          "title": "По Цветному бульвару",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shkolnik/Schkolnik_Po_Cvetnomu_Bulvaru.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Школьник) 2010"
+        },
+        {
+          "id": "3CJ7beG6Kwepen7iXHOnoA",
+          "title": "Останусь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shkolnik/Shkolnik_Ostanus.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Л.Притула,Д.Притула,В.Стронский-Л.Притула,Д.Притула) 2020"
+        }
+      ]
+    }
+  ],
+  "acknowledgements": [
+    "Марине Школьник",
+    "Владиславу Самсонову",
+    "Александру Селезневу (за видео)",
+    "Сергею Девятову",
+    "Виктору Горбунову",
+    "Валентину Титову"
+  ],
+  "acknowledgementText": "",
+  "videos": [
+    {
+      "url": "https://ok.ru/video/3130708462111",
+      "thumbUrl": "",
+      "title": "Клен (Ю.Акулов-Л.Шишко)"
+    },
+    {
+      "url": "https://ok.ru/video/3130709314079",
+      "thumbUrl": "",
+      "title": "Рисуют мальчики войну (А.Богословский)"
+    },
+    {
+      "url": "https://ok.ru/video/3130710100511",
+      "thumbUrl": "",
+      "title": "Рок-вокализ"
+    },
+    {
+      "url": "https://ok.ru/video/3130710755871",
+      "thumbUrl": "",
+      "title": "Только ты и я (А.Градский-Б.Окуджава)"
+    },
+    {
+      "url": "https://ok.ru/video/3156472760863",
+      "thumbUrl": "",
+      "title": "Вечная песня (С.Касторский-Е.Шант-Гаи), с концерта 1982"
+    },
+    {
+      "url": "https://ok.ru/video/3156472826399",
+      "thumbUrl": "",
+      "title": "Как жаль (В.Резников), с концерта 1983"
+    },
+    {
+      "url": "https://ok.ru/video/3156474858015",
+      "thumbUrl": "",
+      "title": "Кубик Рубик (О.Сорокин-А.Алиханов) с Н.Расторгуевым 1983"
+    },
+    {
+      "url": "https://ok.ru/video/3130674711071",
+      "thumbUrl": "",
+      "title": "Не надейся (Е.Мартынов-М.Пляцковский) с Е.Мартыновым, бэк-вокал 1981"
+    },
+    {
+      "url": "https://ok.ru/video/3156491045407",
+      "thumbUrl": "",
+      "title": "Сердце (И.Дунаевский-В.Лебедев-Кумач) с В.Архиповым, «Утренняя Почта» 1982"
+    },
+    {
+      "url": "https://ok.ru/video/3156494518815",
+      "thumbUrl": "",
+      "title": "Короткий роман (К.Брейтбург), 1989"
+    },
+    {
+      "url": "https://ok.ru/video/3156495239711",
+      "thumbUrl": "",
+      "title": "Телефон (М.Школьник), 1989"
+    },
+    {
+      "url": "https://ok.ru/video/3156495763999",
+      "thumbUrl": "",
+      "title": "Ты моя радость, ты моя боль (Л.Большин-М.Школьник) с Л.Большиным 1990"
+    },
+    {
+      "url": "https://ok.ru/video/3156707904031",
+      "thumbUrl": "",
+      "title": "Чашка кофе (К.Брейтбург) 1991"
+    },
+    {
+      "url": "https://ok.ru/video/3156713867807",
+      "thumbUrl": "",
+      "title": "Хагуресо Япония, 1995"
+    },
+    {
+      "url": "https://ok.ru/video/3156708035103",
+      "thumbUrl": "",
+      "title": "Цугунай (Takashi Miki-М.Школьник) 1995"
+    },
+    {
+      "url": "https://ok.ru/video/3156717341215",
+      "thumbUrl": "",
+      "title": "Присядь у моря (М.Школьник-А.Фет) 1997"
+    },
+    {
+      "url": "https://ok.ru/video/3156717275679",
+      "thumbUrl": "",
+      "title": "Судьба моя (неизв-М.Школьник) 1997"
+    },
+    {
+      "url": "https://ok.ru/video/3156734052895",
+      "thumbUrl": "",
+      "title": "Алилуйя (Л.Большин-М.Школьник) 1999"
+    },
+    {
+      "url": "https://ok.ru/video/3156723239455",
+      "thumbUrl": "",
+      "title": "Мама (А.Хоралов-А.Дементьев) 2010"
+    },
+    {
+      "url": "https://ok.ru/video/3156725336607",
+      "thumbUrl": "",
+      "title": "Я выбираю (М.Школьник) с А.Матецкой 2011"
+    },
+    {
+      "url": "https://ok.ru/video/3156723567135",
+      "thumbUrl": "",
+      "title": "Карлсон (Christie-р.т. И.Резника) с Ю.Ивановым 2011"
+    },
+    {
+      "url": "https://ok.ru/video/3156740213279",
+      "thumbUrl": "",
+      "title": "Наше лето (Б.Рычков-Л.Дербенев) с Ю.Ивановым, с вечера памяти В.Андрианова 2011"
+    },
+    {
+      "url": "https://ok.ru/video/3156741458463",
+      "thumbUrl": "",
+      "title": "Главные слова (В.Добрынин-И.Шаферан) 2012"
+    },
+    {
+      "url": "https://ok.ru/video/3156743948831",
+      "thumbUrl": "",
+      "title": "Песенка про сапожника (Д.Тухманов-В.Харитонов) 2012"
+    },
+    {
+      "url": "https://ok.ru/video/3156747422239",
+      "thumbUrl": "",
+      "title": "Дети (Ю.Иванов-В.Мануйлов) 2012"
+    },
+    {
+      "url": "https://ok.ru/video/3156424002079",
+      "thumbUrl": "",
+      "title": "Давайте праздновать любовь (В.Добрынин-И.Шаферан) Лейся Песня 70-х 2012"
+    },
+    {
+      "url": "https://ok.ru/video/3156423936543",
+      "thumbUrl": "",
+      "title": "Как мы любили (В.Добрынин-И.Шаферан) Лейся Песня 70-х 2012"
+    },
+    {
+      "url": "https://ok.ru/video/3156423871007",
+      "thumbUrl": "",
+      "title": "Песенка про сапожника (Д.Тухманов-В.Харитонов) Лейся Песня 70-х 2012"
+    },
+    {
+      "url": "https://ok.ru/video/3466844572191",
+      "thumbUrl": "",
+      "title": "Дети (Ю.Иванов-В.Мануйлов) 2017"
+    },
+    {
+      "url": "https://ok.ru/video/3156835699231",
+      "thumbUrl": "",
+      "title": "Интервью за кулисами юбилея ВИА Добрые Молодцы, 2013"
+    },
+    {
+      "url": "https://ok.ru/video/3156957334047",
+      "thumbUrl": "",
+      "title": "В программе у В.Глазунова с ансамблем Лейся Песня 70-х, 07.09.2017"
+    },
+    {
+      "url": "https://ok.ru/video/3130675497503",
+      "thumbUrl": "",
+      "title": "Концерт в Сокольниках 2015"
+    }
+  ],
+  "links": []
+}

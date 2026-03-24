@@ -1,0 +1,738 @@
+{
+  "id": "5TCghX7jdqESuH13X1tB4t",
+  "createdAt": "2022-09-28T06:55:16.399Z",
+  "updatedAt": "2023-11-01T15:11:40.941Z",
+  "title": "Владислав Андрианов",
+  "shortTitle": "",
+  "slug": "vladislav-andrianov",
+  "shortDescription": "",
+  "description": "<p>Солист ансамбля Лейся Песня от основания и до 1981 года. Человек, спевший заглавную песню знаменитого Тухмановского диска «По волне моей памяти». Солист, на которого специально ходили, песен которого ждали и очень любили...</p><p>Начал писать этот текст и вдруг подумал: а почему? А почему у тех, кто любит ансамбль Лейся Песня до 1981 года, эта любовь ассоциируется именно с этим солистом? Ведь пели в этом ВИА и другие солисты и вокальные данные Владислава Андрианова нельзя назвать уж такими уникальными, а все-таки вот выделяется он из всех и узнается во всех песнях, где поет даже если и не один. Подумал, послушал и, кажется понял.</p><p>Вот послушайте песню «Вечер». Вслушайтесь внимательно во второй куплет. И вы услышите, что он поет и улыбается. Он в ней живет. По-моему, именно это и есть то, что цепляет в его песнях, меня уж точно... Послушайте «Последнее письмо», «Где же ты была», «Вот увидишь», «Двадцать пять минут», Они не просто спеты, они тоже прожиты.</p><p>Здесь, конечно не все, что он спел в Лейся Песня, но здесь то, без чего просто нельзя представить этот ВИА. И еще одна песенка, которая осталась как результат недолгого участия Владислава Андрианова в ансамбле Красные Маки.</p><p>В сети есть официальный сайт Владислава Андрианова, где есть интересная информация и есть интересный фотоальбом. Мое фото также взято с этого сайта:-).</p><p>2 января 2009 года в результате несчастного случая Владислава Андрианова не стало. Теперь этот страничка его памяти.</p>",
+  "images": [
+    {
+      "id": "2JCryReu0mXWj4iiMhodhj",
+      "title": "Владислав Андрианов",
+      "description": "",
+      "url": "https://images.ctfassets.net/i2pyq4z3dq7a/2JCryReu0mXWj4iiMhodhj/455ba6f752c1848935b95ddfc9a5548d/Andrianov_4_L.jpg",
+      "contentType": "image/jpeg",
+      "width": 700,
+      "height": 600
+    }
+  ],
+  "albums": [
+    {
+      "id": "2K3LukCo2VISTegXOmbXrm",
+      "title": "С ансамблем Лейся Песня (студия)",
+      "tracks": [
+        {
+          "id": "2JPXIVghW9mwZgOGNkXgSM",
+          "title": "Андрей Петрович",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Andrey_Petrovich.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-М.Шабров) 1978"
+        },
+        {
+          "id": "2YDqOJoKKaAOTIkcdrGlVp",
+          "title": "А я в милиции служу",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Ya+V+Milicii_Sluzhu.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Б.Терентьев-И.Шаферан) 1976-77"
+        },
+        {
+          "id": "3yqt6J5l792CoaZi1x9V9q",
+          "title": "Вечер",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Vecher.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-А.Хайт) 1978"
+        },
+        {
+          "id": "7DSKt5pi8Xtl74M4ziEI29",
+          "title": "Вот увидишь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Vot_Uvidish.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-И.Шаферан) 1978"
+        },
+        {
+          "id": "3fut1lFA8689ZctogDuLZc",
+          "title": "Где же ты была",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Gde_Zhe_Ty_Byla.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-Л.Дербенев) 1978"
+        },
+        {
+          "id": "6rXOoa56Yndr5CIJn9P6lb",
+          "title": "Где кончаются рельсы",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Gde_Konchayutsa_Relsy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р.Мануков-Г.Колесников) 1976"
+        },
+        {
+          "id": "7EXVy6RX0ZyU50LaLU1YGv",
+          "title": "Давайте праздновать любовь ",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Davayte_Prazdnovat_Lybov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-И.Шаферан) 1980"
+        },
+        {
+          "id": "388l6jrMWhXSYVwErmSqrA",
+          "title": "Двадцать пять минут",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_25_Minut.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Г.Пузырев-Н.Олев) - из коллекции Валентина Титова 1978 "
+        },
+        {
+          "id": "4TUZ72U5obJqS9DF6XDqFY",
+          "title": "День Победы",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/LP_Den_Pobedy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-В.Харитонов)-дуэт с В. Андриановым 1975"
+        },
+        {
+          "id": "41cN99bveJn6TdQqhUbh7U",
+          "title": "Добрый ветер ",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Dobry_Veter.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Б.Рычков-В.Харитонов) 1979, запись 1976"
+        },
+        {
+          "id": "65oiP2wduGqSuVwRwbO814",
+          "title": "Дружбы огонь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Druzhby_Ogon.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Днепров-В.Харитонов) 1978, запись 1976"
+        },
+        {
+          "id": "3aE7MKvDEg5unZiArVt4cV",
+          "title": "Звездные командировки",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Zvezdnye_Komandirovki.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Е.Птичкин-М.Пляцковский) 1975"
+        },
+        {
+          "id": "1Ig042gqXVfDkxluaHV7Do",
+          "title": "Зеленые глаза",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Zelenie_Glaza.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-В.Гин) 1980"
+        },
+        {
+          "id": "6YViqFmKxdlC58T7RfyYR9",
+          "title": "Колыбельная",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Kolybelnaya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Л.Черный-А.Митников) 1980"
+        },
+        {
+          "id": "5exI0NqSMOjewluu72BJ6a",
+          "title": "Конопатая девчонка",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/LP_Konopataya_Devchenka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Б.Савельев-М.Пляцковский) 1980"
+        },
+        {
+          "id": "7BPuaOUrU8FnQsgnOucVdy",
+          "title": "Кто тебе сказал",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Kto_Tebe_Skazal.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-Л.Дербенев) 1976"
+        },
+        {
+          "id": "4X6Rs7BS8paiIb4MqzT2DR",
+          "title": "Ласточка ",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Lastochka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Березин-И.Шаферан) с миньона 1975"
+        },
+        {
+          "id": "66HKALXj3NtBlXIq887FX7",
+          "title": "Ласточка",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Lastochka-2.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Березин-И.Шаферан) с передачи Виктора Татарского 1975"
+        },
+        {
+          "id": "3x4R3cLF1U9L4ryGSgLH0Z",
+          "title": "Нам с тобою по пути",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Nam_S_Toboyu_Po_Puti.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р.Майоров-Д.Усманов) 1978"
+        },
+        {
+          "id": "28Ij9eqPnI3HAAH1qmulYa",
+          "title": "На прошлой неделе",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Na_Proshloy_Nedele.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(З.Бинкин-В.Харитонов) 1976-77"
+        },
+        {
+          "id": "668aq7nvG0izYuH9RKFaJD",
+          "title": "Наше лето",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Nashe_Leto.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Б.Рычков-Л.Дербенев) 1978"
+        },
+        {
+          "id": "1d2eTNMZViTCYeUG3NOZro",
+          "title": "Не могу без тебя ",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Ne_Mogu_Bez_Tebya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-С.Островой) 1981"
+        },
+        {
+          "id": "t5NSODJOr79g8CEolX8aB",
+          "title": "Новая дорога",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Novaya_Doroga.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Пахмутова-М.Лисянский) 1978, запись 1976"
+        },
+        {
+          "id": "2UsedqK6mwRiDRWzcxgQ7d",
+          "title": "Нужно мне и тебе",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Nuzhno_Mne_I_Tebe.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-В.Гин)"
+        },
+        {
+          "id": "6vJM06LVbm72PJXiGGntVR",
+          "title": "Объяснить невозможно",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Obyasnit_Nevozmozhno.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-В.Харитонов) 1975"
+        },
+        {
+          "id": "7xBi8Rn4PGLLI4ix1y4UpP",
+          "title": "Около дома",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Okolo_Doma.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Якушенко-Я.Гальперин) 1979"
+        },
+        {
+          "id": "cI74n1TKAPrHJEx0YNq03",
+          "title": "Ох эти танцы",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Oh_Eti_tancy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-В.Харитонов) (acc59.ucoz.net) 1975"
+        },
+        {
+          "id": "2RHpoqvO8vjIMKQh7pyKrt",
+          "title": "Парни довоенных лет",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Parni_Dovoennyh_Let.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Мигуля-К.Филиппова) 1976"
+        },
+        {
+          "id": "2OcET9c6eYvhZRm3LXektr",
+          "title": "Полярное сияние",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Polyarnoe_Siyanie.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Туликов-М.Пляцковский) 1976-77"
+        },
+        {
+          "id": "6D6iDCaZtecZZpO7BdhAyw",
+          "title": "Последнее письмо",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Poslednee_Pismo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Туликов-М.Пляцковский)  с пластинки 1975"
+        },
+        {
+          "id": "5qQemmHfkdXe3VKWjFJGRc",
+          "title": "Последнее письмо",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Poslednee_Pismo-2.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Туликов-М.Пляцковский) - первоначальный вариант для радио 1975"
+        },
+        {
+          "id": "4iuLiwGAZSpjSt8bJlCWjh",
+          "title": "Приходи",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Prihodi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Чернышев-О.Писаржевская,А.Монастырев) 1975"
+        },
+        {
+          "id": "6W1Gk3kEqOEJCDiKS11IOl",
+          "title": "Рабочий день",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Rabochy_Den.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-А.Хайт) из спектакля \"Мелочи жизни\" 1977"
+        },
+        {
+          "id": "1KjeNM2to23ZOzlO9ZPOAU",
+          "title": "Реки России",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Reki_Rossii.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Якушенко-Л.Ошанин) 1978, запись 1976"
+        },
+        {
+          "id": "2ql26jNdy4eAyhrQlxfDcv",
+          "title": "Санки",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Sanki.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Мигуля-В.Харитонов) 1975"
+        },
+        {
+          "id": "5eBVWBTy1qgp6GYp4LR19w",
+          "title": "Стучит дождь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Stuchit_Dojdik_1.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Э.Ханок-В.Харитонов) вариант 1 с миньона 1976"
+        },
+        {
+          "id": "3te0wq7nx1W9rW6Guh78KV",
+          "title": "Стучит дождь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Stuchit_Dojdik_2.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Э.Ханок-В.Харитонов)  вариант 2 1976"
+        },
+        {
+          "id": "2fEqFnbjzwwXFKqlj316yf",
+          "title": "Троллейбус",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Trolleybus.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Б.Рычков-Н.Олев) 1978"
+        },
+        {
+          "id": "1rZonbTg9CfadT4P2DlxOH",
+          "title": "Ты других не лучше",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Ty_Drugih_Ne_Luchshe.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Е.Птичкин-М.Пляцковский) 1976"
+        },
+        {
+          "id": "4F5haWK03txKGN7gf3TDcN",
+          "title": "Ты шагаешь мне навстречу",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/LP_Ty_Shagaesh_Mne_Navstrechu.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Мигуля-В.Гин) 1 куплет-В.Андрианов, 2 куплет-И.Иванов, 3 куплет дуэт с И.Ивановым 1975"
+        },
+        {
+          "id": "6iol6q0v7AtKQ0KZqQcTWf",
+          "title": "Чей загар сильнее",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Chey_Zagar_Silnee.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-М.Пляцковский)"
+        },
+        {
+          "id": "56yGRoJbEjnSSn823ud5wP",
+          "title": "Эта женщина (Мама)",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Eta_Zgenshina.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р.Майоров-П.Вегин)"
+        },
+        {
+          "id": "7A32NtEquQ8sSYY43Iz6BG",
+          "title": "Это можешь только ты",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Eto_Mozhesh_Tolko_Ty.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(З.Бинкин-Ю.Каменецкий)  с миньона 1976"
+        },
+        {
+          "id": "61S9O2Ww5wr8dUT2fsrxX4",
+          "title": "Это можешь только ты",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Eto_Mozhesh_Tolko_Ty-2.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(З.Бинкин-Ю.Каменецкий)  с радио 1976"
+        },
+        {
+          "id": "5TJg5jZ3IMoepKoiUI2Jvo",
+          "title": "Я вижу тебя",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Ya_Vizhu_Tebya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Якушенко-Л.Ошанин) 1977"
+        },
+        {
+          "id": "2rGEH3q8WqxRxYhoYKlldP",
+          "title": "Я или он",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Ya_Ili_On.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Иванов-Н.Олев) 1979"
+        },
+        {
+          "id": "jr0Nl7wXTj9ejqO9zUUda",
+          "title": "Я так и знал",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP_Ya_Tak_I_Znal.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-М.Рябинин) 1981"
+        }
+      ]
+    },
+    {
+      "id": "21IHD4BrRjB8XFT7hjEiZA",
+      "title": "С ансамблем Лейся Песня (концерты)",
+      "tracks": [
+        {
+          "id": "6oQvNWxicB90KW2nvIQjtw",
+          "title": "Андрей Петрович бросил курить",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP-1980-Andrey_Petrovich.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-А.Хайт) с концерта в Калуге 1980 (с Б.Платоновым)"
+        },
+        {
+          "id": "3D8YtvotfDkaIpeT1Nf59j",
+          "title": "Вечер",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP-1980-Vecher.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-А.Хайт) с концерта в Калуге 1980"
+        },
+        {
+          "id": "6w8AhnC2lD7S1gh3cjv2b6",
+          "title": "Вот увидишь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP-1979-Vot_Uvidish.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-И.Шаферан) с концерта в Одессе 1979"
+        },
+        {
+          "id": "6uarsBMzddgAX6JwV2jubi",
+          "title": "Где же ты была",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP-1980-Gde_Zhe_Ty_Byla.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-Л.Дербенев) с концерта в Калуге 1980"
+        },
+        {
+          "id": "6kery1plPrmDti3g2TX00G",
+          "title": "Нам с тобою по пути",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP-1979-Nam_S_Toboy_Po_Puti.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р.Майоров-Д.Усманов) с концерта в Одессе 1979"
+        },
+        {
+          "id": "1Zzf8sDoqK3uceKGMU7ShE",
+          "title": "Наше лето",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP-1979_Nashe_Leto.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Б.Рычков-Л.Дербенев) с концерта в Одессе 1979"
+        },
+        {
+          "id": "3CBbKaNn87PLtqeSLVPJvI",
+          "title": "Наше лето",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP-1980-Nashe_Leto.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Б.Рычков-Л.Дербенев) с концерта в Калуге 1980"
+        },
+        {
+          "id": "7L9uLwxQ2hOMUZrbyGHgC9",
+          "title": "Около дома",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP-1980-Okolo_Doma.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Якушенко-Я.Гальперин) с концерта в Калуге 1980"
+        },
+        {
+          "id": "7EU1i606A7H8Gsi5ND4tFL",
+          "title": "Попурри из разных песен",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP-1980-Popurri.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "с концерта в Калуге 1980"
+        },
+        {
+          "id": "5PA7rTLFMqZi198L7TQfsm",
+          "title": "Последнее письмо",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP-1979_Poslednee_Pismo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Туликов-М.Пляцковский)- с концерта в Одессе 1979"
+        },
+        {
+          "id": "qWNJu3wXFtnDRRhy46g9g",
+          "title": "Прощай",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP-1976_Proshay.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-Л.Дербенев) с концерта в Ленинграде 1976"
+        },
+        {
+          "id": "7wBJYAdDpkLRFLEaeNWQg5",
+          "title": "Проходят годы",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP-1980-Prohodyat_Gody.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Гаев-Н.Олев) с концерта  в Калуге 1980"
+        },
+        {
+          "id": "55r5VPmXTPIxLQbEkAaDXd",
+          "title": "Родная земля",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP-1979-Rodnaya_Zemlya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-Л.Дербенев) с концерта в Одессе 1979"
+        },
+        {
+          "id": "daXFM9QPprJrYPUOoad6G",
+          "title": "Рядом ты и любовь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP-1975_Ty_I_Lybov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Г.Гаспарян-А.Дементьев) с концерта 1975"
+        },
+        {
+          "id": "2zwPPRVumCQGfdZAFtyLjc",
+          "title": "Стучит дождь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/LP-1976_Stuchit_Dojd.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Э.Ханок-В.Харитонов) с концерта в Ленинграде 1976, 1 куплет солист В.Селезнев, 2 куплет – В.Андрианов.."
+        }
+      ]
+    },
+    {
+      "id": "2mESK49wQ9H1XBQnfUWmxZ",
+      "title": "С разными коллективами, сольно",
+      "tracks": [
+        {
+          "id": "5XGiu6Y8yMcRlUq8I1N3mB",
+          "title": "Если ты уйдешь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/KM_Esli_Ty_Uydesh.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-Л.Дербенев) – ансамбль Красные Маки 1980"
+        },
+        {
+          "id": "sWgBWtb9dQUw8F799lxEI",
+          "title": "Моя мечта",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/Moya_Mechta.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Б.Троцюк-Р.Рождественский) - из к/ф «В начале игры» с оркестром Госкино СССР  1981 "
+        },
+        {
+          "id": "5Sz5L49hKxA71PfgNWdU5e",
+          "title": "Объяснить невозможно",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/Andrianov_Obyasnit_Nevozmozhnio.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-В.Харитонов) – запись начала 80-х"
+        },
+        {
+          "id": "48gdVQQ3a5jfJdHg4d5tZF",
+          "title": "По волне моей памяти",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/Andrianov_Po_Volne_Moey_Pamyati.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-Н.Гильен) – с альбома \"По волне моей памяти\" 1976, запись 1975"
+        },
+        {
+          "id": "5gCtUeDW23nV3NhJ8gCQhh",
+          "title": "Ухожу в глаза твои",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/Andrianov_Uchoju_v_glaza_tvoi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "3CVk5XNGgMlLNzT3tW1tUh",
+          "title": "Столица Дона",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/Andrianov_Stolica_Dona.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "2vmW3B1F2h7zwScR408JBz",
+          "title": "Сколько можно",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/Vityazi_Skolko_Mozhno.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "- ансамбль «Витязи»"
+        },
+        {
+          "id": "19yomdLLqOjmSypUURtvqw",
+          "title": "Тень любви",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Andrianov/Andrianov_Ten_Lybvi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Андрианов-В.Шекспир)"
+        }
+      ]
+    }
+  ],
+  "acknowledgements": [
+    "Вячеславу Капустину",
+    " Андрею Шперлу",
+    " Сергею Амброзику",
+    " Александру Крысанову",
+    " Владиславу Андрианову",
+    " Владимиру Бахареву",
+    " Валентину Титову",
+    " Юрию Аникину",
+    " Владимиру Никандрову",
+    " Сергею Пасечнику",
+    " Михаилу Загребину",
+    " Виктору Кривоклякину",
+    "Игорю Плотникову",
+    "Валерию Потулову",
+    "Сергею Девятову",
+    "Александру Фокину",
+    "Игорю Иванову",
+    "Валерию Колпакову",
+    "Сергею Маякову",
+    "Борису Щеглову",
+    "Вадиму Караванову",
+    "Энди Бишопу"
+  ],
+  "acknowledgementText": "",
+  "videos": [
+    {
+      "url": "https://ok.ru/video/1896748223007",
+      "thumbUrl": "",
+      "title": "Не знаю, что и думать"
+    },
+    {
+      "url": "https://ok.ru/video/1896757725727",
+      "thumbUrl": "",
+      "title": "Где же ты была (концерт в Аксае)16.05.2008"
+    },
+    {
+      "url": "https://ok.ru/video/1896756939295",
+      "thumbUrl": "",
+      "title": "Я так и знал (концерт в Аксае)16.05.2008"
+    },
+    {
+      "url": "https://ok.ru/video/1896750058015",
+      "thumbUrl": "",
+      "title": "По волне моей памяти (концерт в Аксае)16.05.2008"
+    }
+  ],
+  "links": [
+    {
+      "id": "6IXeX8yPSS9KLwdGCj7caV",
+      "link": "https://vk.com/@190762224-vladislav-andrianov-zvezda-sovetskoi-estrady-70-h-godov",
+      "title": "Материал Сергея Маякова о В.Андрианове ",
+      "description": ""
+    },
+    {
+      "id": "4K9neXg62E1VDFvSe78gV0",
+      "link": "https://proza.ru/2015/02/11/1364",
+      "title": "Интервью Александра Молчанова с Владиславом Андриановым 2015",
+      "description": ""
+    },
+    {
+      "id": "32WMY8v5qfsAIIoqK1cZb6",
+      "link": "https://www.nvgazeta.ru/news/12381/594303/",
+      "title": "Материал Александра Молчанова к 70-летию со дна рождения В.Андрианова 30.07.2021",
+      "description": ""
+    }
+  ]
+}
