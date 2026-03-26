@@ -15,7 +15,8 @@
     "content:transform": "node scripts/transform-content.mjs",
     "content:merge": "node scripts/contentful-export.mjs merge --scrapped-data=./generated/data.json",
     "content:publish": "node scripts/contentful-export.mjs publish-singers",
-    "content:purge": "node scripts/contentful-export.mjs purge"
+    "content:purge": "node scripts/contentful-export.mjs purge",
+    "images:migrate": "node scripts/migrate-images.mjs"
   },
   "dependencies": {
     "@astrojs/node": "^10.0.3",
@@ -59,7 +60,10 @@
     "contentful-management": "^10.46.4",
     "contentful-typescript-codegen": "^3.4.0",
     "eslint": "^8.56.0",
+    "node-addon-api": "^8.6.0",
+    "node-gyp": "^12.2.0",
     "prettier": "^2.8.8",
+    "sharp": "^0.34.5",
     "typescript": "^5.3.3",
     "yargs": "^17.7.2"
   },
