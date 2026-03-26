@@ -697,52 +697,62 @@
     {
       "url": "https://ok.ru/video/2708729235999",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1805531482655&type=32&idx=7&tkn=EqOEF-1BcuqNqdRJHH9DB4iLDU4&fn=external_8",
-      "title": "Александр Лерман в Москве (часть 1)"
+      "title": "Александр Лерман в Москве (часть 1)",
+      "localThumbUrl": "/images/video-thumbnails/aleksandr-lerman/0.jpg"
     },
     {
       "url": "https://ok.ru/video/2708729367071",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1805532072479&type=32&idx=14&tkn=NCdQdWiGO6STWXUuXfBPump1K4Y&fn=external_8",
-      "title": "Александр Лерман в Москве (часть 2)"
+      "title": "Александр Лерман в Москве (часть 2)",
+      "localThumbUrl": "/images/video-thumbnails/aleksandr-lerman/1.jpg"
     },
     {
       "url": "https://ok.ru/video/2708729301535",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1805531613727&type=32&idx=5&tkn=vo1lYiLHHJ3-yqoT3CNmWByqIqg&fn=external_8",
-      "title": "Александр Лерман в Москве (часть 3)"
+      "title": "Александр Лерман в Москве (часть 3)",
+      "localThumbUrl": "/images/video-thumbnails/aleksandr-lerman/2.jpg"
     },
     {
       "url": "https://ok.ru/video/2708747651615",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1805547538975&type=38&idx=15&tkn=37NuzTCYVWHlpwjxBqCVRCWz7iM&fn=external_8",
-      "title": "Два Александра (Архив Виктора Дегтярева)"
+      "title": "Два Александра (Архив Виктора Дегтярева)",
+      "localThumbUrl": "/images/video-thumbnails/aleksandr-lerman/3.jpg"
     },
     {
       "url": "https://ok.ru/video/2708746537503",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1805546293791&type=32&idx=13&tkn=iUhpYvtLfOHQ1iF-tzhtpCQlHGY&fn=external_8",
-      "title": "Передача памяти Александра Лермана"
+      "title": "Передача памяти Александра Лермана",
+      "localThumbUrl": "/images/video-thumbnails/aleksandr-lerman/4.jpg"
     },
     {
       "url": "https://ok.ru/video/2708740901407",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1805545376287&type=32&idx=10&tkn=BsWSTR9pCCzc5hLW2DcpvumjcH0&fn=external_8",
-      "title": "«Рожденные в СССР». Памяти Александра Лермана  16.11.2011"
+      "title": "«Рожденные в СССР». Памяти Александра Лермана  16.11.2011",
+      "localThumbUrl": "/images/video-thumbnails/aleksandr-lerman/5.jpg"
     },
     {
       "url": "https://ok.ru/video/2994128685599",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2048212863519&type=37&idx=13&tkn=rIpISry6qCZn8o6kxZ6hJaG5NXU&fn=external_8",
-      "title": "«Памяти Александра Лермана». Видеоклип Алексея Васина на песню «Скоморох»"
+      "title": "«Памяти Александра Лермана». Видеоклип Алексея Васина на песню «Скоморох»",
+      "localThumbUrl": "/images/video-thumbnails/aleksandr-lerman/6.jpg"
     },
     {
       "url": "https://ok.ru/video/2994136353311",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2048222300703&type=37&idx=12&tkn=9p9UWSrJ4VUWdmm5rHnsL0hMeyE&fn=external_8",
-      "title": " «Памяти Александра Лермана». Видеоклип Алексея Васина на «Когда молчим вдвоем» с концерта Веселых Ребят 1974 года."
+      "title": " «Памяти Александра Лермана». Видеоклип Алексея Васина на «Когда молчим вдвоем» с концерта Веселых Ребят 1974 года.",
+      "localThumbUrl": "/images/video-thumbnails/aleksandr-lerman/7.jpg"
     },
     {
       "url": "https://ok.ru/video/3231760058911",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2351284095519&type=37&idx=6&tkn=saMA8Ze_QTkgwyO2veW3z7djZQ8&fn=external_8",
-      "title": "«Памяти Александра Лермана». Видеоклип Алексея Васина на «Вечный огонь» с концерта Веселых Ребят 1975 года."
+      "title": "«Памяти Александра Лермана». Видеоклип Алексея Васина на «Вечный огонь» с концерта Веселых Ребят 1975 года.",
+      "localThumbUrl": "/images/video-thumbnails/aleksandr-lerman/8.jpg"
     },
     {
       "url": "https://ok.ru/video/4113822911007",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=3440019311135&type=32&idx=5&tkn=oa6w-IVE3BnCkL7O5d3WL_YTo_E&fn=external_8",
-      "title": "Видеозарисовка Юрия Валова, вокал – А.Лерман 1989-93"
+      "title": "Видеозарисовка Юрия Валова, вокал – А.Лерман 1989-93",
+      "localThumbUrl": "/images/video-thumbnails/aleksandr-lerman/9.jpg"
     }
   ],
   "links": []

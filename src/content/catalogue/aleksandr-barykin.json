@@ -343,7 +343,8 @@
     {
       "url": "https://ok.ru/video/1535969528351",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=753085778463&type=32&idx=10&tkn=B_dQgOmC3STv1KyKiBtHeGxI6J4&fn=external_8",
-      "title": "Попурри из песен ВИА (видео)"
+      "title": "Попурри из песен ВИА (видео)",
+      "localThumbUrl": "/images/video-thumbnails/aleksandr-barykin/0.jpg"
     }
   ],
   "links": [

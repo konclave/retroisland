@@ -357,17 +357,20 @@
     {
       "url": "https://ok.ru/video/3255033793055",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2380236524063&type=32&idx=5&tkn=ZKmX3VHeeLmL-7EgFQLwx_bUZF8&fn=external_8",
-      "title": "Клен"
+      "title": "Клен",
+      "localThumbUrl": "/images/video-thumbnails/sergei-levkin/0.jpg"
     },
     {
       "url": "https://ok.ru/video/3690719283743",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2887667288607&type=32&idx=15&tkn=iIX0OdQRzVWN0edsS_ZH-vsG00U&fn=external_8",
-      "title": "Детство"
+      "title": "Детство",
+      "localThumbUrl": "/images/video-thumbnails/sergei-levkin/1.jpg"
     },
     {
       "url": "https://ok.ru/video/3255033399839",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2380236327455&type=37&idx=14&tkn=CtfaBwfQVizo94NBVJA7TNBOgk4&fn=external_8",
-      "title": "Интервью на калининградском радио"
+      "title": "Интервью на калининградском радио",
+      "localThumbUrl": "/images/video-thumbnails/sergei-levkin/2.jpg"
     }
   ],
   "links": []

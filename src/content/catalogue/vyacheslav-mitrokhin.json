@@ -576,32 +576,38 @@
     {
       "url": "https://youtu.be/1Nn8PElw9Fc",
       "thumbUrl": "https://i3.ytimg.com/vi/1Nn8PElw9Fc/hqdefault.jpg",
-      "title": "Клип на песню «И все дела» 2010"
+      "title": "Клип на песню «И все дела» 2010",
+      "localThumbUrl": "/images/video-thumbnails/vyacheslav-mitrokhin/0.jpg"
     },
     {
       "url": "https://youtu.be/Ik_Cp7tcHPA",
       "thumbUrl": "https://i3.ytimg.com/vi/Ik_Cp7tcHPA/hqdefault.jpg",
-      "title": "Группа MODO- кафе Аллегро 1976"
+      "title": "Группа MODO- кафе Аллегро 1976",
+      "localThumbUrl": "/images/video-thumbnails/vyacheslav-mitrokhin/1.jpg"
     },
     {
       "url": "http://youtu.be/tFhgdYznJ9s",
       "thumbUrl": "https://i3.ytimg.com/vi/tFhgdYznJ9s/hqdefault.jpg",
-      "title": "Группа MODO - фрагмент из фильма «Город...Осень...Ритм...\"(1978)"
+      "title": "Группа MODO - фрагмент из фильма «Город...Осень...Ритм...\"(1978)",
+      "localThumbUrl": "/images/video-thumbnails/vyacheslav-mitrokhin/2.jpg"
     },
     {
       "url": "https://youtu.be/dQRax0PM7cM",
       "thumbUrl": "https://i3.ytimg.com/vi/dQRax0PM7cM/hqdefault.jpg",
-      "title": "Autumn Leaves  В.Митрохин,А.Херманис 2010"
+      "title": "Autumn Leaves  В.Митрохин,А.Херманис 2010",
+      "localThumbUrl": "/images/video-thumbnails/vyacheslav-mitrokhin/3.jpg"
     },
     {
       "url": "https://youtu.be/r_H2_vO6Blc",
       "thumbUrl": "https://i3.ytimg.com/vi/r_H2_vO6Blc/hqdefault.jpg",
-      "title": "Шторм - MBand  2003"
+      "title": "Шторм - MBand  2003",
+      "localThumbUrl": "/images/video-thumbnails/vyacheslav-mitrokhin/4.jpg"
     },
     {
       "url": "https://youtu.be/2_tg2eDwf8M",
       "thumbUrl": "https://i3.ytimg.com/vi/2_tg2eDwf8M/hqdefault.jpg",
-      "title": "MBand с Марией Наумовой 2003"
+      "title": "MBand с Марией Наумовой 2003",
+      "localThumbUrl": "/images/video-thumbnails/vyacheslav-mitrokhin/5.jpg"
     }
   ],
   "links": [

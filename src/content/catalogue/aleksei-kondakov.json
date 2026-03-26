@@ -551,57 +551,68 @@
     {
       "url": "https://ok.ru/video/1537742932511",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=754017503775&type=32&idx=0&tkn=2CpuNvjy6KmGQtw2XmMhkNKKfbk&fn=external_8",
-      "title": "Я так и знал (В.Добрынин-М.Рябинин)"
+      "title": "Я так и знал (В.Добрынин-М.Рябинин)",
+      "localThumbUrl": "/images/video-thumbnails/aleksei-kondakov/0.jpg"
     },
     {
       "url": "https://ok.ru/video/1539851684383",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=754017831455&type=32&idx=4&tkn=RDHv7Ez6ihF_HY32aM_3B0qfhvo&fn=external_8",
-      "title": "Нарисованный мир (А.Кондаков-Н.Просторова)"
+      "title": "Нарисованный мир (А.Кондаков-Н.Просторова)",
+      "localThumbUrl": "/images/video-thumbnails/aleksei-kondakov/1.jpg"
     },
     {
       "url": "https://ok.ru/video/1537743850015",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=754018355743&type=32&idx=1&tkn=dxI8qU_KzOB7toYMG4aelUL5qW8&fn=external_8",
-      "title": "Изюминка - творческий вечер М.Рябинина, 1991"
+      "title": "Изюминка - творческий вечер М.Рябинина, 1991",
+      "localThumbUrl": "/images/video-thumbnails/aleksei-kondakov/2.jpg"
     },
     {
       "url": "https://ok.ru/video/1537745357343",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=754019666463&type=32&idx=3&tkn=JVG06vAMJHgSuKkuYVmWngmIzm4&fn=external_8",
-      "title": "Алексей Кондаков в передаче «Час совы»  1997"
+      "title": "Алексей Кондаков в передаче «Час совы»  1997",
+      "localThumbUrl": "/images/video-thumbnails/aleksei-kondakov/3.jpg"
     },
     {
       "url": "https://ok.ru/video/1537745553951",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=754020125215&type=32&idx=9&tkn=rl9lXKe7ngvAl_ConJxOGUnLcGY&fn=external_8",
-      "title": "Алексей Кондаков в передаче «Лицо с обложки» "
+      "title": "Алексей Кондаков в передаче «Лицо с обложки» ",
+      "localThumbUrl": "/images/video-thumbnails/aleksei-kondakov/4.jpg"
     },
     {
       "url": "https://ok.ru/video/1537745488415",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=754019731999&type=32&idx=13&tkn=UIfBOpxqxAftNqAV7EPG8p2WVJE&fn=external_8",
-      "title": "Попурри"
+      "title": "Попурри",
+      "localThumbUrl": "/images/video-thumbnails/aleksei-kondakov/5.jpg"
     },
     {
       "url": "https://ok.ru/video/3093535525407",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2172399782431&type=37&idx=15&tkn=lFPGIsX6a_htWEhaEQvHudduppE&fn=external_8",
-      "title": "Как сон - Юбилейный вечер Сергея Мудрова, 1998"
+      "title": "Как сон - Юбилейный вечер Сергея Мудрова, 1998",
+      "localThumbUrl": "/images/video-thumbnails/aleksei-kondakov/6.jpg"
     },
     {
       "url": "https://ok.ru/video/3093591165471",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2172446509599&type=32&idx=0&tkn=yUuPKEHr5x_g2w1gqfErPiub6ro&fn=external_8",
-      "title": "Клен с Пламя-2000"
+      "title": "Клен с Пламя-2000",
+      "localThumbUrl": "/images/video-thumbnails/aleksei-kondakov/7.jpg"
     },
     {
       "url": "https://ok.ru/video/4142163298847",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=3485470099999&type=32&idx=15&tkn=Dxcq4LJksYnxMVvbBnSKJA6tVFg&fn=external_8",
-      "title": "Где же ты была (В.Добрынин-Л.Дербенев) – ТРК Останкино, 1994"
+      "title": "Где же ты была (В.Добрынин-Л.Дербенев) – ТРК Останкино, 1994",
+      "localThumbUrl": "/images/video-thumbnails/aleksei-kondakov/8.jpg"
     },
     {
       "url": "https://ok.ru/video/3093616265759",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2172478556703&type=37&idx=15&tkn=Soc6gZ8MNYM0a3--hn1nMsL8T1A&fn=external_8",
-      "title": "Листья падают (А.Барыкин-С.Есенин)"
+      "title": "Листья падают (А.Барыкин-С.Есенин)",
+      "localThumbUrl": "/images/video-thumbnails/aleksei-kondakov/9.jpg"
     },
     {
       "url": "https://ok.ru/video/1150051551775",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=7881547319855&type=32&idx=12&tkn=b6NPNzEqTr_vm74X4DPzwzeNAuE&fn=external_8",
-      "title": "Пламя-2000 в программе «Рожденные в СССР» (2011)"
+      "title": "Пламя-2000 в программе «Рожденные в СССР» (2011)",
+      "localThumbUrl": "/images/video-thumbnails/aleksei-kondakov/10.jpg"
     }
   ],
   "links": [

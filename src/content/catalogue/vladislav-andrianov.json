@@ -697,22 +697,26 @@
     {
       "url": "https://ok.ru/video/1896748223007",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=990380755487&type=32&idx=6&tkn=G-epfHj-muno3zy7Mq_Igk1ny2Y&fn=external_8",
-      "title": "Не знаю, что и думать"
+      "title": "Не знаю, что и думать",
+      "localThumbUrl": "/images/video-thumbnails/vladislav-andrianov/0.jpg"
     },
     {
       "url": "https://ok.ru/video/1896757725727",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=990385867295&type=32&idx=13&tkn=iD8dSYsTio6oXs3prKCMSIqfWDk&fn=external_8",
-      "title": "Где же ты была (концерт в Аксае)16.05.2008"
+      "title": "Где же ты была (концерт в Аксае)16.05.2008",
+      "localThumbUrl": "/images/video-thumbnails/vladislav-andrianov/1.jpg"
     },
     {
       "url": "https://ok.ru/video/1896756939295",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=990385211935&type=32&idx=9&tkn=l0tUwmhYlKP1tTHolKMaNZeozZM&fn=external_8",
-      "title": "Я так и знал (концерт в Аксае)16.05.2008"
+      "title": "Я так и знал (концерт в Аксае)16.05.2008",
+      "localThumbUrl": "/images/video-thumbnails/vladislav-andrianov/2.jpg"
     },
     {
       "url": "https://ok.ru/video/1896750058015",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=990381541919&type=32&idx=14&tkn=r-CpO5TrhF8z1eEO9CWWEZ2nYtE&fn=external_8",
-      "title": "По волне моей памяти (концерт в Аксае)16.05.2008"
+      "title": "По волне моей памяти (концерт в Аксае)16.05.2008",
+      "localThumbUrl": "/images/video-thumbnails/vladislav-andrianov/3.jpg"
     }
   ],
   "links": [

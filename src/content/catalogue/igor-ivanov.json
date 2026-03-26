@@ -1481,232 +1481,278 @@
     {
       "url": "https://ok.ru/video/1989740857887",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1047108586015&type=32&idx=6&tkn=BHlMHVDsMdFrlJbseQ7F5sXcv3A&fn=external_8",
-      "title": "Видео-попурри песен в исполнении Игоря Иванова"
+      "title": "Видео-попурри песен в исполнении Игоря Иванова",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/0.jpg"
     },
     {
       "url": "https://ok.ru/video/2015262607903",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1071079819807&type=32&idx=13&tkn=tyfG-43756TpzHXGlo8n1JYLzqg&fn=external_8",
-      "title": "Алло, алло Алена (Д.Тухманов-М.Пляцковский) 1980"
+      "title": "Алло, алло Алена (Д.Тухманов-М.Пляцковский) 1980",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/1.jpg"
     },
     {
       "url": "https://ok.ru/video/2015262673439",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1071079885343&type=32&idx=1&tkn=e5QOHVd7BQoBf4gNSwkE1fquEW0&fn=external_8",
-      "title": "А я приехал (И.Иванов-С.Берсенев) 2010"
+      "title": "А я приехал (И.Иванов-С.Берсенев) 2010",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/2.jpg"
     },
     {
       "url": "https://ok.ru/video/2015262411295",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1071079361055&type=32&idx=0&tkn=owezZg79eCrG1zpwM6FOe0x3HmI&fn=external_8",
-      "title": "А я тебя помню (Б.Ривчун-И.Шаферан) 2007"
+      "title": "А я тебя помню (Б.Ривчун-И.Шаферан) 2007",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/3.jpg"
     },
     {
       "url": "https://ok.ru/video/1989738826271",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1047084075551&type=32&idx=8&tkn=QUmOZMeXvIY-gCRNTPZyBaBJjK4&fn=external_8",
-      "title": "Белая бумага (А.Днепров-Н.Олев) 2012"
+      "title": "Белая бумага (А.Днепров-Н.Олев) 2012",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/4.jpg"
     },
     {
       "url": "https://ok.ru/video/1989740399135",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1047104784927&type=32&idx=1&tkn=fckqADGL9bwDDAKQJWG7a2kZ6kg&fn=external_8",
-      "title": "Вы мне не поверите (Д.Тухманов-В.Харитонов) – Витебск, 1988"
+      "title": "Вы мне не поверите (Д.Тухманов-В.Харитонов) – Витебск, 1988",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/5.jpg"
     },
     {
       "url": "https://ok.ru/video/2015262476831",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1071079492127&type=32&idx=5&tkn=mceqGz1XxP-Ke8qpjTncjeeJNA4&fn=external_8",
-      "title": "Две жизни (Л.Тимошенко-Л.Хатюшин) – Москва, театр эстрады, 1996"
+      "title": "Две жизни (Л.Тимошенко-Л.Хатюшин) – Москва, театр эстрады, 1996",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/6.jpg"
     },
     {
       "url": "https://ok.ru/video/1989740923423",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1047108782623&type=32&idx=14&tkn=iDyQWo4UKokr_h8qk5rfCIXVmLk&fn=external_8",
-      "title": "Догорает день (В.Титов-А.Куприн) 2012"
+      "title": "Догорает день (В.Титов-А.Куприн) 2012",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/7.jpg"
     },
     {
       "url": "https://ok.ru/video/1989739481631",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1047098624543&type=32&idx=12&tkn=IcT88dV3mux5ILASf7g8UihcagU&fn=external_8",
-      "title": "Дожди (В.Наумов-Н.Олев) 2017"
+      "title": "Дожди (В.Наумов-Н.Олев) 2017",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/8.jpg"
     },
     {
       "url": "https://ok.ru/video/1989740988959",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1047109175839&type=37&idx=6&tkn=vyZOWLh4h1577eXhdKM4ru0xg3I&fn=external_8",
-      "title": "Дорогая (И.Иванов-В.Терехов)"
+      "title": "Дорогая (И.Иванов-В.Терехов)",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/9.jpg"
     },
     {
       "url": "https://ok.ru/video/1989740202527",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1047104457247&type=32&idx=8&tkn=HIBZ6noIBYJffCPE6chctgp7gIM&fn=external_8",
-      "title": "Евгения (В.Титов-С.Берсенев), 2012"
+      "title": "Евгения (В.Титов-С.Берсенев), 2012",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/10.jpg"
     },
     {
       "url": "https://ok.ru/video/1989739219487",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1047092136479&type=32&idx=14&tkn=tfDNDY_rG6uSeVAPqtDAemnX99U&fn=external_8",
-      "title": "Если ты уйдешь (Ж.Брель-Р.Маккуин)"
+      "title": "Если ты уйдешь (Ж.Брель-Р.Маккуин)",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/11.jpg"
     },
     {
       "url": "https://ok.ru/video/6201830935071",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=7856583477875&type=37&idx=7&tkn=hhvY-Jicam2WXjUJm3-AhqWMj_o&fn=external_8",
-      "title": "Если ты уйдешь (Жак Брель) - на Ностальгии"
+      "title": "Если ты уйдешь (Жак Брель) - на Ностальгии",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/12.jpg"
     },
     {
       "url": "https://ok.ru/video/1989740333599",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1047104588319&type=32&idx=0&tkn=kz7aRi6sym7JuQORq8Cw4RNyo70&fn=external_8",
-      "title": "Желанная (В.Семенов-В.Дюнин)(2012)"
+      "title": "Желанная (В.Семенов-В.Дюнин)(2012)",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/13.jpg"
     },
     {
       "url": "https://ok.ru/video/1989740268063",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1047104522783&type=32&idx=1&tkn=f0SWh-s-DCD2B2s0waQhpF1bcac&fn=external_8",
-      "title": "Из вагантов - Таллин, 1978"
+      "title": "Из вагантов - Таллин, 1978",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/14.jpg"
     },
     {
       "url": "https://ok.ru/video/6632404814367",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=6115036891679&type=37&idx=3&tkn=uoGXzYGM4-ME5fLFNqzhwQhugfQ&fn=external_8",
-      "title": "Из Вагантов - клип, созданный из архивных записей 1978 года, автор - Игорь Иванов"
+      "title": "Из Вагантов - клип, созданный из архивных записей 1978 года, автор - Игорь Иванов",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/15.jpg"
     },
     {
       "url": "https://ok.ru/video/1989740595743",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1047107340831&type=37&idx=12&tkn=SdgJSRPl91lcc6mm9shgdoT9R_s&fn=external_8",
-      "title": "Из вагантов (Д.Тухманов-поэзия вагантов) – в передаче «Привет, Андрей», 2020"
+      "title": "Из вагантов (Д.Тухманов-поэзия вагантов) – в передаче «Привет, Андрей», 2020",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/16.jpg"
     },
     {
       "url": "https://ok.ru/video/1989739743775",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1047100131871&type=32&idx=8&tkn=GB4QDGKjZOnSDdiBFAYWdZ8gB5I&fn=external_8",
-      "title": "Из вагантов (Д.Тухманов-поэзия вагантов) – в передаче Сегодня вечером"
+      "title": "Из вагантов (Д.Тухманов-поэзия вагантов) – в передаче Сегодня вечером",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/17.jpg"
     },
     {
       "url": "https://ok.ru/video/1989740071455",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1047103932959&type=32&idx=12&tkn=lI0i0WGfudTLEfcEb6KLY6d6UJU&fn=external_8",
-      "title": "Кто тебе сказал (В.Добрынин-Л.Дербенев) 2012"
+      "title": "Кто тебе сказал (В.Добрынин-Л.Дербенев) 2012",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/18.jpg"
     },
     {
       "url": "https://ok.ru/video/1989740726815",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1017967610399&type=37&idx=8&tkn=3b-QZBQs4r__B2GBTs9hNoPl484&fn=external_8",
-      "title": "Любовь надо беречь (В.Мигуля-А.Жигарев). Передача «Поговори со мною, мама», лучшие песни Владимира Мигули, 13.02.2021"
+      "title": "Любовь надо беречь (В.Мигуля-А.Жигарев). Передача «Поговори со мною, мама», лучшие песни Владимира Мигули, 13.02.2021",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/19.jpg"
     },
     {
       "url": "https://ok.ru/video/1989740464671",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1047104915999&type=32&idx=14&tkn=qlbSCWp-NOOqlxlS0qOTaDudbAU&fn=external_8",
-      "title": "Мы с тобою танцуем (Д.Тухманов-В.Харитонов) 1980"
+      "title": "Мы с тобою танцуем (Д.Тухманов-В.Харитонов) 1980",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/20.jpg"
     },
     {
       "url": "https://ok.ru/video/1989739612703",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1047100066335&type=32&idx=6&tkn=gKt19ROzHdYdpWB79nyrRokZLU0&fn=external_8",
-      "title": "Мы с тобой танцуем (Д.Тухманов-В.Харитонов) 2014"
+      "title": "Мы с тобой танцуем (Д.Тухманов-В.Харитонов) 2014",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/21.jpg"
     },
     {
       "url": "https://ok.ru/video/2015262738975",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1071080540703&type=37&idx=1&tkn=0anzQoMyEzv-k7AY3VnNgH10gds&fn=external_8",
-      "title": "Мы все умрем когда-нибудь (Л.Тимошенко-А.Лукашин) 2020"
+      "title": "Мы все умрем когда-нибудь (Л.Тимошенко-А.Лукашин) 2020",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/22.jpg"
     },
     {
       "url": "https://ok.ru/video/3102225533471",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2183334332959&type=37&idx=3&tkn=rsyQCVRJwDz-QjSKWOWAYm9RcZ4&fn=external_8",
-      "title": "Навсегда (И.Цветков-Г.Сапгир) из мультфильма «Золушка» 1979"
+      "title": "Навсегда (И.Цветков-Г.Сапгир) из мультфильма «Золушка» 1979",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/23.jpg"
     },
     {
       "url": "https://ok.ru/video/2547724126751",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1690329549343&type=32&idx=3&tkn=vOD_YImhB8-yP1oUjqZ176Dk9CI&fn=external_8",
-      "title": "Не хочу (С.Миклошевский-Ю.Долгополов) 2008"
+      "title": "Не хочу (С.Миклошевский-Ю.Долгополов) 2008",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/24.jpg"
     },
     {
       "url": "https://youtu.be/Jv_oZ7LbwK4",
       "thumbUrl": "https://i3.ytimg.com/vi/Jv_oZ7LbwK4/hqdefault.jpg",
-      "title": "Не дари, разлуку, осень (О.Каледин-С.Марасанов) 2022"
+      "title": "Не дари, разлуку, осень (О.Каледин-С.Марасанов) 2022",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/25.jpg"
     },
     {
       "url": "https://ok.ru/video/2538989292063",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1680494627359&type=37&idx=1&tkn=8QJ-s7tXwji9fjEXdzsppVl1fUA&fn=external_8",
-      "title": "Облака в реке (А.Днепров-В.Харитонов) – в программе «Привет, Андрей» 2018"
+      "title": "Облака в реке (А.Днепров-В.Харитонов) – в программе «Привет, Андрей» 2018",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/26.jpg"
     },
     {
       "url": "https://ok.ru/video/1989739874847",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1047101573663&type=32&idx=0&tkn=miUzQoNOkEoiNUodenzz6t2qnD8&fn=external_8",
-      "title": "Песенка про сапожника (Д.Тухманов-В.Харитонов) 2017"
+      "title": "Песенка про сапожника (Д.Тухманов-В.Харитонов) 2017",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/27.jpg"
     },
     {
       "url": "https://ok.ru/video/2015262804511",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1071080933919&type=37&idx=8&tkn=u531FC13KD02YwuLzUYnhOBZyJY&fn=external_8",
-      "title": "Поцеловать весну (И.Иванов-С.Берсенев) – с вечера Сергея Берсенева 2013"
+      "title": "Поцеловать весну (И.Иванов-С.Берсенев) – с вечера Сергея Берсенева 2013",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/28.jpg"
     },
     {
       "url": "https://ok.ru/video/1989740136991",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1047104195103&type=32&idx=8&tkn=vTuLOyaHyHZUOVF_yP2Ui3l3dA4&fn=external_8",
-      "title": "Признание (И.Крутой-А.Жигарев) – Витебск, 1988"
+      "title": "Признание (И.Крутой-А.Жигарев) – Витебск, 1988",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/29.jpg"
     },
     {
       "url": "https://ok.ru/video/1989739285023",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1047092398623&type=32&idx=14&tkn=RqOh7axXPGdpJhhNrCjUuivDBoQ&fn=external_8",
-      "title": "Прощай (Д.Тухманов-В.Харитонов) – Кремль, День Учителя (2004)"
+      "title": "Прощай (Д.Тухманов-В.Харитонов) – Кремль, День Учителя (2004)",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/30.jpg"
     },
     {
       "url": "https://ok.ru/video/1989740530207",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1047107275295&type=32&idx=13&tkn=cbaLRkq5zbau2acXva18mHF4HTM&fn=external_8",
-      "title": "Прощай - передача Достояние Республики, 2010"
+      "title": "Прощай - передача Достояние Республики, 2010",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/31.jpg"
     },
     {
       "url": "https://ok.ru/video/1989739416095",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1047098362399&type=32&idx=12&tkn=iWgUN4iLgCb2RcP0wx3iEaZrKAc&fn=external_8",
-      "title": "Прощай (Д.Тухманов-В.Харитонов) и Из вагантов (Д.Тухманов-поэзия вагантов) – на юбилее Валерия Белянина (2013)"
+      "title": "Прощай (Д.Тухманов-В.Харитонов) и Из вагантов (Д.Тухманов-поэзия вагантов) – на юбилее Валерия Белянина (2013)",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/32.jpg"
     },
     {
       "url": "https://ok.ru/video/1989739743775",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1047100131871&type=32&idx=8&tkn=GB4QDGKjZOnSDdiBFAYWdZ8gB5I&fn=external_8",
-      "title": "Рыжий (И.Тальков) на вечере памяти Игоря Талькова в к.з. Мир"
+      "title": "Рыжий (И.Тальков) на вечере памяти Игоря Талькова в к.з. Мир",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/33.jpg"
     },
     {
       "url": "https://ok.ru/video/6304349948447",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=5587948735007&type=37&idx=9&tkn=k8zvPAK9PEpCcrfFbEcz6IRNsZc&fn=external_8",
-      "title": "Семнадцать лет (А.Днепров-В.Харитонов)  2021"
+      "title": "Семнадцать лет (А.Днепров-В.Харитонов)  2021",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/34.jpg"
     },
     {
       "url": "https://ok.ru/video/1989740661279",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1047107406367&type=37&idx=0&tkn=QJstTHMYHjkHyd0B_Yn5Hy1qvYU&fn=external_8",
-      "title": "Что тебе подарить (В.Добрынин-Л.Дербенев) 2014"
+      "title": "Что тебе подарить (В.Добрынин-Л.Дербенев) 2014",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/35.jpg"
     },
     {
       "url": "https://ok.ru/video/2539002530335",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1680507079199&type=32&idx=3&tkn=JpT-VSQtT-JIEje95esLTDUdJPo&fn=external_8",
-      "title": "Это лишь в апреле (И.Крутой-А.Жигарев) – Витебск 1988"
+      "title": "Это лишь в апреле (И.Крутой-А.Жигарев) – Витебск 1988",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/36.jpg"
     },
     {
       "url": "https://ok.ru/video/1989740792351",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1047108258335&type=37&idx=12&tkn=xAKDz4V1wimXbSa4tZi0YD3Jf-o&fn=external_8",
-      "title": "Игорь Иванов в программе «Мир глазами ребенка» Игорь Иванов в программе «Мир глазами ребенка» (2018)"
+      "title": "Игорь Иванов в программе «Мир глазами ребенка» Игорь Иванов в программе «Мир глазами ребенка» (2018)",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/37.jpg"
     },
     {
       "url": "https://ok.ru/video/1989741054495",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1047110814239&type=37&idx=6&tkn=JFK8mAkd-BBUgMfxV7zeI58Imi0&fn=external_8",
-      "title": "Юбилейный концерт Игоря Иванова в ЦДХ (часть 1) (2018)"
+      "title": "Юбилейный концерт Игоря Иванова в ЦДХ (часть 1) (2018)",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/38.jpg"
     },
     {
       "url": "https://ok.ru/video/1989739809311",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1047101639199&type=37&idx=5&tkn=RM-K5oiAjb35UJAqtTL391G2QRo&fn=external_8",
-      "title": "Юбилейный концерт Игоря Иванова в ЦДХ (часть 2) (2018)"
+      "title": "Юбилейный концерт Игоря Иванова в ЦДХ (часть 2) (2018)",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/39.jpg"
     },
     {
       "url": "https://ok.ru/video/1989739940383",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1047104326175&type=37&idx=2&tkn=rPzNWUQF2AbpMbOssgld5gtD9SY&fn=external_8",
-      "title": "Юбилейный концерт Игоря Иванова в ЦДХ (часть 3) (2018)"
+      "title": "Юбилейный концерт Игоря Иванова в ЦДХ (часть 3) (2018)",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/40.jpg"
     },
     {
       "url": "https://ok.ru/video/1989739088415",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1047090891295&type=32&idx=3&tkn=Dp61vAlSN65EdfGNrzx1GJ1x0TA&fn=external_8",
-      "title": "Игорь Иванов в передаче Евгения Доброва «Настоящие песни» Игорь Иванов в передаче Евгения Доброва «Настоящие песни» (07.05.2017)"
+      "title": "Игорь Иванов в передаче Евгения Доброва «Настоящие песни» Игорь Иванов в передаче Евгения Доброва «Настоящие песни» (07.05.2017)",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/41.jpg"
     },
     {
       "url": "https://ok.ru/video/1989739022879",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1047090432543&type=32&idx=4&tkn=oetcHfVTp-Y_hTmTIpcljOAXihg&fn=external_8",
-      "title": "Игорь Иванов в программе «Пегасы над Москвой»"
+      "title": "Игорь Иванов в программе «Пегасы над Москвой»",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/42.jpg"
     },
     {
       "url": "https://ok.ru/video/1989739547167",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1047099804191&type=37&idx=13&tkn=TU6c7HSY1HmEnW0o6oDwIWMozQQ&fn=external_8",
-      "title": "Игорь Иванов в передаче «Золотые хиты ВИА»"
+      "title": "Игорь Иванов в передаче «Золотые хиты ВИА»",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/43.jpg"
     },
     {
       "url": "https://ok.ru/video/1989738957343",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1047089252895&type=32&idx=13&tkn=zlPL5mo0t1V2Cxiu6buL3h8kJN0&fn=external_8",
-      "title": "Передача канала Время-4 «По волнам моей памяти» с Игорем Ивановым"
+      "title": "Передача канала Время-4 «По волнам моей памяти» с Игорем Ивановым",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/44.jpg"
     },
     {
       "url": "https://ok.ru/video/1989739153951",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1047092005407&type=32&idx=9&tkn=liw46KYOH3xheOaugB4kcXIxmv0&fn=external_8",
-      "title": "Интервью Игоря Иванова канадской программе (автор-Сергей Гудин) 2010"
+      "title": "Интервью Игоря Иванова канадской программе (автор-Сергей Гудин) 2010",
+      "localThumbUrl": "/images/video-thumbnails/igor-ivanov/45.jpg"
     }
   ],
   "links": [

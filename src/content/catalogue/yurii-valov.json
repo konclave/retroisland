@@ -180,7 +180,8 @@
     {
       "url": "https://ok.ru/video/4113822911007",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=3440019311135&type=32&idx=5&tkn=oa6w-IVE3BnCkL7O5d3WL_YTo_E&fn=external_8",
-      "title": "Музыкальная видео-зарисовка (курсовая работа, вокал А.Лермана)"
+      "title": "Музыкальная видео-зарисовка (курсовая работа, вокал А.Лермана)",
+      "localThumbUrl": "/images/video-thumbnails/yurii-valov/0.jpg"
     }
   ],
   "links": []

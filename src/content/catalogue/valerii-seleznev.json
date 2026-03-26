@@ -429,22 +429,26 @@
     {
       "url": "https://ok.ru/video/3065701468703",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2138921699871&type=32&idx=10&tkn=LfbmMqzWLSTdyy_thrz2TxyP35I&fn=external_8",
-      "title": "Верба (Э.Ханок-Ю.Рыбчинский) с И.Шачневой и В.Дьяконовым фильм-концерт «Самоцветы\"» 1973"
+      "title": "Верба (Э.Ханок-Ю.Рыбчинский) с И.Шачневой и В.Дьяконовым фильм-концерт «Самоцветы\"» 1973",
+      "localThumbUrl": "/images/video-thumbnails/valerii-seleznev/0.jpg"
     },
     {
       "url": "https://ok.ru/video/2847401052703",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1884129593887&type=32&idx=8&tkn=3MIM4iTLqm-LLsrUOdOAmP_Kc0g&fn=external_8",
-      "title": "Налетели дожди (Д.Тухманов-В.Харитонов) – с Ю.Петерсоном и В.Дьяконовым фильм-концерт «Самоцветы» 1973"
+      "title": "Налетели дожди (Д.Тухманов-В.Харитонов) – с Ю.Петерсоном и В.Дьяконовым фильм-концерт «Самоцветы» 1973",
+      "localThumbUrl": "/images/video-thumbnails/valerii-seleznev/1.jpg"
     },
     {
       "url": "https://ok.ru/video/2959278672415",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2003441027615&type=32&idx=4&tkn=Caz_2p8RB3ZRa1c2FR82P8PkE7o&fn=external_8",
-      "title": "Увезу тебя я в тундру (М.Фрадкин-М.Пляцковский) фильм-концерт «Самоцветы\"» 1973"
+      "title": "Увезу тебя я в тундру (М.Фрадкин-М.Пляцковский) фильм-концерт «Самоцветы\"» 1973",
+      "localThumbUrl": "/images/video-thumbnails/valerii-seleznev/2.jpg"
     },
     {
       "url": "https://ok.ru/video/3129865275935",
       "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2217758165535&type=32&idx=5&tkn=4b9lQ4fF1lBPdztnZIk3VB-1j00&fn=external_8",
-      "title": "Домодедово-ТВ Передача о Владимире Селезневе"
+      "title": "Домодедово-ТВ Передача о Владимире Селезневе",
+      "localThumbUrl": "/images/video-thumbnails/valerii-seleznev/3.jpg"
     }
   ],
   "links": []

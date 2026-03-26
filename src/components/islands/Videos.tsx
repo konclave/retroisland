@@ -5,6 +5,7 @@ import VideoPlayer from './VideoPlayer';
 interface VideoItem {
   url: string;
   thumbUrl: string;
+  localThumbUrl?: string;
   title?: string;
 }
 
@@ -31,7 +32,7 @@ export default function Videos({ entries }: Props) {
                 rel="noopener noreferrer nofollow"
                 onClick={(e) => { e.preventDefault(); setOpenIndex(idx); }}
               >
-                <img className="video-item__thumbnail" src={video.thumbUrl} alt={video.title || ''} />
+                <img className="video-item__thumbnail" src={video.localThumbUrl ?? video.thumbUrl} alt={video.title || ''} />
                 <span className="video-item__overlay" />
               </a>
               {video.title && <h4 className="video-item__title">{video.title}</h4>}
