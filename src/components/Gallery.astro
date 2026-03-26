@@ -64,7 +64,8 @@ const { images, defaultTitle = '', withCaption = false, withNav = false } = Astr
     // jQuery may still be loading; poll until ready
     let attempts = 0;
     const poll = setInterval(() => {
-      if ((window as any).$ || ++attempts > 20) {
+      const $ = (window as any).$;
+      if (($?.fn?.fotorama) || ++attempts > 40) {
         clearInterval(poll);
         init();
       }

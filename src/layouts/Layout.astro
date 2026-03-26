@@ -30,6 +30,7 @@ const currentPath = Astro.url.pathname;
     <link rel="icon" href="/icon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="stylesheet" href="/styles/fotorama.css" />
     <link rel="stylesheet" href="/styles/jouele.min.css" />
     <link rel="stylesheet" href="/styles/alice-carousel.css" />
     <link rel="stylesheet" href="/styles/lightbox.css" />
@@ -59,6 +60,9 @@ const currentPath = Astro.url.pathname;
       import { Howl } from 'howler';
       (window as any).jQuery = (window as any).$ = jQuery;
       (window as any).Howl = Howl;
+      const fotoramaScript = document.createElement('script');
+      fotoramaScript.src = '/fotorama.js';
+      document.body.appendChild(fotoramaScript);
       // @ts-ignore
       import('ilyabirman-jouele');
     </script>
