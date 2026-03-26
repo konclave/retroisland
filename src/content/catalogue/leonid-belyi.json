@@ -363,12 +363,12 @@
   "videos": [
     {
       "url": "https://ok.ru/video/4148232456735",
-      "thumbUrl": "",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=3495075908127&type=32&idx=0&tkn=gmlgxWfioFLQIXCxgmUSeTCyWi8&fn=external_8",
       "title": "Верь в доброго человека (Г.Александров-Н.Олев) – песня из к/ф «Случай в аэропорту» (1987 г.)"
     },
     {
       "url": "https://ok.ru/video/1443023292959",
-      "thumbUrl": "",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=698235882015&type=32&idx=2&tkn=VKqvMWP62kaCZvcsR3NrxKIWrpQ&fn=external_8",
       "title": "Разговор с Комсомольском (Б.Рычков-Н.Кошежева) 1982 г."
     }
   ],

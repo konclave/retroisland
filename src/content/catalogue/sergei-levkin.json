@@ -356,17 +356,17 @@
   "videos": [
     {
       "url": "https://ok.ru/video/3255033793055",
-      "thumbUrl": "",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2380236524063&type=32&idx=5&tkn=ZKmX3VHeeLmL-7EgFQLwx_bUZF8&fn=external_8",
       "title": "Клен"
     },
     {
       "url": "https://ok.ru/video/3690719283743",
-      "thumbUrl": "",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2887667288607&type=32&idx=15&tkn=iIX0OdQRzVWN0edsS_ZH-vsG00U&fn=external_8",
       "title": "Детство"
     },
     {
       "url": "https://ok.ru/video/3255033399839",
-      "thumbUrl": "",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2380236327455&type=37&idx=14&tkn=CtfaBwfQVizo94NBVJA7TNBOgk4&fn=external_8",
       "title": "Интервью на калининградском радио"
     }
   ],
