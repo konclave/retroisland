@@ -37,19 +37,24 @@ export default function CatalogueWithFilter({ items, noFilter }: Props) {
   return (
     <section className="padded-wrap inner-page-wrap">
       {!noFilter && (
-        <div className="catalogue-form">
-          <input
-            className="catalogue-form__search"
-            type="search"
-            placeholder="Поиск..."
-            onChange={handleSearch}
-          />
-          <select className="catalogue-form__order" onChange={handleOrder}>
-            <option value="titleDesc">А–Я</option>
-            <option value="titleAsc">Я–А</option>
-            <option value="createdAt">По дате добавления</option>
-          </select>
-        </div>
+        <form className="catalogue-form">
+          <div className="catalogue-form__group">
+            <input
+              className="catalogue-form__search-input"
+              type="text"
+              placeholder="Поиск исполнителя"
+              inputMode="search"
+              onChange={handleSearch}
+            />
+          </div>
+          <div className="catalogue-form__group">
+            <select className="catalogue-form__sort-input" onChange={handleOrder}>
+              <option value="titleDesc">по алфавиту А → Я</option>
+              <option value="titleAsc">по алфавиту Я → А</option>
+              <option value="createdAt">по дате добавления</option>
+            </select>
+          </div>
+        </form>
       )}
       {display.length === 0 ? (
         <p className="catalogue-not-found">Ничего не найдено</p>

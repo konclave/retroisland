@@ -2,8 +2,8 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import NewsList from '../components/NewsList.astro';
-import CatalogueList from '../components/CatalogueList.astro';
 import CommunitiesList from '../components/CommunitiesList.astro';
+import CatalogueWithFilter from '../components/islands/CatalogueWithFilter';
 import TracksOnRequest from '../components/islands/TracksOnRequest';
 import { readFileSync } from 'fs';
 import { join } from 'path';
@@ -27,6 +27,19 @@ const indexPage = readJson('pages/index.json') ?? { links: [] };
   <section class="facade">
     <div class="padded-wrap">
       <Header layout="index" />
+      {indexPage.links.length > 0 && (
+        <nav class="community-navigation-wrap">
+          <ul class="community-navigation">
+            {indexPage.links.map((item) => (
+              <li class="community-navigation__item">
+                <a href={item.link} target="_blank" rel="nofollow noindex noreferrer">
+                  {item.title}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )}
     </div>
   </section>
 
@@ -34,17 +47,15 @@ const indexPage = readJson('pages/index.json') ?? { links: [] };
   <section class="news">
     <h2>Новости</h2>
     <NewsList news={news} />
-    <div class="news-footer padded-wrap">
-      <a href="/news-archive" class="news-footer__link">Все новости →</a>
+    <div class="news-footer">
+      <a href="/news-archive" class="news-archive-link">Архив новостей</a>
     </div>
   </section>
 
   <!-- Catalogue index -->
   <div class="catalogue-index">
     <h2 class="catalogue-index__title" id="catalogue">Каталог</h2>
-    <section class="padded-wrap inner-page-wrap catalogue_no-filter">
-      <CatalogueList items={catalogueItems} />
-    </section>
+    <CatalogueWithFilter items={catalogueItems} client:load />
   </div>
 
   <!-- Tracks on request -->
