@@ -1,9 +1,18 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
-import NewsList from '../components/NewsList.astro';
 import { readFileSync } from 'fs';
 import { join } from 'path';
+
+const MONTHS = ['января','февраля','марта','апреля','мая','июня','июля','августа','сентября','октября','ноября','декабря'];
+
+function formatDate(iso: string) {
+  const d = new Date(iso);
+  return `${d.getDate()} ${MONTHS[d.getMonth()]} ${d.getFullYear()}`;
+}
+
+const INITIAL_LIMIT = 5;
+const PAGE_SIZE = 5;
 
 let allNews: any[] = [];
 try {
@@ -11,22 +20,29 @@ try {
 } catch {
   // content not generated yet
 }
-
-const INITIAL_LIMIT = 20;
-const initial = allNews.slice(0, INITIAL_LIMIT);
-const remaining = allNews.slice(INITIAL_LIMIT);
 ---
 
 <Layout title="Новости – ВАСИЛЬЕВСКИЙ ОСТРОВ" isArchive={true}>
   <Header title="Новости" layout="archive" />
   <div class="news-archive">
-    <div class="news-archive__list" id="news-list">
-      <NewsList news={initial} layout="archive" />
-      <!-- Hidden remainder, revealed by "Load more" -->
-      <div id="news-more" style="display:none">
-        <NewsList news={remaining} layout="archive" />
-      </div>
-      {remaining.length > 0 && (
+    <div class="news-archive__list">
+      <ul class="news-list news-list_archive">
+        {allNews.map((item, i) => (
+          <li class="news-list__item" style={i >= INITIAL_LIMIT ? 'display:none' : ''} data-news-item>
+            <article class="news-item news-item_archive">
+              <time datetime={item.date}>{formatDate(item.date)}</time>
+              {item.link ? (
+                <a href={item.link}>
+                  <div class="news-item__md" set:html={item.html} />
+                </a>
+              ) : (
+                <div class="news-item__md" set:html={item.html} />
+              )}
+            </article>
+          </li>
+        ))}
+      </ul>
+      {allNews.length > INITIAL_LIMIT && (
         <button class="button-load-more" type="button" id="load-more-btn">
           Показать ещё
         </button>
@@ -35,11 +51,14 @@ const remaining = allNews.slice(INITIAL_LIMIT);
   </div>
 </Layout>
 
-<script>
+<script define:vars={{ PAGE_SIZE }}>
   const btn = document.getElementById('load-more-btn');
-  const more = document.getElementById('news-more');
-  btn?.addEventListener('click', () => {
-    if (more) more.style.display = '';
-    btn.style.display = 'none';
-  });
+  if (btn) {
+    btn.addEventListener('click', () => {
+      const hidden = Array.from(document.querySelectorAll('[data-news-item]'))
+        .filter((el) => el.style.display === 'none');
+      hidden.slice(0, PAGE_SIZE).forEach((el) => (el.style.display = ''));
+      if (hidden.length <= PAGE_SIZE) btn.style.display = 'none';
+    });
+  }
 </script>
