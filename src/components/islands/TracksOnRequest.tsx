@@ -1,4 +1,5 @@
 import { useEffect, useState, useRef } from 'react';
+import { BREAKPOINT_DESKTOP } from '~/config';
 
 // ── Animation helpers (ported from animation.ts) ─────────────────────────────
 
@@ -75,7 +76,7 @@ interface Props {
 
 // ── Constants ─────────────────────────────────────────────────────────────────
 
-const BREAKPOINT = 811;
+const BREAKPOINT = parseInt(BREAKPOINT_DESKTOP);
 
 function throttle(fn: (...a: any[]) => void, ms: number) {
   let last = 0;
