@@ -24,7 +24,10 @@ function collapseSection(el: HTMLElement, opts: AnimOpts = {}) {
 
 function expandSection(el: HTMLElement, opts: AnimOpts = {}) {
   el.style.height = el.scrollHeight + 'px';
-  const done = () => { el.style.height = ''; el.removeEventListener('transitionend', done); };
+  const done = () => {
+    el.style.height = '';
+    el.removeEventListener('transitionend', done);
+  };
   el.addEventListener('transitionend', done);
   (opts.attributeRecipient || el).setAttribute('data-collapsed', 'false');
 }
@@ -45,7 +48,10 @@ function collapseH(el: HTMLElement, opts: AnimOpts) {
 
 function expandH(el: HTMLElement, opts: AnimOpts) {
   el.style.flexBasis = el.getBoundingClientRect().width + 'px';
-  const done = () => { el.style.flexBasis = 'auto'; el.removeEventListener('transitionend', done); };
+  const done = () => {
+    el.style.flexBasis = 'auto';
+    el.removeEventListener('transitionend', done);
+  };
   el.addEventListener('transitionend', done);
   (opts.attributeRecipient || el).setAttribute('data-collapsed', 'false');
 }
@@ -117,9 +123,20 @@ function Track({ item }: { item: TrackItem }) {
             </a>
           </div>
           <small className="track__description">
-            {item.shortDescription || 'Скачать:'}{' '}
-            <a href={item.link} download title={`Скачать «${item.title}»`} target="_blank" rel="noreferrer">
-              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="-9 0 32 32">
+            {item.shortDescription || 'Скачать композицию:'}{' '}
+            <a
+              href={item.link}
+              download
+              title={`Скачать «${item.title}»`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="28"
+                height="28"
+                viewBox="-9 0 32 32"
+              >
                 <path d="M13.48 17.6a.82.82 0 0 0-.84.84v3.92c0 .48-.36.84-.84.84H2.52a.82.82 0 0 1-.84-.84v-3.92c0-.44-.36-.84-.84-.84S0 18 0 18.44v3.92c0 1.4 1.12 2.52 2.52 2.52h9.28c1.4 0 2.52-1.12 2.52-2.52v-3.92c0-.44-.36-.84-.84-.84zm-6.92.88c.04.04.2.28.6.28s.56-.24.6-.28l3.52-3.52c.32-.32.32-.84 0-1.2-.32-.32-.84-.32-1.2 0L8 15.88V7.96c0-.48-.36-.84-.84-.84s-.84.36-.84.84v7.92L4.24 13.8c-.32-.32-.84-.32-1.2 0-.32.32-.32.84 0 1.2l3.52 3.48z" />
               </svg>
             </a>
@@ -128,13 +145,26 @@ function Track({ item }: { item: TrackItem }) {
       )}
       {item.youtube && (
         <div className="track-wrap">
-          <img className="track__icon" src="/img/youtube.svg" height={20} alt={item.title} />
-          <a href={item.youtube} target="_blank" rel="noopener noreferrer nofollow">{item.title}</a>
+          <img
+            className="track__icon"
+            src="/img/youtube.svg"
+            height={20}
+            alt={item.title}
+          />
+          <a
+            href={item.youtube}
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
+            {item.title}
+          </a>
         </div>
       )}
       {item.ok && (
         <div className="track-wrap">
-          <a href={item.ok} target="_blank" rel="noopener noreferrer nofollow">{item.title}</a>
+          <a href={item.ok} target="_blank" rel="noopener noreferrer nofollow">
+            {item.title}
+          </a>
         </div>
       )}
     </div>
@@ -150,7 +180,9 @@ export default function TracksOnRequest({ requested }: Props) {
 
   useEffect(() => {
     function updateWidth() {
-      const el = listRef.current?.querySelector<HTMLElement>('[data-collapsed="false"]');
+      const el = listRef.current?.querySelector<HTMLElement>(
+        '[data-collapsed="false"]'
+      );
       if (el) setItemWidth(el.getBoundingClientRect().width + 'px');
     }
 
@@ -162,13 +194,20 @@ export default function TracksOnRequest({ requested }: Props) {
     }
   }, []);
 
-  function handleToggle(e: React.MouseEvent<HTMLButtonElement>, item: RequestedItem) {
+  function handleToggle(
+    e: React.MouseEvent<HTMLButtonElement>,
+    item: RequestedItem
+  ) {
     const threshold = parseInt(window.getComputedStyle(e.currentTarget).height);
-    const next = listRef.current?.querySelector<HTMLElement>(`[data-id="${item.id}"]`);
+    const next = listRef.current?.querySelector<HTMLElement>(
+      `[data-id="${item.id}"]`
+    );
     if (!next) return;
 
     if (window.innerWidth > BREAKPOINT) {
-      const opened = listRef.current?.querySelector<HTMLElement>(`[data-id="${expandedId}"]`);
+      const opened = listRef.current?.querySelector<HTMLElement>(
+        `[data-id="${expandedId}"]`
+      );
       if (opened) collapseH(opened, { threshold });
       setExpandedId(item.id);
       expandH(next, { threshold });
@@ -181,7 +220,9 @@ export default function TracksOnRequest({ requested }: Props) {
         );
         if (prevTracks) {
           collapseSection(prevTracks, {
-            attributeRecipient: prevTracks.closest<HTMLElement>('.requested-list__item') ?? undefined,
+            attributeRecipient:
+              prevTracks.closest<HTMLElement>('.requested-list__item') ??
+              undefined,
           });
         }
         expandSection(tracks, { attributeRecipient: next });
@@ -197,7 +238,8 @@ export default function TracksOnRequest({ requested }: Props) {
       <h2 className="tracks-on-request__title">Концерт по заявкам</h2>
       <ul className="requested-list" ref={listRef}>
         {requested.map((item) => {
-          const label = item.title || item.artist + (item.album ? ', ' + item.album : '');
+          const label =
+            item.title || item.artist + (item.album ? ', ' + item.album : '');
           return (
             <li
               key={item.id}
@@ -213,10 +255,21 @@ export default function TracksOnRequest({ requested }: Props) {
                 >
                   {label}
                 </button>
-                <div className="requested-item-tracks" style={{ width: itemWidth }}>
-                  <h2 className="requested-item-tracks__title">Концерт по заявкам</h2>
-                  <h3 className="requested-item-tracks__author">{item.artist}</h3>
-                  {item.album && <h4 className="requested-item-tracks__album">{item.album}</h4>}
+                <div
+                  className="requested-item-tracks"
+                  style={{ width: itemWidth }}
+                >
+                  <h2 className="requested-item-tracks__title">
+                    Концерт по заявкам
+                  </h2>
+                  <h3 className="requested-item-tracks__author">
+                    {item.artist}
+                  </h3>
+                  {item.album && (
+                    <h4 className="requested-item-tracks__album">
+                      {item.album}
+                    </h4>
+                  )}
                   <div className="requested-item-tracks__list-container">
                     <ol className="track-list jouele-playlist">
                       {item.tracks.map((track) => (
