@@ -6,15 +6,7 @@
   "scripts": {
     "build": "astro build",
     "dev": "astro dev --port 4000",
-    "preview": "astro preview",
-    "content:fetch": "node scripts/fetch-content.mjs",
-    "content:export": "node scripts/contentful-export.mjs export",
-    "content:transform": "node scripts/transform-content.mjs",
-    "content:merge": "node scripts/contentful-export.mjs merge --scrapped-data=./generated/data.json",
-    "content:publish": "node scripts/contentful-export.mjs publish-singers",
-    "content:purge": "node scripts/contentful-export.mjs purge",
-    "images:migrate": "node scripts/migrate-images.mjs",
-    "content:video-thumbnails": "node scripts/migrate-video-thumbnails.mjs"
+    "preview": "astro preview"
   },
   "dependencies": {
     "@astrojs/node": "^10.0.4",
@@ -22,8 +14,6 @@
     "@vercel/analytics": "^1.2.2",
     "astro": "^6.1.5",
     "classnames": "^2.5.1",
-    "contentful": "^9.3.6",
-    "dotenv": "^16.4.5",
     "howler": "^2.2.4",
     "ilyabirman-jouele": "github:konclave/Jouele",
     "jquery": "^3.7.1",
@@ -37,24 +27,14 @@
     "yet-another-react-lightbox": "^3.17.0"
   },
   "devDependencies": {
-    "@contentful/rich-text-html-renderer": "^16.0.0",
-    "@contentful/rich-text-types": "^16.3.4",
     "@types/howler": "^2.2.11",
     "@types/jquery": "^3.5.29",
     "@types/react": "^18.2.58",
     "@types/react-dom": "^18.2.19",
-    "cheerio": "1.0.0-rc.12",
-    "contentful-export": "^7.19.125",
-    "contentful-import": "^8.5.63",
-    "contentful-management": "^10.46.4",
     "eslint": "^8.56.0",
-    "node-addon-api": "^8.6.0",
-    "node-gyp": "^12.2.0",
     "playwright": "^1.58.2",
     "prettier": "^2.8.8",
-    "sharp": "^0.34.5",
-    "typescript": "^5.3.3",
-    "yargs": "^17.7.2"
+    "typescript": "^5.3.3"
   },
   "engines": {
     "node": ">=20"
