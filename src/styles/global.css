@@ -351,13 +351,13 @@ template {
 }
 :root {
   --color-text: #000000;
-  --color-text-footer: #adadad;
+  --color-text-footer: #767676;
   --color-text-dark-gray: #313131;
 
   --color-light: #ffffff;
   --color-light-rgb: 255, 255, 255;
 
-  --color-subtitle-catalogue: #949494;
+  --color-subtitle-catalogue: #767676;
 
   --color-requested-header-bg-1: #3e81c5;
   --color-requested-header-bg-2: #9dbbc5;
@@ -529,6 +529,22 @@ h6 {
  *    causes content to wrap 1 word per line:
  *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
  */
+
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  z-index: 9999;
+  padding: 0.5rem 1rem;
+  background: #000;
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0;
+}
 
 .sr-only {
   border: 0;

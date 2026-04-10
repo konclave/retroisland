@@ -42,7 +42,9 @@ export default function CatalogueWithFilter({ items, noFilter }: Props) {
       {!noFilter && (
         <form className="catalogue-form">
           <div className="catalogue-form__group">
+            <label htmlFor="catalogue-search" className="sr-only">Поиск исполнителя</label>
             <input
+              id="catalogue-search"
               className="catalogue-form__search-input"
               type="text"
               placeholder="Поиск исполнителя"
@@ -51,7 +53,8 @@ export default function CatalogueWithFilter({ items, noFilter }: Props) {
             />
           </div>
           <div className="catalogue-form__group">
-            <select className="catalogue-form__sort-input" onChange={handleOrder}>
+            <label htmlFor="catalogue-sort" className="sr-only">Сортировка</label>
+            <select id="catalogue-sort" className="catalogue-form__sort-input" onChange={handleOrder}>
               <option value="titleDesc">по алфавиту А → Я</option>
               <option value="titleAsc">по алфавиту Я → А</option>
               <option value="createdAt">по дате добавления</option>

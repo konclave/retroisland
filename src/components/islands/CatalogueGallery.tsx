@@ -18,8 +18,9 @@ function GalleryButton({ type, isDisabled }: { type: 'prev' | 'next'; isDisabled
       className={`catalogue-gallery__button${type === 'prev' ? ' catalogue-gallery__button_prev' : ' catalogue-gallery__button_next'}`}
       disabled={isDisabled}
       type="button"
+      aria-label={type === 'prev' ? 'Предыдущий слайд' : 'Следующий слайд'}
     >
-      <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" fill="none">
+      <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="8" height="14" fill="none">
         <path
           fill="#626262"
           d="M7.707 1.707A1 1 0 0 0 6.293.293l-6 6a1 1 0 0 0-.03 1.383l5.5 6a1 1 0 0 0 1.474-1.352L2.384 7.03l5.323-5.323Z"

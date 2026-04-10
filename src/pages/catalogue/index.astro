@@ -15,5 +15,7 @@ try {
 
 <Layout title="Каталог – ВАСИЛЬЕВСКИЙ ОСТРОВ">
   <Header title="Каталог" layout="archive" />
-  <CatalogueWithFilter items={items} client:load />
+  <div id="main-content">
+    <CatalogueWithFilter items={items} client:load />
+  </div>
 </Layout>

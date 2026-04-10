@@ -23,12 +23,13 @@ const indexPage = readJson('pages/index.json') ?? { links: [] };
 ---
 
 <Layout>
+  <main id="main-content">
   <!-- Facade -->
   <section class="facade">
     <div class="padded-wrap">
       <Header layout="index" />
       {indexPage.links.length > 0 && (
-        <nav class="community-navigation-wrap">
+        <nav class="community-navigation-wrap" aria-label="Ссылки сообщества">
           <ul class="community-navigation">
             {indexPage.links.map((item) => (
               <li class="community-navigation__item">
@@ -70,4 +71,5 @@ const indexPage = readJson('pages/index.json') ?? { links: [] };
       <CommunitiesList items={indexPage.links} />
     </section>
   )}
+  </main>
 </Layout>

@@ -96,7 +96,7 @@
   font-weight: 400;
   font-size: var(--font-size-intense);
   line-height: 143%;
-  color: #949494;
+  color: #767676;
   margin: 0 0 1.5rem;
 }
 
@@ -842,7 +842,7 @@ a:active .link-arrow {
   width: 100%;
   display: block;
   padding: var(--section-top-padding-base);
-  color: #949494;
+  color: #767676;
   font: normal var(--font-size-base) / 1.2 'Tenor Sans';
   text-align: center;
   background: none;
@@ -976,7 +976,8 @@ a:active .link-arrow {
   color: var(--color-text-footer);
 }
 
-.about h1 {
+.about h1,
+.about__site-title {
   font: normal calc(2 * var(--font-size-base)) / 133% 'Tenor Sans';
   letter-spacing: 0.01em;
   text-transform: uppercase;
@@ -984,7 +985,8 @@ a:active .link-arrow {
   color: var(--color-text);
 }
 
-.about h2 {
+.about h2,
+.about__site-subtitle {
   font: normal var(--font-size-base) / 167% Merriweather;
   color: var(--color-text);
   opacity: 0.4;

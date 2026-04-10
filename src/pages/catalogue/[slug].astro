@@ -39,7 +39,7 @@ const galleryImages = images.length > GALLERY_SPLIT ? images.slice(1) : undefine
   description={`Список композиций ${entry.title}, которые есть на сайте.`}
 >
   <Header title="" />
-  <section class="catalogue-item">
+  <section class="catalogue-item" id="main-content">
     <CatalogueEntryAbout
       title={entry.title}
       description={entry.description}

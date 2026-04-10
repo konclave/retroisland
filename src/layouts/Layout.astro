@@ -49,6 +49,7 @@ const currentPath = Astro.url.pathname;
     )}
   </head>
   <body>
+    <a href="#main-content" class="skip-link">Перейти к основному содержимому</a>
     <Navigation currentPath={currentPath} isArchive={isArchive} />
     <slot />
     <About />
