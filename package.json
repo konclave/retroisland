@@ -1,8 +1,8 @@
 {
-  "private": true,
-  "sideEffects": false,
-  "type": "module",
   "name": "retroisland",
+  "private": true,
+  "type": "module",
+  "sideEffects": false,
   "scripts": {
     "build": "astro build",
     "dev": "astro dev --port 4000",

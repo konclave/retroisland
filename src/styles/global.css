@@ -375,31 +375,30 @@ template {
   font-family: 'Merriweather';
   font-style: normal;
   font-weight: 400;
-  src: local(''),
-    url('/fonts/merriweather-v22-latin_cyrillic-ext_cyrillic-regular.woff2')
-      format('woff2'),
+  src:
+    local(''),
+    url('/fonts/merriweather-v22-latin_cyrillic-ext_cyrillic-regular.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url('/fonts/merriweather-v22-latin_cyrillic-ext_cyrillic-regular.woff')
-      format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      url('/fonts/merriweather-v22-latin_cyrillic-ext_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* merriweather-700 - latin_cyrillic-ext_cyrillic */
 @font-face {
   font-family: 'Merriweather';
   font-style: normal;
   font-weight: 700;
-  src: local(''),
-    url('/fonts/merriweather-v22-latin_cyrillic-ext_cyrillic-700.woff2')
-      format('woff2'),
+  src:
+    local(''),
+    url('/fonts/merriweather-v22-latin_cyrillic-ext_cyrillic-700.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url('/fonts/merriweather-v22-latin_cyrillic-ext_cyrillic-700.woff')
-      format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      url('/fonts/merriweather-v22-latin_cyrillic-ext_cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* tenor-sans-regular - latin_cyrillic */
 @font-face {
   font-family: 'Tenor Sans';
   font-style: normal;
   font-weight: 400;
-  src: local(''),
+  src:
+    local(''),
     url('/fonts/tenor-sans-v12-latin_cyrillic-regular.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
       url('/fonts/tenor-sans-v12-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
@@ -637,8 +636,7 @@ h1 {
 
 @media only screen and (min-width: 811px) {
   .padded-wrap {
-    padding: var(--section-top-padding-base) var(--section-side-padding)
-      var(--section-side-padding);
+    padding: var(--section-top-padding-base) var(--section-side-padding) var(--section-side-padding);
   }
   .inner-page-wrap {
     margin-top: 0;

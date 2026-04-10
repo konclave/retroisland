@@ -135,13 +135,14 @@
   outline: none;
   background: transparent;
 }
-.alice-carousel__play-btn-item::before, .alice-carousel__play-btn-item::after {
+.alice-carousel__play-btn-item::before,
+.alice-carousel__play-btn-item::after {
   position: absolute;
   pointer-events: none;
   display: block;
   width: 0;
   height: 0;
-  content: "";
+  content: '';
   transition: all 0.4s linear;
   border-width: 8px 0 8px 15px;
   border-style: solid;
@@ -156,7 +157,8 @@
   top: 7px;
   left: 18px;
 }
-.alice-carousel__play-btn-item.__pause::before, .alice-carousel__play-btn-item.__pause::after {
+.alice-carousel__play-btn-item.__pause::before,
+.alice-carousel__play-btn-item.__pause::after {
   height: 30px;
   border-width: 0 0 0 10px;
 }
@@ -184,7 +186,8 @@
 .alice-carousel__dots-item:not(.__custom):not(:last-child) {
   margin-right: 20px;
 }
-.alice-carousel__dots-item:not(.__custom):hover, .alice-carousel__dots-item:not(.__custom).__active {
+.alice-carousel__dots-item:not(.__custom):hover,
+.alice-carousel__dots-item:not(.__custom).__active {
   background-color: #6e7ebc;
 }
 

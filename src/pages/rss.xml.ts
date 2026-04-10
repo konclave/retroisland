@@ -25,7 +25,7 @@ export const GET: APIRoute = async () => {
       description: item.html,
       pubDate: new Date(item.date).toUTCString(),
       guid: item.id,
-    }))
+    })),
   );
 
   const feed = `<?xml version="1.0" encoding="UTF-8"?>
@@ -37,13 +37,17 @@ export const GET: APIRoute = async () => {
     <language>ru-RU</language>
     <ttl>60</ttl>
     <atom:link href="https://retroisland.net/rss.xml" rel="self" type="application/rss+xml" />
-    ${entries.map((e) => `
+    ${entries
+      .map(
+        (e) => `
     <item>
       <title><![CDATA[${e.title}]]></title>
       <description><![CDATA[${e.description}]]></description>
       <pubDate>${e.pubDate}</pubDate>
       <guid isPermaLink="false">${e.guid}</guid>
-    </item>`).join('')}
+    </item>`,
+      )
+      .join('')}
   </channel>
 </rss>`;
 

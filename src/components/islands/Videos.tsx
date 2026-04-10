@@ -30,9 +30,16 @@ export default function Videos({ entries }: Props) {
                 href={video.url}
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                onClick={(e) => { e.preventDefault(); setOpenIndex(idx); }}
+                onClick={(e) => {
+                  e.preventDefault();
+                  setOpenIndex(idx);
+                }}
               >
-                <img className="video-item__thumbnail" src={video.localThumbUrl ?? video.thumbUrl} alt={video.title || ''} />
+                <img
+                  className="video-item__thumbnail"
+                  src={video.localThumbUrl ?? video.thumbUrl}
+                  alt={video.title || ''}
+                />
                 <span className="video-item__overlay" />
               </a>
               {video.title && <h4 className="video-item__title">{video.title}</h4>}
@@ -49,9 +56,9 @@ export default function Videos({ entries }: Props) {
         slides={entries.map((v) => ({ type: 'custom-slide' as const, ...v }))}
         render={{
           slide: ({ slide }) =>
-            (slide as any).type === 'custom-slide'
-              ? <VideoPlayer url={(slide as any).url} />
-              : undefined,
+            (slide as any).type === 'custom-slide' ? (
+              <VideoPlayer url={(slide as any).url} />
+            ) : undefined,
         }}
       />
     </article>

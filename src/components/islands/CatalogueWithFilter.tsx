@@ -20,13 +20,16 @@ export default function CatalogueWithFilter({ items, noFilter }: Props) {
 
   function handleSearch(e: React.ChangeEvent<HTMLInputElement>) {
     const needle = e.target.value.trim().toLowerCase();
-    setFiltered(needle.length > 2 ? items.filter((i) => i.title.toLowerCase().includes(needle)) : null);
+    setFiltered(
+      needle.length > 2 ? items.filter((i) => i.title.toLowerCase().includes(needle)) : null,
+    );
   }
 
   function handleOrder(e: React.ChangeEvent<HTMLSelectElement>) {
     const list = [...(filtered ?? items)];
     const order = e.target.value as Order;
-    if (order === 'createdAt') list.sort((a, z) => new Date(z.createdAt).getTime() - new Date(a.createdAt).getTime());
+    if (order === 'createdAt')
+      list.sort((a, z) => new Date(z.createdAt).getTime() - new Date(a.createdAt).getTime());
     else if (order === 'titleDesc') list.sort((a, z) => a.title.localeCompare(z.title, 'ru'));
     else if (order === 'titleAsc') list.sort((a, z) => z.title.localeCompare(a.title, 'ru'));
     setFiltered([...list]);

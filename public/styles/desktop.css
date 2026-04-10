@@ -434,8 +434,7 @@ html {
   background-size: max(85vh, 450px);
   min-height: 650px;
   grid-template-rows: min-content 1fr;
-  padding: var(--section-top-padding-base) var(--section-side-padding)
-    var(--section-side-padding);
+  padding: var(--section-top-padding-base) var(--section-side-padding) var(--section-side-padding);
   padding-bottom: var(--section-top-padding-base);
 }
 
@@ -594,8 +593,7 @@ html {
 
 /* /Users/vas0001i/Sites/retroisland/app/ui/index/news/news.d.css */
 .news {
-  padding: var(--section-top-padding-base) var(--section-side-padding)
-    var(--section-side-padding);
+  padding: var(--section-top-padding-base) var(--section-side-padding) var(--section-side-padding);
   display: grid;
   grid-template-areas:
     'header nav'
@@ -684,10 +682,7 @@ html {
 .requested-item__toggle-visibility {
   position: absolute;
   transform: rotate(-90deg)
-    translate(
-      calc(-100vh + var(--toggle-button-width) / 2),
-      calc(var(--toggle-button-width) / 2)
-    );
+    translate(calc(-100vh + var(--toggle-button-width) / 2), calc(var(--toggle-button-width) / 2));
   width: 100vh;
   height: var(--toggle-button-width);
   padding: 0;
@@ -1187,4 +1182,3 @@ a:active > .community__link {
   top: 2px;
   margin: 0 -10px;
 }
-

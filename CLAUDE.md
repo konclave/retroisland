@@ -43,12 +43,14 @@ Pages read JSON directly with `readFileSync` in Astro frontmatter — no loaders
 **`src/components/`** — Static `.astro` components (Navigation, About, Header, Gallery, Track, NewsList, CommunitiesList, etc.)
 
 **`src/components/islands/`** — React islands, hydrated with `client:load`:
+
 - `TracksOnRequest.tsx` — shelf animation with custom hooks
 - `CatalogueGallery.tsx` — alice-carousel image carousel
 - `Videos.tsx` — yet-another-react-lightbox video player
 - `CatalogueWithFilter.tsx` — search + sort for the catalogue
 
 **`src/styles/`** — CSS bundles:
+
 - `global.css` — concatenation of `app/styles/` (normalize, colors, fonts, main)
 - `components.css` — concatenation of all `app/ui/**/*.css` (mobile-first)
 - `public/styles/desktop.css` — concatenation of all `app/ui/**/*.d.css` + `app/styles/desktop.css`, served with `media="(min-width: 811px)"`
@@ -68,6 +70,7 @@ All file links have `FILE_STORAGE` base URL already applied.
 ### Environment variables
 
 Only needed to run the transform script (one-time data extraction):
+
 - `CONTENTFUL_SPACE_ID`, `CONTENTFUL_ACCESS_TOKEN`, `CONTENTFUL_ENV`
 - `FILE_STORAGE` — base URL for relative audio file links
 
