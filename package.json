@@ -13,10 +13,10 @@
     "fmt:check": "oxfmt --check"
   },
   "dependencies": {
-    "@astrojs/node": "^10.0.4",
-    "@astrojs/react": "^5.0.3",
+    "@astrojs/node": "^10.1.1",
+    "@astrojs/react": "^5.0.5",
     "@vercel/analytics": "^1.2.2",
-    "astro": "^6.1.5",
+    "astro": "^6.3.5",
     "classnames": "^2.5.1",
     "howler": "^2.2.4",
     "ilyabirman-jouele": "github:konclave/Jouele",
