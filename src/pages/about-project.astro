@@ -1,13 +1,18 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Header from '../components/Header.astro';
-import CommunitiesList from '../components/CommunitiesList.astro';
-import { readFileSync } from 'fs';
-import { join } from 'path';
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import CommunitiesList from "../components/CommunitiesList.astro";
+import { readFileSync } from "fs";
+import { join } from "path";
 
-let page: any = { text: '', links: [] };
+let page: any = { text: "", links: [] };
 try {
-  page = JSON.parse(readFileSync(join(process.cwd(), 'src/content/pages/about-project.json'), 'utf-8'));
+  page = JSON.parse(
+    readFileSync(
+      join(process.cwd(), "src/content/pages/about-project.json"),
+      "utf-8",
+    ),
+  );
 } catch {
   // content not generated yet
 }
@@ -18,10 +23,12 @@ try {
   <section class="about-project padded-wrap" id="main-content">
     <div class="about-project__content" set:html={page.text} />
   </section>
-  {page.links?.length > 0 && (
-    <div class="about-project-links">
-      <h2 class="about-project-links__title padded-wrap">Ссылки</h2>
-      <CommunitiesList items={page.links} />
-    </div>
-  )}
+  {
+    page.links?.length > 0 && (
+      <div class="about-project-links">
+        <h2 class="about-project-links__title padded-wrap">Ссылки</h2>
+        <CommunitiesList items={page.links} />
+      </div>
+    )
+  }
 </Layout>

@@ -1,13 +1,18 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Header from '../components/Header.astro';
-import Gallery from '../components/Gallery.astro';
-import { readFileSync } from 'fs';
-import { join } from 'path';
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Gallery from "../components/Gallery.astro";
+import { readFileSync } from "fs";
+import { join } from "path";
 
-let page: any = { text: '', gallery: [] };
+let page: any = { text: "", gallery: [] };
 try {
-  page = JSON.parse(readFileSync(join(process.cwd(), 'src/content/pages/about-author.json'), 'utf-8'));
+  page = JSON.parse(
+    readFileSync(
+      join(process.cwd(), "src/content/pages/about-author.json"),
+      "utf-8",
+    ),
+  );
 } catch {
   // content not generated yet
 }
@@ -18,23 +23,30 @@ function transformImages(html: string): string {
     (_match, src, alt) => {
       const caption = alt
         ? `<small class="image-box__caption">${alt}</small>`
-        : '';
+        : "";
       return `<div class="about-author__image"><div class="image-box"><img src="${src}" alt="${alt}" class="image-box__image" />${caption}</div></div>`;
-    }
+    },
   );
 }
 
-const text = page.text ? transformImages(page.text) : '';
+const text = page.text ? transformImages(page.text) : "";
 ---
 
 <Layout title="Об авторе – ВАСИЛЬЕВСКИЙ ОСТРОВ">
   <Header title="Об авторе" />
   <div class="padded-wrap about-author" id="main-content">
+    {
+      page.inMemory && (
+        <div class="about-author__in-memory">{page.inMemory}</div>
+      )
+    }
     {text && <Fragment set:html={text} />}
-    {page.gallery?.length > 0 && (
-      <div class="about-author__gallery">
-        <Gallery images={page.gallery} withCaption withNav />
-      </div>
-    )}
+    {
+      page.gallery?.length > 0 && (
+        <div class="about-author__gallery">
+          <Gallery images={page.gallery} withCaption withNav />
+        </div>
+      )
+    }
   </div>
 </Layout>

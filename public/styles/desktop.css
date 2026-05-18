@@ -26,7 +26,7 @@ h2 {
   margin: 0 0 4rem 0;
 }
 
-.about-author > :not(.about-author__gallery) {
+.about-author > :not(.about-author__gallery, .about-author__in-memory) {
   padding-left: 25vw;
   margin-left: auto;
 }
@@ -66,7 +66,7 @@ h2 {
   position: absolute;
   left: calc(-1 * var(--section-side-padding) - 50px);
   top: 40px;
-  content: '';
+  content: "";
   width: calc(100% + 2 * var(--section-side-padding));
   height: var(--disk-dimension);
   background-image: url(/img/vinyl-disk.svg);
@@ -364,10 +364,10 @@ h2 {
 }
 
 .catalogue-entry a::after {
-  content: '';
+  content: "";
   width: 84%;
   aspect-ratio: 0.512;
-  background: url('/img/vynil-catalogue.svg') no-repeat;
+  background: url("/img/vynil-catalogue.svg") no-repeat;
   position: absolute;
   left: 50%;
   top: 7.9%;
@@ -430,11 +430,12 @@ html {
   display: grid;
   box-sizing: border-box;
   height: 100vh;
-  background: #a5a14c url('/img/404.svg') left bottom no-repeat;
+  background: #a5a14c url("/img/404.svg") left bottom no-repeat;
   background-size: max(85vh, 450px);
   min-height: 650px;
   grid-template-rows: min-content 1fr;
-  padding: var(--section-top-padding-base) var(--section-side-padding) var(--section-side-padding);
+  padding: var(--section-top-padding-base) var(--section-side-padding)
+    var(--section-side-padding);
   padding-bottom: var(--section-top-padding-base);
 }
 
@@ -593,11 +594,12 @@ html {
 
 /* /Users/vas0001i/Sites/retroisland/app/ui/index/news/news.d.css */
 .news {
-  padding: var(--section-top-padding-base) var(--section-side-padding) var(--section-side-padding);
+  padding: var(--section-top-padding-base) var(--section-side-padding)
+    var(--section-side-padding);
   display: grid;
   grid-template-areas:
-    'header nav'
-    'news news';
+    "header nav"
+    "news news";
 }
 
 .news h2 {
@@ -608,8 +610,8 @@ html {
 
 /* /Users/vas0001i/Sites/retroisland/app/ui/index/tracks-on-request/requested-item-tracks/requested-item-tracks.d.css */
 .requested-item-tracks::before {
-  content: '';
-  background-image: url('/img/vynil-right-half.svg');
+  content: "";
+  background-image: url("/img/vynil-right-half.svg");
   background-repeat: no-repeat;
   display: block;
   position: absolute;
@@ -633,7 +635,7 @@ html {
   height: auto;
 }
 
-[data-collapsed='false'] .requested-item-tracks {
+[data-collapsed="false"] .requested-item-tracks {
   display: flex;
 }
 
@@ -682,14 +684,17 @@ html {
 .requested-item__toggle-visibility {
   position: absolute;
   transform: rotate(-90deg)
-    translate(calc(-100vh + var(--toggle-button-width) / 2), calc(var(--toggle-button-width) / 2));
+    translate(
+      calc(-100vh + var(--toggle-button-width) / 2),
+      calc(var(--toggle-button-width) / 2)
+    );
   width: 100vh;
   height: var(--toggle-button-width);
   padding: 0;
   transform-origin: left;
 }
 
-[data-collapsed='false'] .requested-item__toggle-visibility {
+[data-collapsed="false"] .requested-item__toggle-visibility {
   pointer-events: none;
 }
 
@@ -712,7 +717,7 @@ html {
   overflow: hidden;
 }
 
-.requested-list__item[data-collapsed='false'] {
+.requested-list__item[data-collapsed="false"] {
   flex: 1;
 }
 
