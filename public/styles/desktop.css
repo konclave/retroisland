@@ -259,9 +259,6 @@ h2 {
   padding: 0 12px;
 }
 
-.catalogue-gallery__image {
-}
-
 .alice-carousel {
   margin-left: -12px;
   margin-right: -12px;
@@ -756,12 +753,12 @@ html {
   border: none;
 }
 
-.about__header h1 {
+.about__site-title {
   margin: 0 0 0.187em;
   padding: 0;
 }
 
-.about__header h2 {
+.about__site-subtitle {
   text-transform: none;
   font-size: var(--font-size-intense);
   line-height: 171%;
