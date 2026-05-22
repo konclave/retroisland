@@ -1,0 +1,51 @@
+.facade {
+  height: calc(100vh - 72px);
+  background: #9dbbc5 url("/img/vynil.svg") right bottom no-repeat;
+  padding-top: calc(2 * var(--section-top-padding-base));
+}
+
+@media (orientation: portrait) {
+  .facade {
+    background-size: auto 50vh;
+  }
+}
+
+@media (orientation: landscape) {
+  .facade {
+    background-size: min(50vw, 80vh) auto;
+  }
+}
+
+.news {
+  padding: 1.5em var(--section-side-padding) 2.5em;
+  color: var(--color-light);
+  background-color: #d7672d;
+}
+
+.news h2 {
+  font: normal 1.25rem/1.4 var(--font-family-header);
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  margin: 0 0 25px;
+  padding: 0;
+}
+
+.catalogue-index {
+  position: relative;
+}
+
+.catalogue-index__nav {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.catalogue-index__title {
+  font: normal 1.25rem/1.4 var(--font-family-header);
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 40px var(--section-side-padding) 25px;
+}

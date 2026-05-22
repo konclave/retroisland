@@ -1,0 +1,14 @@
+.catalogue-item-videos {
+  border-radius: 1rem;
+  background: var(--color-bg-catalogue-gray);
+  padding: 1.5rem;
+}
+
+.catalogue-item-videos__title {
+  font-size: var(--font-size-subheader);
+  color: #67774e;
+}
+
+.videos-list {
+  gap: 1rem;
+}

@@ -1,3 +1,5 @@
+import './videos.css';
+import './videos.d.css';
 import { useState } from 'react';
 import Lightbox from 'yet-another-react-lightbox';
 import VideoPlayer from './VideoPlayer';

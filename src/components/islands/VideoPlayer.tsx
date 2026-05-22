@@ -1,3 +1,4 @@
+import './video-player.css';
 interface Props {
   url: string;
 }

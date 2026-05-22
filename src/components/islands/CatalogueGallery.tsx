@@ -1,3 +1,5 @@
+import './catalogue-gallery.css';
+import './catalogue-gallery.d.css';
 import AliceCarouselCommonJs from 'react-alice-carousel';
 
 const AliceCarousel = (AliceCarouselCommonJs as any).default ?? AliceCarouselCommonJs;

@@ -1,3 +1,5 @@
+import './catalogue-with-filter.css';
+import './catalogue-with-filter.d.css';
 import { useState } from 'react';
 
 interface CatalogueEntry {

@@ -1,3 +1,5 @@
+import './tracks-on-request.css';
+import './tracks-on-request.d.css';
 import { useEffect, useState, useRef } from 'react';
 import { BREAKPOINT_DESKTOP } from '~/config';
 
@@ -27,14 +29,18 @@ function collapseSection(el: HTMLElement, opts: AnimOpts = {}) {
 }
 
 function expandSection(el: HTMLElement, opts: AnimOpts = {}) {
-  (opts.attributeRecipient || el).setAttribute('data-collapsed', 'false');
-  if (prefersReducedMotion()) { el.style.height = ''; return; }
-  el.style.height = el.scrollHeight + 'px';
+  if (prefersReducedMotion()) {
+    (opts.attributeRecipient || el).setAttribute('data-collapsed', 'false');
+    return;
+  }
+  const dim = el.scrollHeight;
+  el.style.height = dim + 'px';
   const done = () => {
     el.style.height = '';
     el.removeEventListener('transitionend', done);
   };
   el.addEventListener('transitionend', done);
+  (opts.attributeRecipient || el).setAttribute('data-collapsed', 'false');
 }
 
 function collapseH(el: HTMLElement, opts: AnimOpts) {
