@@ -1,5 +1,7 @@
 import './tracks-on-request.css';
 import './tracks-on-request.d.css';
+import '../track.css';
+import '../track.d.css';
 import { useEffect, useState, useRef } from 'react';
 import { BREAKPOINT_DESKTOP } from '~/config';
 
