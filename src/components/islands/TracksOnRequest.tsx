@@ -116,8 +116,9 @@ function Track({ item }: { item: TrackItem }) {
 
   useEffect(() => {
     const $ = (window as any).$;
-    if (ref.current && $ && $(ref.current).jouele) {
-      $(ref.current).jouele();
+    if (ref.current && $) {
+      ref.current.classList.add('jouele');
+      if ($(ref.current).jouele) $(ref.current).jouele();
     }
   }, []);
 
@@ -128,7 +129,6 @@ function Track({ item }: { item: TrackItem }) {
           <div className="track-wrap">
             <a
               ref={ref}
-              className="jouele"
               data-hide-timeline-on-pause="true"
               id={item.id}
               href={item.link}
