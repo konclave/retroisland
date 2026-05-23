@@ -1,0 +1,626 @@
+{
+  "id": "3p7Oj7OTaWN0LTHNAjAatF",
+  "createdAt": "2022-09-28T06:57:47.506Z",
+  "updatedAt": "2024-05-10T16:49:31.311Z",
+  "title": "Игорь Офицеров",
+  "shortTitle": "",
+  "slug": "igor-oficerov",
+  "shortDescription": "",
+  "description": "<p>История этой странички такова: сын композитора Сергея Дьячкова Дмитрий предложил дать телефон Игоря Офицерова с тем, чтобы, в случае обоюдного желания на сайте появилась и страничка этого солиста. Поскольку желание было (звучащая каждый день по телевизору песня «Кто тебе сказал» очень настраивает на то, чтобы хоть кто-то услышал лучшее ее исполнение), то вот и результат. </p><p>Сразу могу сказать, что результат этот предварительный, поскольку пока материалов от Игоря я не получил и предполагается, что они еще здесь будут. И фотографии, соответственно. А пока – только начало, песни в исполнении солиста ансамблей Поющие Сердца и Голубые Гитары Игоря Офицерова. </p>",
+  "images": [
+    {
+      "id": "R7a0fq72DAd9NV0uGQusW",
+      "title": "Игорь Офицеров",
+      "description": "",
+      "url": "/images/R7a0fq72DAd9NV0uGQusW/Oficerov.jpg",
+      "contentType": "image/jpeg",
+      "width": 338,
+      "height": 500
+    }
+  ],
+  "albums": [
+    {
+      "id": "7Jjq7hgOsPbUWfUl9tGMN2",
+      "title": "Поющие Сердца",
+      "tracks": [
+        {
+          "id": "43dKiOObhmXpcAYALzOaTo",
+          "title": "А все могло быть иначе",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/PS_A_Vse_Moglo_Byt_Inache.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Рыбников-Ю.Энтин) 1973"
+        },
+        {
+          "id": "43AG4uogTQ2M0udNpTBP0h",
+          "title": "Бабье лето",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/PS_Babye_Leto.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Антонов-И.Кохановский) 1977, запись 1974"
+        },
+        {
+          "id": "1gNlupIJvfV8KDc7gGfufi",
+          "title": "Все сначала",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/PS_Vse_Snachala.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р.Майоров-М.Рябинин) 1973"
+        },
+        {
+          "id": "47cd1YCNwPxfcmWeNHqS0",
+          "title": "Встречай весну",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/PS_Vstrechay_Vesnu.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(acc59.nm.ru)"
+        },
+        {
+          "id": "6iNrkzww08ddOuhk6Q1TtH",
+          "title": "Где найти любовь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/PS_Gde_Nayti_Lybov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(вар. 1) (В.Векштейн-И.Кохановский) 1975"
+        },
+        {
+          "id": "7Ci7ycSePJiABYnQRYCrzY",
+          "title": "Где найти любовь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/PS_Gde_Nayti_Lybov_2.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(вар. 2) (В.Векштейн-И.Кохановский)(acc59.nm.ru) 1975"
+        },
+        {
+          "id": "hVXIAzgtAazT6MS8vQSQi",
+          "title": "Голубое с белым",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/PS_Goluboe_S_Belym.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р.Майоров-Л.Овсянникова) – с Н.Шеманковой 1973"
+        },
+        {
+          "id": "1bAfQsRofvkv5a8dMS22Bz",
+          "title": "Зима любви",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/PS_Zima_Lybvi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р.Майоров-И.Кохановский) 1975"
+        },
+        {
+          "id": "2vBFlUmoqxAgqSF2NLlyYM",
+          "title": "Есть закон у тайги",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/PS_Est_Zakon_U_Taygi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Н.Богословский-М.Танич)"
+        },
+        {
+          "id": "7hMPGdA4yx5PfzQG1Kopcr",
+          "title": "Кто тебе сказал",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/PS_Kto_Tebe_Skazal.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-Л.Дербенев) 1975"
+        },
+        {
+          "id": "3LynmBE27F5coq5pcOYZhL",
+          "title": "Любовь-беда",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/PS_Lybov_Beda.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Фельцман-М.Геттуев, пер. Я.Серпина) 1975"
+        },
+        {
+          "id": "n1prhlksr8d5kerXnR3x1",
+          "title": "Мой школьный звонок",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/PS_Moy_Shkolny_Zvonok.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Рубашевский-Е.Горбанская) 1975"
+        },
+        {
+          "id": "7u9tYsgjXJZJH3S14VMvOE",
+          "title": "Мир дому твоему",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/PS_Mir_Domu_Tvoemu.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Фельцман-И.Кохановский)"
+        },
+        {
+          "id": "6SZsO2iU2LS6guzXERhlpv",
+          "title": "Мы найдем слова",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/PS_My_Naydem_Slova.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Минков-И.Шаферан) 1975"
+        },
+        {
+          "id": "1nQBYtJ5INe0STRjKOd81v",
+          "title": "Нас пугали в сказках бесы",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/PS_Nas_Pugali_V_Skazkah_Besy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Э.Ханок-В.Харитонов)"
+        },
+        {
+          "id": "77rHyWdKHVITAOlK6nxk0Z",
+          "title": "Памятник солдату",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/PS_Pamyatnik_Soldatu.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Голиков-А.Дементьев) 1976"
+        },
+        {
+          "id": "HnxsHF2HRPo1an6fOv8J6",
+          "title": "Помни меня",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/PS_Pomni_Menya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Днепров-В.Харитонов) 1974"
+        },
+        {
+          "id": "2ncobCnhTThcUH7QkqdViy",
+          "title": "Постой",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/PS_Postoy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Днепров-И.Кохановский) 1976"
+        },
+        {
+          "id": "79QOG46JvdeBIijpDI0ZJq",
+          "title": "Сколько счастья у людей",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/PS_Skolko_Schastya_U_Lydey.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Б.Савельев-М.Пляцковский)- с Н.Шеманковой 1974"
+        },
+        {
+          "id": "26eHzHT9THsyaYtI6OfGmz",
+          "title": "Стучись в любую дверь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/PS_Stuchis_V_Lybuyu_Dver.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Н.Богословский-И.Кохановский) 1975"
+        },
+        {
+          "id": "5pkoxdySmIWOpKZHbgig29",
+          "title": "Только держись",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/PS_Tolko_Derzhis.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Минков-И.Шаферан) 1975"
+        },
+        {
+          "id": "1KvhKmZBbvrDSmc7J3CW9P",
+          "title": "Утренний свет",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/PS_Pervy_Luch.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Первый луч)(acc59.nm.ru) 1975"
+        },
+        {
+          "id": "2v0gavWNJ0N0SXcW03UgHE",
+          "title": "Учитесь слушать тишину",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/PS_Uchites_Slushat_Tishinu.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Фельцман-А.Богословский) 1974"
+        }
+      ]
+    },
+    {
+      "id": "3q8hSkXqmis1uuOP221YT8",
+      "title": "Голубые Гитары",
+      "tracks": [
+        {
+          "id": "37EwsykJV0tlrdvsLZJ5xJ",
+          "title": "Любви начало",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/GG_Lybvi_nachalo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Туликов-М.Пляцковский) С Н.Киреевой 1979"
+        },
+        {
+          "id": "4TrZcvpmQ3GvfOdwhkHWnr",
+          "title": "Любовь навсегда",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/GG_Lybov_Navsegda.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Гранов-Л.Дербенев) 1979"
+        },
+        {
+          "id": "4uZoQnkmUfR8kaYG4mPAmC",
+          "title": "Первый поцелуй",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/GG_Pervy_Poceluy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Гранов-Л.Дербенев)  Н.Киреевой 1979"
+        },
+        {
+          "id": "4xm8lfcE0EwAcIroR35kiQ",
+          "title": "Песенка волка",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/GG_Pesenka_Volka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Гранов-В.Хайт, А.Левенбук) 1979"
+        },
+        {
+          "id": "7aDKdagHEBeOf6wracvpwu",
+          "title": "Розы на счастье",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/GG_Rozy_Na_Schastye.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Гранов-Л.Дербенев) 1979"
+        }
+      ]
+    },
+    {
+      "id": "4NPTusGUhlWlvwwal1stvt",
+      "title": "Концертные записи ансамбля Поющие Сердца",
+      "tracks": [
+        {
+          "id": "3GxYYui2BbEG2sM6QNVqTg",
+          "title": "Если любишь ты",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/PS_Esli_Lybish_Ty.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Антонов-Л.Дербенев)"
+        },
+        {
+          "id": "4EYJm5WVpKqFWublcUnWMm",
+          "title": "Какая ты красивая",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/PS_Kakaya_Ty_Krasivaya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Доул)"
+        },
+        {
+          "id": "3hiOOYU1fYfpW1X0JoR6g6",
+          "title": "Верь мне",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/PS-73-Ver_Mne.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Мальгони) 1973"
+        },
+        {
+          "id": "2WJeFOc5wXj5VXoJq8zJZo",
+          "title": "Казаки",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/PS-73-Kazaki.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Дан. и Дм. Покрассы – Ц. Солодарь) 1973"
+        },
+        {
+          "id": "2heomDi0J8DkZJeqet3XF3",
+          "title": "Люблю тебя",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/PS-73-Lubly_Tebya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Раньери) 1973"
+        },
+        {
+          "id": "5im059mVErcPQg2RrdXhru",
+          "title": "Песня, моя песня",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/PS-73-Pesnya_Moya_Pesnya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-В.Харитонов) 1973"
+        }
+      ]
+    },
+    {
+      "id": "25Dm7A59V4LOCeAzZOyYKN",
+      "title": "Концерт ансамбля Поющие Сердца 1977 года.",
+      "tracks": [
+        {
+          "id": "5WwLbbGbOW74bZ2tVNL1El",
+          "title": "Март",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/PS_Mart.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "5ezu40aP5X8lmdFSvSM1Tp",
+          "title": "Соловьи",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/PS_Solovyi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Соловьев-Седой-А.Фатьянов)"
+        },
+        {
+          "id": "6iUiX4tZWvRq02A1ZZgYiH",
+          "title": "Бабье лето",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/PS_Babye_Leto_77.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Антонов-И.Кохановский)"
+        }
+      ]
+    },
+    {
+      "id": "6sOY9Q5WfIT8qH8XRebdva",
+      "title": "Сольные записи Игоря Офицерова",
+      "tracks": [
+        {
+          "id": "Zil1Au74AxqAPQYlNaY0X",
+          "title": "Гавана-Куба",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/Oficerov_Gavana_Kuba.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Ольцман)"
+        },
+        {
+          "id": "38FFUQznxexZSxG3dSbbRH",
+          "title": "Давай помиримся",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/Oficerov_Davay_Pomirimsya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Днепров-В.Харитонов)"
+        },
+        {
+          "id": "7nGaJwH1rzV9rzxkzoJ6WH",
+          "title": "Кто тебе сказал",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/Oficerov_Kto_Tebe_Skazal.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-Л.Дербенев) 2006"
+        },
+        {
+          "id": "5b3m5L6lHw0n9eG9ObJXoY",
+          "title": "Листья желтые",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/Oficerov_Listya_Zheltie.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р.Паулс-Я.Петерс, р.т.И.Шаферан) 2008"
+        },
+        {
+          "id": "6TcXs6l7LTgrBN7qjQ8RFr",
+          "title": "Листья закружат",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/Oficerov_Listya_Zakruzhat.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р.Майоров-В.Харитонов)"
+        },
+        {
+          "id": "57I1wQNKE2zFncHbuy3llS",
+          "title": "Любит-не любит",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/Oficerov_Lybit_Ne_Lybit.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Ольцман)"
+        },
+        {
+          "id": "5JnPE43kmJXCQc8ke9h8ZT",
+          "title": "Мария",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/Oficerov_Mariya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Ольцман)"
+        },
+        {
+          "id": "609jl1JdOX2G6gZemiIspc",
+          "title": "Москва-Париж",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/Oficerov_Moskva_Parizh.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Ольцман)"
+        },
+        {
+          "id": "WTSiglOCmyM2JBh8nMb7Y",
+          "title": "Облака в реке",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/Oficerov_Oblaka_V_Reke.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Днепров-И.Кохановский)"
+        },
+        {
+          "id": "373Ou052qiAyIAQKfOC5QZ",
+          "title": "Обманщица",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/Oficerov_Obmanchica.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-М.Пляцковский)"
+        },
+        {
+          "id": "59STM0dl8P18fcAGz0YqDx",
+          "title": "Очи черные",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/Oficerov_Och_Chernie.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(обр. А.Ольцмана)"
+        },
+        {
+          "id": "2sOQmq6HjFubZ3RpMiYtTN",
+          "title": "Помни меня",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/Oficerov_Pomni_Menya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Днепров-В.Харитонов) 2006"
+        },
+        {
+          "id": "33Q4ZtZdnte1pwBafg1AIH",
+          "title": "Понравилась девчонка",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/Kaskad_Ponravilas_Odna_Devchenka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р.Майоров-Я.Гальперин) с ВИА Каскад"
+        },
+        {
+          "id": "33mj5wTWUn2LBLSi9w1Mjo",
+          "title": "Румба",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/Oficerov_Rumba.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Ольцман)"
+        },
+        {
+          "id": "UeA6t8wylVSnIdBG4tgZq",
+          "title": "Синяя вечность",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/Oficerov_Sinyaya_Vechnost.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Магомаев-Г.Козловский) 2014"
+        },
+        {
+          "id": "10Hi2b7wGlSGO6wmIzVEeF",
+          "title": "Танго",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/Oficerov_Tango.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Э.Хампердинк-В.Харитонов)"
+        },
+        {
+          "id": "7FVYxsQmRQdKdtxhYFKEE7",
+          "title": "Только для нас",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/Oficerov-Larina_Tolko_Dlya_Nas.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Б.Рычков-И.Шаферан) с Л.Лариной из к/ф \"Звездный Инспектор\" 1982, запись 1981-82"
+        },
+        {
+          "id": "Mwm9KY54HMPfbrfFpTlhz",
+          "title": "Ты проходишь стороной",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/Oficerov_Ty_Prohodish_Storonoy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Векштейн-И.Кохановский)"
+        },
+        {
+          "id": "1tnMibWXj6IS5DlUinnszI",
+          "title": "Утренний свет",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/PS_Utrenniy_Svet.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Минков-И.Шаферан)"
+        },
+        {
+          "id": "mKhe0V3WzdEEZgXQQPgz6",
+          "title": "У той горы",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/Oficerov_U_Toy_Gory.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-В.Харитонов) 2006"
+        },
+        {
+          "id": "viyi9TGhZ7GsYUxp6iYK8",
+          "title": "Эти глаза напротив",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Oficerov/Oficerov_Eti_Glaza_Naprotiv.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-Т.Сашко) 2006"
+        }
+      ]
+    }
+  ],
+  "acknowledgements": [
+    "Андрею Шперлу",
+    "Владимиру Никандрову",
+    "Александру Устюгову",
+    "Владимиру Бахареву",
+    "Сергею Амброзику",
+    "Владимиру Сонцу",
+    "Олегу Беликову",
+    "Александру Куликову",
+    "Рафаэлю Исмангулову",
+    "Владимиру Молодыко",
+    "Валерию Колпакову",
+    "Наталье Смирновой",
+    "Василию Минаеву",
+    "Александру Фокину",
+    "Игорю Офицерову"
+  ],
+  "acknowledgementText": "",
+  "videos": [
+    {
+      "url": " https://ok.ru/video/3059865160223",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2131411405343&type=32&idx=11&tkn=dvT8gLvzJJ5LNCTOGrTQG7NyzHE&fn=external_8",
+      "title": "Концерт Игоря Офицерова",
+      "localThumbUrl": "/images/video-thumbnails/igor-oficerov/0.jpg"
+    },
+    {
+      "url": " https://ok.ru/video/3059900221983",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2131461343775&type=37&idx=3&tkn=HFMzE5DTGigVEvOs7r-kOKunNcU&fn=external_8",
+      "title": "Игоря Офицеров на вечере памяти Сергея Дьячкова 2015",
+      "localThumbUrl": "/images/video-thumbnails/igor-oficerov/1.jpg"
+    },
+    {
+      "url": " https://ok.ru/video/2987228727839",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2038643231263&type=37&idx=5&tkn=TSNB2FAC_Wgbw0k4G6XEyWYspKQ&fn=external_8",
+      "title": "Игорь Офицеров в программе «Рожденные в СССР» Игорь Офицеров в программе «Рожденные в СССР\"27.10.2021",
+      "localThumbUrl": "/images/video-thumbnails/igor-oficerov/2.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/2978581580319",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2027911186975&type=32&idx=5&tkn=R6QC5h1Iz_KKZRIRXXIy4omHYeE&fn=external_8",
+      "title": "Бабье лето (Ю.Антонов-И.Кохановский) в программе «Привет, Андрей» 20.11.2021",
+      "localThumbUrl": "/images/video-thumbnails/igor-oficerov/3.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/3059862800927",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2131408980511&type=37&idx=15&tkn=4iSOY2C431an0rEO4khbX02gJ5w&fn=external_8",
+      "title": "Мы слова найдем (М.Минков-И.Шаферан) в программе «Привет, Андрей» 12.02.2022",
+      "localThumbUrl": "/images/video-thumbnails/igor-oficerov/4.jpg"
+    }
+  ],
+  "links": []
+}

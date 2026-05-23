@@ -1,0 +1,23 @@
+---
+import './catalogue.css';
+import './catalogue.d.css';
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import CatalogueWithFilter from '../../components/islands/CatalogueWithFilter';
+import { readFileSync } from 'fs';
+import { join } from 'path';
+
+let items: any[] = [];
+try {
+  items = JSON.parse(readFileSync(join(process.cwd(), 'src/content/catalogue-list.json'), 'utf-8'));
+} catch {
+  // content not generated yet
+}
+---
+
+<Layout title="Каталог – ВАСИЛЬЕВСКИЙ ОСТРОВ">
+  <Header title="Каталог" layout="archive" />
+  <div id="main-content">
+    <CatalogueWithFilter items={items} client:load />
+  </div>
+</Layout>

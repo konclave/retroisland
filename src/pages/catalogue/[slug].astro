@@ -1,0 +1,68 @@
+---
+import './catalogue-entry.css';
+import './catalogue-entry.d.css';
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Gallery from '../../components/Gallery.astro';
+import CatalogueEntryAbout from '../../components/catalogue-entry/CatalogueEntryAbout.astro';
+import Albums from '../../components/catalogue-entry/Albums.astro';
+import Acknowledgements from '../../components/catalogue-entry/Acknowledgements.astro';
+import AdditionalInfo from '../../components/catalogue-entry/AdditionalInfo.astro';
+import CatalogueGallery from '../../components/islands/CatalogueGallery';
+import Videos from '../../components/islands/Videos';
+import { readFileSync, readdirSync } from 'fs';
+import { join } from 'path';
+
+export async function getStaticPaths() {
+  const contentDir = join(process.cwd(), 'src/content/catalogue');
+  let files: string[] = [];
+  try {
+    files = readdirSync(contentDir).filter((f) => f.endsWith('.json'));
+  } catch {
+    // content not generated yet
+  }
+  return files.map((file) => ({
+    params: { slug: file.replace('.json', '') },
+  }));
+}
+
+const { slug } = Astro.params;
+const filePath = join(process.cwd(), 'src/content/catalogue', `${slug}.json`);
+const entry = JSON.parse(readFileSync(filePath, 'utf-8'));
+
+const GALLERY_SPLIT = 2;
+const images = entry.images ?? [];
+const heroImages = images.length > GALLERY_SPLIT ? images.slice(0, 1) : images;
+const galleryImages = images.length > GALLERY_SPLIT ? images.slice(1) : undefined;
+---
+
+<Layout
+  title={`${entry.title} – ВАСИЛЬЕВСКИЙ ОСТРОВ (Музыка прошлых лет.)`}
+  description={`Список композиций ${entry.title}, которые есть на сайте.`}
+>
+  <Header title="" />
+  <section class="catalogue-item" id="main-content">
+    <CatalogueEntryAbout
+      title={entry.title}
+      description={entry.description}
+      shortDescription={entry.shortDescription}
+      images={heroImages}
+      tracksCount={entry.albums?.length ?? 0}
+    />
+    <div class="catalogue-main-container padded-wrap">
+      <div class="catalogue-tracks-container">
+        <Albums entries={entry.albums} />
+        <div class="catalogue-tracks-container__side-panel">
+          <Acknowledgements entries={entry.acknowledgements} text={entry.acknowledgementText} />
+          {entry.videos?.length > 0 && (
+            <Videos entries={entry.videos} client:load />
+          )}
+        </div>
+        {galleryImages && galleryImages.length > 0 && (
+          <CatalogueGallery images={galleryImages} title={entry.title} client:load />
+        )}
+        <AdditionalInfo entries={entry.links} />
+      </div>
+    </div>
+  </section>
+</Layout>

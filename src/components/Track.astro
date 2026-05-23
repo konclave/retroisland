@@ -1,0 +1,66 @@
+---
+import './track.css';
+import './track.d.css';
+interface TrackItem {
+  id: string;
+  title: string;
+  link: string;
+  length: string;
+  youtube: string;
+  ok: string;
+  shortDescription: string;
+}
+
+interface Props {
+  item: TrackItem;
+}
+
+const { item } = Astro.props;
+---
+
+<div class="track">
+  {item.link && (
+    <div>
+      <div class="track-wrap">
+        <a
+          class="jouele"
+          data-hide-timeline-on-pause="true"
+          id={item.id}
+          href={item.link}
+          data-length={item.length}
+        >
+          {item.title}
+        </a>
+      </div>
+      <small class="track__description">
+        {item.shortDescription || 'Скачать композицию:'}{' '}
+        <a
+          href={item.link}
+          download
+          title={`Скачать «${item.title}»`}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="-9 0 32 32">
+            <path d="M13.48 17.6a.82.82 0 0 0-.84.84v3.92c0 .48-.36.84-.84.84H2.52a.82.82 0 0 1-.84-.84v-3.92c0-.44-.36-.84-.84-.84S0 18 0 18.44v3.92c0 1.4 1.12 2.52 2.52 2.52h9.28c1.4 0 2.52-1.12 2.52-2.52v-3.92c0-.44-.36-.84-.84-.84zm-6.92.88c.04.04.2.28.6.28s.56-.24.6-.28l3.52-3.52c.32-.32.32-.84 0-1.2-.32-.32-.84-.32-1.2 0L8 15.88V7.96c0-.48-.36-.84-.84-.84s-.84.36-.84.84v7.92L4.24 13.8c-.32-.32-.84-.32-1.2 0-.32.32-.32.84 0 1.2l3.52 3.48z" />
+          </svg>
+        </a>
+      </small>
+    </div>
+  )}
+  {item.youtube && (
+    <div class="track-wrap">
+      <img class="track__icon" src="/img/youtube.svg" height="20" alt={item.title} />
+      <a href={item.youtube} target="_blank" rel="noopener noreferrer nofollow">
+        {item.title}
+      </a>
+    </div>
+  )}
+  {item.ok && (
+    <div class="track-wrap">
+      <a href={item.ok} target="_blank" rel="noopener noreferrer nofollow">
+        {item.title}
+      </a>
+    </div>
+  )}
+</div>

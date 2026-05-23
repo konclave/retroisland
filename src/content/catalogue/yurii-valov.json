@@ -1,0 +1,183 @@
+{
+  "id": "2w5XRPshXTQrKpUJecYmSJ",
+  "createdAt": "2022-09-28T07:03:37.063Z",
+  "updatedAt": "2023-03-05T08:54:42.141Z",
+  "title": "Юрий Валов",
+  "shortTitle": "",
+  "slug": "yurii-valov",
+  "shortDescription": "",
+  "description": "<p>Певец, композитор, гитарист, аранжировщик, один из основателей группы Скифы. Собственно, о Юрии Валове можно достаточно много можно на его сайте и на сайте группы Скифы. А я хотел бы сказать, что одной из моих любимых песен уже почти сорок лет является песня «Ветер северный». И большую часть этого времени фамилия солиста оставалась загадкой. И слава Богу, что есть интернет и есть любители той, старой музыки. </p><p>Теперь уже известно, что за группа Скифы, и знаем мы, что в этой группе и в ансамбле Голубые Гитары, играл гитарист Юрий Валов, который и спел эту великолепную песню. Надо сказать, из этой группы вышли и великолепный гитарист Цветов Сергей Дюжиков и ударник ансамбля Пламя Виктор Дегтярев. Собственно, историю Скифов можно почитать на их сайте, а я хотел бы здесь представить песни, которые спел, написал и аранжировал замечательный музыкант Юрий Валов.</p>",
+  "images": [],
+  "albums": [
+    {
+      "id": "1yYEtjiYKXPbLZlRXZUdgO",
+      "title": "Ансамбль Скифы",
+      "tracks": [
+        {
+          "id": "2Oa5HO7Dfhs3cRijlLJHbL",
+          "title": "Давай забудем",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Valov/Skify_Davay_Zabudem.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Валов) 1969"
+        },
+        {
+          "id": "4IQ3mx9mbG15hEBzQSfctI",
+          "title": "Сейчас",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Valov/Skify_Seychsas.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Валов) 1969"
+        }
+      ]
+    },
+    {
+      "id": "4Aoirw7OviA6yWUvt3RJPF",
+      "title": "Ансамбль Голубые Гитары",
+      "tracks": [
+        {
+          "id": "7t60Zw1e5rawXAXqlejpMt",
+          "title": "Будь, как совесть",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Valov/Skify_Davay_Zabudemak_Sovest.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Я.Френкель-Р.Гамзатов,Я.Козловский) 1973"
+        },
+        {
+          "id": "6UDhl0bsMysbYDveQa0QFl",
+          "title": "Ветер северный",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Valov/GG_Veter_Severny.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Я.Френкель-И.Гоф) 1971"
+        },
+        {
+          "id": "73A0wqeKtqTJncUzlPyKTT",
+          "title": "Давай забудем ",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Valov/GG_Davay_Zabudem.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Валов)"
+        },
+        {
+          "id": "7GaCWYtpVYIqB7vcMW60D6",
+          "title": "Песенка о ковбоях",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Valov/GG_Kovboi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Валов-М.Ножкин) 1969-70"
+        },
+        {
+          "id": "4cRoLbncaFZrY05Qcpos5K",
+          "title": "Скачки",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Valov/GG_Skachki.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(обр. А.Быкова) 1970"
+        }
+      ]
+    },
+    {
+      "id": "1Ee9Eb7YS6oEc9pklTaxNo",
+      "title": "Песни из альбома «Годы, как птицы»",
+      "tracks": [
+        {
+          "id": "3tcBtVOcTSCOlHksRWixkr",
+          "title": "А я нескладный",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Valov/Yuri_Valov_A_Ya_Neladny.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Валов)"
+        },
+        {
+          "id": "3KqdHS4zz2SLi4Fbrix3ly",
+          "title": "Белая Москва",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Valov/Yuri_Valov_Belaya_Moskva.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Валов)"
+        },
+        {
+          "id": "2ile6RrqDnA3gFdu2SP42J",
+          "title": "Вечерами",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Valov/Yuri_Valov_Vacherami.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Валов)"
+        },
+        {
+          "id": "3QwUEsI2CCDCTx3YTYV3PU",
+          "title": "Калифорния",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Valov/Yuri_Valov_Kalifornia.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Валов) "
+        }
+      ]
+    },
+    {
+      "id": "5JiNi4jHvR1K6r77Q46FFh",
+      "title": "Разные материалы",
+      "tracks": [
+        {
+          "id": "4ITL5ZH3REsDuFGbvuKY5D",
+          "title": "Гавайи",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Valov/Yuri_Valov_Gavaji.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Валов) 1973, запись 1983"
+        },
+        {
+          "id": "4WLbVbl8YpiaLidBEQhzFE",
+          "title": "Мурычин",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Valov/Yuri_Valov_Murychin.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Валов) 1986, запись 1987"
+        },
+        {
+          "id": "D6P9iGqGeKxbgJrVW8QuY",
+          "title": "Под 50-е",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Valov/Yuri_Valov_Pod_50_e.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Валов) 1986, запись 1988"
+        },
+        {
+          "id": "5xxlLOcWsZecbSzfo92kA9",
+          "title": "Александр Градский – Мы сегодня пьем не за друзей...",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Valov/Gradsky-My_Segodnya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(муз. и слова Ю.Валова, 1969-1970 концерт в лагере МЭИ Алушта, 1978"
+        }
+      ]
+    }
+  ],
+  "acknowledgements": ["Андрею Шперлу", "Александру Устюгову", "Роману Дорохину", "Юрию Валову"],
+  "acknowledgementText": "",
+  "videos": [
+    {
+      "url": "https://ok.ru/video/4113822911007",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=3440019311135&type=32&idx=5&tkn=oa6w-IVE3BnCkL7O5d3WL_YTo_E&fn=external_8",
+      "title": "Музыкальная видео-зарисовка (курсовая работа, вокал А.Лермана)",
+      "localThumbUrl": "/images/video-thumbnails/yurii-valov/0.jpg"
+    }
+  ],
+  "links": []
+}

@@ -1,0 +1,1135 @@
+{
+  "id": "3vwbr4ZsqmhJsK5dSbd0W7",
+  "createdAt": "2022-09-28T06:57:30.748Z",
+  "updatedAt": "2024-09-20T14:46:21.829Z",
+  "title": "Юрий Петерсон",
+  "shortTitle": "",
+  "slug": "yurii-peterson",
+  "shortDescription": "",
+  "description": "<p>Удивительный певец. Впервые я узнал о Юрии Петерсоне, побывав на концерте Самоцветов году в 75-ом. Юрий Маликов полностью называл состав (что было редкостью у вокально-инструментальных ансамблей) и пропустить солиста, певшего «Мерси» и «Багульник», было сложно. И песни красивые и голос запоминающийся. Собственно, что это он поет в Веселых Ребятах «Легко влюбиться» я и не сомневался особо, но вот, что «Тебе все равно» – это тоже он, я тридцать лет и не подозревал и узнал только недавно.</p><p>Когда я начал делать странички солистов разных ансамблей, была мысль сделать и страничку Юрия Петерсона. Но потом я подумал, что он и так хорошо известен, песен, которые он спел, очень много и в этом надобности нет. Но после странички Александра Барыкина, я понял, что Юрий Петерсон обязательно тоже должен быть у меня на сайте и максимально полно представленный. Хотя сейчас на сайте достаточно полная коллекция песен Юрия Петерсона, если у кого есть еще песни, которых здесь нет, с удовольствием приму и выложу. Юрия Леонидовича Петерсона не стало 5 сентября 2019 года.</p>",
+  "images": [
+    {
+      "id": "3Dp69IK6znpWyuL80MO2yy",
+      "title": "Юрий Петерсон",
+      "description": "",
+      "url": "/images/3Dp69IK6znpWyuL80MO2yy/Peterson.jpg",
+      "contentType": "image/jpeg",
+      "width": 200,
+      "height": 307
+    },
+    {
+      "id": "s1qofOWcT5tQKZCsI6Fg1",
+      "title": "Юрий Петерсон",
+      "description": "",
+      "url": "/images/s1qofOWcT5tQKZCsI6Fg1/Peterson_2_L.jpg",
+      "contentType": "image/jpeg",
+      "width": 960,
+      "height": 768
+    },
+    {
+      "id": "5nIcoEuIiePA9c2fgCQMS3",
+      "title": "Юрий Петерсон",
+      "description": "",
+      "url": "/images/5nIcoEuIiePA9c2fgCQMS3/Peterson_1_L.jpg",
+      "contentType": "image/jpeg",
+      "width": 800,
+      "height": 800
+    }
+  ],
+  "albums": [
+    {
+      "id": "jnVKNeI7ASWsPxaklmkli",
+      "title": "Ансамбль Веселые Ребята",
+      "tracks": [
+        {
+          "id": "6jzLjSrf4vg1lC8bCajZtr",
+          "title": "Баллада об отце",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/VR_Ballada_Ob_Otce.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Марьянович-О.Милявский) 1970"
+        },
+        {
+          "id": "4H1FGlQSgOUv8YP73nY3h7",
+          "title": "Веселый ковбой",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/VR_Vesely_Kovboy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(П.Слободкин-О.Гаджикасимов) 1969"
+        },
+        {
+          "id": "4ziOral2MUZtV7p89gfZzr",
+          "title": "Легко влюбиться",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/VR_Legko_Vlybitsya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-В.Харитонов) 1972"
+        },
+        {
+          "id": "2HGoE9qwJt30ChF9olMipw",
+          "title": "Наташа и я",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/VR_Natasha_I_Ya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Б.Климчук-О.Гаджикасимов) 1968-1969"
+        },
+        {
+          "id": "6F5cBxT9ypcJjyR4ycwzYO",
+          "title": "Парень простой я и обычный",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/VR_Paren_Prostoy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(П.Слободкин – В.Дюнин) 1971-1972"
+        },
+        {
+          "id": "3hubMV2pkQCZIjbEFVl2R0",
+          "title": "Тебе все равно",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/VR_Tebe_Vse_ravno.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Иванов-О.Гаджикасимов) 1969"
+        },
+        {
+          "id": "LSBzJfCW2x5SZBimVCZus",
+          "title": "Что со мной ты сделала",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/VR_Chto_So_Mnoy_Ty_Sdelala.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р.Майоров-М.Пляцковский) 1971"
+        }
+      ]
+    },
+    {
+      "id": "2OWyC0EFWmWF8aIOW0dYxd",
+      "title": "Ансамбль Самоцветы",
+      "tracks": [
+        {
+          "id": "4VMvgq8dNIXNc89kYhr4Op",
+          "title": "Багульник",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/SM_Bagulnik.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Шаинский-И.Морозов) 1975"
+        },
+        {
+          "id": "W3az3ockKgamRRc6uFa9e",
+          "title": "Мерси (вар. 1)",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/SM_Mersi_1.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Н.Богословский-М.Танич) 1974"
+        },
+        {
+          "id": "5zXZUAkGXHCnb8UZASA3Tj",
+          "title": "Мерси (вар. 2)",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/SM_Mersi_2.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Н.Богословский-М.Танич) 1975"
+        },
+        {
+          "id": "5apSnqqZR5Wml021uHZmpF",
+          "title": "Ох эти танцы",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/SM_Oh_Eti_Tancy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-В.Харитонов) миньон 1975"
+        },
+        {
+          "id": "7IynKyQFXwBuUb5EViK2gz",
+          "title": "Синица",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/SM_Sinica.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Петерсон-М.Пляцковский) 1974"
+        },
+        {
+          "id": "79oL2JOAdDKMR7KIF4ncVU",
+          "title": "Снежинка",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/SM_Snezhinka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Саульский-П.Леонидов) 1973"
+        },
+        {
+          "id": "6M5iVFOPkMAP8psuXAonYc",
+          "title": "Что со мной ты сделала",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/SM_Chto_So_Mnoy_Ty_Sdelala.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р.Майоров-М.Пляцковский) 1975"
+        }
+      ]
+    },
+    {
+      "id": "2rmg0l1eu5CfC4bi3NUDLJ",
+      "title": "Ансамбль Пламя",
+      "tracks": [
+        {
+          "id": "3QO8wQpjWPpbEI8LX08o3U",
+          "title": "Белым снегом",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_Belym_Snegom.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р.Майоров-В.Харитонов) 1978"
+        },
+        {
+          "id": "2Lzm2YsRKg782mnkFyRlDt",
+          "title": "Весенние надежды",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Plamya_Vesennie_Nadezhdy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Шаинский-В.Вербин) с И.Шачневой 1984"
+        },
+        {
+          "id": "eYCTD5tuq5eGvxd00BZin",
+          "title": "Вчера, еще вчера",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_Vchera_Eshe_Vchera.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Якушенко-И.Шаферан) с И.Шачневой 1982"
+        },
+        {
+          "id": "1hgFAlOq8Zs4eswVA7g9Mx",
+          "title": "В шахтерском общежитии",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_V_Shahterskom_Obshezhitii.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Н.Богословский-М.Пляцковский) 1978"
+        },
+        {
+          "id": "5ttbIixPI19cBGKtTw6cpX",
+          "title": "Здравствуй, моя ненаглядная",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Peterson_Zdravstvuy_Moya_Nenagladnaya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(З.Бинкин-В.Петров) 1986"
+        },
+        {
+          "id": "2RBfcG3QF5CdfK3LLidn6w",
+          "title": "Здравствуй, ноченька",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_Romans.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Букин-И.Юшин) 1976"
+        },
+        {
+          "id": "5WKXxyIEiU8dCj4HbyELQd",
+          "title": "Зеленая калитка",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_Zelenaya_Kalitka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Иванов-А.Поперечный) 1988"
+        },
+        {
+          "id": "45oMVv7NiT6wy1dqpx1zX3",
+          "title": "Идет солдат по городу (вар 1)",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_Idet_Soldat_Po_Gorogu-1.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Шаинский-М.Танич) - радиоверсия 1977"
+        },
+        {
+          "id": "5ZffHEwKTzP2IEp2ZoQNbB",
+          "title": "Идет солдат по городу (вар 2)",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_Idet_Soldat_Po_Gorogu-2.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Шаинский-М.Танич) - с миньона Г62—06555 1978"
+        },
+        {
+          "id": "44JcAiJIRGhOgh7K3XRcWd",
+          "title": "Кинематограф",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_Kinematograf.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Э.Колмановский-Ю.Левитанский) 1984"
+        },
+        {
+          "id": "55sHR7sOZ6XCGjykks0aw8",
+          "title": "Когда мужчины говорят",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_Kogda_Muzhchiny_Govoryat.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Березин-В.Бутенко) с С.Березиным и В.Беляниным 1986"
+        },
+        {
+          "id": "3vtxZWtQUg8eZF2L4MWCRR",
+          "title": "Любовь приходит не весной",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Peterson_Lubov_Prihodit_Ne_Vesnoy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Петерсон-Л.Виноградский) 1985"
+        },
+        {
+          "id": "57fpMh5Xy3OrXfUJGSIibL",
+          "title": "Мармеладная сказка",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_Marmeladnaya_Skazka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Малежик-М.Танич) 1980"
+        },
+        {
+          "id": "3JZrMJhmXusCAKX6ptxnpa",
+          "title": "Мой Севастополь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_Moy_Sevastopol.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Н.Богословский-А.Поперечный) 1976"
+        },
+        {
+          "id": "2dgfG7XYoOYHmonviokWEy",
+          "title": "Морская душа",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_Morskaya_Dusha.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Березин-М.Рябинин) 1988"
+        },
+        {
+          "id": "5ZnySaDooenxSPaZtFGTTk",
+          "title": "Морская песенка",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_Morskaya_Pesenka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Н.Богословский-В.Дыховичный, М.Слободской)"
+        },
+        {
+          "id": "4An6it0kXx1l2WMdmaG4mH",
+          "title": "Обещание",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_Obeshanie.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Фрадкин-Р.Рождественский), с И.Шачневой 1976-77"
+        },
+        {
+          "id": "JepBrXHxlGU56nzzHruqX",
+          "title": "Планета Гагарина",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_Planeta_Gagarina.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Журбин-В.Шленский) 1984"
+        },
+        {
+          "id": "2I2T9bVVkq53HBdUCLrJ7p",
+          "title": "Пока любим",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_Sinie_Dojdi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Г.Мовсесян-М.Танич)-дуэт с И.Шачневой 1977"
+        },
+        {
+          "id": "5zWuQRZMQqHnvtD90YYvrY",
+          "title": "Праздник юности",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Plamya_Prazdnik_Yunosti.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Е.Мартынов-А.Дементьев, А.Пьянов) с И.Шачневой 1978"
+        },
+        {
+          "id": "7IqJPDXITBstmVp57B6GFF",
+          "title": "Признание в любви",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_Priznanie_V_Lybvi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Туликов-М.Танич) 1977"
+        },
+        {
+          "id": "4MELwTxtTZXPUEkxzX8Edy",
+          "title": "Приходи",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_Prihodi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Чернышев-О.Писаржевская, А.Монастырев) 1976"
+        },
+        {
+          "id": "3J3RhdcKa64oLeAJhfU3xS",
+          "title": "Путеводная звезда",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_Putevodnaya_Zvezda.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Березин-Ю.Мориц) (с И.Шачневой) 1984"
+        },
+        {
+          "id": "7Kl3nMxwfUgNcbaQqXoM3e",
+          "title": "Сказка о царевне-лягушке",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_Carevna_Lyagushka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Петерсон – В.Шленский) 1982"
+        },
+        {
+          "id": "1CQjUhVDdJzARVDQ1IrSZB",
+          "title": "Снег кружится",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_Sneg_Kruzhitsya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Березин-Л.Козлова) 1982"
+        },
+        {
+          "id": "5nkPdGFKxazLmsKYNswgpR",
+          "title": "Строительный участок",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_My_Spravlaem_Novoselye.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Шаинский-М.Танич) 1977-78"
+        },
+        {
+          "id": "36tUvBQrog453iuolIE8rB",
+          "title": "Твои заботы",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_Tvoi_Zaboty.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Букин-М.Пляцковский) 1976"
+        }
+      ]
+    },
+    {
+      "id": "2LtRLAfhIOZthziYyOtoCD",
+      "title": "Песни с концерта ансамбля Веселые Ребята 1969 года",
+      "tracks": [
+        {
+          "id": "22z1xBAuJIQW7XaxfwtfMW",
+          "title": "Баллада об отце",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/VR_Ballada_Ob_Otce_69.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Марьянович-О.Милявский)"
+        },
+        {
+          "id": "2Z3tASefUamC16K21RPPz1",
+          "title": "Тебе все равно",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/VR_Tebe_Vse_Ravno_69.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Иванов-О.Гаджикасимов)"
+        }
+      ]
+    },
+    {
+      "id": "72Fo2r5r5cOneVZwIgyVLe",
+      "title": "Песни с концерта ансамбля Веселые Ребята 1972 года",
+      "tracks": [
+        {
+          "id": "12YWGbjfPbhBKgxLpO131c",
+          "title": "Баллада об отце",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/VR-1972_Ballada_Ob_Otce.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Марьянович-О.Милявский)"
+        },
+        {
+          "id": "6poXRAJcDNOJU07sXO6ABY",
+          "title": "Верю-верю",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/VR-1972_Very_Very.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Антонов-В.Дюнин)"
+        },
+        {
+          "id": "2R2mjzBQ0EZfx3YaqsrEws",
+          "title": "Дождь и я",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/VR-1972_Dojd_I_Ya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р.Майоров-О.Гаджикасимов)"
+        },
+        {
+          "id": "cP1lYaz7m3q7Wx7MVd4qI",
+          "title": "Мерси",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/VR-1972_Mersi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Н.Богословский-М.Танич)"
+        }
+      ]
+    },
+    {
+      "id": "7CrWQddDgFI2Dr8LxtWeU5",
+      "title": "Песни с концерта ансамбля Самоцветы 1972 года",
+      "tracks": [
+        {
+          "id": "5YvGQKpTM6PphHGWSlaQZ8",
+          "title": "Выхожу один я на дорогу",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/SM_72_Vyhozhu_Odin_Ya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Петерсон-М.Лермонтов)"
+        }
+      ]
+    },
+    {
+      "id": "1ckdBvW82pavXAJ9t0A2wF",
+      "title": "Песни с концертов ансамбля Самоцветы 1973 года",
+      "tracks": [
+        {
+          "id": "6zKCvLSqvXJhpOm1XIvyLi",
+          "title": "Грустная мама",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/SM-1973-Grustnaya_Mama.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Жиро, Дрежак-В.Дюнин)"
+        },
+        {
+          "id": "4zICyX712pFvbqtKrhUFjL",
+          "title": "Жил был я",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/SM-1973-Zhil_Byl_Ya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-С.Кирсанов)"
+        },
+        {
+          "id": "73YdHIdo7MXSdHEdLcL4qq",
+          "title": "Мерси",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/SM_1973_Mersi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Н.Богословский-М.Танич)"
+        },
+        {
+          "id": "71PBDf7cV0qTeLkgK1nDl1",
+          "title": "Легко влюбиться",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/SM-1973-Legko_Vlubitsya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-В.Харитонов)"
+        }
+      ]
+    },
+    {
+      "id": "4eseY3foa2pVK8Qp7cOD8i",
+      "title": "Песни с концерта ансамбля Самоцветы 1974 года",
+      "tracks": [
+        {
+          "id": "5EPKcc5IhtG7IXkmNM8EqU",
+          "title": "Жил был я",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/SM_74_Zhil_Byl_Ya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-С.Кирсанов)"
+        }
+      ]
+    },
+    {
+      "id": "5sEfuoQ9fP8rrqDF6BOK4F",
+      "title": "Песни с концертов ансамбля Пламя 1977 года",
+      "tracks": [
+        {
+          "id": "7lHPsvZuBPTEC8nTLYlsGZ",
+          "title": "Боль-обида",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_Bol_Obida.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Семенов-Л.Маляков)"
+        },
+        {
+          "id": "4s4YJ3xR84LJTfXeEzWamm",
+          "title": "Гой ты Русь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_Rus.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": " (Ю.Петерсон – С.Есенин)"
+        },
+        {
+          "id": "2bGUs3By3JsEOsxlxOzL4E",
+          "title": "Не успокоимся",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_Ne_Uspokoimsya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Краевский-р.т.И.Кохановского)"
+        },
+        {
+          "id": "ITMWXMuCCiBz3HelybeIz",
+          "title": "Обещание",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_1977_Obeshanie.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Фрадкин-Р.Рождественский)"
+        },
+        {
+          "id": "21DJyklMr14hybf4R9EY3W",
+          "title": "Пока любим",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_Poka_Lybim.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Г.Мовсесян-М.Танич)"
+        },
+        {
+          "id": "tVyshliiZOh8DovmhISBp",
+          "title": "Синица",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_Sinica.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Петерсон-М.Пляцковский)"
+        },
+        {
+          "id": "227BwI2Wfkj5dDUztbTOjM",
+          "title": "Скажи, чего ты ждешь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_Skazhi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Петерсон-М.Пляцковский)"
+        },
+        {
+          "id": "4jz8BRCrG8MoLrgoreqEWV",
+          "title": "Сколько дней",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_1984_Skolko_Dney.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Днепров-В.Харитонов)"
+        },
+        {
+          "id": "5ueWrScijFtECRbJcptruX",
+          "title": "Столица областная",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Plamya_77_Stolica_Oblastnaya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Фрадкин-Е.Долматовский) – с В.Дьяконовым"
+        },
+        {
+          "id": "1ZTPnoJh9szUba9DrfHIqr",
+          "title": "Там, за облаками",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_1977_Tam_Za_Oblakami.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Фрадкин-Р.Рождественский)"
+        }
+      ]
+    },
+    {
+      "id": "5KDsN8x9Qd1dQ8CBGegy7i",
+      "title": "Песни с концерта ансамбля Пламя 1980 года",
+      "tracks": [
+        {
+          "id": "3uIZhv3xg3kh8HZACX2U8i",
+          "title": "Берег моря",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_Bereg_Morya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Мальгашская нар. песня-М.Танич) с И.Шачневой."
+        },
+        {
+          "id": "4VjYaLm1ffBMB4v8GgEv57",
+          "title": "Сказка о царевне-лягушке",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_Skazka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Петерсон-В.Шленский)"
+        },
+        {
+          "id": "5dq3O1vswUIYnEEpPxlEF",
+          "title": "Мармеладная сказка",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_Marmeladnaya_Skazka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Малежик-М.Танич)"
+        }
+      ]
+    },
+    {
+      "id": "62oVuusM95qveeGTY9aOrq",
+      "title": "Песни с концерта ансамбля Пламя 1984 года",
+      "tracks": [
+        {
+          "id": "2BEV09n5qPj8XAR8ZvO5hV",
+          "title": "Весенние надежды",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_1984_Ne_Mogut_Byt_Naprasnymi_Nadezhdy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Шаинский-В.Вербин) с И.Шачневой"
+        },
+        {
+          "id": "1xbCnkqxtDGwpoqZYAUpf0",
+          "title": "Несколько нежных дней",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_Neskolko_Nezhnyh_Dney.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Петерсон-Е.Евтушенко)"
+        },
+        {
+          "id": "7a9dTHT9kuHXTMhKxZmcwx",
+          "title": "Путеводная звезда",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_1984_Dusha.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Березин-Ю.Мориц) с И.Шачневой"
+        }
+      ]
+    },
+    {
+      "id": "707E6Hj7QkS53g7ekxzgVg",
+      "title": "Альбом «Сорванный лист» 1989",
+      "tracks": [
+        {
+          "id": "495CBnmzX9JbdxmzB3RGbV",
+          "title": "Старый дом",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/SL/01_Stary_Dom.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Петерсон-А.Насонов)"
+        },
+        {
+          "id": "5yXpRdp84PVCrNAkNLvhOO",
+          "title": "Мой свет",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/SL/02_Moy_Svet.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Петерсон-М.Луконин)"
+        },
+        {
+          "id": "7MZg23BFMib3YK4ZadfWbR",
+          "title": "Сорванный лист",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/SL/03_Sorvanny_List.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Петерсон-В.Шварц)"
+        },
+        {
+          "id": "ldlbQtw3LBKZSlahvqQ9h",
+          "title": "Мираж",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/SL/04_Miraj.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Петерсон-М.Райкин)"
+        },
+        {
+          "id": "yfk2WbEldyV0mg9pPZ4Z3",
+          "title": "У моря",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/SL/05_U_Morya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Петерсон-А.Вознесенский)"
+        },
+        {
+          "id": "2wUoLn6N19FbqMpW3ni6Wm",
+          "title": "Ливень, море, беда",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/SL/06_Liven_More_Beda.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Петерсон-Н.Варлей)"
+        },
+        {
+          "id": "6pP7raCuqxLORUb91Zus0V",
+          "title": "Серпантин",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/SL/07_Serpantin.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Петерсон-В.Шпак)"
+        },
+        {
+          "id": "1MCMxJn654xPPAEkWrrMON",
+          "title": "Караси",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/SL/08_Karasi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Петерсон-Б.Слуцкий)"
+        },
+        {
+          "id": "42VE1YiT2ZT2hjUOsc4CfJ",
+          "title": "Зачем стыдится слез",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/SL/09_Zachem_Styditsya_Slez.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Петерсон-В.Шварц)"
+        }
+      ]
+    },
+    {
+      "id": "2QM3mwJCAbvalDbUAxBVn9",
+      "title": "Альбом «Переходный возраст»",
+      "tracks": [
+        {
+          "id": "2H3u0pmz7ScnScZKw6WOn5",
+          "title": "Переходный возраст",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/PV/01_Perehodny_Vozrast.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "djEVZeNUFIeUUqzgWCJGR",
+          "title": "Одиночество",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/PV/02_Odinochestvo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "40qJFMMJdJC8X4K0WtQDwE",
+          "title": "Не признавайтесь любимым в любви",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/PV/03_Ne_Priznavaytes.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "1PEd3mwHrei9cJTltLYddJ",
+          "title": "Молитва женщине",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/PV/05_Molitva_Zhenshine.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "16YLbOeSctgp2pD12RFehz",
+          "title": "Кафе любви",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/PV/06_Kafe_Lybvi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "11OO9TQLZe8x6uyMX6zxWr",
+          "title": "Медицинская старшина",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/PV/07_Medicinskaya_Starshina.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "5sDLenRF5nex2Ul1kK7eFt",
+          "title": "Баллада о снимке",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/PV/08_Ballada_O_Snimke.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "MCCyBGkhZz3cm2Dzd26OS",
+          "title": "Третий тост",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/PV/09_Trety_Tost.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "6XFsSphAifam5OogmDNsDR",
+          "title": "Я шепчу твое имя",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/PV/10_Ya_Shepchu_Tvoe_Imya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "6xgXKD4qf0jqSMCpNZXRjG",
+          "title": "Завещание сыну",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/PV/11_Zaveshanie_Synu.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "2bcrONWIni5VP8MaO1bm7l",
+          "title": "Времена года",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/PV/12_Vremena_Goda.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        }
+      ]
+    },
+    {
+      "id": "1ng6fQnnzv2vwt4D8vtGnG",
+      "title": "Альбом «Когда мужчине 40 лет» 1991",
+      "tracks": [
+        {
+          "id": "4EWmdbeSgmixQnms4HHy3c",
+          "title": "Смута",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/KM40/01-Smuta.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Шварц-В.ШварЦ)"
+        },
+        {
+          "id": "RYqU0eZYH3OoOclG41ud0",
+          "title": "Поверил",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/KM40/02_Poveril.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Петерсон-Ю.Петерсон)"
+        },
+        {
+          "id": "3j8gvgLxvgO3cXeyOxAQzE",
+          "title": "В Кремле",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/KM40/03_Obyavlen_Novy_God_V_Kremle.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Иртеньев)"
+        },
+        {
+          "id": "5RYxyI4XuliSj11prPUyAj",
+          "title": "Почему",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/KM40/04_Nikogo_Ne_Vini.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Кленичев)"
+        },
+        {
+          "id": "2Q7DyJFzRcYXzRC5GpKEU2",
+          "title": "В дискотеке",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/KM40/05_V_Diskoteke.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Петерсон-Ю.Петерсон)"
+        },
+        {
+          "id": "3KP7wZguIMzlrfQKKdblOQ",
+          "title": "Канатная плясунья",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/KM40/06_Byt_Ili_Ne_Byt.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Н.Варлей)"
+        },
+        {
+          "id": "1tbM8MIa7e1T6OIJxAiX7U",
+          "title": "Миллион",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/KM40/07_Iz_Kuska_Prostoy_Cvetnoy_Bumagi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Иртеньев)"
+        },
+        {
+          "id": "7d8JuNILEbS2On5LxAAEiy",
+          "title": "Замерзшая свеча",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/KM40/08_Zamerzshaya_Svecha.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Н.Варлей)"
+        },
+        {
+          "id": "3NiBsz2p0o0FyJbAqnBjs7",
+          "title": "Когда мужчине 40 лет",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/KM40/09_Kogda_Muzhchine_40_Let.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Е.Евтушенко)"
+        }
+      ]
+    },
+    {
+      "id": "2ViqE50wtKvG9sI4FnZQzY",
+      "title": "Записи с ансамблем Пламя-2000",
+      "tracks": [
+        {
+          "id": "5vnCbVOhxseSnd2G8R2ZXk",
+          "title": "Зачем стыдится слез",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya-2000_Zachem_Stydytsa_Slez.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Петерсон-В.Шварц)"
+        },
+        {
+          "id": "7gJr6VhbD7rC2B7EauMBFK",
+          "title": "Снег кружится",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_2000_Sneg_Kruzhitsa.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Березин-Л.Козлова)"
+        }
+      ]
+    },
+    {
+      "id": "b6br1fJolzvSeLAmS53Gf",
+      "title": "Разные записи",
+      "tracks": [
+        {
+          "id": "2P3mBlgkE79kjvt6IXinvt",
+          "title": "Замерзшая свеча",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Peterson-Varley_Zamerzshaya_Svecha.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Петерсон) – с Н.Варлей"
+        },
+        {
+          "id": "69RY5OqsOpnl7uBE0RZ7JZ",
+          "title": "Память",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Peterson_Pamyat.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Ухналев-В.Белянин), песня памяти О.Ухналева."
+        },
+        {
+          "id": "7FEsrvPVVJNCGOPPahruvl",
+          "title": "Я вернулся домой",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Peterson_Ya_Vernulsya_Domoy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Белянин)"
+        }
+      ]
+    }
+  ],
+  "acknowledgements": [
+    "Андрею Шперлу",
+    "Сергею Жарикову",
+    "Владимиру Сонцу",
+    "Александру Устюгову",
+    "Олегу Беликову",
+    "Роману Дорохину",
+    "Виктору Кривоклякину",
+    "Владимиру Бахареву",
+    "Сергею (forte)",
+    "Алексею (Starper)",
+    "Михаилу Юпенину",
+    "Владимиру Никандрову",
+    "Сергею Пасечнику",
+    "Михаилу Загребину",
+    "Игорю Чураку",
+    "Галине Стельмах",
+    "Василию Минаеву",
+    "Борису Щеглову",
+    "Юрию Анненкову",
+    "Энди Бишопу",
+    "Павлу Слободкину",
+    "Валентин Ярин (сайт ВИА Пламя)",
+    "Александру Леонову"
+  ],
+  "acknowledgementText": "",
+  "videos": [
+    {
+      "url": "https://ok.ru/video/2847395219999",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1884123040287&type=32&idx=2&tkn=I4gX-JIjDgHOAP9FEGOGN_XiADA&fn=external_8",
+      "title": "Снежинка (Ю.Саульский-П.Леонидов) – Самоцветы, 1973",
+      "localThumbUrl": "/images/video-thumbnails/yurii-peterson/0.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/2847401052703",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1884129593887&type=32&idx=8&tkn=3MIM4iTLqm-LLsrUOdOAmP_Kc0g&fn=external_8",
+      "title": "Налетели дожди (Д.Тухманов-В.Харитонов) – Самоцветы, 1973",
+      "localThumbUrl": "/images/video-thumbnails/yurii-peterson/1.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/4777444788",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=4777444788&type=47&idx=30&tkn=4DzW7F1LZjIKvxprJReu3CwKLHk&i=1&fn=external_8",
+      "title": "Юрий Петерсон в программе «Ностальгия» 25.03.2014",
+      "localThumbUrl": "/images/video-thumbnails/yurii-peterson/2.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/2847358913055",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1884080179743&type=37&idx=12&tkn=CYU2Vq6CIPca67lbJUGaRJcyXL0&fn=external_8",
+      "title": "Юрий Петерсон в программе «Ностальгия» 14.01.2016 г. ",
+      "localThumbUrl": "/images/video-thumbnails/yurii-peterson/3.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/88542153461",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=124315568885&type=32&idx=3&tkn=n1jlEqqU9ru59xoYcR3Q46z2DHI&fn=external_8",
+      "title": "Пламя-2000 в программе «Рожденные в СССР» 2011",
+      "localThumbUrl": "/images/video-thumbnails/yurii-peterson/4.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/3093605190175",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2172464531999&type=37&idx=13&tkn=oQGTMeM9WufCl5VZbetp3jPFTrs&fn=external_8",
+      "title": "Юрий Петерсон в концерте памяти Алексея Кондакова г.",
+      "localThumbUrl": "/images/video-thumbnails/yurii-peterson/5.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/1940408437279",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1017969445407&type=32&idx=3&tkn=tMz_NOn6lZfaVw63M-YyGCakBJc&fn=external_8",
+      "title": "Тебе все равно (О.Иванов – О.Гаджикасимов) 1971",
+      "localThumbUrl": "/images/video-thumbnails/yurii-peterson/6.jpg"
+    }
+  ],
+  "links": []
+}

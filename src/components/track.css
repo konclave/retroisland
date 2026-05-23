@@ -1,0 +1,116 @@
+.track {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.track-wrap {
+  display: flex;
+  gap: 15px;
+}
+
+.track__description {
+  padding-left: 32px;
+  font-size: 1em;
+}
+
+.track-list {
+  list-style: none;
+  font: normal var(--font-size-base) / 167% Merriweather;
+  color: var(--color-text-footer);
+  counter-reset: track-counter;
+  margin: 0;
+  padding: 0;
+}
+
+.track-list__item {
+  display: flex;
+  padding: 0.5em 0 0.5em;
+  counter-increment: track-counter;
+  gap: 10px;
+  align-items: top;
+}
+
+.track-list__item::before {
+  content: counter(track-counter);
+  text-align: right;
+  width: 15px;
+  padding-top: 2px;
+}
+
+.jouele {
+  color: var(--color-text);
+  width: 100%;
+}
+
+.jouele-info-control {
+  display: flex;
+  align-items: center;
+}
+
+.jouele-info-control-button {
+  margin-right: 10px;
+}
+
+.jouele-info-control-link {
+  border: 1px solid #dfdfdf !important;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
+
+.jouele-svg {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  left: 1px;
+}
+
+.jouele-info {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+}
+
+.jouele-info-time {
+  order: 1;
+  align-self: center;
+}
+
+.button-play {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 24px 16px 16px;
+  gap: 10px;
+
+  background: var(--color-requested-header-bg-5);
+  border: none;
+  border-radius: 40px;
+
+  font-family: var(--font-family-text);
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--font-size-intense);
+  line-height: 143%;
+  letter-spacing: -0.005em;
+  color: var(--color-light);
+}
+.button-play:hover,
+.button-play:focus {
+  background: #495930;
+}
+.button-play:active {
+  background: #495930;
+}
+.button-play .button-play__icon-play {
+  display: block;
+}
+.button-play .button-play__icon-pause {
+  display: none;
+}
+
+.button-play_is-playing .button-play__icon-play {
+  display: none;
+}
+.button-play_is-playing .button-play__icon-pause {
+  display: block;
+}

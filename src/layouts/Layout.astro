@@ -1,0 +1,71 @@
+---
+import globalCssUrl from '../styles/global.css?url';
+import componentsCssUrl from '../styles/components.css?url';
+import Navigation from '../components/Navigation.astro';
+import About from '../components/About.astro';
+
+interface Props {
+  title?: string;
+  description?: string;
+  isArchive?: boolean;
+}
+
+const {
+  title = 'ВАСИЛЬЕВСКИЙ ОСТРОВ (Музыка прошлых лет.)',
+  description = 'Коллекция редких песен вокально-инструментальных ансамблей 70-х годов, а также их солистов.',
+  isArchive = false,
+} = Astro.props;
+
+const isProd = import.meta.env.PROD;
+const currentPath = Astro.url.pathname;
+---
+
+<html lang="ru-RU">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="stylesheet" href="/styles/fotorama.css" />
+    <link rel="stylesheet" href="/styles/jouele.min.css" />
+    <link rel="stylesheet" href="/styles/alice-carousel.css" />
+    <link rel="stylesheet" href="/styles/lightbox.css" />
+    <link rel="stylesheet" href={globalCssUrl} />
+    <link rel="stylesheet" href={componentsCssUrl} />
+    <link rel="stylesheet" href="/styles/desktop.css" media="(min-width: 811px)" />
+    <link rel="stylesheet" href="/styles/tablet.css" media="(min-width: 480px) and (max-width: 810px)" />
+    {isProd && (
+      <script
+        is:inline
+        async
+        defer
+        src="https://beampipe.io/js/tracker.js"
+        data-beampipe-domain="retroisland.net"
+      />
+    )}
+  </head>
+  <body>
+    <a href="#main-content" class="skip-link">Перейти к основному содержимому</a>
+    <Navigation currentPath={currentPath} isArchive={isArchive} />
+    <slot />
+    <About />
+
+    <!-- jQuery + audio player (initialised once globally) -->
+    <script>
+      import jQuery from 'jquery';
+      // @ts-ignore
+      import { Howl } from 'howler';
+      (window as any).jQuery = (window as any).$ = jQuery;
+      (window as any).Howl = Howl;
+      const fotoramaScript = document.createElement('script');
+      fotoramaScript.src = '/fotorama.js';
+      document.body.appendChild(fotoramaScript);
+      // @ts-ignore
+      import('ilyabirman-jouele');
+    </script>
+  </body>
+</html>

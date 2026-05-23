@@ -1,0 +1,720 @@
+{
+  "id": "ut1lFDuSdQflwiFdHkaXc",
+  "createdAt": "2022-09-28T07:02:20.110Z",
+  "updatedAt": "2023-11-22T13:25:13.685Z",
+  "title": "Валентин Бадьяров",
+  "shortTitle": "",
+  "slug": "valentin-badyarov",
+  "shortDescription": "",
+  "description": "<p>Музыкант, аранжировщик, композитор. Участник ансамблей Песняры и Поющие Гитары, руководитель ансамбля Сябры (1976-1981), руководитель Группы Валентина Бадьярова.</p><p>Мы знаем его, как замечательного скрипача. Великолепная скрипка в Песнярах и Сябрах – это его. Но это только одна сторона разнообразного таланта Валентина Бадьярова. И на этой страничке хочется показать все его грани. Надеюсь, получится.</p><p>А мне больше всего нравится «Мой родный кут» Сябров. Послушайте, какая же там скрипка!</p>",
+  "images": [
+    {
+      "id": "1ozqvmPXIpbdKerLFSbhxd",
+      "title": "Валентин Бадьяров",
+      "description": "",
+      "url": "/images/1ozqvmPXIpbdKerLFSbhxd/Badyarov_1.jpg",
+      "contentType": "image/jpeg",
+      "width": 348,
+      "height": 480
+    },
+    {
+      "id": "6ctDZDHc9jLk8QP4fnfq0r",
+      "title": "Валентин Бадьяров",
+      "description": "",
+      "url": "/images/6ctDZDHc9jLk8QP4fnfq0r/Badyarov_2.jpg",
+      "contentType": "image/jpeg",
+      "width": 348,
+      "height": 348
+    },
+    {
+      "id": "pR0ZNbXyAI0LvkD1hP2Vw",
+      "title": "Валентин Бадьяров",
+      "description": "",
+      "url": "/images/pR0ZNbXyAI0LvkD1hP2Vw/Badyarov_3.jpg",
+      "contentType": "image/jpeg",
+      "width": 348,
+      "height": 348
+    },
+    {
+      "id": "2Qp2dCDczK1xzMlGkpuvzk",
+      "title": "Валентин Бадьяров",
+      "description": "",
+      "url": "/images/2Qp2dCDczK1xzMlGkpuvzk/Badyarov_4.jpg",
+      "contentType": "image/jpeg",
+      "width": 348,
+      "height": 348
+    },
+    {
+      "id": "626Zfvp0TwqBak8f0XWHpK",
+      "title": "Валентин Бадьяров",
+      "description": "",
+      "url": "/images/626Zfvp0TwqBak8f0XWHpK/Badyarov_5.jpg",
+      "contentType": "image/jpeg",
+      "width": 348,
+      "height": 220
+    }
+  ],
+  "albums": [
+    {
+      "id": "4IYLfrjvbbjEO8TKmmCDpk",
+      "title": "Ансамбль Песняры – скрипка, гитара",
+      "tracks": [
+        {
+          "id": "327TQ9XZAxVucH2m5MzViS",
+          "title": "Вероника",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/Pesnyary_Veronika.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Лученок-М.Богданович) 1976"
+        },
+        {
+          "id": "5xPmRm8IqMBtaA7TAhcaIO",
+          "title": "Мой родной край",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/Pesnyary_Moy_Rodny_Kut.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Лученок-Я.Колас) 1974"
+        },
+        {
+          "id": "6pBRZ6JrFX6NwKr4VQBl64",
+          "title": "Наследство",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/Pesnyary_Nasledstvo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Лученок-Я.Купала) 1972"
+        },
+        {
+          "id": "4nzd8Q5Zzp14Z0uVkx6onF",
+          "title": "Олеся",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/Pesnyary_Olesya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Лученок-А.Кулешов) 1972"
+        },
+        {
+          "id": "1f8iY8aJeKe45Urd74ugs9",
+          "title": "Ой рано на Ивана",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/Pesnyary_Oy_Rana_Na_Ivana.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(белорусская народная) 1970"
+        },
+        {
+          "id": "2hL49Lv5QUq34A6zJwcVPX",
+          "title": "Перепелочка",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/Pesnyary_Perepelochka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(белорусская народная) 1974"
+        },
+        {
+          "id": "6ltaE4OPC8SlpgkVnKDunM",
+          "title": "Ты мне весною приснилась",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/Pesnyary_Ty_Mne_Vesnoyu_Prisnilas.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Семеняко-М.Шушкевич) 1970"
+        },
+        {
+          "id": "2rbJmzjY0EYAwLipVzdFe9",
+          "title": "Чорные очи",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/Pesnyary_Chornie_Ochi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Зинкевич-Я.Купала) 1974"
+        }
+      ]
+    },
+    {
+      "id": "1eWYfXTsk5VJxP2dYQOQwy",
+      "title": "Ансамбль Поющие Гитары – скрипка, гитара",
+      "tracks": [
+        {
+          "id": "1HJ1BvxxIQLR8dFJ4lUfOb",
+          "title": "Краковяк",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/PG-71-72_Krakovyak.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Польская народная песня, обр. Э.Кузинера) концерт 1973-74"
+        }
+      ]
+    },
+    {
+      "id": "54X4By5Jcff8HoFFsjZnnR",
+      "title": "Ансамбль Сябры – автор песен, аранжировка, скрипка, гитара",
+      "tracks": [
+        {
+          "id": "5KdOrVPbuPTrIVuwZMjJe3",
+          "title": "Баллада о сожженной деревне",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/Syabry_Ballada_O_Sozhennoy_Derevne.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Бадьяров-А.Вертинский) LP \"Всем на планете\" 1978"
+        },
+        {
+          "id": "5ksp1ufaa1zOGMix3To3vR",
+          "title": "Белый снег",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/Syabry_Bely_Sneg.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Успенский-Л.Палей) 1978"
+        },
+        {
+          "id": "4cvbrDs8hAKJc9cOWGtneB",
+          "title": "Васильки во ржи",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/Syabry_Vaselki_Vo_Rzhi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Н.Черемушкин-А.Поперечный) 1979"
+        },
+        {
+          "id": "6A48LzetuqYZ7LoCejeh13",
+          "title": "Всем на планете",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/Syabry_Vsem_Na_Planete.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Бадьяров-С.Кирсанов)  LP \"Всем на планете\" 1978"
+        },
+        {
+          "id": "6XuFdiaDQOHCuF3gdZCV5B",
+          "title": "Высокие звезды",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/Syabry_Vysokie_Zvezdy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Лученок-Р.Гамзатов, пер. Я.Козловского) 1980"
+        },
+        {
+          "id": "3Q3gTGzB23Hj5Sz6A5cJNh",
+          "title": "Гимн земле",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/Syabry_Gimn_Zemle.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Пахмутова-Н.Добронравов)  LP \"Всем на планете\" 1978"
+        },
+        {
+          "id": "1TqEbrpYTCaV9wLYE5zYUj",
+          "title": "Глаза любимых",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/Syabry_Glaza_Lybimyh.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Богословский) 1980"
+        },
+        {
+          "id": "7GxYK7tv1YP147FGzjTSqC",
+          "title": "Глухариная заря",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/Syabry_Gluharinaya_Zarya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Иванов-А.Поперечный) 1980"
+        },
+        {
+          "id": "YRjZPhVAFoKWSBe1Ykjyu",
+          "title": "Девушка из Полесья",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/Syabry_Devushka_Iz_Polesya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Иванов-А.Поперечный) 1980"
+        },
+        {
+          "id": "FY3JVUlkiKzeN8kpX9Qxh",
+          "title": "Для двоих",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/Syabry_Dlya_Dvoih.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Бадьяров-В.Гин) 1980"
+        },
+        {
+          "id": "54X8af337H1mkzmsGNVkuJ",
+          "title": "Есть на свете ты",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/Syabry_Est_Na_Svete_Ty.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Иванов-М.Пляцковский) 1980"
+        },
+        {
+          "id": "6fALNQkyMwvYGDXbsMGG3x",
+          "title": "Кася",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/Syabry_Kasya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Лученок-А.Пашкевич)  LP \"Всем на планете\" 1978"
+        },
+        {
+          "id": "5Ikqa64F3nsykjKDcxoBaK",
+          "title": "Лесная колдунья",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/Syabry_Lesnaya_Koldunya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Иванов-А.Поперечный) 1980"
+        },
+        {
+          "id": "4x7iOtwYiT3bBrFhlGGXYv",
+          "title": "Мария",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/Syabry_Mariya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Н.Сацуро-К.Камейша)  LP \"Всем на планете\" 1978"
+        },
+        {
+          "id": "7MZt0dDEOu7ItSR4dnEoLv",
+          "title": "Мне снится лето",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/Syabry_Mne_Snitsya_Leto.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Н.Подгорнов-А.Кирилов)  LP \"Всем на планете\" 1978"
+        },
+        {
+          "id": "4Z9uCQ96MMGfwZ9xME61uM",
+          "title": "Мой родной край",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/Syabry_Moy_Rodny_Kut.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Лученок-Я.Колас) 1978"
+        },
+        {
+          "id": "6WFxHliflr0cqZruoa4o29",
+          "title": "Не обижайся",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/Syabry_Ne_Obizhaysya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Я.Дубравин-М.Пляцковский)  LP \"Всем на планете\" 1978"
+        },
+        {
+          "id": "63swTakeoE1GpTicvEh5Gk",
+          "title": "Не пугайте седых журавлей",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/Syabry_Ne_Pugayte_Sedyh_Zhuravley.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Н.Сацуро-В.Ащеулов) 1980"
+        },
+        {
+          "id": "4oJs3yyvldks6ynDcjjpp1",
+          "title": "Разреши тебя любить",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/Syabry_Razreshi_Tebya_Lybit.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Бадьяров-З.Бядуля) 1980"
+        },
+        {
+          "id": "gT2C1a6qMZvzrhJgMnGaP",
+          "title": "Родная деревня",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/Syabry_Rodnaya_Derevnya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Иванов-А.Поперечный) 1980"
+        },
+        {
+          "id": "AzfiNN3ylWk31bwm2dFA1",
+          "title": "Ты-одна любовь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/Syabry_Ty_Odna_Lybov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Бадьяров-А.Фет) 1980"
+        },
+        {
+          "id": "H3DTsfhFwdIL4zyNzVHJo",
+          "title": "Цветок любви",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/Syabry_Cvetok_Lybvi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Цакаридзе-П.Пчелинцев, В.Гин)  LP \"Всем на планете\" 1978"
+        },
+        {
+          "id": "70kl8UIVkBN5kmYrODzdE",
+          "title": "Я сказал своей девушке",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/Syabry_Ya_Skazal_Svoey_Devushke.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Н.Сацуро-А.Белевич) 1980"
+        }
+      ]
+    },
+    {
+      "id": "1uVZuZn8J8csrQWqXJYXtJ",
+      "title": "Группа Валентина Бадьярова – аранжировка, автор",
+      "tracks": [
+        {
+          "id": "3NX3H5YhaC7N9uDcBOHkbD",
+          "title": "Диалог",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/G_V_B_Dialog.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Лученок) 1985, запись 1984"
+        },
+        {
+          "id": "4B7fh1uKY0bU0nmKWEYwsJ",
+          "title": "Мираж",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/G_V_B_Mirazh.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Я.Нахманович) 1985, запись 1984"
+        },
+        {
+          "id": "58b3zrYwj9exIIdU0oBtK6",
+          "title": "Облака",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/G_V_B_Oblaka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Н.Сиваков) 1985, запись 1984"
+        },
+        {
+          "id": "6xRvXxYy33r0T2i6DdKDsE",
+          "title": "Осень",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/G_V_B_Osen.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Н.Сиваков) 1985, запись 1984"
+        },
+        {
+          "id": "vfLRIStV4GnUnndyNp0Ev",
+          "title": "Пробужденье",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/G_V_B_Probuzhdenie.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Н.Сиваков) 1985, запись 1984"
+        },
+        {
+          "id": "7mGhw33gQPOESsXrCzerF1",
+          "title": "Раздумье",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/G_V_B_Razdumye.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Н.Сиваков) 1985, запись 1984"
+        },
+        {
+          "id": "1UvVRGJ2d1Fiy0CShwb2SR",
+          "title": "Ритмы большого города",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/G_V_B_Rytmy_Bolshogo_Goroda.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Бадьяров) 1985, запись 1984"
+        },
+        {
+          "id": "7gdjP2wwq8jq9cKeEWyoA2",
+          "title": "Старт",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/G_V_B_Start.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Я.Нахманович) 1985, запись 1984"
+        },
+        {
+          "id": "2ltzymgoOW2Ig4ofE9R5ji",
+          "title": "Свет",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/G_V_B_Svet.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Я.Нахманович) 1985, запись 1984"
+        },
+        {
+          "id": "2eKqFWoFYQpYSVG0vUbE1y",
+          "title": "Танцуем",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/G_V_B_Tancuem.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Я.Нахманович) 1985, запись 1984"
+        },
+        {
+          "id": "5Zfrlfl34ovNnTfXe7Lb6A",
+          "title": "Как случилось",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/GVB_Kak_Sluchilos.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Бадьяров-В.Федоров) 1983, запись 1982"
+        },
+        {
+          "id": "6zYHnSwUMgI3Crw9SBcZHd",
+          "title": "Красавица невеста",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/GVB_Krasavica_Nevesta.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Лученок-В.Гин) 1983, запись 1982"
+        },
+        {
+          "id": "18zWD4NKYtO6AQvNjUTa0J",
+          "title": "Ты мне удачу нагадай",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/GVB_Ty_Mne_Udachu_Nagaday.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Будник-В.Некляев) 1983, запись 1982"
+        }
+      ]
+    },
+    {
+      "id": "6PtK3ac6kDNTyNeBv0zzPe",
+      "title": "Группа Валентина Бадьярова – альбом «Песни Олега Иванова»",
+      "tracks": [
+        {
+          "id": "25XNzg6irY0igv4q7AGGDf",
+          "title": "А я первую зову",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/GB_A_Ya_Pervuyu_Zovu.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Иванов-В.Харитонов) 1981"
+        },
+        {
+          "id": "61WHJTq3c2gfLpSg6XncLp",
+          "title": "Может, это не любовь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/GB_Mozhet_Eto_Ne_Lybov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Иванов-В.Харитонов) 1981"
+        },
+        {
+          "id": "41zqgFZCMixOliWTaUVivR",
+          "title": "Музыкальный дом ",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/GB_Muzykalny_Dom.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Иванов-В.Харитонов) 1981"
+        },
+        {
+          "id": "3N3YLY9iey44WKsWF4UuZy",
+          "title": "Ближе к лету",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/GVB_Blizhe_K_Letu.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Иванов-В.Харитонов) 1981"
+        },
+        {
+          "id": "jImc3qE6fttwFeX00opL4",
+          "title": "Любить друг друга",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/GVB_Lybit_Drug_Druga.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Иванов-Р.Рождественский) 1981"
+        },
+        {
+          "id": "1wAlVe3Sn3EAi6U5ihv3fo",
+          "title": "Мир для двоих",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/GVB_Mir_Dlya_Dvoih.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Иванов-В.Некляев) 1981"
+        },
+        {
+          "id": "30KravRoXlwQT0WtKmadcf",
+          "title": "Твоя любовь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/GVB_Tvoya_Lybov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Иванов-В.Харитонов) 1981"
+        },
+        {
+          "id": "1YboOGkqwrVxEuVohezQSw",
+          "title": "Уже не скрыть любовь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Badyarov/GVB_Uzhe_Ne_Skryt_Lybov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Иванов-В.Харитонов) 1981"
+        }
+      ]
+    }
+  ],
+  "acknowledgements": [
+    "Андрею Шперлу",
+    "Александру Устюгову",
+    "Вячеславу Капустину",
+    "Валентину Бадьярову"
+  ],
+  "acknowledgementText": "",
+  "videos": [
+    {
+      "url": "https://ok.ru/video/6197191772703",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=5403722189343&type=32&idx=4&tkn=LLex4LG27V94VcM5mExeCaC_VyY&fn=external_8",
+      "title": "Группа Валентина Бадьярова. Воспоминание о детстве. Солист Валерий Дайнеко 1973",
+      "localThumbUrl": "/images/video-thumbnails/valentin-badyarov/0.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/4476698561055",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=3899996047903&type=37&idx=15&tkn=tjm5ro63bUUHoSZGnAFKFqkvdW4&fn=external_8",
+      "title": "Песняры - Идем, пойдем вдоль улицы (Белорусская народная) - фильм \"Батлейка\", Валентин Бадьяров - гитара 1971",
+      "localThumbUrl": "/images/video-thumbnails/valentin-badyarov/1.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/4476706228767",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=3899998669343&type=32&idx=4&tkn=0EHeL92DllHYNxkbeKgIyc-bX0U&fn=external_8",
+      "title": "Песняры - Как я ехал к ней (Белорусская народная) - фильм \"Батлейка\", Валентин Бадьяров - вокал (сидит радом с Л.Борткевичем) 1971",
+      "localThumbUrl": "/images/video-thumbnails/valentin-badyarov/2.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/4492759927327",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=3919288011295&type=37&idx=5&tkn=QCo5MEjNAGSw4d2sjYgYrmRk9z8&fn=external_8",
+      "title": "Песняры - Ой рано на Ивана (Белорусская народная)) - фильм \"Батлейка\", Валентин Бадьяров - скрипка, вокал (стоит за В.Яшкиным) 1971",
+      "localThumbUrl": "/images/video-thumbnails/valentin-badyarov/3.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/4492771592735",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=3919295220255&type=32&idx=12&tkn=SLZWWZclfpry6a1eLTH4lDj5NRM&fn=external_8",
+      "title": "Песняры - Рушники  (Н.Петренко-Г.Соколова) - фильм \"Батлейка\", Валентин Бадьяров - гитара, в середине 1971",
+      "localThumbUrl": "/images/video-thumbnails/valentin-badyarov/4.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/4500149766687",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=3927799237151&type=32&idx=15&tkn=SpGvF4CD8b9LiJJtKlORTNQuiTI&fn=external_8",
+      "title": "Песняры - Ты мне весною приснилась (Ю.Семеняко-М.Шушкевич) - фильм \"Батлейка\", Валентин Бадьяров - скрипка 1971",
+      "localThumbUrl": "/images/video-thumbnails/valentin-badyarov/5.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/4500159269407",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=3927812934175&type=37&idx=15&tkn=lMZ-kTX7p92RB_eFC54BQoxQD-g&fn=external_8",
+      "title": "Песняры - Бывайте здоровы (И.Любан-А.Росак) - фильм \"Батлейка\" 1971",
+      "localThumbUrl": "/images/video-thumbnails/valentin-badyarov/6.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/3427696249375",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2607363590687&type=32&idx=4&tkn=qjwhE8e-FPJJgIfLnWFvU5ZHXgo&fn=external_8",
+      "title": "Сябры – Белое облако (О.Иванов – Р.Рождественский) съемка белорусского телевидения, солист В.Шалько 1980",
+      "localThumbUrl": "/images/video-thumbnails/valentin-badyarov/7.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/3427714075167",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2607389805087&type=32&idx=9&tkn=Z79RcJ9jaUzrct1ROB7SXrJ9ocM&fn=external_8",
+      "title": " Сябры – Васильки во ржи (Н.Черемушкин-А.Поперечный) съемка белорусского телевидения, солист В.Червонный 1980",
+      "localThumbUrl": "/images/video-thumbnails/valentin-badyarov/8.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/3427720038943",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2607400552991&type=32&idx=3&tkn=J6DJ0bSm5gXQ_-CYgkDXDSyV_jU&fn=external_8",
+      "title": "Сябры – Дазволь (В.Бадьяров – ?), съемка белорусского телевидения, солисты В.Червонный и В.Шалько 1980)",
+      "localThumbUrl": "/images/video-thumbnails/valentin-badyarov/9.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/3427763489311",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2607468907039&type=32&idx=10&tkn=Xc9Id-vMB4gDQh1c3T3wGldkLmc&fn=external_8",
+      "title": "Сябры – Для двоих (В.Бадьяров-В.Гин) съемка белорусского телевидения, солист В.Червонный 1980",
+      "localThumbUrl": "/images/video-thumbnails/valentin-badyarov/10.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/3427724888607",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2607408286239&type=32&idx=14&tkn=4eMM0O9F6a6_LlkHG73URvVDvPc&fn=external_8",
+      "title": "Сябры – Родная деревня (О.Иванов-А.Поперечный) (съемка белорусского телевидения, 1980)",
+      "localThumbUrl": "/images/video-thumbnails/valentin-badyarov/11.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/3427778890271",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2607493286431&type=38&idx=15&tkn=AGGqaZVAsymHxhrJG42bTeKGM_c&fn=external_8",
+      "title": "Сябры – Васильки во ржи (Н.Черемушкин-А.Поперечный) цвет, вариант с соло на скрипке Валентина Бадьярова, солист В.Червонный 1980",
+      "localThumbUrl": "/images/video-thumbnails/valentin-badyarov/12.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/3427802352159",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2607527823903&type=32&idx=11&tkn=VZSHyulpoFa4CRE8BHJEj8bbViw&fn=external_8",
+      "title": "На тему песен М.Джексона с 40-летие Песняров",
+      "localThumbUrl": "/images/video-thumbnails/valentin-badyarov/13.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/3427854846495",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2607608039967&type=32&idx=15&tkn=g0FoUwR3s6k4dAcw3XzijjCB1MM&fn=external_8",
+      "title": "Шторм Вивальди с 40-летие Песняров",
+      "localThumbUrl": "/images/video-thumbnails/valentin-badyarov/14.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/3427883616799",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2607649393183&type=32&idx=2&tkn=3wCWP-V5TeocR83TTRPXy3lGeWI&fn=external_8",
+      "title": "Сябры Internationale – Девушка из Полесья (О.Иванов-А.Поперечный) (солист В.Червонный)",
+      "localThumbUrl": "/images/video-thumbnails/valentin-badyarov/15.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/3427893250591",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2607662565919&type=32&idx=1&tkn=5BtKx3bmDulGyw2ibf7OqWrkoWQ&fn=external_8",
+      "title": "Сябры Internationale – Ах, Одесса (солист В.Червонный)",
+      "localThumbUrl": "/images/video-thumbnails/valentin-badyarov/16.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/3427900656159",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2607674755615&type=32&idx=15&tkn=dtNFRpXIYpj0k3HpamYFxsZrTPE&fn=external_8",
+      "title": "Сябры Internationale – Мечта (солисты В.Червонный, А.Асадуллин, )",
+      "localThumbUrl": "/images/video-thumbnails/valentin-badyarov/17.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/3427847703071",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2607597160991&type=37&idx=7&tkn=rSUZIBxn2rh03K79UqLsQuKeSos&fn=external_8",
+      "title": "Валентин Бадьяров в воспоминаниях Владимира Орлова и Валерия Дайнеко",
+      "localThumbUrl": "/images/video-thumbnails/valentin-badyarov/18.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/3427867822623",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2607627307551&type=32&idx=12&tkn=HF18jeNjApv5HK7HeSMBcsDyDcc&fn=external_8",
+      "title": "Авторская программа Владимира Орлова «Люблю I Памятаю»",
+      "localThumbUrl": "/images/video-thumbnails/valentin-badyarov/19.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/3427841673759",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2607590083103&type=32&idx=12&tkn=zL_oc2HTj8cD2gUpxEcQphN2w2g&fn=external_8",
+      "title": "Валентин Бадьяров в составе Filmmusic Simfonie Orchester",
+      "localThumbUrl": "/images/video-thumbnails/valentin-badyarov/20.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/3427861727775",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2607617673759&type=32&idx=1&tkn=g23Qse1nJXpu366TJbXuadVZWSQ&fn=external_8",
+      "title": "Концерт Валентина Бадьярова в г. Ахен (Германия) 1995",
+      "localThumbUrl": "/images/video-thumbnails/valentin-badyarov/21.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/3427828763167",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2607571601951&type=32&idx=15&tkn=lPtJ6KT9Imtd4Wro4k5msj69zdk&fn=external_8",
+      "title": "Концерт группы В.Бадьярова в г. Волжский 26.05.2012: Часть 1 ",
+      "localThumbUrl": "/images/video-thumbnails/valentin-badyarov/22.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/3427836037663",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2607583070751&type=32&idx=12&tkn=Rlt8vWG5G1aetjNY7ucRc3V2euo&fn=external_8",
+      "title": "Концерт группы В.Бадьярова в г. Волжский 26.05.2012:  Часть 2",
+      "localThumbUrl": "/images/video-thumbnails/valentin-badyarov/23.jpg"
+    }
+  ],
+  "links": []
+}

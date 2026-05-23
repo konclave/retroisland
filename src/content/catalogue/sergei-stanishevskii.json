@@ -1,0 +1,282 @@
+{
+  "id": "5D3XyQUKZvYY48gQo4ACbz",
+  "createdAt": "2022-09-28T07:04:47.053Z",
+  "updatedAt": "2023-01-06T18:38:38.892Z",
+  "title": "Сергей Станишевский",
+  "shortTitle": "",
+  "slug": "sergei-stanishevskii",
+  "shortDescription": "",
+  "description": "<p>Голос, а точнее один из двух основных голосов вокально-инструментального ансамбля Музыка. Без него, как, впрочем, и без Николая Воробьева Музыку представить просто невозможно. Воздушное, прозрачное, легкое звучание со струнным квартетом и такой же воздушный красивый голос - вот это и есть ансамбль Музыка. </p><p>На самом деле о нем очень мало информации. После распада Музыки он пропал и больше нигде не проявился. Очень жаль. Но он остался в песнях и особенно, как замечательный Капитан Грей из Алых Парусов. А моя любимая песня у Музыки - это, конечно, «Я полечу». С этой песни у меня началось знакомство с этим ансамблем, потом были «Вдохновение», «Счастливая песня» и наконец «Алые Паруса». А на этой страничке все доступные песни, где солист Сергей Станишевский.</p>",
+  "images": [
+    {
+      "id": "7qmFjRzN3yvp36Svpv1Ib0",
+      "title": "Сергей Станишевский",
+      "description": "",
+      "url": "/images/7qmFjRzN3yvp36Svpv1Ib0/Stanishevsky.jpg",
+      "contentType": "image/jpeg",
+      "width": 300,
+      "height": 561
+    }
+  ],
+  "albums": [
+    {
+      "id": "5Ihmha8NHK3nDiRMTzqV0n",
+      "title": "Ансамбль Музыка",
+      "tracks": [
+        {
+          "id": "7AsRFNQsVHuJEzF4kZZHxD",
+          "title": "Вдохновениея",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Stanishevsky/Muzyka_Vdohnovenie.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Мажуков-О.Гаджикасимов) с Н.Воробьевым 1977"
+        },
+        {
+          "id": "1BxWPgpEqv9jJpPXH8P5bE",
+          "title": "За три беды перешагну (вар 1)",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Stanishevsky/Muzyka_Za_Tri_Bedy_Pereshagnu_1.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Иванов-Л.Ошанин) с Н.Воробьевым 1979"
+        },
+        {
+          "id": "7rWANyaBnZXA4meFUJjdRD",
+          "title": "За три беды перешагну (вар 2)",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Stanishevsky/Muzyka_Za_Tri_Bedy_Pereshagnu_2.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Иванов-Л.Ошанин) с Н.Воробьевым 1979"
+        },
+        {
+          "id": "23RptEXSNEWunt4LGg19vJ",
+          "title": "Золотинка",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Stanishevsky/Muzyka_Zolotinka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Томин-М.Пляцковский) 1980"
+        },
+        {
+          "id": "5ZikPFjE4pfM6Mwz6gLCVi",
+          "title": "Кто же виноват",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Stanishevsky/Muzyka_Kto_Zhe_Vinovat.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р.Майоров-А.Богословский) 1977"
+        },
+        {
+          "id": "7tUl2R7a55NkjuHQU533gK",
+          "title": "Кто тебе сказал",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Stanishevsky/Muzyka_Kto_Tebe_Skazal.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-Л.Дербенев) с Н.Воробьевым"
+        },
+        {
+          "id": "2nQBD59iaZ7Xp3hJrm6ZJO",
+          "title": "На земле родился человек",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Stanishevsky/Muzyka_Na_Zemle_Rodilsa_Chelovek.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(??-??)"
+        },
+        {
+          "id": "58GJr8ilSOemKAqeiorpC2",
+          "title": "Напиши",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Stanishevsky/Muzyka_Napishi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Л.Лядова-А.Иванушкин) 1977"
+        },
+        {
+          "id": "Cn432N9zQ2uTU2aDbGpNH",
+          "title": "Не красавец",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Stanishevsky/Muzyka_Ne_Krasavec.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Г.Мовсесян-И.Шаферан)"
+        },
+        {
+          "id": "7HHdSeW3HQgossXITfkySO",
+          "title": "О жизни я думал",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Stanishevsky/Muzyka_O_Zhizni_Ya_Dumal.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Семенов-А.Богословский)"
+        },
+        {
+          "id": "4B1GxyYYIWUiOgERrefpdW",
+          "title": "Остановись, мгновенье",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Stanishevsky/Muzyka_Ostanovis_Mgnovenye.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Л.Гарин-Н.Олев) 1976"
+        },
+        {
+          "id": "3EuMhC6knjpRII4mCMYcHF",
+          "title": "Пеппи",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Stanishevsky/Muzyka_Peppi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р.Майоров-И.Кохановский) 1974"
+        },
+        {
+          "id": "dtsYrwIFyAsDD2iimDMwl",
+          "title": "Строит комсомол",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Stanishevsky/Muzyka_Stroit_Komsomol.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Мажуков-Д.Усманов) с Н.Воробьевым 1977"
+        },
+        {
+          "id": "66HjbrYROH4OE1GuJWBnXh",
+          "title": "Счастливая песня",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Stanishevsky/Muzyka_Schastlivaya_Pesnya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Мажуков-О.Писаржевская, А.Монастырев) 1977"
+        },
+        {
+          "id": "1mt6oe2iUzbxlrWNeSzSHY",
+          "title": "Такая радость",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Stanishevsky/Muzyka_Takaya_Radost.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Мажуков-О.Писаржевская, А.Монастырев) 1978"
+        },
+        {
+          "id": "3Zy29qTM0rNq4OLv5UoRlf",
+          "title": "Это – жизнь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Stanishevsky/Muzyka_Eto_Zhizn.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Мажуков-А.Поперечный) с Н.Воробьевым"
+        },
+        {
+          "id": "4Kq42THee5iuLLzXEa8VD2",
+          "title": "Я полечу",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Stanishevsky/Muzyka_Ya_Polechu.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Vanity Fair-О.Писаржевская, А.Монастырев) 1974"
+        }
+      ]
+    },
+    {
+      "id": "4RQQsm5mcqQNoQOnMWKxNs",
+      "title": "Опера-Феерия Алые Паруса (А.Богословский).",
+      "tracks": [
+        {
+          "id": "4MnWI19D0ltOSdugvK7B6L",
+          "title": "Проводы Грея",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Alye_Parusa/Alye_Parusa_Provody_Greya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "VF4hHlAF6jlkfLLBdiOrf",
+          "title": "Ассоль и Грей",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Alye_Parusa/Alye_Parusa_Nakanune_Assol_i_Grey.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "1wNJuz7zJba77oBkdt7SIV",
+          "title": "В трактире",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Alye_Parusa/Alye_Parusa_V_Traktire.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "23RCouBxztM2a8coglAFuW",
+          "title": "Покупка шелка",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Alye_Parusa/Alye_Parusa_Pokupka_Shelka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "2E6kxMbuFzn0PoQQWlpKZN",
+          "title": "На корабле",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Alye_Parusa/Alye_Parusa_Na_Korable.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "2ODiPFj3C44Dd9xKkPgmO4",
+          "title": "Приглашение музыкантов на корабль",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Alye_Parusa/Alye_Parusa_Muzykanty.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "20VjkJ1JoaAlsXAf4I8zDl",
+          "title": "Грей о любви",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Alye_Parusa/Alye_Parusa_Grey_O_Lybvi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "598Mq09B8V9zuauEsSiXHj",
+          "title": "Финал",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Alye_Parusa/Alye_Parusa_Final.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        }
+      ]
+    }
+  ],
+  "acknowledgements": [
+    "Александру Устюгову",
+    "Владимиру Бахареву",
+    "Олегу Беликову",
+    "Сергею Амброзику",
+    "Владимиру Никандрову",
+    "Виктору Кривоклякину",
+    "Вячеславу Капустину",
+    "Андрею Шперлу",
+    "Олегу Беликову",
+    "Наташе Бравичевой",
+    "Михаилу Борисову",
+    "м см Валентину Титову",
+    "Михаилу Юпенину",
+    "Александру Куликову",
+    "Сергею Максимову",
+    "Игорю Левченко",
+    "Василию Минаеву"
+  ],
+  "acknowledgementText": "",
+  "videos": [],
+  "links": []
+}

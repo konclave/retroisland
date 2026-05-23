@@ -1,0 +1,172 @@
+{
+  "id": "5TObb0SiEyTpy5y1Q4wbZg",
+  "createdAt": "2022-09-28T07:02:52.448Z",
+  "updatedAt": "2023-03-07T13:43:43.198Z",
+  "title": "Владимир Фазылов",
+  "shortTitle": "",
+  "slug": "vladimir-fazylov",
+  "shortDescription": "",
+  "description": "<p>Солист и гитарист ансамбля Веселые Ребята. Играл он там совсем недолго и записал песен не так уж, чтобы много, но без него Веселые Ребята начала семидесятых представить невозможно. Песня «Люди встречаются» – безусловный хит, одна из визитных карточек ансамбля и любима до сих пор. При этом узнать, кто же, все-таки, ее пел, удалось относительно недавно, спасибо интернету, а до этого, больше тридцати лет мы знали просто: поет ансамбль Веселые Ребята.</p><p>Владимир Фазылов жив и здоров, живет в Узбекистане, был Начальником управления печати республики Узбекистан и от музыки отошел. Жаль. Надеюсь, что те песни, которые сейчас лежат на этой страничке - только начало. Буду благодарен любым материалам об этом замечательном музыканте.</p>",
+  "images": [
+    {
+      "id": "1N3yNTo3GSh1YREwqWT1of",
+      "title": "Владимир Фазылов",
+      "description": "",
+      "url": "/images/1N3yNTo3GSh1YREwqWT1of/Fazylov.jpg",
+      "contentType": "image/jpeg",
+      "width": 250,
+      "height": 350
+    },
+    {
+      "id": "3JR3TCHBgB03qHrGD9mrYQ",
+      "title": "Владимир Фазылов",
+      "description": "",
+      "url": "/images/3JR3TCHBgB03qHrGD9mrYQ/Fazylov_6.jpg",
+      "contentType": "image/jpeg",
+      "width": 444,
+      "height": 600
+    },
+    {
+      "id": "7x8goZSU0hjqJkaYNiqXwc",
+      "title": "Владимир Фазылов",
+      "description": "",
+      "url": "/images/7x8goZSU0hjqJkaYNiqXwc/fasilov_1.jpg",
+      "contentType": "image/jpeg",
+      "width": 350,
+      "height": 385
+    },
+    {
+      "id": "2V6VppH1W913HPk7EFEnWG",
+      "title": "Владимир Фазылов",
+      "description": "В.Фазылов (справа внизу) в составе ВИА Марзаны",
+      "url": "/images/2V6VppH1W913HPk7EFEnWG/Marzany.jpg",
+      "contentType": "image/jpeg",
+      "width": 400,
+      "height": 255
+    }
+  ],
+  "albums": [
+    {
+      "id": "WMghHTwBz1l15Io3A1bZW",
+      "title": "Ансамбль Веселые Ребята",
+      "tracks": [
+        {
+          "id": "51NHufQh6sqkPOBFAr24rv",
+          "title": "Взявшись за руки",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Fazylov/VR_Vzyavshis_Za_Ruki.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Долган-О.Гаджикасимов) 1970"
+        },
+        {
+          "id": "1rmRg855sTq6iEwJBVfa6Q",
+          "title": "Записка",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Fazylov/VR_Zapiska.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Дьячков-О.Гаджикасимов) 1971"
+        },
+        {
+          "id": "26UDWevwn8B8EFXg2Zluvj",
+          "title": "Люди встречаются",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Fazylov/VR_Lydi_Vstrechayutsya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Гаваши-О.Жуков) 1970"
+        },
+        {
+          "id": "46WepCHRddoyUnuXQCtPcU",
+          "title": "Первая любовь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Fazylov/VR_Pervaya_Lybov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Дьячков-О.Гаджикасимов) 1970-71"
+        },
+        {
+          "id": "1o5b9FLUoy5SwT5kVd0hB0",
+          "title": "Сон",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Fazylov/VR_Son.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Шпильман-О.Гаджикасимов) 1971"
+        },
+        {
+          "id": "3myPt1l95G44W7BjkKIs6i",
+          "title": "Страдания",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Fazylov/VR_Stradaniya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-О.Гаджикасимов) 1971"
+        }
+      ]
+    },
+    {
+      "id": "744UQ0wPxOplzH7dvgbqtY",
+      "title": "Ансамбль Марзаны",
+      "tracks": [
+        {
+          "id": "10K2169KsOqWGhGfJIOScf",
+          "title": "Репетиционная запись",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Fazylov/Marzany_Mixt.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Испанская-Полет шмеля-Апачи-Полюшко-поле)"
+        }
+      ]
+    }
+  ],
+  "acknowledgements": [
+    "Андрею Шперлу",
+    "Александру Устюгову",
+    "Вячеславу Капустину",
+    "Игорю Левченко",
+    "Виктору Кривоклякину",
+    "Олегу Беликову",
+    "Юрий Герцев",
+    "Марине Сивер",
+    "Павлу Слободкину",
+    "Александру Березину",
+    "Владимиру Фазылову"
+  ],
+  "acknowledgementText": "",
+  "videos": [
+    {
+      "url": "https://ok.ru/video/4154963462687",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=3505659972127&type=32&idx=1&tkn=eXcpy40jB0iD4U9Szg87lLfsQBo&fn=external_8",
+      "title": "Люди встречаются 1971, солист- В.Фазылов",
+      "localThumbUrl": "/images/video-thumbnails/vladimir-fazylov/0.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/4154965625375",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=3505663445535&type=32&idx=11&tkn=JEV__LG_IYy7jJgiefNIrZ9Sdsw&fn=external_8",
+      "title": "Старенький автомобиль - 1971 – В.Фазылов на переднем плане",
+      "localThumbUrl": "/images/video-thumbnails/vladimir-fazylov/1.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/4154968050207",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=3505667377695&type=32&idx=9&tkn=vGqyD8DjmjtMAWrEw_cyHDXk5T0&fn=external_8",
+      "title": "На чем стоит любовь - 1971,  В.Фазылов на переднем плане",
+      "localThumbUrl": "/images/video-thumbnails/vladimir-fazylov/2.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/4154969885215",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=858275515096&type=37&idx=13&tkn=MBSNa0i2N7yVMs6iVfiKTAZSqo8&fn=external_8",
+      "title": "Сон - 1971 на Братиславской Лире, солист В.Фазылов",
+      "localThumbUrl": "/images/video-thumbnails/vladimir-fazylov/3.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/4215735257631",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=3589935401503&type=32&idx=4&tkn=cQuUtzE6XtiHWwWHbp39lcPJOmM&fn=external_8",
+      "title": "Люди встречаются история создания хита, программа Ильи Легостаева",
+      "localThumbUrl": "/images/video-thumbnails/vladimir-fazylov/4.jpg"
+    }
+  ],
+  "links": []
+}

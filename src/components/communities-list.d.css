@@ -1,0 +1,113 @@
+.community {
+  border-left: 1px solid #c4c4c4;
+  display: flex;
+  flex-grow: 1;
+}
+
+.community a {
+  border: none;
+  border-radius: 0;
+  padding: 76px 0 0 calc(var(--section-top-padding-base) / 2);
+  align-items: flex-start;
+  background-position: calc(var(--section-top-padding-base) / 2) 0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.community__title {
+  color: var(--color-text);
+  font: normal var(--font-size-subheader) / 133% var(--font-family-header);
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  padding: 0.33em 0 0;
+  margin: 0 0 1.33em;
+  border-top: 1px solid #c4c4c4;
+  min-width: 315px;
+}
+
+.community__text {
+  margin-bottom: var(--section-top-padding-base);
+}
+
+.community__link {
+  width: 88px;
+  height: 88px;
+  border-radius: 16px;
+  margin-top: auto;
+}
+
+a:link > .community__link,
+a:visited > .community__link {
+  background-color: #f7f7f7;
+}
+
+a:hover > .community__link,
+a:active > .community__link {
+  background-color: #dfdfdf;
+}
+
+.community__link svg {
+  width: 24px;
+  height: 22px;
+}
+
+.communities-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: var(--section-top-padding-base) var(--section-side-padding);
+  border-bottom: 1px solid #c4c4c4;
+  gap: calc(var(--section-top-padding-base) / 2);
+}
+
+.communities-list__item {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  display: flex;
+}
+
+.communities__title {
+  padding: var(--section-top-padding-base) var(--section-side-padding);
+  margin: 0;
+}
+
+.community-navigation-wrap {
+  margin-top: auto;
+}
+
+.community-navigation {
+  display: flex;
+  flex-direction: column;
+  min-width: auto;
+  font: normal 1.5rem/1.333 var(--font-family-header);
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--color-text);
+  padding: 0;
+  gap: 16px;
+}
+
+.community-navigation__item {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.community-navigation__item a {
+  display: block;
+  padding: 8px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.community-navigation__item a:link,
+.community-navigation__item a:visited {
+  color: var(--color-text);
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.community-navigation__item a:hover,
+.community-navigation__item a:active {
+  color: var(--color-text);
+  border-color: rgba(0, 0, 0, 1);
+}

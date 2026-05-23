@@ -1,0 +1,466 @@
+{
+  "id": "3EvDDpque4PcD4CWmxn1lN",
+  "createdAt": "2024-09-27T14:00:05.353Z",
+  "updatedAt": "2024-10-09T16:14:41.601Z",
+  "title": "Валерий Дурандин",
+  "shortTitle": "",
+  "slug": "valerii-durandin",
+  "shortDescription": "",
+  "description": "<p>Большинству Валерий Дурандин известен, как бас-гитарист ансамбля &quot;Веселые Ребята&quot; середины семидесятых. Однако, он не просто музыкант, он еще и певец и аранжировщик, причем певец очень хороший, да и аранжировки его очень интересные, в чем вы можете убедиться, послушав песни с этой страничке. Лично для меня было просто открытие, как он поет в последних записях, и очень жаль, что в &quot;Веселых Ребятах&quot; он это не делал. </p>",
+  "images": [
+    {
+      "id": "2lHRi1E5180AX0SaU4KrVN",
+      "title": "Валерий Дурандин в Веселых Ребятах 1977",
+      "description": "",
+      "url": "/images/2lHRi1E5180AX0SaU4KrVN/________-1977.jpg",
+      "contentType": "image/jpeg",
+      "width": 720,
+      "height": 881
+    },
+    {
+      "id": "6VEfh2zYP9EOtwtxbmyGao",
+      "title": "Валерий Дурандин",
+      "description": "",
+      "url": "/images/6VEfh2zYP9EOtwtxbmyGao/________________.jpg",
+      "contentType": "image/jpeg",
+      "width": 1374,
+      "height": 1374
+    }
+  ],
+  "albums": [
+    {
+      "id": "7CkDT6u0etzZuVyMPoIt0k",
+      "title": "Ансамбль Москвичи - аранжировка, вокал, бас-гитара  1971-1973",
+      "tracks": [
+        {
+          "id": "67BbaHWme4OBpzGIetc9VC",
+          "title": "Как прекрасен этот мир",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/Moskvichi_Kak_Prekrasen_Etot_Mir.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-В.Харитонов) - аранжировка 1973"
+        },
+        {
+          "id": "oPdY7RK2AnIsB97BpDdC8",
+          "title": "Налетели дожди",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/Moskvich_Naleteli_Dozhdi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-В.Харитонов) аранжировка 1973"
+        },
+        {
+          "id": "7p0vobMz4tZxtbdLvmX387",
+          "title": "Не зря тебя назвали Москвичом",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/Moskvich_Ne_Zra_Tebya_Nazvali.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Пахмутова-Н.Добронравов) аранжировка 1973"
+        },
+        {
+          "id": "1LOOYN1KQefqGxSn9KFbQC",
+          "title": "Расскажи мне сказку",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/Moskvich_Rasskazhi_Mne_Skazku.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Л.Гарин-А.Поперечный) аранжировка, солист  1973"
+        },
+        {
+          "id": "1OrZObZUzGgbisWBeLAt6q",
+          "title": "Сны",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Barykin/Moskvichi_Sny.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-А.Кагермазов, пер. В.Гераскина) аранжировка, солист-А.Бырыкин 1973"
+        },
+        {
+          "id": "33c3RwXEJAQgRVcKJA1pVe",
+          "title": "Тамбовский вальс",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/Moskvich_Tambovskiy_Vals.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Емельянова - В.Прохоревский) аранжировка, солист вместе в В Кожевниковым"
+        },
+        {
+          "id": "6h30mdUDXKCMrzePgLhNOy",
+          "title": "Честно говоря",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/Moskvich_Chestno_Govorya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Дьячков-М.Ножкин)  аранжировка"
+        }
+      ]
+    },
+    {
+      "id": "Kr9ccfL8kgOVfNvdrTfID",
+      "title": "Ансамбль Верные Друзья - аранжировка, вокал, бас-гитара 1973-1975",
+      "tracks": [
+        {
+          "id": "6ZOzrDTqWKg9YE3GnVQ8Y8",
+          "title": "Девятый класс",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/VD_9_Klass.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Б.Монастырский-Ю.Рыбчинский) вокал, аранжировка, бас-гитара 1974"
+        },
+        {
+          "id": "2tDTI3ogovHqOiGnuKFZKJ",
+          "title": "Лишний билет",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/VD_Lishniy_Bilet.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Березин-Л.Дербенев) - вокал, аранжировка, бас-гитара 1974"
+        },
+        {
+          "id": "62ETHQhHCnCklq1R95FZtn",
+          "title": "Песня верных друзей",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/VD_Pesnya_Vernyh_Druzey.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Т.Хренников-М.Матусовский) вокал с Е.Гудковым, бас-гитара 1974"
+        },
+        {
+          "id": "161B1vX6FfmxZdSxV5wpFt",
+          "title": "По морозу молодому",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/VD_Po_Morozu_Molodomu.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(З.Бинкин-Д.Седых) вокал, бас-гитара 1974"
+        },
+        {
+          "id": "rSuNCgL2GkMUSs6EyCU4I",
+          "title": "Снегурочка",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/VD_Snegurochka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Л.Гарин-Н.Олев) вокал, аранжировка, бас-гитара 1974"
+        },
+        {
+          "id": "2w3SPRnBrQqqtN4dtuN47w",
+          "title": "Мечтается людям",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/VD_Mechtaetsa_Lydam.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Богословский) - аранжировка, бас гитара, вокал-В.Ободзинский 1975"
+        },
+        {
+          "id": "3mi78TpCr2wWe4bcNN36vm",
+          "title": "Спасибо тебе за любовь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/VD_Spasibo_Tebe_Za_Lybov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Л.Гарин-А.Поперечный) - аранжировка, бас-гитара, вокал-В.Ободзинский 1975"
+        },
+        {
+          "id": "t1Fm0Y6DFAZaD4PuCGl8g",
+          "title": "Я ревную тебя",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/VD_Ya_Revnuyu_Tebya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Н.Богословский-А.Поперечный)  аранжировка, бас-гитара, вокал-В.Ободзинский 1975"
+        }
+      ]
+    },
+    {
+      "id": "3Kv66rVu3Sn94JjwA94veU",
+      "title": "Ансамбль Веселые Ребята - автор песен, аранжировка, бас-гитара 1975-1981",
+      "tracks": [
+        {
+          "id": "31YBSmn3ggzKdhtUv3QIT7",
+          "title": "Марш Веселых ребят",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/VR-1977-Marsh_Veselyh_Rebyat.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Дунаевский-В.Лебедев-Кумач) - аранжировка, бас-гитара. Солист А.Алешин Концерт 1977  "
+        },
+        {
+          "id": "7ISuh0B4aFuY0RaTArLbA6",
+          "title": "Это-Москва",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/VR-1975-Krasnodar-Eto-Moskva.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-Л.Дербенев, И.Шаферан) аранжировка, бас-гитара, концерт в Краснодаре 1975"
+        },
+        {
+          "id": "2ZPvESRQgu9O7RzTcqpqpu",
+          "title": "Встреча",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/VR-1975-Krasnodar-Vstrecha.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Антонов-В.Дюнин) - аранжировка, бас-гитара. Солист А.Алешин. Концерт в Краснодаре 1975"
+        },
+        {
+          "id": "68c5x3nyTDANYYCZE6QXfV",
+          "title": "Встреча",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/VR_Vstrecha_1977.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Антонов-В.Дюнин) аранжировка, бас-гитара. Солист А.Алешин. 1977"
+        },
+        {
+          "id": "5naPV8Tr6rtSjHFnrUe5er",
+          "title": "Где-то край света",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/VR_Gde_To_Krai_Sveta_1981.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Аникеев-С.Алиханов) - автор, аранжировка, бас-гитара. Солист И.Гатауллин 1981"
+        },
+        {
+          "id": "6JrkptTst5BhJo0ncwon8T",
+          "title": "Если б не суббота",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/VR_Esli_b_Ne_Subbota_1981.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Аникеев-В.Дюнин) - автор музыки, аранжировка, бас-гитара. Солист М.Файбушевич 1981"
+        },
+        {
+          "id": "4LZY19blHE7FdQ6O3dymt",
+          "title": "Когда приходит любовь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/VR_Kogda_Prihodit_Lybov_1977.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Аникеев-И.Кохановский) автор музыки, аранжировка, бас-гитара. Солист А.Алешин. 1977"
+        },
+        {
+          "id": "6JA5UmMBqVEPVyMCYuSqWL",
+          "title": "Мушкетеры",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/VR_Mushketery_1976.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-Н.Олев) - аранжировка, бас-гитара. Солистка А.Пугачева 1976"
+        },
+        {
+          "id": "1lCMh969HHe2Td7763EfKT",
+          "title": "Почему",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/VR_Pochemu_1976.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Л.Гарин-Н.Олев) - аранжировка, бас-гитара. Солистка А.Пугачева 1976"
+        },
+        {
+          "id": "7HuTbNIyV5KpecC1AETnVq",
+          "title": "Скажет девчонка",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/VR_Skazhet_Devchonka_1977.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-В.Харитонов) - аранжировка, бас-гитара 1977"
+        },
+        {
+          "id": "kZ95K29IZTNA4uRl23vvO",
+          "title": "Ясные светлые глаза",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/VR_Yasnye_Svetlye_Glaza_1975.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р.Мануков-В.Лазарев) - аранжировка, бас-гитара. Солистка Алла Пугачева 1975"
+        }
+      ]
+    },
+    {
+      "id": "3gW3IQ1HMWduKwlk8WQerZ",
+      "title": "Группа Экипаж - аранжировка, вокал, бас-гитара 1981-1982",
+      "tracks": [
+        {
+          "id": "6Fe39DuAoCFE6ICvCbmODY",
+          "title": "Ты прекрасна, любовь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/Ekipazh_Ty_Prekrasna_Lybov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р. и Б.Гибб-В.Дюнин) - вокал, аранжировка, бас-гитара"
+        }
+      ]
+    },
+    {
+      "id": "lCyuYSUWe3NPlt1It7TiS",
+      "title": "Группа Марафон - автор песен, солист, музыкант  1983 ",
+      "tracks": [
+        {
+          "id": "2ET7TgvUaPn8njv19Z8Nj9",
+          "title": "Бывают в мае холода ",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/Marafon_Byvayut_V_Maye_Holoda.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Аникеев-В.Харитонов) - автор музыки, солист, инструменталист 1983"
+        },
+        {
+          "id": "6UoRMz7A2kvtPMCOjiJN5o",
+          "title": "Мои часы",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/Marafon_Moi_Chasy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Аникеев-В.Харитонов) - автор музыки, солист, инструменталист 1983"
+        },
+        {
+          "id": "kjJvXidqiXPALlf9AfBQZ",
+          "title": "Море без вас",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/Marafon_More_Bez_Vas.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Аникеев-В.Харитонов) - автор музыки, солист, инструменталист 1983"
+        },
+        {
+          "id": "HcjPF4hw3EsShQgvS4rSG",
+          "title": "Туман над морем",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/Marafon_Tuman_Nad_Morem.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Аникеев-В.Харитонов) - автор музыки, солист, инструменталист 1983"
+        }
+      ]
+    },
+    {
+      "id": "2GzP1ipLL3F6CfcA4q9wvs",
+      "title": "Сольные записи последнего периода",
+      "tracks": [
+        {
+          "id": "4IogCRY6JVufz3ltJljrVa",
+          "title": "Алешкина любовь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/Durandin_Aleshkina_Lybov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Дьячков-О.Гаджикасимов)"
+        },
+        {
+          "id": "3lvBpXILcmU1bi7kM4QjEn",
+          "title": "Белые крылья",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/Durandin_Belye_Krylya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Шаинский-В.Харитонов)"
+        },
+        {
+          "id": "5Vcxf7FJFskFYZbrHK9WP",
+          "title": "Вишня",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/Durandin_Vishnya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р.Мануков-А.Прокофьев)"
+        },
+        {
+          "id": "7zKlfctEX1bxEEUgYThZcW",
+          "title": "Волоколамские колокола",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/Durandin_Volokolamskie_Kolokola.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Д.Тухманов-П.Синявский)"
+        },
+        {
+          "id": "unprGtCLiMmZ3JsUJ0bua",
+          "title": "Горький мед",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/Durandin_Gorky_Med.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Иванов-В.Павлинов)"
+        },
+        {
+          "id": "1vCrHys2KntRglgI7KskAK",
+          "title": "Девятый класс",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/Durandin_9_Klass.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Б.Монастырский-Ю.Рыбчинский)"
+        },
+        {
+          "id": "65SI2B4o77u9SAJuH8st4r",
+          "title": "Золото Маккены",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/Durandin_Zoloto_Makkeny.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(К.Джонс-Л.Дербенев)"
+        },
+        {
+          "id": "5kT6iUyXbUZ0RRxDxCosRW",
+          "title": "Как ты прекрасна любовь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/Durandin_Kak_Ty_Prekrasna_Lybov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р. и Б. Гибб-В.Дюнин)"
+        },
+        {
+          "id": "2xO8ka7AP1EpqkgJOLdEKY",
+          "title": "Кукла",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/Durandin_Kukla.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Морозов-Г.Горбовский)"
+        },
+        {
+          "id": "UrmQ4u2tQgF18yVv25HGM",
+          "title": "Радовать",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/Durandin_Radovat.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Днепров-М.Танич)"
+        },
+        {
+          "id": "5Z0JaXleF7edvimfvtLIZS",
+          "title": "Уходило лето",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Durandin/Durandin_Uhodilo Leto.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Рольф Соя и Джон О'Брайн-Докер-В.Луговой)"
+        }
+      ]
+    }
+  ],
+  "acknowledgements": [
+    "Наталья Ширинская",
+    "Энди Бишоп",
+    "Валерий Колпаков",
+    "Александр Леонов",
+    "Андрей Шперл",
+    "Олег Беликов",
+    "Александр Устюгов",
+    "Михаил Загребин",
+    "Валентин Титов",
+    "Владимир Никандров",
+    "Олег Кричевский",
+    "Виктор Кривоклякин",
+    "Василий Минаев",
+    "Владимир Иванов",
+    "Борис Щеглов"
+  ],
+  "acknowledgementText": "",
+  "videos": [],
+  "links": []
+}

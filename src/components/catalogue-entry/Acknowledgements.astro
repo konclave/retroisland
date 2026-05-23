@@ -1,0 +1,23 @@
+---
+import './acknowledgements.css';
+import './acknowledgements.d.css';
+interface Props {
+  entries?: string[];
+  text?: string;
+}
+const { entries, text } = Astro.props;
+---
+
+{entries && entries.length > 0 && (
+  <article class="catalogue-item-acknowledgements content-section">
+    <h2 class="catalogue-item-acknowledgements__title section-title">Благодарности</h2>
+    <p class="catalogue-item-acknowledgements__text">
+      {text || 'За выложенные песни огромное спасибо людям, которые их сохранили, нашли и поделились ими!'}
+    </p>
+    <ul class="acknowledgements-list">
+      {entries.map((entry) => (
+        <li class="acknowledgements-list__item">{entry}</li>
+      ))}
+    </ul>
+  </article>
+)}

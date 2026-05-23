@@ -1,0 +1,77 @@
+---
+import './index.css';
+import './index.d.css';
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import NewsList from '../components/NewsList.astro';
+import CommunitiesList from '../components/CommunitiesList.astro';
+import CatalogueWithFilter from '../components/islands/CatalogueWithFilter';
+import TracksOnRequest from '../components/islands/TracksOnRequest';
+import { readFileSync } from 'fs';
+import { join } from 'path';
+
+function readJson(name: string) {
+  try {
+    return JSON.parse(readFileSync(join(process.cwd(), 'src/content', name), 'utf-8'));
+  } catch {
+    return null;
+  }
+}
+
+const news = readJson('news.json')?.slice(0, 5) ?? [];
+const catalogueItems = readJson('catalogue-list.json') ?? [];
+const requested = readJson('requested.json') ?? [];
+const indexPage = readJson('pages/index.json') ?? { links: [] };
+---
+
+<Layout>
+  <main id="main-content">
+  <!-- Facade -->
+  <section class="facade">
+    <div class="padded-wrap">
+      <Header layout="index" />
+      {indexPage.links.length > 0 && (
+        <nav class="community-navigation-wrap" aria-label="Ссылки сообщества">
+          <ul class="community-navigation">
+            {indexPage.links.map((item) => (
+              <li class="community-navigation__item">
+                <a href={item.link} target="_blank" rel="nofollow noindex noreferrer">
+                  {item.title}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )}
+    </div>
+  </section>
+
+  <!-- News -->
+  <section class="news">
+    <h2>Новости</h2>
+    <NewsList news={news} />
+    <div class="news-footer">
+      <a href="/news-archive" class="news-archive-link">Архив новостей</a>
+    </div>
+  </section>
+
+  <!-- Catalogue index -->
+  <div class="catalogue-index">
+    <h2 class="catalogue-index__title" id="catalogue">Каталог</h2>
+    <CatalogueWithFilter items={catalogueItems} client:load />
+  </div>
+
+  <!-- Tracks on request -->
+  {requested.length > 0 && (
+    <TracksOnRequest requested={requested} client:load />
+  )}
+
+  <!-- Communities -->
+  {indexPage.links.length > 0 && (
+    <section class="communities">
+      <h2 class="communities__title">Сообщества</h2>
+      <CommunitiesList items={indexPage.links} />
+    </section>
+  )}
+  </main>
+</Layout>

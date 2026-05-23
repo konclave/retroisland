@@ -1,0 +1,28 @@
+---
+import './contentful-picture.css';
+import './contentful-picture.d.css';
+interface ConfigItem {
+  media: string;
+  width: number;
+}
+
+interface Props {
+  src: string;
+  title: string;
+  config: ConfigItem[];
+  class?: string;
+}
+
+const { src, title, class: className } = Astro.props;
+
+// Derive avif/webp paths from the original image path by replacing extension
+const base = src.replace(/\.[^.]+$/, '');
+const avifSrc = `${base}.avif`;
+const webpSrc = `${base}.webp`;
+---
+
+<picture>
+  <source srcset={avifSrc} type="image/avif" />
+  <source srcset={webpSrc} type="image/webp" />
+  <img src={src} alt={title} class={className} />
+</picture>

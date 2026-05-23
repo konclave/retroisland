@@ -1,0 +1,68 @@
+---
+import './news-archive.css';
+import './news-archive.d.css';
+import '../components/news-list.css';
+import '../components/news-list.d.css';
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import { readFileSync } from 'fs';
+import { join } from 'path';
+
+const MONTHS = ['января','февраля','марта','апреля','мая','июня','июля','августа','сентября','октября','ноября','декабря'];
+
+function formatDate(iso: string) {
+  const d = new Date(iso);
+  return `${d.getDate()} ${MONTHS[d.getMonth()]} ${d.getFullYear()}`;
+}
+
+const INITIAL_LIMIT = 5;
+const PAGE_SIZE = 5;
+
+let allNews: any[] = [];
+try {
+  allNews = JSON.parse(readFileSync(join(process.cwd(), 'src/content/news.json'), 'utf-8'));
+} catch {
+  // content not generated yet
+}
+---
+
+<Layout title="Новости – ВАСИЛЬЕВСКИЙ ОСТРОВ" isArchive={true}>
+  <Header title="Новости" layout="archive" />
+  <div class="news-archive" id="main-content">
+    <div class="news-archive__list">
+      <ul class="news-list news-list_archive">
+        {allNews.map((item, i) => (
+          <li class="news-list__item" style={i >= INITIAL_LIMIT ? 'display:none' : ''} data-news-item>
+            <article class="news-item news-item_archive">
+              <time datetime={item.date}>{formatDate(item.date)}</time>
+              {item.link ? (
+                <a href={item.link}>
+                  <div class="news-item__md" set:html={item.html} />
+                </a>
+              ) : (
+                <div class="news-item__md" set:html={item.html} />
+              )}
+            </article>
+          </li>
+        ))}
+      </ul>
+      {allNews.length > INITIAL_LIMIT && (
+        <button class="button-load-more" type="button" id="load-more-btn">
+          Показать ещё
+        </button>
+      )}
+    </div>
+  </div>
+</Layout>
+
+<script define:vars={{ PAGE_SIZE }}>
+  const btn = document.getElementById('load-more-btn');
+  if (btn) {
+    btn.addEventListener('click', () => {
+      const hidden = Array.from(document.querySelectorAll('[data-news-item]'))
+        .filter((el) => el.style.display === 'none');
+      hidden.slice(0, PAGE_SIZE).forEach((el) => (el.style.display = ''));
+      if (hidden.length <= PAGE_SIZE) btn.style.display = 'none';
+    });
+  }
+</script>

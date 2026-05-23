@@ -1,0 +1,41 @@
+---
+import './news-list.css';
+import './news-list.d.css';
+const MONTHS = ['января','февраля','марта','апреля','мая','июня','июля','августа','сентября','октября','ноября','декабря'];
+
+function formatDate(iso: string) {
+  const d = new Date(iso);
+  return `${d.getDate()} ${MONTHS[d.getMonth()]} ${d.getFullYear()}`;
+}
+
+interface NewsItem {
+  id: string;
+  html: string;
+  link: string;
+  date: string;
+}
+
+interface Props {
+  news: NewsItem[];
+  layout?: 'index' | 'archive';
+}
+
+const { news, layout = 'index' } = Astro.props;
+---
+
+<ul class:list={['news-list', { 'news-list_archive': layout === 'archive' }]}>
+  {news.map((item) => (
+    <li class="news-list__item">
+      <article class:list={['news-item', { 'news-item_archive': layout === 'archive' }]}>
+        <time datetime={item.date}>{formatDate(item.date)}</time>
+        {item.link ? (
+          <a href={item.link}>
+            <div class="news-item__md" set:html={item.html} />
+          </a>
+        ) : (
+          <div class="news-item__md" set:html={item.html} />
+        )}
+      </article>
+    </li>
+  ))}
+</ul>

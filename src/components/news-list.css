@@ -1,0 +1,119 @@
+.news-item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: var(--color-light);
+  font: normal 0.875rem/1.715 var(--font-family-text);
+  letter-spacing: 0.01em;
+  border-top: 1px solid #dfdfdf;
+  padding: 16px 0 24px;
+}
+
+.news-item time {
+  font: normal 0.75rem/1.666 var(--font-family-text);
+  opacity: 0.6;
+  color: var(--color-light);
+}
+
+.news-item p {
+  margin: 0.875em 0;
+}
+
+.news-item_archive {
+  color: var(--color-text);
+}
+
+.news-item_archive time {
+  color: #7b7b7b;
+}
+
+.news-item a {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-decoration: none;
+}
+
+.news-item a:link,
+.news-item a:visited {
+  color: var(--color-light);
+}
+
+.news-item a:hover,
+.news-item a:active {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.news-item_archive a:link,
+.news-item_archive a:visited {
+  color: var(--color-text);
+}
+
+.news-item_archive a:hover,
+.news-item_archive a:active {
+  color: #636363;
+}
+
+.news-item__md a {
+  display: inline;
+  text-decoration: underline;
+}
+
+.news-list {
+  margin: 0 0 2rem;
+  padding: 0;
+  list-style: none;
+}
+
+.news-list li {
+  margin: 0;
+  padding: 0;
+}
+
+.news-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.news-archive-link {
+  font: normal 0.75rem var(--font-family-header);
+  text-transform: uppercase;
+  color: var(--color-light);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.news-archive-link::after {
+  content: url("/img/arrow-right.svg");
+}
+
+.button-load-more {
+  display: flex;
+  align-items: center;
+  padding: 16px 42px;
+  border: 1px solid #000000;
+  border-radius: 16px;
+  font-family: var(--font-family-text);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--color-text);
+  background: var(--color-light);
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.button-load-more:link,
+.button-load-more:visited {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.button-load-more:hover,
+.button-load-more:focus-visible {
+  background-color: var(--color-text);
+  color: var(--color-light);
+}

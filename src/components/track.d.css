@@ -1,0 +1,23 @@
+.track__icon {
+  position: relative;
+  top: 2px;
+  margin: 0 -10px;
+}
+
+.track-list__item {
+  font: normal var(--font-size-intense) / 171% var(--font-family-text);
+  letter-spacing: 0.01em;
+  gap: 18px;
+  padding: 0.5em 0;
+  align-items: flex-start;
+}
+
+.track-list__item::before {
+  padding-top: 0;
+}
+
+.jouele-info-time {
+  font-size: 1em;
+  color: var(--color-text);
+  padding-right: 1em;
+}

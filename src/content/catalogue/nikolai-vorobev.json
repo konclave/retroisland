@@ -1,0 +1,273 @@
+{
+  "id": "YP7GqLQBmlrIBB8RC4OsA",
+  "createdAt": "2022-09-28T07:05:00.453Z",
+  "updatedAt": "2023-01-06T18:38:28.025Z",
+  "title": "Николай Воробьев",
+  "shortTitle": "",
+  "slug": "nikolai-vorobev",
+  "shortDescription": "",
+  "description": "<p>Вот без этого музыканта вокально-инструментальный ансамбль Музыка представить точно невозможно. Руководитель и солист, вместе с Сергеем Станишевским спевший основной репертуар этого ВИА. Николай Воробьев ко всему прочему обладал еще и очень пластичным голосом, достаточно сказать, что при записи оперы «Алые Паруса» он спел партии пяти (!) персонажей, причем в одной из сцен четыре из них поют вместе, разными голосами. Я не знаю больше таких примеров. Правда, поэтому было и достаточно сложно правильно отобрать песни для этой странички. Поэтому, если где ошибся, поправляйте. А на этой страничке все доступные песни, где солист Николай Воробьев.</p>",
+  "images": [
+    {
+      "id": "1Ij96V3RD38uSfzL192GYK",
+      "title": "Николай Воробьев",
+      "description": "",
+      "url": "/images/1Ij96V3RD38uSfzL192GYK/Vorobyev_1.jpg",
+      "contentType": "image/jpeg",
+      "width": 215,
+      "height": 340
+    },
+    {
+      "id": "41AhdgDCPbTdOkorLtKI9V",
+      "title": "Николай Воробьев",
+      "description": "",
+      "url": "/images/41AhdgDCPbTdOkorLtKI9V/Vorobyev_2.jpg",
+      "contentType": "image/jpeg",
+      "width": 350,
+      "height": 474
+    }
+  ],
+  "albums": [
+    {
+      "id": "7n20kSKHbEuZfpweMODfHB",
+      "title": "Ансамбль Музыка",
+      "tracks": [
+        {
+          "id": "5OHYsfFLxBZt6VKJubvYcA",
+          "title": "Вдохновение",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Stanishevsky/Muzyka_Vdohnovenie.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Мажуков-О.Гаджикасимов) с С.Станишевским"
+        },
+        {
+          "id": "3aMV3bmA0YCEqQGKRPm1sJ",
+          "title": "Весенняя бессонница",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Vorobyev/Muzyka_Vesennaya_Bessonnica.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Г.Мовсесян-Л.Ошанин) с О.Зарубиной 1979"
+        },
+        {
+          "id": "2LGq30uXvQ3Ozg0MAzsUQJ",
+          "title": "Все минует",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Vorobyev/Muzyka_Vse_Minuet.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р.Майоров-И.Кохановский) 1977"
+        },
+        {
+          "id": "7H48B7BifxushJ1qeB2y7",
+          "title": "Двери настежь отвори-Баллада о чистой смерти",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Vorobyev/Muzyka_Dveri_Ballada_O_Chistoy_Smerti.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Рыбников-П.Грушко) 1979"
+        },
+        {
+          "id": "6v9htONdnqsDAcWxvuMixn",
+          "title": "Двери настежь отвори-Здравствуй, день",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Vorobyev/Muzyka_Dveri_Zdravstvuy_Den.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Рыбников-П.Грушко) с М.Румянцевой 1979"
+        },
+        {
+          "id": "5tbQNwwd88U8Bw6PwIveK9",
+          "title": "Двери настежь отвори-Любимая, где нам укрыться",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Vorobyev/Muzyka_Dveri_Lubimaya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Рыбников-П.Грушко) с М.Румянцевой 1979"
+        },
+        {
+          "id": "7p2zxm5aPJtYEOqrei2oXW",
+          "title": "За три беды перешагну (вар 1)",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Stanishevsky/Muzyka_Za_Tri_Bedy_Pereshagnu_1.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Иванов-Л.Ошанин) с С.Станишевским 1979"
+        },
+        {
+          "id": "32aSmkLQtVij5Wj8IDCchq",
+          "title": "За три беды перешагну (вар 2)",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Stanishevsky/Muzyka_Za_Tri_Bedy_Pereshagnu_2.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Иванов-Л.Ошанин) с С.Станишевским 1979"
+        },
+        {
+          "id": "o8NP1xC7sWX5gwf2IKrV3",
+          "title": "Кто тебе сказал",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Stanishevsky/Muzyka_Kto_Tebe_Skazal.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-Л.Дербенев) с С.Станишевским"
+        },
+        {
+          "id": "2HJ5zpgFXddneNJtTBZfnp",
+          "title": "Мимо сада",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Vorobyev/Muzyka_Mimo_Sada.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Л.Гарин-Н.Олев) 1977"
+        },
+        {
+          "id": "sgytj9XI8zF4F1MamDCUF",
+          "title": "Нас рассудит время",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Vorobyev/Muzyka_Nas_Rassudit_Vremya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Мелик-И.кохановский) 1974"
+        },
+        {
+          "id": "3GMvDpF6woys5QFlaLFRUY",
+          "title": "Про щенка",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Vorobyev/Muzyka_Pro_Shenka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Мажуков-В.Федоров)"
+        },
+        {
+          "id": "18wXAJZ2JYNzCPjzjUGOXz",
+          "title": "Строит комсомол",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Stanishevsky/Muzyka_Stroit_Komsomol.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Мажуков-Д.Усманов) с С.Станишевским 1977"
+        },
+        {
+          "id": "1Q13g2GXN4RYJ36RD4YmW1",
+          "title": "Три года ты мне снилась",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Vorobyev/Muzyka_Tri_Goda_Ty_Mne_Snilas.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Н.Богословский-М.Фатьянов) 1974"
+        },
+        {
+          "id": "2FQ7Z66gIsjtrMtMmxLKMi",
+          "title": "Черный телефон",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Vorobyev/Muzyka_Cherny_Telefon.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Л.Гарин-Б.Рахманин) 1980"
+        },
+        {
+          "id": "6yncZcjZK4oSxHzlQYX3LU",
+          "title": "Это – жизнь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Stanishevsky/Muzyka_Eto_Zhizn.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Мажуков-А.Поперечный) с С.Станишевским"
+        },
+        {
+          "id": "4tH8dzDHigqwH0OIxcZrQl",
+          "title": "Это-мы",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Vorobyev/Muzyka_Eto_My.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Мажуков-В.Харитонов)"
+        },
+        {
+          "id": "2n1CKfOO6gmfjDdFg7KJvP",
+          "title": "Этот день (22+28)",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Vorobyev/Muzyka_Etot_Den.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-Л.Дербенев) 1975"
+        }
+      ]
+    },
+    {
+      "id": "6SNzoht93kGpC6MpvXP8mT",
+      "title": "Опера-Феерия Алые Паруса (А.Богословский).",
+      "tracks": [
+        {
+          "id": "7CdVbhdtJkfCFy54GU3vzj",
+          "title": "Проводы Грея",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Alye_Parusa/Alye_Parusa_Provody_Greya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "Н.Воробьев – Отец Грея"
+        },
+        {
+          "id": "6NU54pY16wAWyOYBXX4SDY",
+          "title": "В трактире",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Alye_Parusa/Alye_Parusa_V_Traktire.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "Н.Воробььев-Трактирщик и Угольщик"
+        },
+        {
+          "id": "rx8ZWoRrs10Nird4oa7ZH",
+          "title": "Покупка шелка",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Alye_Parusa/Alye_Parusa_Pokupka_Shelka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "Н.Воробьев – Продавец шелка"
+        },
+        {
+          "id": "4ZllsDR73ETBewppbkbvby",
+          "title": "На корабле",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Alye_Parusa/Alye_Parusa_Na_Korable.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "Н.Воробьев – Помощник Капитана"
+        },
+        {
+          "id": "2C1J0gROAMdsDj6sTqQs1r",
+          "title": "На городской площади",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Alye_Parusa/Alye_Parusa_Na_Gorodskoy_Ploshadi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "Н.Воробьев – Угольщик, Трактирщик и Продавец шелка"
+        }
+      ]
+    }
+  ],
+  "acknowledgements": [
+    "Александру Устюгову",
+    "Владимиру Бахареву",
+    "Олегу Беликову",
+    "Сергею Амброзику",
+    "Владимиру Никандрову",
+    "Виктору Кривоклякину",
+    "Вячеславу Капустину",
+    "Андрею Шперлу",
+    "Олегу Беликову",
+    "Наташе Бравичевой",
+    "Михаилу Борисову",
+    "м см Валентину Титову",
+    "Михаилу Юпенину",
+    "Александру Куликову",
+    "Сергею Максимову",
+    "Игорю Левченко",
+    "Василию Минаеву"
+  ],
+  "acknowledgementText": "",
+  "videos": [],
+  "links": []
+}

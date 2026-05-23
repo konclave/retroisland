@@ -1,62 +1,46 @@
 {
-  "private": true,
-  "sideEffects": false,
-  "type": "module",
   "name": "retroisland",
+  "private": true,
+  "type": "module",
+  "sideEffects": false,
   "scripts": {
-    "build": "remix build",
-    "dev": "remix dev --port=4000",
-    "start": "remix-serve build",
-    "generate:types": "contentful-typescript-codegen --output app/types/generated/contentful.d.ts",
-    "content:fetch": "node scripts/fetch-content.mjs",
-    "content:merge": "node scripts/contentful-export.mjs merge --scrapped-data=./generated/data.json",
-    "content:publish": "node scripts/contentful-export.mjs publish-singers",
-    "content:purge": "node scripts/contentful-export.mjs purge"
+    "build": "astro build",
+    "dev": "astro dev --port 4000",
+    "preview": "astro preview",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check"
   },
   "dependencies": {
-    "@contentful/rich-text-react-renderer": "^15.19.4",
-    "@remix-run/node": "^2.7.2",
-    "@remix-run/react": "^2.7.2",
-    "@remix-run/serve": "^2.7.2",
+    "@astrojs/node": "^10.1.1",
+    "@astrojs/react": "^5.0.5",
     "@vercel/analytics": "^1.2.2",
+    "astro": "^6.3.5",
     "classnames": "^2.5.1",
-    "contentful": "^9.3.6",
-    "dotenv": "^16.4.5",
     "howler": "^2.2.4",
     "ilyabirman-jouele": "github:konclave/Jouele",
-    "isbot": "^5.1.0",
     "jquery": "^3.7.1",
-    "lightgallery": "^2.7.2",
+    "lightgallery": "^2.9.0",
     "react": "^18.2.0",
-    "react-alice-carousel": "^2.8.0",
+    "react-alice-carousel": "^2.9.1",
     "react-dom": "^18.2.0",
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
-    "remix-utils": "^7.5.0",
     "strip-markdown": "^6.0.0",
-    "yet-another-react-lightbox": "^3.17.0"
+    "yet-another-react-lightbox": "^3.30.1"
   },
   "devDependencies": {
-    "@contentful/rich-text-types": "^16.3.4",
-    "@remix-run/dev": "^2.7.2",
-    "@remix-run/eslint-config": "^2.7.2",
-    "@remix-run/v1-route-convention": "^0.1.4",
     "@types/howler": "^2.2.11",
     "@types/jquery": "^3.5.29",
     "@types/react": "^18.2.58",
     "@types/react-dom": "^18.2.19",
-    "cheerio": "1.0.0-rc.12",
-    "contentful-export": "^7.19.125",
-    "contentful-import": "^8.5.63",
-    "contentful-management": "^10.46.4",
-    "contentful-typescript-codegen": "^3.4.0",
-    "eslint": "^8.56.0",
-    "prettier": "^2.8.8",
-    "typescript": "^5.3.3",
-    "yargs": "^17.7.2"
+    "oxfmt": "^0.44.0",
+    "oxlint": "^1.59.0",
+    "typescript": "^6.0.0"
   },
   "engines": {
-    "node": ">=20"
+    "node": "24.x"
   },
-  "packageManager": "pnpm@8.15.3"
+  "packageManager": "pnpm@10.33.0"
 }

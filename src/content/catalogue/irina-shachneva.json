@@ -1,0 +1,790 @@
+{
+  "id": "3nxgDA9K0begnz2zT477zk",
+  "createdAt": "2022-09-28T07:03:22.966Z",
+  "updatedAt": "2024-04-14T10:01:52.819Z",
+  "title": "Ирина Шачнева",
+  "shortTitle": "",
+  "slug": "irina-shachneva",
+  "shortDescription": "",
+  "description": "<p>Почему-то я так думаю (не претендуя на абсолютную истину), что семидесятые годы, дав нам большое количество очень ярких, самобытных и абсолютно не похожих друг на друга солистов - мужчин не дало настолько же ярких солисток-женщин. Речь идет о солистах ВИА, конечно. Многие тут же вспомнят Ирину Понаровскую или Аллу Пугачеву, но для них период работы в ВИА был только короткой ступенькой к сольной карьере. И у многих других, чьи имена на слуху, тоже. А вот именно ярких солисток ВИА – как-то особо и видится. Но одну выделить можно. Которая почти двадцать лет была солисткой двух известных ансамблей и без ее голоса сложно представить эти ансамбли. Ирина Шачнева. Завсегдатаи моего сайта знают, я довольно долго подходил к созданию этой страничке, пока не понял окончательно, что без Ирины Шачневой он явно не полон, должна самая яркая солистка ВИА семидесятых иметь свою страничку. Тем более, что она и сейчас поет в Самоцветах и находится в великолепной форме.</p><p>Буду благодарен за песни, фотографии и другие материалы о певице.</p>",
+  "images": [
+    {
+      "id": "5kNak9N1Uox8wmL4a3GopY",
+      "title": "Ирина Шачнева",
+      "description": "",
+      "url": "/images/5kNak9N1Uox8wmL4a3GopY/shachneva_1.jpg",
+      "contentType": "image/jpeg",
+      "width": 242,
+      "height": 392
+    }
+  ],
+  "albums": [
+    {
+      "id": "1B5Ff297JSdzExR0LH5GaH",
+      "title": "Ансамбль Самоцветы",
+      "tracks": [
+        {
+          "id": "1VfWCFG5G0skEX3rSu68Gh",
+          "title": "Девушка",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/SM_1973_Devushka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": " (Б.Савельев-В.Смирнов) с концерта 1973 г."
+        },
+        {
+          "id": "52CQFDJ7Rzi1HMp9RkVRBp",
+          "title": "Добрые приметы",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/SM_Dobrye_Primety.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Фрадкин-Е.Долматовский) – с В.Дьяконовым 1972"
+        },
+        {
+          "id": "5iXWQhjBbX0cBn5LM8XN2c",
+          "title": "Еще раз про любовь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/SM_Eshe_Raz_Pro_Lybov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Фрадкин-М.Пляцковский) 1974"
+        },
+        {
+          "id": "6xmvHJSvrft91Wvii55EEE",
+          "title": "Как живете-можете",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/SM_Kak_Zhivete_Mozhete.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Экимян-Р.Гамзатов) 1974"
+        },
+        {
+          "id": "3dgvetAeQf8yBji2MnJxlC",
+          "title": "Не цветы твои люблю я",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/SM_Ne_CveTy_Tvoi_Lybly_Ya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Добрынин-В.Харитонов) 1972"
+        },
+        {
+          "id": "6RHwPXyJIu5JBHtWvyVftl",
+          "title": "Песня о дружбе",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/SM_Pesnya_O_Druzhbe.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Н.Богословский-М.Танич) 1975"
+        },
+        {
+          "id": "2VYiIFFOLgXM5MTsxlr7AL",
+          "title": "Подожди",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/SM_Podozhdi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Иванов-А.Якушева) – запись радио 1972 г."
+        },
+        {
+          "id": "6RE79LL1NIRWxSvnosfot5",
+          "title": "Русская сказка",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/sm_Russkaya_Skazka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Экимян-Ф.Лаубе) 1974"
+        },
+        {
+          "id": "7dC3K5MXFJLGWp8JYTodn0",
+          "title": "Рябина",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/SM_Ryabina.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Б.Савельев-В.Смирнов) 1972"
+        },
+        {
+          "id": "27dfAHuEkALRpO9rqLogVY",
+          "title": "Чаривна бойкивчанка",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/SM_Charivna_Boykivchanka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Сердюк-М.Воньо) с Г.Жарковым 1972"
+        }
+      ]
+    },
+    {
+      "id": "47tdq2uoN0xwmv4kq9tyaw",
+      "title": "Ансамбль Пламя",
+      "tracks": [
+        {
+          "id": "6gm2A9la5O8rNXOhmyTa3",
+          "title": "Алый парус надежды",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_Aly_Parus_Nadezhdy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Орловецкий-Л.Щипахина) с Ю. Редько 1976"
+        },
+        {
+          "id": "1gQdtueskekMJ7nbhxL8kM",
+          "title": "А мне говорят, нет такой любви",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_A_Mne_Govoryat_Net_Takoy_Lybvi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Шачнева-В.Тушнова) 1982"
+        },
+        {
+          "id": "6GBT9t9OVLwVhSNHTOquzj",
+          "title": "Белые крылья",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_Belie_Krylya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Шаинский-В.Харитонов) с Ю.Редько 1978"
+        },
+        {
+          "id": "3rWrT2AHjA7Bqvso6TJeAY",
+          "title": "Берег моря",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_Bereg_Morya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Мальгашская народная-М.Танич) с Ю.Петерсоном 1981, запись 1980"
+        },
+        {
+          "id": "grgbUzwvrJyeNWlh66Igj",
+          "title": "Вальс невесты",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_Vals_Nevesty.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р.Майоров-С.Гершанова) с В.Аникиенко 1983"
+        },
+        {
+          "id": "5VPx1fDXY3rlb2EvkjSyh7",
+          "title": "Весенние надежды",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Plamya_Vesennie_Nadezhdy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Шаинский-В.Вербин)  с Ю.Петерсоном 1984"
+        },
+        {
+          "id": "4pEycIXbqpvRhnGYmVd3Iq",
+          "title": "Вчера, еще вчера",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_Vchera_Eshe_Vchera.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Якушенко- И.Шаферан) с Ю.Петерсоном 1982"
+        },
+        {
+          "id": "7hpMKuYq5WSzmHlrCUH0jw",
+          "title": "Девочки",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_Devochki.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Мигуля-М.Рябинин) 1980"
+        },
+        {
+          "id": "4xiU4JYuz23coHbBNAnIH0",
+          "title": "До 16 лет",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Plamya_Do_16_Let.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Туликов-М.Пляцковский) с В.Дьяконовым 1976"
+        },
+        {
+          "id": "5kQNSifDqea3QVh76h6CP6",
+          "title": "Забудь меня",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_Zabud_Menya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Березин-Я.Гальперин) 1981, запись 1980"
+        },
+        {
+          "id": "1B4s7f2pS2wwdU6wzWReTp",
+          "title": "Напрасно",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_Naprasno.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Н.Богословский-М.Пляцковский) с В.Беляниным 1980"
+        },
+        {
+          "id": "3B2HaJPPzajQIyRSeM2VDr",
+          "title": "Начало дорог",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_Nachalo_Sudby.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Фельцман-А.Дементьев) 1976"
+        },
+        {
+          "id": "4GdX5E8CcAJkYTNkVaEBSB",
+          "title": "Обещание",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Peterson/Plamya_Obeshanie.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Фрадкин-Р.Рождественский), с Ю.Петерсоном 1976"
+        },
+        {
+          "id": "2ro3Yq6CTI4xa5vMED39dv",
+          "title": "Объявление",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_Obyavlenie.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Саульский-Л.Завальнюк)  1984"
+        },
+        {
+          "id": "VQdbOkwPJv5Qwit1R0A4S",
+          "title": "Ожидание",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_Ozhidanie.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Фрадкин) 1977"
+        },
+        {
+          "id": "1lighvjVkyMHFv9HtgwbWY",
+          "title": "Олимпиада",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_Olimpiada.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(О.Иванов-Л.Ошанин) 1979"
+        },
+        {
+          "id": "5n2cUh9VGpg1Tb1mEBtyE3",
+          "title": "Под музыку Вивальди",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_Pod_Muzyku_Vivaldi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Никитин, В.Берковский-Л.Величанский) с В.Малежиком 1982"
+        },
+        {
+          "id": "1eGUZP57IZHN1eJdOfgf3C",
+          "title": "Пока любим",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_Poka_Lybim.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Г.Мовсесян-М.Танич) с Ю.Петерсоном 1977"
+        },
+        {
+          "id": "6rlXHrynZw2GkAoTZxfWH0",
+          "title": "Праздник юности",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Plamya_Prazdnik_Yunosti.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Е.Мартынов-А.Дементьев, А.Пьянов) с Ю.Петерсоном 1978"
+        },
+        {
+          "id": "2zuqyHRoQro76VI6tLc0Rs",
+          "title": "Простой мотив",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_Prostoy_Motiv.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Р.Майоров-Я.Гальперин) 1981"
+        },
+        {
+          "id": "77wjid8PxktEEsbYLfXNdh",
+          "title": "Путеводная звезда",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_Putevodnaya_Zvezda.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Березин-Ю.Мориц) с Ю.Петерсоном  1984"
+        },
+        {
+          "id": "3lQPzeWGDAib6FtWbEPdVC",
+          "title": "Рано или поздно",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_Rano_Ili_Pozdno.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Э.Колмановский-Е.Евтушенко) из к/ф \"Три дня в Москве\" с В.Беляниным"
+        },
+        {
+          "id": "4xB3um0Q2qJh4r47AtV1qu",
+          "title": "Рассвет-чародей",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/PLamya_Rassvet_Charodey.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Шаинский-М.Пляцковский) с В.Дьяконовым 1978"
+        },
+        {
+          "id": "6W17I4xeYMoHqtydBJawsy",
+          "title": "Розовые сны",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_Rozovie_Sny.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Баев-Л.Рубальская) 1987"
+        },
+        {
+          "id": "6pnUXCasAhzqJAGEvAHkve",
+          "title": "Слепой дождь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_Slepoy_Dojd.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Саульский-Л.Завальнюк) – с В.Аникиенко 1984"
+        },
+        {
+          "id": "2f3kL8GGca6G7yAMsF2xjL",
+          "title": "Ты из Вологды, а я из Костромы",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_Ty_Iz_Vologdy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Э.Ханок-И.Шаферан) 1978"
+        },
+        {
+          "id": "12x58LMrHv8LFRJaqJddYC",
+          "title": "Ты спроси у ручья",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Dyakonov/Plamya_Ty_Sprosi_U_Ruchya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Дьяконов-М.Пляцковский) с В.Дьяконовым 1976"
+        },
+        {
+          "id": "1ylhm5yi66hbeHhrMitquy",
+          "title": "Удивляйтесь, люди",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_Udivlaytes_Ludi.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Казенин-Я.Гальперин) с Ю.Редько  1977-78"
+        },
+        {
+          "id": "6GthHKqfRjbzJrQDJgLgz5",
+          "title": "Что-то должно случиться",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_Chto-to_Dolzhno_Sluchitsya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Саульский-Л.Завальнюк)  1984"
+        },
+        {
+          "id": "65eI4rRBQMkeJLGyTCdPXq",
+          "title": "Это ты, наша молодость",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_Eto_Ty_Nasha_Molodost.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Комаров) с В.Дьяконовым и Ю.Петерсоном 1977"
+        }
+      ]
+    },
+    {
+      "id": "MiCuOxR4vQaIsporF1LNP",
+      "title": "Песни с концертов ансамбля Самоцветы 1973-1974 годов",
+      "tracks": [
+        {
+          "id": "5XF5oT1LjX2uLlGlSigSI1",
+          "title": "Добрые приметы",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/SM_1973-Dobrie_Primety.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Фрадкин-Е.Долматовский) – с А.Могилевским 1973, Воронеж"
+        },
+        {
+          "id": "5cjzoSdv8BWi340fn3yKcG",
+          "title": "Пойду ль я выйду ль я",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/SM_74-Poydul_Ya_Viydu_L_Ya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(народная) - Театр Эстрады 1974"
+        },
+        {
+          "id": "3N9JhWFIGh5TO8h04MXMVB",
+          "title": "Чаривна бойкивчанка",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/SM_74-Charivna_Boykivchanka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Сердюк-М.Воньо) - Театр Эстрады 1974"
+        }
+      ]
+    },
+    {
+      "id": "5IFlvuV85tQJRuXdbJaUBh",
+      "title": "Песни с концертов ансамбля Пламя",
+      "tracks": [
+        {
+          "id": "7F80R8LEwsgT9vT3AlxNCz",
+          "title": "Белые крылья",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_1977_Belye_Krylya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Шаинский-В.Харитонов)  с Ю.Редько 1977"
+        },
+        {
+          "id": "jr7hplN2m7WScTrSgmx44",
+          "title": "Весенние надежды",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_1984_Ne_Mogut_Byt_Naprasnymi_Nadezhdy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Шаинский-В.Вербин) с Ю.Петерсоном 1984"
+        },
+        {
+          "id": "6vzXsJUn9WQ35QJIDhnFZV",
+          "title": "Добрые приметы",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_1977_Dobrye_Primety.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Фрадкин-Е.Долматовский) с  В.Дьяконовым 1977"
+        },
+        {
+          "id": "hnJz4Vln1iCZmSNEMEAE2",
+          "title": "Еще раз про любовь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_1977_Eshe_Raz_Pro_Lybov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Фрадкин-М.Пляцковский) с В.Дьяконовым 1977"
+        },
+        {
+          "id": "3HQy7cjDlzDXZqG3c2ZGrC",
+          "title": "Ожидание",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_1977_Ozidanie.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(М.Фрадкин) 1977"
+        },
+        {
+          "id": "2Gl7o470dnBfFiZCySL7W5",
+          "title": "Путеводная звезда",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_1984_Dusha.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(С.Березин-Ю.Мориц) с Ю.Петерсоном 1984"
+        },
+        {
+          "id": "2JhSbJjoSiAeG3eyiAkpea",
+          "title": "Разноцветные ярмарки",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_1977_Raznocvetnie_Yarmarki.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Я. Ласковский- Р.Углицкий) 1977"
+        },
+        {
+          "id": "2U0V2Y7adjQTbzcIwaN7bh",
+          "title": "Ты из Вологды, а я из Костромы",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_1977_Ty_Iz_Vologdy_A_Ya_Iz_Kostromy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Э.Ханок-И.Шаферан) 1977"
+        },
+        {
+          "id": "cX9JRUzXDCulFPccbaJJ7",
+          "title": "Что-то теряешь, что-то найдешь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_1984_Chto-to_teryaesh.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": " (В.Малежик-О.Жуков) с В.Малежиком 1984"
+        },
+        {
+          "id": "3mwT0u6wwG5IuWa0jfzWv5",
+          "title": "Это любовь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_1977_Eto_Lybov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Г.Подельский-Л.Дербенев) 1977"
+        },
+        {
+          "id": "1UmZK3NPOKCOFv5flQpuvw",
+          "title": "Я стучусь в твое сердце",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_1984_Ya_Stuchus_V_Tvoe_Serdce.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Шачнева-В.Тушнова) 1984"
+        }
+      ]
+    },
+    {
+      "id": "qP5ttq1dBUg0FF8BjxtoT",
+      "title": "Магнитоальбом «Друля в маринаде» (1989)",
+      "tracks": [
+        {
+          "id": "nDRFpjX57pXFcuRGbs2dk",
+          "title": "Жены рыцарей (Сэр Джон)",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Shachneva_Ser_Jon.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "( В.Малежик-М.Танич)"
+        },
+        {
+          "id": "6Z695aJMZ80B1HjMobGsIx",
+          "title": "Желтые цветы",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Shachneva_Zheltie_Cvety.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Шачнева-Н.Мерзликина"
+        },
+        {
+          "id": "2QzQxa1csqQgujoLvO4RpP",
+          "title": "Если б я тебя любила",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Shachneva_Esli_b_Ya_Tebya_Lybila.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Шачнева-Ю.Мориц)"
+        },
+        {
+          "id": "3escM9YDM4PJVBLOumhoS9",
+          "title": "Друля в маринаде",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Shachneva_Drulya_V_Marmelade.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Малежик-С.Таск) с В.Малежиком"
+        },
+        {
+          "id": "6T4kpgjMjM2T0mwCpyPn2d",
+          "title": "Люди, как мы часто лжем друг другу",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Shachneva_Lydi_.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(И.Шачнева-И.Никитин)"
+        },
+        {
+          "id": "2OipkE0mohJhylwz1Te3ai",
+          "title": "Мертвый сезон",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Shachneva_Mertvy_Sezion.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Малежик-А.Смогул)"
+        },
+        {
+          "id": "4SwcxKB5UgL6KL6qyfeiB3",
+          "title": "Ах, Печора",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Shachneva_Pechora.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Малежик)"
+        },
+        {
+          "id": "ItviK9fQ377sk8AX7KFW4",
+          "title": "Я встречаю рассвет",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Shachneva_Ya_Vstrechayu_Rassvet.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(муз В.Малежика)"
+        }
+      ]
+    },
+    {
+      "id": "3CQMOG2tJri9fnYwPomVzI",
+      "title": "Разные записи и материалы",
+      "tracks": [
+        {
+          "id": "2Dmv7JUFymJGco53CTykbF",
+          "title": "Не думайте о белой обезьяне",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_Ne_Dumayte_O_Beloy_Obezyane.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "1988"
+        },
+        {
+          "id": "3i9BpLGHlQb7BUvIFtVVnr",
+          "title": "Обычная история",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Shachneva_Malikov_Belyanin_Kurbakov_Obychnaya_Istorija.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(Ю.Саульский-И.Шаферан) с В.Беляниным, Ю.Маликовым, Е.Курбаковым 2003"
+        },
+        {
+          "id": "5xyN6xTZEnUM5Vdvvv8T8a",
+          "title": "Прощание с Братском",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Schachneva_Belyanin_Proshanie_S_Bratskom.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(А.Пахмутова-С.Гребенников, Н.Добронравов) с В.Беляниным 2006"
+        },
+        {
+          "id": "444s9ZClTbSzWqnx2bGyTG",
+          "title": "Страдание",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Plamya_Straldanie.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(В.Малежик-М.Журкин) 1990"
+        },
+        {
+          "id": "3Ppf4kwm6qTSB5WbGCN9hG",
+          "title": "Трудная любовь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/Shachneva_Trudnaya_Lybov.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(???-М.Танич) 1982"
+        }
+      ]
+    }
+  ],
+  "acknowledgements": [
+    "Андрею Шперлу",
+    "Александру Устюгову",
+    "Николаю Тютюниченко",
+    "Виктору Швиндту",
+    "Марине Сивер",
+    "Игорю Плотникову",
+    "Артему Зенину",
+    "Александру Устюгову",
+    "Александру Куликову",
+    "Виктору Кривоклякину",
+    "Михаилу Юпенину",
+    "Валентину Титову",
+    "Валерию Белянину",
+    "Галине Стельмах",
+    "Сергею Пасечнику",
+    "Олегу Кричевскому",
+    "Борису Щеглову",
+    "Михаилу Загребину",
+    "Валентин Ярин (сайт ВИА Пламя)"
+  ],
+  "acknowledgementText": "",
+  "videos": [
+    {
+      "url": "https://ok.ru/video/3065585207839",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2138761529887&type=32&idx=2&tkn=YA_pE4dl3lm81KncuRpqkd3KneE&fn=external_8",
+      "title": "Была любовь (В.Белянин-Б.Дубровин)(с В.Беляниным), 2002",
+      "localThumbUrl": "/images/video-thumbnails/irina-shachneva/0.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/3065692031519",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2138908592671&type=32&idx=9&tkn=FLUqzVGYvr7JjFwbDThpEecAi_g&fn=external_8",
+      "title": "Если будем мы вдвоем (В.Добрынин) с А.Могилевским 1996",
+      "localThumbUrl": "/images/video-thumbnails/irina-shachneva/1.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/1658071550495",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=830358358559&type=32&idx=13&tkn=h74lFBoPMITPgwpskhR1upFZ6Vw&fn=external_8",
+      "title": "Снежинка (Ю.Саульский-П.Леонидов), с В.Дьяконовым, концерт «Легенды ВИА» в Санкт-Петербурге 1998",
+      "localThumbUrl": "/images/video-thumbnails/irina-shachneva/2.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/1658071943711",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=830358948383&type=32&idx=10&tkn=JG1ZszzDdxkc6AgnKmRgnHyxYns&fn=external_8",
+      "title": "Увезу тебя я в тундру (М.Фрадкин-М.Пляцковский), с В.Дьяконовым, Ю.Маликовым, В.Беляниным",
+      "localThumbUrl": "/images/video-thumbnails/irina-shachneva/3.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/1658071878175",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=830358817311&type=32&idx=6&tkn=u1D3NrAbuUvsyRWeD_aPpUDGsUw&fn=external_8",
+      "title": "Вся жизнь впереди (А.Экимян-Р.Рождественский), с В.Дьяконовым, Хит-парад «Ностальгия» 1995",
+      "localThumbUrl": "/images/video-thumbnails/irina-shachneva/4.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/3065603820063",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1266640357998&type=32&idx=8&tkn=VIHRsFRkaK9lCezrZjx_SYQv7xc&fn=external_8",
+      "title": "Фрагмент телепередачи о Песнярах с участием И.Шачневой.",
+      "localThumbUrl": "/images/video-thumbnails/irina-shachneva/5.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/3065607227935",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=1148478687942&type=32&idx=13&tkn=CriazS38Ows8CYFoxQvcy0Fr_oc&fn=external_8",
+      "title": "Самоцветы на презентации альбома В.Белянина, 1996",
+      "localThumbUrl": "/images/video-thumbnails/irina-shachneva/6.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/3065664899615",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2138874513951&type=32&idx=13&tkn=w8WWaoWyalE-rvvRY7S5bNdW5OQ&fn=external_8",
+      "title": "Самоцветы на юбилее В.Белянина, 2013",
+      "localThumbUrl": "/images/video-thumbnails/irina-shachneva/7.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/3065683511839",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2138898303519&type=32&idx=5&tkn=WT9HWnl2TfU1pJlcBe56_vqo_Xo&fn=external_8",
+      "title": "С Анатолием Могилевским и Юрием Маликовым на концерте А.Могилевского 1993",
+      "localThumbUrl": "/images/video-thumbnails/irina-shachneva/8.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/3065590843935",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2138771622431&type=37&idx=13&tkn=Is34iMTXa9BZBuejt6duvHAfpqY&fn=external_8",
+      "title": "С Виктором Аникиенко в театре Золотое кольцо 22.02.2019",
+      "localThumbUrl": "/images/video-thumbnails/irina-shachneva/9.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/3065652840991",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2138858981919&type=32&idx=4&tkn=xi3K90zSEYIHcWDwKKXqUmrI_e4&fn=external_8",
+      "title": "Синие дожди (Пока любим) (Г.Мовсесян-М.Танич) с Ю.Петерсоном, фильм-концерт «Пламя» 1978",
+      "localThumbUrl": "/images/video-thumbnails/irina-shachneva/10.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/3065701468703",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2138921699871&type=32&idx=10&tkn=LfbmMqzWLSTdyy_thrz2TxyP35I&fn=external_8",
+      "title": "Верба (Э.Ханок-Ю.Рыбчинский) с В.Селезневым и В.Дьяконовым фильм-концерт «Самоцветы\"» 1973",
+      "localThumbUrl": "/images/video-thumbnails/irina-shachneva/11.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/3065701403167",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2138921372191&type=32&idx=11&tkn=bGArVKjYryG0Hk7bYN6B5GZqEx8&fn=external_8",
+      "title": "Чаривна бойкивчанка (А.Сердюк-М.Воньо) фильм-концерт «Самоцветы\"» 1973",
+      "localThumbUrl": "/images/video-thumbnails/irina-shachneva/12.jpg"
+    },
+    {
+      "url": "https://ok.ru/video/2959278672415",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2003441027615&type=32&idx=4&tkn=Caz_2p8RB3ZRa1c2FR82P8PkE7o&fn=external_8",
+      "title": "Увезу тебя я в тундру (М.Фрадкин-М.Пляцковский) фильм-концерт «Самоцветы\"» 1973",
+      "localThumbUrl": "/images/video-thumbnails/irina-shachneva/13.jpg"
+    }
+  ],
+  "links": [
+    {
+      "id": "qQUNJ1EXSiAU33UNcYDq0",
+      "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/1995_Intervyu.doc",
+      "title": "Интервью 27 июня 1995 ",
+      "description": ""
+    },
+    {
+      "id": "5jdYr8uFK0iCJVIImVDbpy",
+      "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Shachneva/1996-Intervyu.doc",
+      "title": "Интервью 12 марта 1996 года (вместе с В.Дьяконовым)",
+      "description": ""
+    },
+    {
+      "id": "1Pil8mb6x6Wvk9Oq0PQpYJ",
+      "link": "http://malezhik.ru/?go=press/this&a=63&p=9",
+      "title": "Интервью с И.Шачневой 1997 г . на сайте В.Малежика",
+      "description": ""
+    }
+  ]
+}

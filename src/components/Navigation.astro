@@ -1,0 +1,104 @@
+---
+import './navigation.css';
+import './navigation.d.css';
+
+interface Props {
+  currentPath: string;
+  isArchive?: boolean;
+}
+const { currentPath, isArchive = false } = Astro.props;
+const isHome = currentPath === '/';
+---
+
+<section class:list={['navigation', { navigation_archive: isArchive }]} id="nav">
+  <button class="navigation-button navigation-open" type="button" id="nav-open" aria-expanded="false" aria-controls="main-nav-wrap">
+    <svg class="navigation-open__icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <rect x="4" y="5" width="16" height="2" rx="1" fill="#000" />
+      <rect x="4" y="11" width="16" height="2" rx="1" fill="#000" />
+      <rect x="4" y="17" width="16" height="2" rx="1" fill="#000" />
+    </svg>
+    Меню
+  </button>
+  <nav class="main-navigation-wrap" id="main-nav-wrap" aria-label="Основное меню">
+    <button class="navigation-button navigation-close" type="button" id="nav-close" aria-label="Закрыть меню">
+      <svg class="navigation-close__icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M6 6l12 12M18 6 6 18" stroke="#000" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </button>
+    <ul class="main-navigation">
+      <li class="main-navigation__item">
+        <a href="/" class:list={[{ 'active': isHome }]}>Главная</a>
+      </li>
+      <li class="main-navigation__item">
+        <a href="/#catalogue">Каталог</a>
+      </li>
+      <li class="main-navigation__item">
+        <a href="/about-project" class:list={[{ 'active': currentPath === '/about-project' }]}>О проекте</a>
+      </li>
+      <li class="main-navigation__item">
+        <a href="/about-author" class:list={[{ 'active': currentPath === '/about-author' }]}>Об авторе</a>
+      </li>
+    </ul>
+  </nav>
+</section>
+
+<script>
+  const nav = document.getElementById('nav');
+  const openBtn = document.getElementById('nav-open') as HTMLButtonElement | null;
+  const closeBtn = document.getElementById('nav-close');
+  const navWrap = document.getElementById('main-nav-wrap');
+
+  const FOCUSABLE = 'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])';
+
+  function getFocusable() {
+    return navWrap ? Array.from(navWrap.querySelectorAll<HTMLElement>(FOCUSABLE)) : [];
+  }
+
+  function trapFocus(e: KeyboardEvent) {
+    const focusable = getFocusable();
+    if (!focusable.length) return;
+    const first = focusable[0];
+    const last = focusable[focusable.length - 1];
+    if (e.key === 'Tab') {
+      if (e.shiftKey) {
+        if (document.activeElement === first) { e.preventDefault(); last.focus(); }
+      } else {
+        if (document.activeElement === last) { e.preventDefault(); first.focus(); }
+      }
+    }
+  }
+
+  function open() {
+    nav?.classList.add('navigation_visible');
+    document.body.classList.add('no-scroll');
+    openBtn?.setAttribute('aria-expanded', 'true');
+    document.addEventListener('keydown', handleKeydown);
+    // Move focus into menu
+    const focusable = getFocusable();
+    focusable[0]?.focus();
+  }
+
+  function close() {
+    nav?.classList.remove('navigation_visible');
+    document.body.classList.remove('no-scroll');
+    openBtn?.setAttribute('aria-expanded', 'false');
+    document.removeEventListener('keydown', handleKeydown);
+    openBtn?.focus();
+
+    // Pause any playing audio
+    const jouele = (window as any)?.$?.Jouele;
+    if (jouele) {
+      jouele.history?.forEach((j: any) => {
+        if (j.isPlaying?.()) j.pause?.();
+      });
+    }
+  }
+
+  function handleKeydown(e: KeyboardEvent) {
+    if (e.key === 'Escape') { close(); return; }
+    trapFocus(e);
+  }
+
+  openBtn?.addEventListener('click', open);
+  closeBtn?.addEventListener('click', close);
+</script>

@@ -1,0 +1,775 @@
+{
+  "id": "3RKgV3BB6mfYekPVTNNvAh",
+  "createdAt": "2022-09-28T07:00:43.364Z",
+  "updatedAt": "2023-01-06T18:41:41.271Z",
+  "title": "Владимир Семенов",
+  "shortTitle": "",
+  "slug": "vladimir-semenov",
+  "shortDescription": "",
+  "description": "<p>Эта страничка уникальная по двум причинам: во-первых, она посвящена не исполнителю, а композитору, а, во-вторых, она авторская, поскольку все материалы, которые есть на ней подобраны самим Владимиром Константиновичем.</p><p>Композитор и музыкант Владимир Семенов известен, конечно, по песне «Звездочка моя ясная», которая уже скоро сорок лет восхищает очень многих, и которая является, также визитной карточкой группы «Цветы». Но это далеко не единственная замечательная песня этого автора. На этой страничке представлены песни, которые Владимир Константинович считает своей визитной карточкой, авторские варианты, новые песни, а также (ну как же без этого!) подборка различных исполнений «Звездочки». Ну и по просьбе автора выложены фрагменты песен, которые ищут своих исполнителей, так что если кто-то ищет для себя хорошие песни - связывайтесь с автором и - в добрый путь!</p><p>А теперь обращение Владимира Константиновича к вам, посетителям этого сайта:</p><p>«Здравствуйте!\nЯ, Семёнов Владимир – музыкант и композитор. Вышел мой авторский CD «Звёздочка, моя, ясная» и если вы здесь, значит моё творчество вас интересует. Хочу познакомить исполнителей и музыкантов с короткими файлами моих новых песен, в основном, в авторском исполнении. Мой E-mail: <a href=\"mailto:vovasemenov@bk.ru\">vovasemenov@bk.ru</a>. О том как всё было – <a href=\"http://popsa.info/bio/237/237b.html\">здесь</a>. До встречи.» </p>",
+  "images": [
+    {
+      "id": "5LXKIqUVZ2IsIK0KfEMP42",
+      "title": "Владимир Семенов",
+      "description": "",
+      "url": "/images/5LXKIqUVZ2IsIK0KfEMP42/Semenov_1.jpg",
+      "contentType": "image/jpeg",
+      "width": 283,
+      "height": 383
+    },
+    {
+      "id": "1rUrgRGJQqR8ZYrZpEJJ8T",
+      "title": "Владимир Семенов",
+      "description": "",
+      "url": "/images/1rUrgRGJQqR8ZYrZpEJJ8T/Semenov_2.jpg",
+      "contentType": "image/jpeg",
+      "width": 283,
+      "height": 383
+    }
+  ],
+  "albums": [
+    {
+      "id": "ruuUUFWdZIbIkJ9wcCDmd",
+      "title": "\"Визитная карточка\" композитора.",
+      "tracks": [
+        {
+          "id": "6y7SVKR2wze7zI6HKIuZoh",
+          "title": "Звездочка моя ясная",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Cvety_Zvezdochka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. О.Фокиной) - Цветы 1973"
+        },
+        {
+          "id": "4YEu8oTzEuTv4m7JhEobXH",
+          "title": "Белая береза",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Verasy_Belaya_Bereza.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. Л.Федина) – Верасы 1979"
+        },
+        {
+          "id": "44vCrcs7HE1uyL3LIB2ynX",
+          "title": "Белая береза",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Ot_S_K_S_Belaya_Bereza.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. Л.Федина) – От Сердца к Сердцу 1980"
+        },
+        {
+          "id": "6n8FFbq132hgsD1sjBq6G2",
+          "title": "Больше жизни",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Cvety_Bolshe_Ghizni.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. Л.Дербенева) – Цветы 1973"
+        },
+        {
+          "id": "1AjHXZHPiKBtwn3BFJEMxh",
+          "title": "Все зависит от тебя",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Ot_S_K_S_Vse_Zavisit_Ot_Tebya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл.В.Дюнина) – От Сердца к Сердцу 1980"
+        },
+        {
+          "id": "54lwv2AiXX7vvF4J0KRqNO",
+          "title": "Время зовет",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/LP_Vremya_Zovet.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. В.Дюнина) - Лейся Песня 1983"
+        },
+        {
+          "id": "5zvAM2Nipjzw7pqkbxhKwe",
+          "title": "Дай ответ",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Korobeyniki_Day_Otvet.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. Д.Галинского) – Коробейники 1974"
+        },
+        {
+          "id": "4yxFkNEx6xPSEEWEl0GOd0",
+          "title": "Желанная",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Dyachkov_Zhelannaya.MP3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. В.Дюнина) – С.Дьячков 1989"
+        },
+        {
+          "id": "pxH9wOZKqlGeuBYug0E64",
+          "title": "Замерзает река",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Ovsienko_Zamerzaet_Reka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. В.Дюнина)- Т.Овсиенко"
+        },
+        {
+          "id": "770m4AHjCo4q62t5R1BNnc",
+          "title": "Золотая весна",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/SP_Zolotaya_Vesna..mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. Л.Федина)- Синяя Птица 1979"
+        },
+        {
+          "id": "61Wf7YOHCy0Yor0h7wAAUL",
+          "title": "Край мой родимый",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Ot_S_K_S_Kray_Moy_Rodimy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл.В.Дюнина) – От Сердца к Сердцу 1979"
+        },
+        {
+          "id": "7n04SE6c83CM5RZAZ8exVd",
+          "title": "Красные маки",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Verasy_Krasnie_Maki.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. В.Дюнина и и.Генова) – Верасы 1976"
+        },
+        {
+          "id": "2IsJuw0gNADdGNqM67yfXv",
+          "title": "Красные маки",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Cvety_Krasnye_Maki.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. В.Дюнина) - Группа Стаса Намина 1977"
+        },
+        {
+          "id": "7M2n3B1SaIlGoMTv0OOHti",
+          "title": "Красные маки",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Korobeyniki_Krasnie_Maki.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. В.Дюнина) – Коробейники 1977"
+        },
+        {
+          "id": "1fctfedR4eKb8qKeLoisxk",
+          "title": "Нагадайте листья",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Ot_S_K_S_Nagadayte_Listya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. Я.Гальперина) – От Сердца к Сердцу 1980"
+        },
+        {
+          "id": "0sbrM5h2hGbxU2UMjV1xI",
+          "title": "Нагадайте листья",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Kosta_Nagadayte_Listya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. Я.Гальперина) – Нина Коста"
+        },
+        {
+          "id": "4kxdwZgHoDgEKCOJYxSBUi",
+          "title": "Не возвращайся",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Ot_S-K-S_Ne_Vozvrashaysya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл И.Резника) – От Сердца к Сердцу 1980"
+        },
+        {
+          "id": "72zqWDiOAsVhwbvajlVsL6",
+          "title": "Неужели",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Korobeyniki_Neugheli.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. Н.Шумакова) – Коробейники 1977"
+        },
+        {
+          "id": "3A13LpAeWgYky0ixkLL0AT",
+          "title": "Неужели",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/SP_Neuzheli..mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. Н.Шумакова) – Синяя Птица 1978"
+        },
+        {
+          "id": "1xAxrLtZknmsBm6AOwboI6",
+          "title": "Пол-дороги",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/SP_PolDorogi..mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. Я.Гальперин)- Синяя Птица 1983"
+        },
+        {
+          "id": "2FfKCxtFoTxWJGgooCKtzd",
+          "title": "Последнее письмо",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Obodzinsky_Poslednee_Pismo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. В.Дюнина) – Валерий Ободзинский 199-е"
+        },
+        {
+          "id": "7C4ljzI7EPcKOpD9VMtQfS",
+          "title": "Последнее письмо",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Levkin/SP_Poslednee_Pismo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. В.Дюнина) – Синяя Птица 1981"
+        },
+        {
+          "id": "3TyV11fJZVlNgjzSs0ZNID",
+          "title": "Принц и нищий (Все зависит от тебя)",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Glyzin_Vse_Zavisit_Ot_Tebya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл.В.Дюнина) – А.Глызин"
+        },
+        {
+          "id": "7IIhMn8CGRIhxbl9YgdBZL",
+          "title": "Припомним былое",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/OtSkS_Pripomnim_Byloe.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл.Я.Гальперина) – От Сердца к Сердцу"
+        },
+        {
+          "id": "2kcaG1sBmYisZQV3IhvjMP",
+          "title": "Прогноз погоды",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/VR_Prognoz_Pogody.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл.Л.Воропаевой) – Веселые Ребята 1988"
+        },
+        {
+          "id": "4zaJCnDDIn6WTChg7mbfNq",
+          "title": "Роща кудрявая",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Korobeyniki_Rosha_Kudryavaya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. Д.Усманова) – Коробейники 1979"
+        },
+        {
+          "id": "5lSMVySHv9YvVAgSu2kJXc",
+          "title": "Роща кудрявая",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/SP_76_Rosha_Kudryavaya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. Д.Усманова) – Синяя Птица 1976"
+        },
+        {
+          "id": "37vdst5mDEnNcRfdPMCH7c",
+          "title": "Речной трамвайчик",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Kondakov/Plamya_Rechnoy_Tramvaychik.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. В.Дюнина) – Пламя 1988"
+        },
+        {
+          "id": "6uloipeopJZ4nn7hWOIFY2",
+          "title": "Синий туман твоих глаз",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/SP_Siniy_Tuman_Tvoih_Glaz.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. Я.Гальперина)- Синяя Птица"
+        },
+        {
+          "id": "1I4gwTX5b2DDOyiHdujr4j",
+          "title": "Ты снова рядом",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Leshenko_Ny_Snova_Ryadom.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. В.Харитонова)- Л.Лещенко"
+        },
+        {
+          "id": "3QZbosXbcEHltR6TOxWH6z",
+          "title": "Ты так и знай",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Ot_S-K-S_Ty_Tak_I_Znay.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. В.Дюнина)- От Серца к Сердцу 1980"
+        },
+        {
+          "id": "3cmwHR9CGhwZvsWHcpPciV",
+          "title": "Цветок шиповника",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Ot_S-K-S_Cvetok_Shipovnika.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. Р.Бернс, пер. С.Маршака) – От Сердца к Сердцу"
+        },
+        {
+          "id": "6GgLOv3gmtQDjTVKyNElAg",
+          "title": "Цветы на дороге",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Smeyan_Cvety_Na_Dorogah.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. С.Острового) – П.Смеян"
+        },
+        {
+          "id": "2tFG9yWndeu6uKfsTlOhxK",
+          "title": "Цветы последние",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/SP_Cvety_Poslednie.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. Д.Усманова)- Синяя Птица"
+        },
+        {
+          "id": "3YZ8ahbJQWsRj2dqrt0SLO",
+          "title": "Чудо из чудес",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Verasy_Chudo_Iz_Chudes.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл.Я.Гальперина) – Верасы 1982-83"
+        },
+        {
+          "id": "saU1lokwzJTS35xRWQ55A",
+          "title": "Чудо-Юдо",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Surzhikova_Chudo_Yudo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. В.Дюнин)- Катя Суржикова"
+        },
+        {
+          "id": "4kjTo7hTDpiqKX2yWOgPYw",
+          "title": "Эскалатор",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Festival_Eskalator.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. В.Дюнина)- Фестиваль"
+        },
+        {
+          "id": "4kuMBzVJF9ojCaN2V1ETCa",
+          "title": "Юля",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/SP_Yulya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. Л.Федина)- Синяя Птица 1982"
+        }
+      ]
+    },
+    {
+      "id": "5KX1mn4zxSN9CJ5A2MYEzQ",
+      "title": "Новые песни и песни в авторском исполнении.",
+      "tracks": [
+        {
+          "id": "5i2JBFbIh6km8YC0PadvMI",
+          "title": "Ты снова рядом",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Semenov_Ty_Snova_Ryadom.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. В.Харитонова)"
+        },
+        {
+          "id": "1JQz0Ei5Lt90cf5N5LDBXD",
+          "title": "Цветы последние",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Semenov_Cvety_Poslednie.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл.Д.Усманова)"
+        },
+        {
+          "id": "6h7D5wfmWQGTSupJMCSGUb",
+          "title": "Это пустяки",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Semenov_Eto_Pustyaki.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. В.Гин)"
+        },
+        {
+          "id": "44Lj1U2eLJX5KOQupiGM0I",
+          "title": "Квартиранты",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Andreeva_Kvartiranty.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. Д.Усманова)"
+        },
+        {
+          "id": "6ntZCdMokt8vY1sO5WNFAX",
+          "title": "Лето",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Andreeva_Leto.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. С.Алиханова)"
+        }
+      ]
+    },
+    {
+      "id": "1TUFX4jPhcoEg0daJILX3S",
+      "title": "\"Звездочка моя ясная\" Разные исполнители.",
+      "tracks": [
+        {
+          "id": "4CTpDCwp3mOdTChIF6ZTRF",
+          "title": "Группа Стаса Намина «Цветы»",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Z/Zvezdochka_Cvety_New.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "4lnN6Gu7NpkHufNBAwFXwM",
+          "title": "Валерий Меладзе",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Z/Zvezdochka_Meladze.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "5wkxLplPnpL0k7LzCa8xU9",
+          "title": "Премьер-Министр",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Z/Zvezdochka_Premyer_Ministr.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "VmFlfXXJwMfpOl3qbMGy9",
+          "title": "Добры Молодцы",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Z/Zvezdochka_Dobry_Molodcy.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(концерт 1976)"
+        },
+        {
+          "id": "2mKbgvKO4JfWapmuECurbx",
+          "title": "Дима Билан",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Z/Zvezdochka_Dima_Bilan.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "4gO90cXTQWGW5PBuBfjG2k",
+          "title": "Аквариум",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Z/Zvezdochka_Akvarium.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "3YktciSCfUwd7IB0UhpHdx",
+          "title": "Симфонический оркестр",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Z/Zvezdochka_Simfo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "50SZFtZC9HhIWYbkZ0w93I",
+          "title": "Алексей Гоман",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Z/Zvezdochka_Goman.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "6DH5RafKHX9OVNvIxt4OKZ",
+          "title": "Григорий Рубцов",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Z/Rubcov_Zvezdochka.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        }
+      ]
+    },
+    {
+      "id": "5yWbNdWkSwGUGXOFht7pUH",
+      "title": "Фрагменты песен, ищут своего исполнителя.",
+      "tracks": [
+        {
+          "id": "3yv3f14b5b3JLcL7k4767w",
+          "title": "Ах, любовь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Demo/Ah_Lybov_demo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "4mceid45G9WuumXhq9fIbY",
+          "title": "Будь со мной",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Demo/Bud_So_Mnoy_demo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "4jYjkxnGThAcdC53EY3m0i",
+          "title": "Дай ответ",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Demo/Day_Otvet_demo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "7Bm7CC5DcsUxJ85ZTNiMdm",
+          "title": "Если это не любовь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Demo/Esli_Eto_Ne_Lybov_demo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "3E14IP8F58DuvaYwjokilf",
+          "title": "Золотая пора",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Demo/Zolotaya_Pora_demo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "7dMI0OSSFQq0j5Y4DZs8am",
+          "title": "Зоя",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Demo/Zoya_demo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "4w0liCRAWI1zgV4g4Obpd8",
+          "title": "Мама",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Demo/Mama_demo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "pcUItWmtqJzBSPluiE8yk",
+          "title": "Милый ты мой",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Demo/Mily_Ty_Moy_demo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "2I4QIzsugjt0GyzCePAtTy",
+          "title": "Наш дом",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Demo/Nash_Dom_demo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "cY5KiLrHyhhXDNCtK15Kg",
+          "title": "Наша встреча",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Demo/Nasha_Vstrecha_demo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "4q1Yx8AVrdKHVECxVba4qZ",
+          "title": "Нет тебя со мной",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Demo/Net_Tebya_So_Mnoy_demo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "gS6AR8e7Ln7fRYEGOQypj",
+          "title": "Ослик",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Demo/Oslik_demo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "1dASmeAKpyc2uobrBkYP98",
+          "title": "Переговори ты меня",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Demo/Peregovori_Ty_Menya.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "4aTiB9CYtXy6BhbLSO9p8O",
+          "title": "Первый день",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Demo/Pervy_Den_demo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "2KzmP7NGlLG8MwxtltyYJM",
+          "title": "Ради тебя",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Demo/Radi_Tebya_Demo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "3syQ5bsKAD1s4rLuD2sP4q",
+          "title": "Седой",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Demo/Sedoy_demo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "5rCIqhu4x3qPXGygbrR9Nw",
+          "title": "Сколько лет, сколько зим",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Demo/Skolko_Let_Skolko_Zim_demo.demo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "3zM7iLm8IQakyyYYiVDpHn",
+          "title": "Светлячок",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Demo/Svetlyachok_demo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "7CAfpnuPZXRn54CV56KKrh",
+          "title": "Трамвайчик",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Demo/Tramvaychik_demo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "2Ly62TGuALQocAq7Mv5B7S",
+          "title": "Ты лучше всех",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Demo/Ty_Luchshe_Vseh_demo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "5Vx4pKDxCJnHQV6Oa8rKQK",
+          "title": "Эскалатор",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Demo/Eskalator_demo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "1AaMtmaOUZOYTTNb6j9oVS",
+          "title": "Это любовь",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Demo/Eto_Lybov_demo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        },
+        {
+          "id": "2BRHBkTDTC0DU1AB4DdQPX",
+          "title": "Я. наверно, глупая",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/Demo/Ya_Naverno_Glupaya_demo.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        }
+      ]
+    },
+    {
+      "id": "7zDS4WRioaiu7ki41k7fot",
+      "title": "Фрагмент концерта группы Стаса Намина \"Цветы\" 05.06.1980",
+      "tracks": [
+        {
+          "id": "75Auovusbi61KMIroLOxtH",
+          "title": "Красные маки",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/GGSM_Krasnie_Maki.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": "(сл. В.Дюнина)"
+        },
+        {
+          "id": "5Bx1onOsdrIHsAHLZoVDS2",
+          "title": "Попурри из старых песен, включающее 2 песни В, Семенова",
+          "link": "https://storage.yandexcloud.net/konclave-shared-bucket/retroisland/Files/Semenov/GGSM_Popurri.mp3",
+          "length": "",
+          "youtube": "",
+          "ok": "",
+          "shortDescription": ""
+        }
+      ]
+    }
+  ],
+  "acknowledgements": [
+    "Конечно, Владимиру Семенову",
+    "Владимиру Бахареву",
+    "Игорю Плотникову",
+    "Андрею Шперлу",
+    "Владимиру Бахареву",
+    "Сергею Пасечнику",
+    "Михаилу Загребину",
+    "Виктору Кривоклякину"
+  ],
+  "acknowledgementText": "",
+  "videos": [
+    {
+      "url": "https://ok.ru/video/1744211479071",
+      "thumbUrl": "https://iv.okcdn.ru/videoPreview?id=2723003370030&type=32&idx=1&tkn=LHV0Hm7oqG4r623vCcbJxTKHHV4&fn=external_8",
+      "title": "Николай Кольцов (Легенды ВИА – видео)",
+      "localThumbUrl": "/images/video-thumbnails/vladimir-semenov/0.jpg"
+    }
+  ],
+  "links": []
+}
