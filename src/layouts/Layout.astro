@@ -1,8 +1,8 @@
 ---
-import globalCssUrl from '../styles/global.css?url';
-import componentsCssUrl from '../styles/components.css?url';
-import Navigation from '../components/Navigation.astro';
-import About from '../components/About.astro';
+import globalCssUrl from "../styles/global.css?url";
+import componentsCssUrl from "../styles/components.css?url";
+import Navigation from "../components/Navigation.astro";
+import About from "../components/About.astro";
 
 interface Props {
   title?: string;
@@ -11,8 +11,8 @@ interface Props {
 }
 
 const {
-  title = 'ВАСИЛЬЕВСКИЙ ОСТРОВ (Музыка прошлых лет.)',
-  description = 'Коллекция редких песен вокально-инструментальных ансамблей 70-х годов, а также их солистов.',
+  title = "ВАСИЛЬЕВСКИЙ ОСТРОВ (Музыка прошлых лет.)",
+  description = "Коллекция редких песен вокально-инструментальных ансамблей 70-х годов, а также их солистов.",
   isArchive = false,
 } = Astro.props;
 
@@ -36,36 +36,53 @@ const currentPath = Astro.url.pathname;
     <link rel="stylesheet" href="/styles/lightbox.css" />
     <link rel="stylesheet" href={globalCssUrl} />
     <link rel="stylesheet" href={componentsCssUrl} />
-    <link rel="stylesheet" href="/styles/desktop.css" media="(min-width: 811px)" />
-    <link rel="stylesheet" href="/styles/tablet.css" media="(min-width: 480px) and (max-width: 810px)" />
-    {isProd && (
-      <script
-        is:inline
-        async
-        defer
-        src="https://beampipe.io/js/tracker.js"
-        data-beampipe-domain="retroisland.net"
-      />
-    )}
+    <link
+      rel="stylesheet"
+      href="/styles/desktop.css"
+      media="(min-width: 811px)"
+    />
+    <link
+      rel="stylesheet"
+      href="/styles/tablet.css"
+      media="(min-width: 480px) and (max-width: 810px)"
+    />
+    {
+      isProd && (
+        <script
+          is:inline
+          async
+          defer
+          src="https://beampipe.io/js/tracker.js"
+          data-beampipe-domain="retroisland.net"
+        />
+      )
+    }
   </head>
   <body>
-    <a href="#main-content" class="skip-link">Перейти к основному содержимому</a>
+    <a href="#main-content" class="skip-link">Перейти к основному содержимому</a
+    >
     <Navigation currentPath={currentPath} isArchive={isArchive} />
     <slot />
     <About />
 
+    <!-- Execute client-side analytics injection -->
+    <script>
+      import { inject } from "@vercel/analytics";
+      inject();
+    </script>
+
     <!-- jQuery + audio player (initialised once globally) -->
     <script>
-      import jQuery from 'jquery';
+      import jQuery from "jquery";
       // @ts-ignore
-      import { Howl } from 'howler';
+      import { Howl } from "howler";
       (window as any).jQuery = (window as any).$ = jQuery;
       (window as any).Howl = Howl;
-      const fotoramaScript = document.createElement('script');
-      fotoramaScript.src = '/fotorama.js';
+      const fotoramaScript = document.createElement("script");
+      fotoramaScript.src = "/fotorama.js";
       document.body.appendChild(fotoramaScript);
       // @ts-ignore
-      import('ilyabirman-jouele');
+      import("ilyabirman-jouele");
     </script>
   </body>
 </html>
